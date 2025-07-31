@@ -1,0 +1,5 @@
+---
+up: []
+related: []
+created: "{{date}}"
+---

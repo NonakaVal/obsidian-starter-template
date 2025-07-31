@@ -1,0 +1,124 @@
+{
+  "biggerIcons": "off",
+  "clickableIcons": "off",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": false,
+  "showMarkdownTabIcons": false,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showItemName": "on",
+  "biggerSearchResults": "on",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "+": {
+      "icon": "lucide-plus-square",
+      "unsynced": [
+        "62aa804a619c5bdd",
+        "7696e62fe394c3aa",
+        "ba9f8f47e0d1a857",
+        "b530024e3f444144",
+        "d1468d6092e56ec9",
+        "01b0916a894d17b1",
+        "ae38a1c4c82f5f27",
+        "4672d59c41b6b755"
+      ]
+    },
+    "ATLAS": {
+      "icon": "lucide-notebook-pen",
+      "unsynced": [
+        "62aa804a619c5bdd",
+        "7696e62fe394c3aa",
+        "ba9f8f47e0d1a857",
+        "b530024e3f444144",
+        "d1468d6092e56ec9",
+        "01b0916a894d17b1",
+        "ae38a1c4c82f5f27",
+        "4672d59c41b6b755"
+      ]
+    },
+    "CALENDAR": {
+      "icon": "lucide-calendar-fold",
+      "unsynced": [
+        "62aa804a619c5bdd",
+        "7696e62fe394c3aa",
+        "ba9f8f47e0d1a857",
+        "b530024e3f444144",
+        "d1468d6092e56ec9",
+        "01b0916a894d17b1",
+        "ae38a1c4c82f5f27",
+        "4672d59c41b6b755"
+      ]
+    },
+    "EFFORTS": {
+      "icon": "lucide-network",
+      "unsynced": [
+        "62aa804a619c5bdd",
+        "7696e62fe394c3aa",
+        "ba9f8f47e0d1a857",
+        "b530024e3f444144",
+        "d1468d6092e56ec9",
+        "01b0916a894d17b1",
+        "ae38a1c4c82f5f27",
+        "4672d59c41b6b755"
+      ]
+    },
+    "README.md": {
+      "icon": "lucide-square-dashed-bottom-code"
+    },
+    "SYSTEM": {
+      "icon": "lucide-settings",
+      "unsynced": [
+        "d1468d6092e56ec9",
+        "01b0916a894d17b1",
+        "ae38a1c4c82f5f27",
+        "4672d59c41b6b755"
+      ]
+    },
+    "SYSTEM/ATALHOS.md": {
+      "icon": "lucide-keyboard"
+    },
+    "SYSTEM/BARRA DE AÇÕES.md": {
+      "icon": "lucide-navigation"
+    },
+    "SYSTEM/GUIAS.md": {
+      "icon": "help"
+    },
+    "SYSTEM/HOMEPAGE.md": {
+      "icon": "lucide-home"
+    },
+    "SYSTEM/NOTA DE BUSCA.md": {
+      "icon": "lucide-search"
+    },
+    "SYSTEM/TEMPLATES/TEMPLATES.md": {
+      "icon": "templater-icon"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {
+    "obsidian-custom-frames:Open Spotify": {
+      "icon": "lucide-music"
+    }
+  },
+  "fileRules": [],
+  "folderRules": []
+}

@@ -1,0 +1,352 @@
+{
+  "workspaces": {
+    "Dusk": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "154c579d395a85ef",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6688814777d15b7d",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Instructions (delete this when done).md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Instructions (delete this when done)"
+                }
+              },
+              {
+                "id": "04d7ac83f5bab11f",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "SYSTEM/GETTING STARTED/Vault Onboarding Part 1.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Vault Onboarding Part 1"
+                }
+              },
+              {
+                "id": "6d3a882773cd860f",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "SYSTEM/GETTING STARTED/Vault Onboarding Part 2.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Vault Onboarding Part 2"
+                }
+              },
+              {
+                "id": "29516da4b4fcd727",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "SYSTEM/GETTING STARTED/Vault Onboarding Part 3.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Vault Onboarding Part 3"
+                }
+              },
+              {
+                "id": "baeaecdb8a053499",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "SYSTEM/GETTING STARTED/Vault Walkthrough.md"
+                  },
+                  "pinned": true,
+                  "icon": "excalidraw-icon",
+                  "title": "Vault Walkthrough"
+                }
+              },
+              {
+                "id": "24bf782217a9bdcd",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "SYSTEM/GETTING STARTED/Concept Inspiration and Reference.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Concept Inspiration and Reference"
+                }
+              },
+              {
+                "id": "aa6abc9e69f85b64",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "HUB/Homepage.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Homepage"
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ceceeb2f82f72338",
+        "type": "split",
+        "children": [
+          {
+            "id": "d7b68441e64b0baf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "42f47640edf85bf7",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "093b3a738054e210",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              },
+              {
+                "id": "bd062dda8ed54586",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "36eafd802efe8962",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "9bd4dc4e9b3b5f32",
+                "type": "leaf",
+                "state": {
+                  "type": "trash-explorer",
+                  "state": {},
+                  "icon": "trash",
+                  "title": "Trash explorer"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 373.5
+      },
+      "right": {
+        "id": "b8973fe758baa90b",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ada067b4619dcfd",
+            "type": "tabs",
+            "dimension": 51.00478468899522,
+            "children": [
+              {
+                "id": "9928f8f1b8b3184d",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "HUB/Homepage.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": false,
+                      "textFadeMultiplier": -1.2,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.5087618855792602,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Homepage"
+                }
+              },
+              {
+                "id": "6bf45c4c9963e3b0",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "c0698ab85b3ddb7e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              }
+            ]
+          },
+          {
+            "id": "203f2050711ef78f",
+            "type": "tabs",
+            "dimension": 48.995215311004785,
+            "children": [
+              {
+                "id": "eaa80c525cb3bcce",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "HUB/Homepage.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Homepage"
+                }
+              },
+              {
+                "id": "d2ae3142c734102c",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {},
+                  "icon": "checkmark",
+                  "title": "Todo List"
+                }
+              },
+              {
+                "id": "d3f0a540ef0b4703",
+                "type": "leaf",
+                "state": {
+                  "type": "timer-view",
+                  "state": {},
+                  "icon": "timer",
+                  "title": "Timer"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 411.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "daily-notes:Open today's daily note": true,
+          "homepage:Open homepage": false,
+          "obsidian-projects:Open projects": false,
+          "journals:Open today's note": false,
+          "switcher:Open quick switcher": false,
+          "omnisearch:Omnisearch": false,
+          "canvas:Create new canvas": false,
+          "obsidian-custom-frames:Open ChatGPT": false,
+          "obsidian42-brat:BRAT": true,
+          "callout-manager:Insert Callout": true,
+          "custom-sort:Toggle custom sorting": true,
+          "obsidian-custom-frames:Open YouTube": false,
+          "obsidian-custom-frames:Open Mail": false,
+          "obsidian-custom-frames:Open Todoist": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "templater-obsidian:Templater": true,
+          "pomodoro-timer:Toggle timer panel": true,
+          "obsidian-trash-explorer:Open trash explorer": true,
+          "workspaces:Manage workspace layouts": true,
+          "obsidian-excalidraw-plugin:Create new drawing": false
+        }
+      },
+      "active": "aa6abc9e69f85b64",
+      "mtime": "2024-10-31T11:50:28+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": []
+      }
+    }
+  },
+  "active": "Dusk"
+}

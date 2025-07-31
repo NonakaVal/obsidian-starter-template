@@ -1,0 +1,255 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "Date_Created": {
+          "time": true
+        },
+        "Due_Date": {
+          "time": true
+        },
+        "Priority_Level": {
+          "options": [
+            "1 Critical",
+            "2 High",
+            "3 Medium",
+            "4 Low"
+          ]
+        },
+        "Status": {
+          "options": [
+            "1 To Do",
+            "2 In Progress",
+            "3 Testing",
+            "4 Completed",
+            "5 Blocked"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "SYSTEM/TEMPLATE/FORMAT/template_project_note.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "PARA/PROJECTS",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "tags": {
+                "hide": true
+              },
+              "cssclasses": {
+                "hide": true
+              },
+              "closed": {
+                "hide": true
+              },
+              "_previous_status": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "type": {
+                "hide": true
+              },
+              "name": {
+                "width": 391
+              },
+              "Priority_Level": {
+                "width": 167
+              },
+              "Status": {
+                "width": 124
+              },
+              "Date_Created": {
+                "width": 156
+              },
+              "Due_Date": {
+                "width": 192
+              },
+              "connections": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "Priority_Level",
+              "Status",
+              "Date_Created",
+              "Due_Date"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#75ea43",
+                "condition": {
+                  "field": "Priority_Level",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "4 Low"
+                }
+              },
+              {
+                "color": "#f5dd66",
+                "condition": {
+                  "field": "Priority_Level",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "3 Medium"
+                }
+              },
+              {
+                "color": "#ec8e36",
+                "condition": {
+                  "field": "Priority_Level",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "2 High"
+                }
+              },
+              {
+                "color": "#e41b1b",
+                "condition": {
+                  "field": "Priority_Level",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "1 Critical"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Priority_Level",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "Status",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "125c30af-1d42-4cb4-8cdf-8af6fc547f14",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Status"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#2f34af",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "1 To Do"
+                }
+              },
+              {
+                "color": "#beaf65",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "2 In Progress"
+                }
+              },
+              {
+                "color": "#b56c3b",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "3 Testing"
+                }
+              },
+              {
+                "color": "#b63030",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "5 Blocked"
+                }
+              },
+              {
+                "color": "#4aa737",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "4 Completed"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "0b65d119-3ac7-405c-a021-ba6b74f4150f",
+          "name": "Kanban",
+          "type": "board"
+        },
+        {
+          "config": {
+            "dateField": "Due_Date",
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c3b98c62-76a3-42fe-a490-eeeda6cbd445",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "e1f298ae-f051-4fc2-b9e2-1d0e0b557ca0",
+      "name": "Base Project"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

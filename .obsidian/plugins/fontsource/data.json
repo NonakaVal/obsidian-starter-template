@@ -1,0 +1,60 @@
+{
+  "fonts": [
+    {
+      "id": "source-serif-pro",
+      "family": "Source Serif Pro",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "styles": [
+        "italic",
+        "normal"
+      ],
+      "weights": [
+        200,
+        300,
+        400,
+        600,
+        700,
+        900
+      ],
+      "isActive": true
+    },
+    {
+      "id": "space-grotesk",
+      "family": "Space Grotesk",
+      "subsets": [
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "styles": [
+        "normal"
+      ],
+      "weights": [
+        300,
+        400,
+        500,
+        600,
+        700
+      ],
+      "variable": {
+        "wght": {
+          "default": "400",
+          "min": "300",
+          "max": "700",
+          "step": "1"
+        }
+      },
+      "isActive": true
+    }
+  ],
+  "interfaceFonts": [],
+  "textFonts": [],
+  "monospaceFonts": []
+}

@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "useMoment": false,
+      "file": "SYSTEM/ATALHOS.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SYSTEM/HOMEPAGE.md"
+    }
+  ],
+  "useExistingPane": true,
+  "useHoverEditor": false
+}

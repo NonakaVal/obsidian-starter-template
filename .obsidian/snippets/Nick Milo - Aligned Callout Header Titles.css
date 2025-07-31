@@ -1,0 +1,5 @@
+  body:not(.pt-disable-callout-styling) .callout .callout-title {
+
+    align-items: center;
+
+  }

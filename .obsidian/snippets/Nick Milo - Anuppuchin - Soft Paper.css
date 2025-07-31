@@ -1,0 +1,86 @@
+/* CHANGES TO ORIGINAL THEME, AS A SNIPPET UNTIL OFFICIAL FIX HOPEFULLY  */
+
+/*---------------------------------------------------------------
+* FULL RAINBOW STYLE
+*---------------------------------------------------------------*/
+.anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-folder-title,
+.anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-file-title,
+.anp-full-rainbow-color-toggle .nav-files-container .collapse-icon svg.svg-icon,
+.anp-full-rainbow-color-toggle .tree-item-self .tree-item-icon {
+  color: var(--anp-full-rainbow-text-inverted);
+  --icon-color: var(
+  	--anp-full-rainbow-text-inverted,
+  	var(--background-primary)
+  );
+}
+
+/* THIS SNIPPET CHANGE ENSURES THE RAINBOX FOLDER TEXT SHOWS UP NICELY, IN LIGHT MODE BELOW  */
+
+.anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-folder-title, .anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-file-title {
+    color: #EEE6DD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CHANGES TO ORIGINAL THEME, AS A SNIPPET UNTIL OFFICIAL FIX HOPEFULLY  */
+
+/*---------------------------------------------------------------
+* FULL RAINBOW STYLE
+*---------------------------------------------------------------*/
+.anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-folder-title,
+.anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-file-title,
+.anp-full-rainbow-color-toggle .nav-files-container .collapse-icon svg.svg-icon,
+.anp-full-rainbow-color-toggle .tree-item-self .tree-item-icon {
+  color: var(--anp-full-rainbow-text-inverted);
+  --icon-color: var(
+  	--anp-full-rainbow-text-inverted,
+  	var(--background-primary)
+  );
+}
+
+/* THIS SNIPPET CHANGE ENSURES THE RAINBOX FOLDER TEXT SHOWS UP NICELY, IN LIGHT MODE BELOW  */
+
+.anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-folder-title, .anp-full-rainbow-color-toggle .nav-files-container > div > .nav-folder .nav-file-title {
+    color: #EEE6DD;
+}
+
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher {
+    color: #C4C5C1;
+    border-radius: var(--radius-s);
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: var(--size-4-2);
+    overflow: hidden;
+    padding: var(--size-4-1) var(--size-4-2);
+}
+
+
+/* THIS SNIPPET CHANGE ENSURES THE VAULT NAME LOOKS GOOD IN LIGHT MODE  */
+
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher:hover {
+    color: #EEE6DD;
+    border-radius: var(--radius-s);
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: var(--size-4-2);
+    overflow: hidden;
+    padding: var(--size-4-1) var(--size-4-2);
+}
+
+
+
+
+

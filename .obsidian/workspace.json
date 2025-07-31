@@ -1,0 +1,356 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9b909641f98868d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4613d928f0bfadc7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SYSTEM/HOMEPAGE.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "HOMEPAGE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ceceeb2f82f72338",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7b68441e64b0baf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42f47640edf85bf7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "093b3a738054e210",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "6d3d7a4e9a47cf80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SYSTEM/HOMEPAGE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of HOMEPAGE"
+            }
+          },
+          {
+            "id": "bd062dda8ed54586",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Mapas\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "36eafd802efe8962",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 437
+  },
+  "right": {
+    "id": "b8973fe758baa90b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ada067b4619dcfd",
+        "type": "tabs",
+        "dimension": 51.03448275862069,
+        "children": [
+          {
+            "id": "d92535b369580800",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "SYSTEM/HOMEPAGE.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for HOMEPAGE"
+            }
+          },
+          {
+            "id": "c0698ab85b3ddb7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9bee66eb60a34863",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ea0fb5ca5fd161aa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "203f2050711ef78f",
+        "type": "tabs",
+        "dimension": 48.96551724137931,
+        "children": [
+          {
+            "id": "146c8ad8c9f0a760",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SYSTEM/ATALHOS.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ATALHOS"
+            }
+          },
+          {
+            "id": "1301845e4c5da094",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Fontes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Fontes"
+            }
+          },
+          {
+            "id": "201ec82a044e2b15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Revitalizar.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Revitalizar"
+            }
+          },
+          {
+            "id": "89fb4a17a44882f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SYSTEM/ATALHOS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ATALHOS"
+            }
+          },
+          {
+            "id": "9928f8f1b8b3184d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "HOMEPAGE 2.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1.2,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5087618855792608,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of HOMEPAGE 2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 493,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "iconic:Open rulebook": false,
+      "obsidian-custom-frames:Open Todoist": false,
+      "obsidian-custom-frames:Open ChatGPT": false,
+      "obsidian-custom-frames:Open YouTube": false,
+      "periodic-notes:Open today": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "callout-manager:Insert Callout": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "4613d928f0bfadc7",
+  "lastOpenFiles": [
+    "SYSTEM/ATALHOS.md",
+    "SYSTEM/HOMEPAGE.md",
+    "ATLAS/+/Alterações Recentes.md",
+    "SYSTEM/Alteradas Recentemente.md",
+    "+/Últimas notas criada.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Avaliações.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Registros.md",
+    "SYSTEM/NOTA DE BUSCA.md",
+    "ATLAS/+/ATLAS.md",
+    "_index_notas.md",
+    "ATLAS/MAPAS/+/APLICAÇÕES AULAS.md|APLICAÇÕES AULAS.md",
+    "ATLAS/+/alterações recentes 2.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Início.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Dias.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Home Pro Básico.md",
+    "EFFORTS/+/Areas.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Acúmulo de Ideias.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Cultivar.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Fontes.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Esforços.md",
+    "ATLAS/MAPAS/+/Mapas.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Livros.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Comunicar.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/CANVAS E QUADROS.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Adicionar.md",
+    "CALENDAR/DAILY/2025-07-31.md",
+    "EFFORTS/PROJECTS/projeto 1 teste",
+    "EFFORTS/AREAS/saude",
+    "EFFORTS/AREAS/Saude",
+    "SYSTEM/MEDIA/Visuals/Images/wolverine-tethered.jpg",
+    "SYSTEM/MEDIA/Visuals/Images/whelan-the-wave-1994.jpg",
+    "SYSTEM/MEDIA/Visuals/Images/whelan-space-station-1978-narrow.jpg",
+    "SYSTEM/MEDIA/Visuals/Images/whelan-space-station-1978-mod.jpg",
+    "SYSTEM/MEDIA/Visuals/Images/stay-on-target.jpg",
+    "SYSTEM/MEDIA/Visuals/Images/sort-by-file-name-a-to-z.png",
+    "SYSTEM/MEDIA/Visuals/Images/sensemaking-archetypes-clean.png",
+    "SYSTEM/MEDIA/Visuals/Images/robert-mccall-space-ship-launch-narrower.png",
+    "SYSTEM/MEDIA/Visuals/Images/robert-mccall-space-ship-launch-narrow.jpg",
+    "SYSTEM/MEDIA/Visuals/Images/robert-mccall-space-ship-launch-mid.jpg",
+    "SYSTEM/MEDIA/Visuals/Images",
+    "SYSTEM/MEDIA/Visuals/Excalidraw",
+    "SYSTEM/MEDIA/Visuals",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/x/x/Scripts/movie.js",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/PKM",
+    "Ideaverse Zero 2/Atlas/Dots/x/Entities",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "callouts": {
+    "custom": [
+      "meta"
+    ],
+    "settings": {
+      "meta": [
+        {
+          "changes": {
+            "icon": "lucide-table"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

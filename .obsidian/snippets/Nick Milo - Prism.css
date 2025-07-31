@@ -1,0 +1,61 @@
+.theme-light.pt-color-scheme-swan-lt,
+.theme-light:not(.css-settings-manager) {
+  --color-yellow-base-hsl: 55, 100%, 80%; /* not sure this is doing anything */
+  --background-secondary-hsl: 0, 0%, 93%; /* not sure this is doing anything */
+  --bold-weight: var(--font-bold);
+}
+
+.metadata-properties-heading {
+  --bold-weight: var(--font-medium);
+}
+
+
+body {
+  --h1-size: 1.75em;
+  --h2-size: 1.50em;
+  --h3-size: 1.35em;
+  --h4-size: 1.2em;
+  --h5-size: 1.2em;
+  --h6-size: 1.1em;
+  --h1-weight: var(--font-black);
+  --h2-weight: var(--font-bold);
+  --h3-weight: var(--font-semibold);
+  --h4-weight: var(--font-medium);
+  --h5-weight: var(--font-extralight);
+  --h6-weight: var(--font-thin);  
+  --h1-weight: var(--font-black);
+  --h2-weight: var(--font-bold);
+  --h3-weight: var(--font-semibold);
+  --h4-weight: var(--font-medium);
+  --h5-weight: var(--font-extralight);
+  --h6-weight: var(--font-thin);
+  --code-comment: var(--color-orange-text);
+}
+
+/* Standard settings for INLINE TITLE */
+.inline-title {
+    font-weight: var(--inline-title-weight);
+    font-size: 1.8em; /* Went from 2em to 1.8em */
+    line-height: var(--inline-title-line-height);
+    font-style: var(--inline-title-style);
+    font-variant: var(--inline-title-variant);
+    font-family: var(--inline-title-font);
+    margin-bottom: var(--inline-title-margin-bottom);
+    color: var(--inline-title-color);
+    letter-spacing: -0.02em; /* tighten intra-word letter-spacing slightly */
+}
+
+
+/* USUSED ALT FOR INLINE TILES 
+.inline-title {
+    font-weight: var(--inline-title-weight);
+    font-size: 1.5em;
+    line-height: var(--inline-title-line-height);
+    font-style: var(--inline-title-style);
+    font-variant: var(--inline-title-variant);
+    font-family: "JetBrains Mono";
+    margin-bottom: var(--inline-title-margin-bottom);
+    letter-spacing: -0.03em;
+    word-spacing: -0.3em;
+}
+*/

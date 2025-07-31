@@ -1,0 +1,1 @@
+Parece que você esqueceu de fornecer o texto que deseja traduzir. Por favor, envie o texto para que eu possa traduzir para o português mantendo todos os links internos [[Assim]] e a formatação Markdown.
