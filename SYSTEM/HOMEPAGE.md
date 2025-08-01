@@ -5,12 +5,9 @@ cssclasses:
   - hide-properties_reading
 ---
 # 
-`BUTTON[new_note]`   `BUTTON[hotkeys]`
+`BUTTON[new_note]`  
 
 ### Dashboard -+ Navegar 
-
-`BUTTON[recents]` `BUTTON[templates]`   `BUTTON[readme]`
-
 ---
 
 > [!globe] **[[+/ATLAS|ATLAS]]** »    [[Mapas]] | [[Coleções]] | [[Fontes]]
@@ -27,7 +24,7 @@ cssclasses:
 
 ---
 
-
+`BUTTON[recents]` `BUTTON[templates]`   `BUTTON[readme]`  `BUTTON[hotkeys]`
 
 ---
 

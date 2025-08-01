@@ -1,7 +1,7 @@
-#  🧠 ALEX-OBSIDIAN
+#  🧠Obsidian Alex Donega
+
 
 `BUTTON[home]` 
-
 
 ```meta-bind-button
 label: HOMEPAGE
@@ -16,7 +16,39 @@ actions:
 ```
 # 📁 Estrutura de Pastas e Subpastas
 
+```mermaid
+graph TD
+    A[Obsidian Alex Donega] --> D[🗺️ ATLAS]
+    A --> B[🚀 EFFORTS]
+    A --> C[📅 CALENDAR]
+    A --> E[📁 SYSTEM]
+    
+    D --> D1[🧭 MAPAS]
+    D --> D2[📚 SOURCES]
+    
+    B --> B1[📁 AREAS]
+    B --> B2[📂 PROJECTS]
+    B --> B3[📁 ARCHIVES]
+    
+    C --> C1[📁 DAILY]
+    C --> C2[📁 REVIEW]
+    
+    E --> E1[🖼️ MEDIA]
+    E --> E2[📋 TEMPLATES]
+
+```
+
+
 ```markdown
+├── 🗺️ ATLAS
+│   ├── 🧭 MAPAS
+│   ├── 📚 SOURCES
+│   │   ├── 📁 ARTIGO
+│   │   ├── 📁 VIDEOS
+│   │   ├── 📁 LIVROS
+│   │   ├── 📁 AULAS
+│   │   ├── 📁 MUSICAS
+│   │   └── 📁 PESSOAS
 ├── 🚀 EFFORTS
 │   ├── 📁 AREAS
 │   ├── 📂 PROJECTS
@@ -33,69 +65,38 @@ actions:
 │   └── 📋 TEMPLATES
 │       ├── 📁 FORMAT
 │       └── 📁 SNIPPET
-└── 🗺️ ATLAS
-    ├── 🧭 MAPAS
-    ├── 📚 SOURCES
-    │   ├── 📁 ARTIGO
-    │   ├── 📁 VIDEOS
-    │   ├── 📁 LIVROS
-    │   ├── 📁 AULAS
-    │   ├── 📁 MUSICAS
-    │   └── 📁 PESSOAS
+
 
 ```
 ---
 
 
 - `+` : Coleção de recursos e ferramentas em desenvolvimento.
-- `ACE Pack` : Pacotes de aceleração do conhecimento.
-- `ARCHIVES` : Documentos e notas arquivadas.
-- `AREAS` : Áreas de foco e interesse pessoal.
-- `ARTIGO` : Artigos em desenvolvimento ou concluídos.
 - `ATLAS` : Compilação de mapas mentais e conceituais.
-- `AULAS` : Notas e materiais de aulas assistidas.
+	- `MAPAS` : Coleção de mapas geográficos e conceituais.
+	- `SOURCES` : Fontes de pesquisa e referência.
+		- `AULAS` : Notas e materiais de aulas assistidas.
+		- `ARTIGO` : Artigos em desenvolvimento ou concluídos.
+		- `MUSICAS` : Coleção de músicas e playlists.
+		- `LIVROS` : Resumos e anotações de livros lidos.
+		- `PESSOAS` : Informações sobre contatos importantes.
+		- `VIDEOS` : Arquivo de vídeos educacionais e inspiradores.
 - `CALENDAR` : Calendário de eventos e lembretes importantes.
-- `DAILY` : Notas diárias sobre reflexões e aprendizados.
-- `DESIGN` : Projetos e esboços de design.
+	- `DAILY` : Notas diárias sobre reflexões e aprendizados.
+	- `REVIEW` : Revisões periódicas de conteúdo e metas.
 - `EFFORTS` : Registro de metas e esforços dedicados.
-- `FORMAT` : Templates e formatos padrões para notas.
-- `LIVROS` : Resumos e anotações de livros lidos.
-- `MAPAS` : Coleção de mapas geográficos e conceituais.
-- `MEDIA` : Arquivos de mídia, como vídeos e músicas.
-- `MUSICAS` : Coleção de músicas e playlists.
-- `PESSOAS` : Informações sobre contatos importantes.
-- `PROJECTS` : Projetos em andamento e concluídos.
-- `REVIEW` : Revisões periódicas de conteúdo e metas.
-- `SNIPPET` : Trechos de código e atalhos úteis.
-- `SOURCES` : Fontes de pesquisa e referência.
+	- `ARCHIVES` : Documentos e notas arquivadas.
+	- `AREAS` : Áreas de foco e interesse pessoal.
+	- `PROJECTS` : Projetos em andamento e concluídos.
 - `SYSTEM` : Arquivos de configuração e sistema do Vault.
-- `TEMPLATES` : Modelos para criação rápida de documentos.
-- `VIDEOS` : Arquivo de vídeos educacionais e inspiradores.
+	- `TEMPLATES` : Modelos para criação rápida de documentos.
+		- `FORMAT` : Templates e formatos padrões para notas.
+		- `SNIPPET` : Trechos de código e atalhos úteis.
+	- `MEDIA` : Arquivos de mídia, como vídeos e músicas.
 
-
-Estrutura de Pastas:
-- `/Diário` - Para entradas diárias.
-- `/Projetos` - Dividido por temas ou clientes específicos.
-- `/Ideias` - Para todos os brainstormings e notas rápidas.
-- `/Referências` - Artigos, links e materiais de estudo.
-- `/Templates` - Modelos de notas para diferentes propósitos.
-
-Tags:
-- `#pessoal` - Para notas pessoais.
-- `#trabalho` - Notas relacionadas ao trabalho.
-- `#aprender` - Recursos e notas de estudo.
-- `#revisar` - Itens que requerem revisão ou acompanhamento.
-
-Sistema de Nomenclatura:
-- Para Diário: `YYYY-MM-DD Assunto`
-- Para Projetos: `NomeDoProjeto - Assunto`
-- Para Ideias: `Ideia - PalavrasChave`
-- Para Referências: `TítuloDoArtigo - Fonte`
-- Para Templates: `Template - Tipo`
+---
 
 ### 🔗 CONNECTIONS: Como as notas se relacionam
-
-A força do Obsidian reside em sua capacidade de criar um grafo de conhecimento interconectado. Aqui estão as diretrizes para maximizar as conexões entre notas:
 
 - Links Diretos: Sempre que mencionar ou referenciar outra nota, crie um link direto usando `[[Nome da Nota]]`.
 - Backlinks: Revise regularmente os backlinks para identificar novas conexões potenciais.
@@ -170,6 +171,7 @@ Implementando estas diretrizes, você criará uma vault do Obsidian altamente or
 
 # 📚 Inspirações e Recursos
 
+- [Linking Your Thinking - Nick Milo](https://www.linkingyourthinking.com/)
 - [Dusk Vault](https://github.com/DuskWasHere/dusk-obsidian-vault)
 - [PARA - Fortelabs](https://fortelabs.com/blog/para/)
 - [Snippets Customizados](https://github.com/NonakaVal/Obsidian-CSS-Snippets)

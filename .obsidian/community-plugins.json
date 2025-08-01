@@ -11,15 +11,10 @@
   "obsidian-outliner",
   "obsidian-meta-bind-plugin",
   "js-engine",
-  "iconic",
   "recent-files-obsidian",
   "obsidian-list-callouts",
   "url-into-selection",
-  "garble-text",
-  "obsidian-custom-frames",
-  "obsidian-chartsview-plugin",
   "calendar",
-  "buttons",
   "periodic-notes",
   "dashboard-navigator",
   "callout-manager",
@@ -32,5 +27,6 @@
   "homepage",
   "cmdr",
   "statusbar-organizer",
-  "global-search-and-replace"
+  "buttons",
+  "iconic"
 ]
