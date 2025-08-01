@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "HOMEPAGE",
-      "path": "SYSTEM/HOMEPAGE.md"
-    },
-    {
-      "basename": "ATALHOS",
-      "path": "SYSTEM/ATALHOS.md"
+      "basename": "alterações recentes 2",
+      "path": "ATLAS/+/alterações recentes 2.md"
     },
     {
       "basename": "Alterações Recentes",
       "path": "ATLAS/+/Alterações Recentes.md"
+    },
+    {
+      "basename": "HOMEPAGE",
+      "path": "SYSTEM/HOMEPAGE.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "GUIAS",
+      "path": "SYSTEM/GUIAS.md"
+    },
+    {
+      "basename": "2025-07-31",
+      "path": "CALENDAR/DAILY/2025-07-31.md"
+    },
+    {
+      "basename": "TEMPLATES",
+      "path": "SYSTEM/TEMPLATES/TEMPLATES.md"
+    },
+    {
+      "basename": "ATALHOS",
+      "path": "SYSTEM/ATALHOS.md"
     },
     {
       "basename": "Alteradas Recentemente",
@@ -31,10 +51,6 @@
     {
       "basename": "ATLAS",
       "path": "ATLAS/+/ATLAS.md"
-    },
-    {
-      "basename": "alterações recentes 2",
-      "path": "ATLAS/+/alterações recentes 2.md"
     },
     {
       "basename": "Início",
@@ -89,20 +105,8 @@
       "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Adicionar.md"
     },
     {
-      "basename": "2025-07-31",
-      "path": "CALENDAR/DAILY/2025-07-31.md"
-    },
-    {
-      "basename": "TEMPLATES",
-      "path": "SYSTEM/TEMPLATES/TEMPLATES.md"
-    },
-    {
       "basename": "Mapas por Ranking",
       "path": "ATLAS/MAPAS/+/Mapas por Ranking.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Eventos",
@@ -183,18 +187,6 @@
     {
       "basename": "% BARRA DE NAVEGAÇÃO",
       "path": "SYSTEM/TEMPLATES/SNIPPET/% BARRA DE NAVEGAÇÃO.md"
-    },
-    {
-      "basename": "% TAREFAS EFFORTS",
-      "path": "SYSTEM/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md"
-    },
-    {
-      "basename": "% TODAS TAREFAS",
-      "path": "SYSTEM/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
-    },
-    {
-      "basename": "ACE homenageia seus 3 espaços mentais",
-      "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/x/Packs/ACE Pack/ACE homenageia seus 3 espaços mentais.md"
     }
   ],
   "omittedPaths": [],

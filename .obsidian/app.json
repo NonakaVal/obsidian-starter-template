@@ -4,7 +4,6 @@
   "showInlineTitle": false,
   "propertiesInDocument": "visible",
   "userIgnoreFilters": [
-    "SYSTEM/",
     "DAILY/",
     "HUB/"
   ],

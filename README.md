@@ -1,11 +1,7 @@
----
-cssclasses:
-  - hide-properties_editing
-  - hide-properties_reading
----
 #  🧠 ALEX-OBSIDIAN
 
-`BUTTON[home]` `BUTTON[help]`
+`BUTTON[home]` 
+
 
 ```meta-bind-button
 label: HOMEPAGE
@@ -18,67 +14,119 @@ actions:
   - type: open
     link: "[[HOMEPAGE]]"
 ```
-```meta-bind-button
-label: Guias de Uso
-icon: help
-hidden: true
-class: ""
-id: help
-style: primary
-actions:
-  - type: open
-    link: "[[GUIAS  DE USO]]"
+# 📁 Estrutura de Pastas e Subpastas
+
+```markdown
+├── 🚀 EFFORTS
+│   ├── 📁 AREAS
+│   ├── 📂 PROJECTS
+│   ├── 📁 ARCHIVES
+├── 📅 CALENDAR
+│   ├── 📁 DAILY
+│   └── 📁 REVIEW
+├── 📁 SYSTEM
+│   ├── 🖼️ MEDIA
+│   │   ├── 📁 DESIGN
+│   │   └── 📁 Visuals
+│   │       ├── 📁 Images
+│   │       └── 📁 Excalidraw
+│   └── 📋 TEMPLATES
+│       ├── 📁 FORMAT
+│       └── 📁 SNIPPET
+└── 🗺️ ATLAS
+    ├── 🧭 MAPAS
+    ├── 📚 SOURCES
+    │   ├── 📁 ARTIGO
+    │   ├── 📁 VIDEOS
+    │   ├── 📁 LIVROS
+    │   ├── 📁 AULAS
+    │   ├── 📁 MUSICAS
+    │   └── 📁 PESSOAS
+
 ```
 ---
 
-# 🗂️ Estrutura da Vault
 
-## 📁 Folder System
+- `+` : Coleção de recursos e ferramentas em desenvolvimento.
+- `ACE Pack` : Pacotes de aceleração do conhecimento.
+- `ARCHIVES` : Documentos e notas arquivadas.
+- `AREAS` : Áreas de foco e interesse pessoal.
+- `ARTIGO` : Artigos em desenvolvimento ou concluídos.
+- `ATLAS` : Compilação de mapas mentais e conceituais.
+- `AULAS` : Notas e materiais de aulas assistidas.
+- `CALENDAR` : Calendário de eventos e lembretes importantes.
+- `DAILY` : Notas diárias sobre reflexões e aprendizados.
+- `DESIGN` : Projetos e esboços de design.
+- `EFFORTS` : Registro de metas e esforços dedicados.
+- `FORMAT` : Templates e formatos padrões para notas.
+- `LIVROS` : Resumos e anotações de livros lidos.
+- `MAPAS` : Coleção de mapas geográficos e conceituais.
+- `MEDIA` : Arquivos de mídia, como vídeos e músicas.
+- `MUSICAS` : Coleção de músicas e playlists.
+- `PESSOAS` : Informações sobre contatos importantes.
+- `PROJECTS` : Projetos em andamento e concluídos.
+- `REVIEW` : Revisões periódicas de conteúdo e metas.
+- `SNIPPET` : Trechos de código e atalhos úteis.
+- `SOURCES` : Fontes de pesquisa e referência.
+- `SYSTEM` : Arquivos de configuração e sistema do Vault.
+- `TEMPLATES` : Modelos para criação rápida de documentos.
+- `VIDEOS` : Arquivo de vídeos educacionais e inspiradores.
 
-- **📂 +** – Ponto inicial de todas as notas 
-- **📂 ATLAS** – Notas de estudo e literárias
-    - `MAPAS` – Mapas e índices
-    - `SOURCES` – Notas de conteúdo
-        - ARTIGOS · AULAS · FERRAMENTAS · LIVROS · MÚSICAS · VÍDEOS · _Cursos_
-- **📂 CALENDAR**
-    - `DAYS` – Notas diárias
-    - `REVIEW` – Revisões mensais e anuais
-- **📂 EFFORTS** – Projetos e esforços em andamento
-    - `ARCHIVES` – Arquivados/concluídos
-    - `AREAS` – Temas contínuos (ex: saúde, estudos)
-    - `PROJECTS` – Iniciativas com prazo definido
-- **📂 SISTEMA** – Organização e infraestrutura
-    - `MEDIA` – Arquivos multimídia
-    - `TEMPLATES` – Modelos de notas
-        - `FORMAT` – Templates de formatação
-        - `SNIPPETS` – Fragmentos reutilizáveis
-            
 
+Estrutura de Pastas:
+- `/Diário` - Para entradas diárias.
+- `/Projetos` - Dividido por temas ou clientes específicos.
+- `/Ideias` - Para todos os brainstormings e notas rápidas.
+- `/Referências` - Artigos, links e materiais de estudo.
+- `/Templates` - Modelos de notas para diferentes propósitos.
+
+Tags:
+- `#pessoal` - Para notas pessoais.
+- `#trabalho` - Notas relacionadas ao trabalho.
+- `#aprender` - Recursos e notas de estudo.
+- `#revisar` - Itens que requerem revisão ou acompanhamento.
+
+Sistema de Nomenclatura:
+- Para Diário: `YYYY-MM-DD Assunto`
+- Para Projetos: `NomeDoProjeto - Assunto`
+- Para Ideias: `Ideia - PalavrasChave`
+- Para Referências: `TítuloDoArtigo - Fonte`
+- Para Templates: `Template - Tipo`
+
+### 🔗 CONNECTIONS: Como as notas se relacionam
+
+A força do Obsidian reside em sua capacidade de criar um grafo de conhecimento interconectado. Aqui estão as diretrizes para maximizar as conexões entre notas:
+
+- Links Diretos: Sempre que mencionar ou referenciar outra nota, crie um link direto usando `[[Nome da Nota]]`.
+- Backlinks: Revise regularmente os backlinks para identificar novas conexões potenciais.
+- Mapas Mentais: Use o plugin de grafos para visualizar e analisar as conexões entre suas notas.
+
+Campos Padrão (Frontmatter):
+
+Para manter a consistência, cada nota deve começar com um frontmatter contendo:
+
+```yaml
 ---
-
-# 🏷️ Propriedades Principais das Notas
-
-> `Up`, `Relacionadas`, `Coleção`, `Criada em`
-
-- **Criada em** – Link para a nota diária da data de criação
-- **Up (Acima)** – Nota MOC/Índice onde a nota está organizada
-    - (Usado principalmente em `SOURCES`)
-- **Coleção** – Categoria principal da nota
-    - (Múltiplas em `MAPS`, única em `SOURCES`)
-- **Relacionadas** – Outras notas em `SOURCES` com conexão direta ou temática
-    
-
+created: 2023-01-01
+up: 2023-01-02
+collection: NomeDaColeção
+related: [NomeDaNota1, NomeDaNota2]
 ---
+```
 
+- `created`: Data de criação da nota.
+- `up`: Última data de atualização.
+- `collection`: A que coleção a nota pertence.
+- `related`: Notas relacionadas para revisão futura.
 
-# ⏹️ Templates
+### 🛠 Boas Práticas para Manutenção
 
-![[TEMPLATES]]
+- Revisão Regular: Reserve um tempo semanalmente para revisar e atualizar notas, garantindo que as informações permaneçam relevantes e corretas.
+- Limpeza de Tags e Pastas: Periodicamente, revise tags e a estrutura de pastas para evitar redundâncias ou categorias desatualizadas.
+- Backup: Faça backups regulares de sua vault para evitar perda de dados.
+- Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o sistema.
 
-
-# ⌨️ Atalhos
-
-![[ATALHOS]]
+Implementando estas diretrizes, você criará uma vault do Obsidian altamente organizada e eficiente, facilitando não apenas o armazenamento de informações, mas também a recuperação e conexão de conhecimento de forma intuitiva.
 
 ---
 
@@ -128,8 +176,3 @@ actions:
 - [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
 - [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)
 - [Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout)
-    
-# OBSIDIAN-ALEX
-# OBSIDIAN-ALEX
-# OBSIDIAN-ALEX
-# OBSIDIAN-ALEX

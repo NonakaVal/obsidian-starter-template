@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4613d928f0bfadc7",
+            "id": "8bf02c24ea3f5c25",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,8 +22,51 @@
               "icon": "lucide-file",
               "title": "HOMEPAGE"
             }
+          },
+          {
+            "id": "17d96cb6cbaa66f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "e40ed8680d4c4cf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "c3ceca4fc23fe624",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ATLAS/+/alterações recentes 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "alterações recentes 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -295,19 +338,28 @@
       "obsidian-custom-frames:Open Todoist": false,
       "obsidian-custom-frames:Open ChatGPT": false,
       "obsidian-custom-frames:Open YouTube": false,
-      "periodic-notes:Open today": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "callout-manager:Insert Callout": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "4613d928f0bfadc7",
+  "active": "c3ceca4fc23fe624",
   "lastOpenFiles": [
-    "SYSTEM/ATALHOS.md",
-    "SYSTEM/HOMEPAGE.md",
     "ATLAS/+/Alterações Recentes.md",
+    "SYSTEM/HOMEPAGE.md",
+    "README.md",
+    "SYSTEM/GUIAS.md",
+    "README 3.md",
+    "README 2.md",
+    "README 1.md",
+    "+/d.md",
+    "CALENDAR/DAILY/2025-07-31.md",
+    "SYSTEM/TEMPLATES/TEMPLATES.md",
+    "EFFORTS/README.md",
+    "SYSTEM/ATALHOS.md",
     "SYSTEM/Alteradas Recentemente.md",
     "+/Últimas notas criada.md",
     "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Avaliações.md",
@@ -322,15 +374,6 @@
     "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Home Pro Básico.md",
     "EFFORTS/+/Areas.md",
     "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Acúmulo de Ideias.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Cultivar.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Fontes.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Esforços.md",
-    "ATLAS/MAPAS/+/Mapas.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Livros.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Comunicar.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/CANVAS E QUADROS.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Adicionar.md",
-    "CALENDAR/DAILY/2025-07-31.md",
     "EFFORTS/PROJECTS/projeto 1 teste",
     "EFFORTS/AREAS/saude",
     "EFFORTS/AREAS/Saude",

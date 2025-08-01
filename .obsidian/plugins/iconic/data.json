@@ -38,7 +38,8 @@
         "d1468d6092e56ec9",
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
-        "4672d59c41b6b755"
+        "4672d59c41b6b755",
+        "81755fa6debd60c6"
       ]
     },
     "ATLAS": {
@@ -51,7 +52,8 @@
         "d1468d6092e56ec9",
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
-        "4672d59c41b6b755"
+        "4672d59c41b6b755",
+        "81755fa6debd60c6"
       ]
     },
     "CALENDAR": {
@@ -64,7 +66,8 @@
         "d1468d6092e56ec9",
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
-        "4672d59c41b6b755"
+        "4672d59c41b6b755",
+        "81755fa6debd60c6"
       ]
     },
     "EFFORTS": {
@@ -77,11 +80,9 @@
         "d1468d6092e56ec9",
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
-        "4672d59c41b6b755"
+        "4672d59c41b6b755",
+        "81755fa6debd60c6"
       ]
-    },
-    "README.md": {
-      "icon": "lucide-square-dashed-bottom-code"
     },
     "SYSTEM": {
       "icon": "lucide-settings",
@@ -89,7 +90,8 @@
         "d1468d6092e56ec9",
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
-        "4672d59c41b6b755"
+        "4672d59c41b6b755",
+        "81755fa6debd60c6"
       ]
     },
     "SYSTEM/ATALHOS.md": {
