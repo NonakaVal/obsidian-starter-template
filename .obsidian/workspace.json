@@ -10,6 +10,7 @@
           {
             "id": "e40ed8680d4c4cf5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,12 +18,13 @@
                 "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "HOMEPAGE"
             }
           },
           {
-            "id": "5ab18e73c332a545",
+            "id": "33ffd5adcfd92b30",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,9 +36,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "17baaeda6a6a6336",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SYSTEM/GUIAS.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GUIAS"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -59,7 +75,17 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "36eafd802efe8962",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           },
           {
@@ -78,13 +104,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SYSTEM/HOMEPAGE.md",
+                "file": "SYSTEM/GUIAS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HOMEPAGE"
+              "title": "Sumário de GUIAS"
             }
           },
           {
@@ -103,18 +129,9 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "36eafd802efe8962",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -138,7 +155,7 @@
                 "file": "SYSTEM/HOMEPAGE.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for HOMEPAGE"
+              "title": "Propriedades do arquivo HOMEPAGE"
             }
           },
           {
@@ -203,32 +220,17 @@
             }
           },
           {
-            "id": "1301845e4c5da094",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Fontes.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Fontes"
-            }
-          },
-          {
             "id": "201ec82a044e2b15",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Revitalizar.md",
+                "file": "+/Guias Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Revitalizar"
+              "title": "Outgoing links from Guias Vault"
             }
           },
           {
@@ -237,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYSTEM/ATALHOS.md",
+                "file": "+/Guias Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +249,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ATALHOS"
+              "title": "Backlinks for Guias Vault"
             }
           },
           {
@@ -256,7 +258,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HOMEPAGE 2.md",
+                "file": "SYSTEM/GUIAS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -279,29 +281,28 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5087618855792608,
+                  "scale": 0.7631428283688912,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of HOMEPAGE 2"
+              "title": "Gráfico de GUIAS"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 493,
-    "collapsed": true
+    "width": 505
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
       "templater-obsidian:Templater": false,
       "obsidian-projects:Open projects": false,
       "iconic:Open rulebook": false,
@@ -313,37 +314,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5ab18e73c332a545",
+  "active": "6d3d7a4e9a47cf80",
   "lastOpenFiles": [
     "SYSTEM/HOMEPAGE.md",
     "README.md",
-    "READ.md",
-    "ATLAS/+/alterações recentes 2.md",
-    "ATLAS/+/Alterações Recentes.md",
-    "SYSTEM/GUIAS.md",
-    "README 3.md",
-    "README 2.md",
-    "README 1.md",
-    "+/d.md",
-    "CALENDAR/DAILY/2025-07-31.md",
-    "SYSTEM/TEMPLATES/TEMPLATES.md",
-    "EFFORTS/README.md",
-    "SYSTEM/ATALHOS.md",
-    "SYSTEM/Alteradas Recentemente.md",
-    "+/Últimas notas criada.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Avaliações.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Registros.md",
+    "+/Guias Vault.md",
+    "SYSTEM/BARRA DE AÇÕES.md",
     "SYSTEM/NOTA DE BUSCA.md",
-    "ATLAS/+/ATLAS.md",
-    "_index_notas.md",
-    "ATLAS/MAPAS/+/APLICAÇÕES AULAS.md|APLICAÇÕES AULAS.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Início.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Dias.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Home Pro Básico.md",
-    "EFFORTS/+/Areas.md",
+    "SYSTEM/ATALHOS.md",
+    "SYSTEM/GUIAS.md",
+    "ATLAS/MAPAS/+/MAPA 1.md",
+    "SYSTEM/TEMPLATES/TEMPLATES.md",
+    "EFFORTS/+/Projetos.md",
+    "EFFORTS/PROJECTS/projeto 2/projeto 2.md",
+    "EFFORTS/PROJECTS/projeto 2",
+    "EFFORTS/PROJECTS/projeto 1/projeto 1.md",
+    "EFFORTS/PROJECTS/projeto 1/nota projeto 1.md",
+    "EFFORTS/AREAS/Saude/Saude.md",
+    "EFFORTS/PROJECTS/projeto 1",
+    "EFFORTS/AREAS/Saude/treinos.md",
+    "EFFORTS/AREAS/Saude",
+    "EFFORTS/AREAS/Saude/Untitled.md",
+    "ATLAS/SOURCES/AULAS/Persona 2.0.md",
+    "+/LIVRO 1.md",
+    "ATLAS/SOURCES/AULAS/+/AULA 1.md",
+    "+/EXEMPLO.md",
+    "SYSTEM/Alteradas Recentemente.md",
+    "ATLAS/+/Alterações Recentes.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Relate.md",
+    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Comunicar.md",
+    "ATLAS/SOURCES/AULAS/Estrutura de Tráfego para Webinar.md",
+    "ATLAS/SOURCES/AULAS/Escada de Produtos e Precificação Estratégica.md",
     "EFFORTS/PROJECTS/projeto 1 teste",
     "EFFORTS/AREAS/saude",
-    "EFFORTS/AREAS/Saude",
     "SYSTEM/MEDIA/Visuals/Images/wolverine-tethered.jpg",
     "SYSTEM/MEDIA/Visuals/Images/whelan-the-wave-1994.jpg",
     "SYSTEM/MEDIA/Visuals/Images/whelan-space-station-1978-narrow.jpg",
@@ -359,8 +362,6 @@
     "SYSTEM/MEDIA/Visuals",
     "ATLAS/MAPAS/Notas Ideaverse Zero 2",
     "ATLAS/MAPAS/Notas Ideaverse Zero 2/x/x/Scripts/movie.js",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/PKM",
-    "Ideaverse Zero 2/Atlas/Dots/x/Entities",
     "Untitled.canvas"
   ]
 }

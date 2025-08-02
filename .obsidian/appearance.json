@@ -31,6 +31,6 @@
     "Nick Milo - Prism"
   ],
   "showRibbon": true,
-  "baseFontSizeAction": false,
+  "baseFontSizeAction": true,
   "baseFontSize": 16
 }

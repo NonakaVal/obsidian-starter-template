@@ -1,40 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "GUIAS",
+      "path": "SYSTEM/GUIAS.md"
     },
     {
       "basename": "HOMEPAGE",
       "path": "SYSTEM/HOMEPAGE.md"
     },
     {
-      "basename": "alterações recentes 2",
-      "path": "ATLAS/+/alterações recentes 2.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "Alterações Recentes",
-      "path": "ATLAS/+/Alterações Recentes.md"
+      "basename": "BARRA DE AÇÕES",
+      "path": "SYSTEM/BARRA DE AÇÕES.md"
     },
     {
-      "basename": "GUIAS",
-      "path": "SYSTEM/GUIAS.md"
-    },
-    {
-      "basename": "2025-07-31",
-      "path": "CALENDAR/DAILY/2025-07-31.md"
-    },
-    {
-      "basename": "TEMPLATES",
-      "path": "SYSTEM/TEMPLATES/TEMPLATES.md"
+      "basename": "NOTA DE BUSCA",
+      "path": "SYSTEM/NOTA DE BUSCA.md"
     },
     {
       "basename": "ATALHOS",
       "path": "SYSTEM/ATALHOS.md"
     },
     {
+      "basename": "MAPA 1",
+      "path": "ATLAS/MAPAS/+/MAPA 1.md"
+    },
+    {
+      "basename": "TEMPLATES",
+      "path": "SYSTEM/TEMPLATES/TEMPLATES.md"
+    },
+    {
+      "basename": "Projetos",
+      "path": "EFFORTS/+/Projetos.md"
+    },
+    {
+      "basename": "Persona 2.0",
+      "path": "ATLAS/SOURCES/AULAS/Persona 2.0.md"
+    },
+    {
       "basename": "Alteradas Recentemente",
       "path": "SYSTEM/Alteradas Recentemente.md"
+    },
+    {
+      "basename": "Alterações Recentes",
+      "path": "ATLAS/+/Alterações Recentes.md"
+    },
+    {
+      "basename": "Estrutura de Tráfego para Webinar",
+      "path": "ATLAS/SOURCES/AULAS/Estrutura de Tráfego para Webinar.md"
+    },
+    {
+      "basename": "Escada de Produtos e Precificação Estratégica",
+      "path": "ATLAS/SOURCES/AULAS/Escada de Produtos e Precificação Estratégica.md"
+    },
+    {
+      "basename": "2025-08-01",
+      "path": "CALENDAR/DAILY/2025-08-01.md"
+    },
+    {
+      "basename": "alterações recentes 2",
+      "path": "ATLAS/+/alterações recentes 2.md"
+    },
+    {
+      "basename": "2025-07-31",
+      "path": "CALENDAR/DAILY/2025-07-31.md"
     },
     {
       "basename": "Avaliações",
@@ -43,10 +75,6 @@
     {
       "basename": "Registros",
       "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Registros.md"
-    },
-    {
-      "basename": "NOTA DE BUSCA",
-      "path": "SYSTEM/NOTA DE BUSCA.md"
     },
     {
       "basename": "ATLAS",
@@ -91,10 +119,6 @@
     {
       "basename": "Livros",
       "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Livros.md"
-    },
-    {
-      "basename": "Comunicar",
-      "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Comunicar.md"
     },
     {
       "basename": "CANVAS E QUADROS",
@@ -155,38 +179,6 @@
     {
       "basename": "NOTA-DIARIA-TEMPLATE",
       "path": "SYSTEM/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
-    },
-    {
-      "basename": "NOTA-PROJETO-TEMPLATE",
-      "path": "SYSTEM/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md"
-    },
-    {
-      "basename": "PESSOA-TEMPLATE",
-      "path": "SYSTEM/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md"
-    },
-    {
-      "basename": "PROJETO-TEMPLATE",
-      "path": "SYSTEM/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
-    },
-    {
-      "basename": "REUNIOES-TEMPLATE",
-      "path": "SYSTEM/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md"
-    },
-    {
-      "basename": "TEMPLATE-BASE",
-      "path": "SYSTEM/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
-    },
-    {
-      "basename": "VIDEO-TEMPLATE",
-      "path": "SYSTEM/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
-    },
-    {
-      "basename": "% ADICIONAR VIDEO",
-      "path": "SYSTEM/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md"
-    },
-    {
-      "basename": "% BARRA DE NAVEGAÇÃO",
-      "path": "SYSTEM/TEMPLATES/SNIPPET/% BARRA DE NAVEGAÇÃO.md"
     }
   ],
   "omittedPaths": [],

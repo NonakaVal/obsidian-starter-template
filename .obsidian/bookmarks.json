@@ -2,9 +2,30 @@
   "items": [
     {
       "type": "group",
-      "ctime": 1728112388202,
-      "items": [],
-      "title": "SORT ORDER"
+      "ctime": 1754090875799,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1754093971103,
+          "path": "SYSTEM/HOMEPAGE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1754093946385,
+          "path": "SYSTEM/GUIAS.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1754093971103,
+          "path": "SYSTEM/ATALHOS.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1754090872132,
+          "path": "README.md"
+        }
+      ],
+      "title": "Favoritos"
     },
     {
       "type": "folder",

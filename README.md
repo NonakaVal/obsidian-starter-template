@@ -58,10 +58,6 @@ graph TD
 │   └── 📁 REVIEW
 ├── 📁 SYSTEM
 │   ├── 🖼️ MEDIA
-│   │   ├── 📁 DESIGN
-│   │   └── 📁 Visuals
-│   │       ├── 📁 Images
-│   │       └── 📁 Excalidraw
 │   └── 📋 TEMPLATES
 │       ├── 📁 FORMAT
 │       └── 📁 SNIPPET
@@ -120,15 +116,12 @@ related: [NomeDaNota1, NomeDaNota2]
 - `collection`: A que coleção a nota pertence.
 - `related`: Notas relacionadas para revisão futura.
 
-### 🛠 Boas Práticas para Manutenção
+### 🛠 Boas Práticas
 
 - Revisão Regular: Reserve um tempo semanalmente para revisar e atualizar notas, garantindo que as informações permaneçam relevantes e corretas.
 - Limpeza de Tags e Pastas: Periodicamente, revise tags e a estrutura de pastas para evitar redundâncias ou categorias desatualizadas.
 - Backup: Faça backups regulares de sua vault para evitar perda de dados.
 - Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o sistema.
-
-Implementando estas diretrizes, você criará uma vault do Obsidian altamente organizada e eficiente, facilitando não apenas o armazenamento de informações, mas também a recuperação e conexão de conhecimento de forma intuitiva.
-
 ---
 
 # 🔌 Plugins
