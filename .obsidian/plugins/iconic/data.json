@@ -39,7 +39,10 @@
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
         "4672d59c41b6b755",
-        "81755fa6debd60c6"
+        "81755fa6debd60c6",
+        "1e72bba6ed9414f3",
+        "931df0296d1422b7",
+        "7c7b71a060ea143a"
       ]
     },
     "ATLAS": {
@@ -53,8 +56,14 @@
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
         "4672d59c41b6b755",
-        "81755fa6debd60c6"
+        "81755fa6debd60c6",
+        "1e72bba6ed9414f3",
+        "931df0296d1422b7",
+        "7c7b71a060ea143a"
       ]
+    },
+    "Boas Vindas.md": {
+      "icon": "lucide-party-popper"
     },
     "CALENDAR": {
       "icon": "lucide-calendar-fold",
@@ -67,49 +76,47 @@
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
         "4672d59c41b6b755",
-        "81755fa6debd60c6"
+        "81755fa6debd60c6",
+        "1e72bba6ed9414f3",
+        "931df0296d1422b7",
+        "7c7b71a060ea143a"
       ]
     },
-    "EFFORTS": {
-      "icon": "lucide-network",
+    "CALENDÁRIO": {
+      "icon": "lucide-calendar",
       "unsynced": [
-        "62aa804a619c5bdd",
-        "7696e62fe394c3aa",
-        "ba9f8f47e0d1a857",
-        "b530024e3f444144",
-        "d1468d6092e56ec9",
-        "01b0916a894d17b1",
-        "ae38a1c4c82f5f27",
-        "4672d59c41b6b755",
-        "81755fa6debd60c6"
+        "7c7b71a060ea143a"
       ]
     },
-    "SYSTEM": {
+    "ESFORÇOS": {
+      "icon": "lucide-workflow",
+      "unsynced": [
+        "7c7b71a060ea143a"
+      ]
+    },
+    "HOMEPAGE.md": {
+      "icon": "lucide-home"
+    },
+    "SISTEMA": {
       "icon": "lucide-settings",
       "unsynced": [
         "d1468d6092e56ec9",
         "01b0916a894d17b1",
         "ae38a1c4c82f5f27",
         "4672d59c41b6b755",
-        "81755fa6debd60c6"
+        "81755fa6debd60c6",
+        "1e72bba6ed9414f3",
+        "931df0296d1422b7",
+        "7c7b71a060ea143a"
       ]
     },
-    "SYSTEM/ATALHOS.md": {
-      "icon": "lucide-keyboard"
-    },
-    "SYSTEM/BARRA DE AÇÕES.md": {
-      "icon": "lucide-navigation"
-    },
-    "SYSTEM/GUIAS.md": {
+    "SISTEMA/SOBRE/GUIAS.md": {
       "icon": "help"
     },
-    "SYSTEM/HOMEPAGE.md": {
-      "icon": "lucide-home"
+    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md": {
+      "icon": "lucide-clock"
     },
-    "SYSTEM/NOTA DE BUSCA.md": {
-      "icon": "lucide-search"
-    },
-    "SYSTEM/TEMPLATES/TEMPLATES.md": {
+    "SISTEMA/TEMPLATES/TEMPLATES.md": {
       "icon": "templater-icon"
     }
   },

@@ -1,72 +1,41 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "bbfd664c49715762",
     "type": "split",
     "children": [
       {
-        "id": "b9b909641f98868d",
+        "id": "de490916a99ac176",
         "type": "tabs",
         "children": [
           {
-            "id": "e40ed8680d4c4cf5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SYSTEM/HOMEPAGE.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "HOMEPAGE"
-            }
-          },
-          {
-            "id": "33ffd5adcfd92b30",
+            "id": "8aa27e7d296411f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Boas Vindas.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "17baaeda6a6a6336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SYSTEM/GUIAS.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GUIAS"
+              "title": "Boas Vindas"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ceceeb2f82f72338",
+    "id": "ecce28e30e96abad",
     "type": "split",
     "children": [
       {
-        "id": "d7b68441e64b0baf",
+        "id": "21a624ab639c142e",
         "type": "tabs",
         "children": [
           {
-            "id": "42f47640edf85bf7",
+            "id": "26bda3c9cb740625",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -79,7 +48,24 @@
             }
           },
           {
-            "id": "36eafd802efe8962",
+            "id": "89b309ba1cbbdf51",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"resumo\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "ab37be2ef210afce",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,77 +75,64 @@
             }
           },
           {
-            "id": "093b3a738054e210",
+            "id": "3a0fadd679d2e600",
             "type": "leaf",
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
-          },
-          {
-            "id": "6d3d7a4e9a47cf80",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "SYSTEM/GUIAS.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de GUIAS"
-            }
-          },
-          {
-            "id": "bd062dda8ed54586",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "\"ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Mapas\"",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 437
+    "width": 300
   },
   "right": {
-    "id": "b8973fe758baa90b",
+    "id": "10862ba78f6a46ca",
     "type": "split",
     "children": [
       {
-        "id": "3ada067b4619dcfd",
+        "id": "c20f8c2c3963ddaf",
         "type": "tabs",
-        "dimension": 51.03448275862069,
         "children": [
           {
-            "id": "d92535b369580800",
+            "id": "0f55e8201c696235",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
+              "type": "backlink",
               "state": {
-                "file": "SYSTEM/HOMEPAGE.md"
+                "file": "CALENDÁRIO/DIAS/2025-08-15.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-info",
-              "title": "Propriedades do arquivo HOMEPAGE"
+              "icon": "links-coming-in",
+              "title": "Links inversos para 2025-08-15"
             }
           },
           {
-            "id": "c0698ab85b3ddb7e",
+            "id": "8191efca6a8d4ab2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bem-vindo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Bem-vindo"
+            }
+          },
+          {
+            "id": "d5fcfb6006d7b89f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -174,7 +147,32 @@
             }
           },
           {
-            "id": "9bee66eb60a34863",
+            "id": "4eeefb6de41c8abe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Boas Vindas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Boas Vindas"
+            }
+          },
+          {
+            "id": "d2d39fc8f1f5262c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "47226967c8e80964",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -184,116 +182,37 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Todas as propriedades"
             }
           },
           {
-            "id": "ea0fb5ca5fd161aa",
+            "id": "f873cb294b2c1c1b",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "file-properties",
+              "state": {
+                "file": "How Atlas works.md"
+              },
+              "icon": "lucide-info",
+              "title": "Propriedades do arquivo How Atlas works"
+            }
+          },
+          {
+            "id": "1aafcefc39b75a38",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "203f2050711ef78f",
-        "type": "tabs",
-        "dimension": 48.96551724137931,
-        "children": [
-          {
-            "id": "146c8ad8c9f0a760",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SYSTEM/ATALHOS.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ATALHOS"
-            }
-          },
-          {
-            "id": "201ec82a044e2b15",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "+/Guias Vault.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Guias Vault"
-            }
-          },
-          {
-            "id": "89fb4a17a44882f4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "+/Guias Vault.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Guias Vault"
-            }
-          },
-          {
-            "id": "9928f8f1b8b3184d",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "SYSTEM/GUIAS.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": false,
-                  "textFadeMultiplier": -1.2,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7631428283688912,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Gráfico de GUIAS"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 505
+    "width": 426
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -303,65 +222,63 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-projects:Open projects": false,
-      "iconic:Open rulebook": false,
-      "dashboard-navigator:Open dashboard navigator": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
       "callout-manager:Insert Callout": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
+      "iconic:Open rulebook": false,
+      "templater-obsidian:Templater": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "6d3d7a4e9a47cf80",
+  "active": "8aa27e7d296411f7",
   "lastOpenFiles": [
-    "SYSTEM/HOMEPAGE.md",
+    "HOMEPAGE.md",
+    "Boas Vindas.md",
+    "CALENDÁRIO/DIAS/2025-08-16.md",
+    "SISTEMA/BARRA DE AÇÕES.md",
+    "ATLAS/FONTES/LYT/Atalhos.md",
+    "ATLAS/FONTES/LYT/ARC Framework.md",
+    "ATLAS/FONTES/LYT/Adicionar.md",
+    "ATLAS/FONTES/LYT/ACE Folder System.md",
+    "ATLAS/FONTES/LYT/ATLAS.md",
+    "ATLAS/FONTES/LYT/Como Atlas funciona.md",
+    "CALENDÁRIO/DIAS/2025-08-15.md",
+    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
+    "SISTEMA/SOBRE/GUIAS.md",
+    "+/aula.md",
+    "ATLAS/FONTES/LYT/Buscar Notas.md",
     "README.md",
-    "+/Guias Vault.md",
-    "SYSTEM/BARRA DE AÇÕES.md",
-    "SYSTEM/NOTA DE BUSCA.md",
-    "SYSTEM/ATALHOS.md",
-    "SYSTEM/GUIAS.md",
-    "ATLAS/MAPAS/+/MAPA 1.md",
-    "SYSTEM/TEMPLATES/TEMPLATES.md",
-    "EFFORTS/+/Projetos.md",
-    "EFFORTS/PROJECTS/projeto 2/projeto 2.md",
-    "EFFORTS/PROJECTS/projeto 2",
-    "EFFORTS/PROJECTS/projeto 1/projeto 1.md",
-    "EFFORTS/PROJECTS/projeto 1/nota projeto 1.md",
-    "EFFORTS/AREAS/Saude/Saude.md",
-    "EFFORTS/PROJECTS/projeto 1",
-    "EFFORTS/AREAS/Saude/treinos.md",
-    "EFFORTS/AREAS/Saude",
-    "EFFORTS/AREAS/Saude/Untitled.md",
-    "ATLAS/SOURCES/AULAS/Persona 2.0.md",
-    "+/LIVRO 1.md",
-    "ATLAS/SOURCES/AULAS/+/AULA 1.md",
-    "+/EXEMPLO.md",
-    "SYSTEM/Alteradas Recentemente.md",
-    "ATLAS/+/Alterações Recentes.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Relate.md",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Comunicar.md",
-    "ATLAS/SOURCES/AULAS/Estrutura de Tráfego para Webinar.md",
-    "ATLAS/SOURCES/AULAS/Escada de Produtos e Precificação Estratégica.md",
-    "EFFORTS/PROJECTS/projeto 1 teste",
-    "EFFORTS/AREAS/saude",
-    "SYSTEM/MEDIA/Visuals/Images/wolverine-tethered.jpg",
-    "SYSTEM/MEDIA/Visuals/Images/whelan-the-wave-1994.jpg",
-    "SYSTEM/MEDIA/Visuals/Images/whelan-space-station-1978-narrow.jpg",
-    "SYSTEM/MEDIA/Visuals/Images/whelan-space-station-1978-mod.jpg",
-    "SYSTEM/MEDIA/Visuals/Images/stay-on-target.jpg",
-    "SYSTEM/MEDIA/Visuals/Images/sort-by-file-name-a-to-z.png",
-    "SYSTEM/MEDIA/Visuals/Images/sensemaking-archetypes-clean.png",
-    "SYSTEM/MEDIA/Visuals/Images/robert-mccall-space-ship-launch-narrower.png",
-    "SYSTEM/MEDIA/Visuals/Images/robert-mccall-space-ship-launch-narrow.jpg",
-    "SYSTEM/MEDIA/Visuals/Images/robert-mccall-space-ship-launch-mid.jpg",
-    "SYSTEM/MEDIA/Visuals/Images",
-    "SYSTEM/MEDIA/Visuals/Excalidraw",
-    "SYSTEM/MEDIA/Visuals",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2",
-    "ATLAS/MAPAS/Notas Ideaverse Zero 2/x/x/Scripts/movie.js",
-    "Untitled.canvas"
+    "ATLAS/FONTES/LYT/Como Calendário funciona.md",
+    "ATLAS/FONTES/LYT/Como Esforços funciona.md",
+    "ESFORÇOS/Projetos.md",
+    "ATLAS/FONTES/LYT/como + funciona.md",
+    "ATLAS/FONTES/LYT/Comunicar.md",
+    "ATLAS/FONTES/LYT/Relacionar.md",
+    "SISTEMA/SOBRE",
+    "SISTEMA/TEMPLATES/SNIPPET/% Linha de Ultima data de alteração.md",
+    "SISTEMA/MEDIA/Pasted image 20250816180551.png",
+    "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",
+    "SISTEMA/MEDIA/Visuals/Images/feynman-triangulation-2.png",
+    "SISTEMA/MEDIA/Visuals/Images/CleanShot 2023-07-30 at 21.37.43.png",
+    "SISTEMA/MEDIA/Pasted image 20250815104904.png",
+    "SISTEMA/MEDIA/Pasted image 20250815103203.png",
+    "SISTEMA/MEDIA/Visuals/Excalidraw/How ARC + Basic Idea Emergence.md",
+    "SISTEMA/MEDIA/Visuals/Excalidraw/excalibrain.md",
+    "ATLAS/FONTES/LYT",
+    "ATLAS/RECURSOS/AULAS",
+    "ATLAS/MAPAS",
+    "ESFORÇOS/AREAS/AREA 1",
+    "ESFORÇOS/AREAS",
+    "SISTEMA/MEDIA/Visuals/Images",
+    "SISTEMA/MEDIA/Visuals/Excalidraw",
+    "SISTEMA/MEDIA/Visuals",
+    "SISTEMA/MEDIA/DESIGN",
+    "SISTEMA/MEDIA/Visuals/Images/flight-school-hangar.jpg",
+    "SISTEMA/MEDIA/Visuals/Images/stay-on-target.jpg",
+    "SISTEMA/MEDIA/Visuals/Images/flight-school-boot.jpg",
+    "SISTEMA/MEDIA/Visuals/Images/lyt-crafting-mocs-1.jpg"
   ]
 }

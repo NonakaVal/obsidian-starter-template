@@ -10,6 +10,13 @@
             "icon": "lucide-table"
           }
         }
+      ],
+      "box": [
+        {
+          "changes": {
+            "color": "208, 103, 140"
+          }
+        }
       ]
     }
   },

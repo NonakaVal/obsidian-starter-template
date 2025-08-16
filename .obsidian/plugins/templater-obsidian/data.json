@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "SYSTEM/TEMPLATES",
+  "templates_folder": "SISTEMA/TEMPLATES",
   "templates_pairs": [
     [
       "",

@@ -1,5 +1,0 @@
----
-up: []
-related: []
-created: "{{date}}"
----

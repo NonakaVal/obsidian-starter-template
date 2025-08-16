@@ -1,5 +1,0 @@
----
-ROAR:  
-ROARrank:  
-ROARdetails:  
----

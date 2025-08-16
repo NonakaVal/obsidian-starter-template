@@ -4,8 +4,8 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "SYSTEM/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
-    "folder": "CALENDAR/DAILY",
+    "template": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
+    "folder": "CALENDÁRIO/DIAS",
     "enabled": true
   },
   "weekly": {

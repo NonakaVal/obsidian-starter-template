@@ -11,7 +11,7 @@
           "name": "➕ NOTA BASE",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/TEMPLATE-BASE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -41,7 +41,7 @@
           "name": "📝 AULA",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/AULA-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -49,7 +49,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "ATLAS/SOURCES/AULAS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -71,7 +71,7 @@
           "name": "📋 ARTIGO",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -79,7 +79,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "ATLAS/SOURCES/ARTIGO/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -101,7 +101,7 @@
           "name": "📖 LIVRO",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -109,7 +109,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "ATLAS/SOURCES/LIVROS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -131,7 +131,7 @@
           "name": "👤 PESSOA",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -139,7 +139,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "ATLAS/SOURCES/PESSOAS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -161,7 +161,7 @@
           "name": "💡 IDEIA",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/IDEIA-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/IDEIA-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -169,7 +169,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "EFFORTS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -191,7 +191,7 @@
           "name": "📺 VIDEO",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -199,7 +199,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "ATLAS/SOURCES/VIDEOS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -221,7 +221,7 @@
           "name": "👨‍👦‍👦 REUNIÃO",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -229,7 +229,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "EFFORTS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -251,7 +251,7 @@
           "name": "🤖 FERRAMENTA",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -259,7 +259,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "ATLAS/SOURCES/FERRAMENTAS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -281,7 +281,7 @@
           "name": "🍾 EVENTO",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -289,7 +289,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "ATLAS/SOURCES/EVENTOS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -311,7 +311,7 @@
           "name": "🎶 MÚSICA",
           "type": "Template",
           "command": true,
-          "templatePath": "SYSTEM/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -319,7 +319,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "ATLAS/SOURCES/MUSICAS/+"
+              "+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -343,11 +343,11 @@
           "command": true,
           "choices": [
             {
-              "id": "74577d4e-f6e6-4844-a692-a77886ad1973",
-              "name": "➕ MAPA EFFORTS",
+              "id": "c23b977e-5e03-4656-9037-672bfb29f740",
+              "name": "📖 MAPA ATLAS",
               "type": "Template",
               "command": true,
-              "templatePath": "SYSTEM/TEMPLATES/FORMAT/% MAPA DATAVIEW DE EFFORTS.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
@@ -355,7 +355,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "EFFORTS/+"
+                  "+"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -373,11 +373,11 @@
               "setFileExistsBehavior": false
             },
             {
-              "id": "c23b977e-5e03-4656-9037-672bfb29f740",
-              "name": "📖 MAPA ATLAS",
+              "id": "74577d4e-f6e6-4844-a692-a77886ad1973",
+              "name": "➕ MAPA ESFORÇOS",
               "type": "Template",
               "command": true,
-              "templatePath": "SYSTEM/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ESFORÇOS.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
@@ -385,7 +385,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "ATLAS/MAPAS/+"
+                  "+"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -407,7 +407,7 @@
         },
         {
           "id": "ebc3941c-ed51-4da4-abb4-bf15c72eb683",
-          "name": "💼 NOTA EFFORTS",
+          "name": "💼 NOTA ESFORÇOS",
           "type": "Multi",
           "command": true,
           "choices": [
@@ -416,7 +416,7 @@
               "name": "➕ NOVO PROJETO",
               "type": "Template",
               "command": true,
-              "templatePath": "SYSTEM/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -424,7 +424,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "EFFORTS/PROJECTS/{{VALUE}}"
+                  "ESFORÇOS/PROJETOS/{{VALUE}}"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -446,7 +446,7 @@
               "name": "➕ NOVA AREA",
               "type": "Template",
               "command": true,
-              "templatePath": "SYSTEM/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -454,7 +454,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "EFFORTS/AREAS/{{VALUE}}"
+                  "ESFORÇOS/AREAS/{{VALUE}}"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -482,7 +482,7 @@
       "name": "📝 NOTA DE AREA",
       "type": "Template",
       "command": true,
-      "templatePath": "SYSTEM/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
+      "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"
@@ -510,7 +510,7 @@
       "name": "📝 NOTA DE PROJETO",
       "type": "Template",
       "command": true,
-      "templatePath": "SYSTEM/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
+      "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"
@@ -551,14 +551,14 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "SYSTEM/TEMPLATES/FORMAT",
+  "templateFolderPath": "SISTEMA/TEMPLATES/FORMAT",
   "announceUpdates": false,
   "version": "1.18.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {
     "defaultModel": "Ask me",
-    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "defaultSISTEMAPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
     "promptTemplatesFolderPath": "",
     "showAssistant": true,
     "providers": [
