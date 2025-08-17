@@ -1,8 +1,8 @@
 ```meta-bind-button
-label: <% tp.file.title %>
+label: Areas
 hidden: false
 class: ""
-id: <% tp.file.title %>
+id: Areas
 style: default
 actions:
   - type: open

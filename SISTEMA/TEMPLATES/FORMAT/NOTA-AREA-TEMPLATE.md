@@ -1,5 +1,5 @@
 ---
-area: "[[<% tp.file.folder() %>]]"
+area: "[[SNIPPET]]"
 resumo: 
 tags: 
 type: area_note
@@ -7,14 +7,14 @@ cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+  - '[[2025-08-16]]'
 ---
-~ [[<%tp.file.folder() %>]] 
+~ [[SNIPPET]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery("ATLAS"), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[<% tp.file.title %>]] 
+# [[% METABIND BOTÃO ABRIR NOTA]] 
 
 
 # Definir Resumo 
@@ -23,7 +23,7 @@ created:
 
 # TAREFAS E PROCESSOS
 
-<%tp.file.cursor()%>
+<% tp.file.cursor() %>
 
 ---
  `BUTTON[tasks-button]`     
@@ -47,4 +47,3 @@ actions:
 
 
 
-<%* tp.hooks.on_all_templates_executed(async () => { const file = tp.file.find_tfile(tp.file.path(true)); const value1 = tp.file.folder().split(" ").map(word => word.toLowerCase()).join("_"); const value2 = tp.file.title.split(" ").map(word => word.toLowerCase()).join("_"); await app.fileManager.processFrontMatter(file, (frontmatter) => { frontmatter["tags"] = `area/${value1}/${value2}`; }); }); -%>

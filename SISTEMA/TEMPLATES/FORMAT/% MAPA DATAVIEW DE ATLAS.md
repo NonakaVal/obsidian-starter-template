@@ -6,8 +6,6 @@ cssclasses:
 ---
 # Definir Pasta e Colunas
 
-### 📚 [[ATLAS]] -  📁  `INPUT[inlineSelect(option('"ATLAS"'), option('"ATLAS/+"'), option('""'), option('"ATLAS/SOURCES"'), option('"ATLAS/SOURCES/VIDEOS"'), option('"ATLAS/SOURCES/LIVROS"'), option('"ATLAS/SOURCES/AULAS"'), option('"ATLAS/SOURCES/FERRAMENTAS"'), option('"ATLAS/SOURCES/ARTIGOS"'), option('"ATLAS/SOURCES/MUSICAS"')):path]` 
-
 
 ---
 

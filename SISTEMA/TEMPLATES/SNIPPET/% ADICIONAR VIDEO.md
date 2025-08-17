@@ -1,7 +1,7 @@
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
   <iframe 
-    src="<%tp.file.cursor()%>" 
+    src="<% tp.file.cursor() %>" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen 

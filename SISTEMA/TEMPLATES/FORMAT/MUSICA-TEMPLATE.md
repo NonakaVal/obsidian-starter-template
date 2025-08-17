@@ -1,6 +1,6 @@
 ---
 created:
-  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+  - '[[2025-08-16]]'
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
@@ -8,7 +8,7 @@ cssclasses:
 | `Coleção` | `INPUT[suggester(optionQuery("")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[<% tp.file.title %>]] 
+# [[% TAREFAS EFFORTS]] 
 
 |🎵 **Música**|
 |---|
@@ -18,7 +18,7 @@ cssclasses:
 |**Gênero:** `INPUT[inlineList:Genero]`|
 |**Link:** `INPUT[text:Link]`|
 
-<%tp.file.cursor()%>
+<% tp.file.cursor() %>
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 created:
-  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+  - '[[2025-08-16]]'
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
@@ -8,7 +8,7 @@ cssclasses:
 | `Coleção` | `INPUT[suggester(optionQuery("")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[<% tp.file.title %>]] 
+# [[FERRAMENTA-TEMPLATE]] 
 
 |📌 **Evento - Metadados**|
 |---|
@@ -21,7 +21,7 @@ cssclasses:
 |**Status:** `INPUT[inlineSelect(option("Planejando"), option("Confirmado"), option("Participando"), option("Concluído"), showcase):Status]`|
 |**Custo:** `INPUT[text:Custo]`|
 
-<%tp.file.cursor()%>
+<% tp.file.cursor() %>
 
 
 ---

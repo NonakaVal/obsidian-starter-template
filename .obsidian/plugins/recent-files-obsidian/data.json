@@ -1,128 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Boas Vindas",
-      "path": "Boas Vindas.md"
-    },
-    {
       "basename": "HOMEPAGE",
       "path": "HOMEPAGE.md"
     },
     {
-      "basename": "2025-08-16",
-      "path": "CALENDÁRIO/DIAS/2025-08-16.md"
-    },
-    {
-      "basename": "BARRA DE AÇÕES",
-      "path": "SISTEMA/BARRA DE AÇÕES.md"
+      "basename": "Boas Vindas",
+      "path": "Boas Vindas.md"
     },
     {
       "basename": "Atalhos",
-      "path": "ATLAS/FONTES/LYT/Atalhos.md"
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
     },
     {
-      "basename": "ARC Framework",
-      "path": "ATLAS/FONTES/LYT/ARC Framework.md"
+      "basename": "POST-BLOG",
+      "path": "SISTEMA/TEMPLATES/FORMAT/POST-BLOG.md"
     },
     {
-      "basename": "Adicionar",
-      "path": "ATLAS/FONTES/LYT/Adicionar.md"
+      "basename": "Escada de Produtos e Precificação Estratégica",
+      "path": "ATLAS/FONTES/Aula/Escada de Produtos e Precificação Estratégica.md"
+    },
+    {
+      "basename": "MAPA - Anúncios de Alta Conversão",
+      "path": "ATLAS/MAPAS/MAPA - Anúncios de Alta Conversão.md"
     },
     {
       "basename": "ACE Folder System",
-      "path": "ATLAS/FONTES/LYT/ACE Folder System.md"
+      "path": "SISTEMA/SOBRE/LYT/ACE Folder System.md"
     },
     {
-      "basename": "ATLAS",
-      "path": "ATLAS/FONTES/LYT/ATLAS.md"
+      "basename": "Pasted image 20250815103203",
+      "path": "SISTEMA/MIDIA/Pasted image 20250815103203.png"
     },
     {
-      "basename": "Como Atlas funciona",
-      "path": "ATLAS/FONTES/LYT/Como Atlas funciona.md"
+      "basename": "Pasted image 20250816180551",
+      "path": "SISTEMA/MIDIA/Pasted image 20250816180551.png"
+    },
+    {
+      "basename": "Pasted image 20250815104904",
+      "path": "SISTEMA/MIDIA/Pasted image 20250815104904.png"
+    },
+    {
+      "basename": "Anúncios de Alta Conversão",
+      "path": "ATLAS/FONTES/Aula/Anúncios de Alta Conversão.md"
+    },
+    {
+      "basename": "Buscar Notas",
+      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
+    },
+    {
+      "basename": "Entendendo o seu Mercado",
+      "path": "ATLAS/FONTES/Aula/Entendendo o seu Mercado.md"
+    },
+    {
+      "basename": "Funil Webinar Invisível Automático",
+      "path": "ATLAS/FONTES/Aula/Funil Webinar Invisível Automático.md"
+    },
+    {
+      "basename": "Como se preparar para a gravação",
+      "path": "ATLAS/FONTES/Aula/Como se preparar para a gravação.md"
     },
     {
       "basename": "2025-08-15",
       "path": "CALENDÁRIO/DIAS/2025-08-15.md"
     },
     {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "% TODAS TAREFAS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
-    },
-    {
-      "basename": "GUIAS",
-      "path": "SISTEMA/SOBRE/GUIAS.md"
-    },
-    {
-      "basename": "aula",
-      "path": "+/aula.md"
-    },
-    {
-      "basename": "Buscar Notas",
-      "path": "ATLAS/FONTES/LYT/Buscar Notas.md"
-    },
-    {
-      "basename": "Como Calendário funciona",
-      "path": "ATLAS/FONTES/LYT/Como Calendário funciona.md"
-    },
-    {
-      "basename": "Como Esforços funciona",
-      "path": "ATLAS/FONTES/LYT/Como Esforços funciona.md"
-    },
-    {
-      "basename": "Projetos",
-      "path": "ESFORÇOS/Projetos.md"
-    },
-    {
-      "basename": "como + funciona",
-      "path": "ATLAS/FONTES/LYT/como + funciona.md"
-    },
-    {
-      "basename": "Comunicar",
-      "path": "ATLAS/FONTES/LYT/Comunicar.md"
-    },
-    {
-      "basename": "Relacionar",
-      "path": "ATLAS/FONTES/LYT/Relacionar.md"
-    },
-    {
-      "basename": "% Linha de Ultima data de alteração",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% Linha de Ultima data de alteração.md"
-    },
-    {
-      "basename": "Pasted image 20250815104904",
-      "path": "SISTEMA/MEDIA/Pasted image 20250815104904.png"
-    },
-    {
-      "basename": "Pasted image 20250815103203",
-      "path": "SISTEMA/MEDIA/Pasted image 20250815103203.png"
-    },
-    {
-      "basename": "REUNIOES-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md"
-    },
-    {
-      "basename": "TEMPLATE-BASE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
-    },
-    {
-      "basename": "VIDEO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
-    },
-    {
-      "basename": "PROJETO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
-    },
-    {
-      "basename": "PESSOA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md"
-    },
-    {
-      "basename": "NOTA-PROJETO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md"
+      "basename": "2025-08-16",
+      "path": "CALENDÁRIO/DIAS/2025-08-16.md"
     },
     {
       "basename": "NOTA-DIARIA-TEMPLATE",
@@ -133,20 +77,8 @@
       "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md"
     },
     {
-      "basename": "MUSICA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md"
-    },
-    {
-      "basename": "LIVRO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md"
-    },
-    {
-      "basename": "FERRAMENTA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md"
-    },
-    {
-      "basename": "EVENTO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md"
+      "basename": "PROJETO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
     },
     {
       "basename": "AULA-TEMPLATE",
@@ -161,44 +93,112 @@
       "path": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md"
     },
     {
-      "basename": "AREA 1",
-      "path": "ESFORÇOS/AREAS/AREA 1/AREA 1.md"
+      "basename": "% MAPA DATAVIEW DE EFFORTS",
+      "path": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE EFFORTS.md"
     },
     {
-      "basename": "Dias",
-      "path": "CALENDÁRIO/Dias.md"
+      "basename": "% MAPA DATAVIEW DE ATLAS",
+      "path": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md"
     },
     {
-      "basename": "Areas",
-      "path": "ESFORÇOS/Areas.md"
+      "basename": "Blog Alex Donega",
+      "path": "ESFORÇOS/PROJETOS/Blog Alex Donega/Blog Alex Donega.md"
+    },
+    {
+      "basename": "BARRA DE AÇÕES",
+      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
+    },
+    {
+      "basename": "2025-06-08-Efetividade é um Compromisso com o Porquê",
+      "path": "ESFORÇOS/PROJETOS/Blog Alex Donega/2025-06-08-Efetividade é um Compromisso com o Porquê.md"
+    },
+    {
+      "basename": "Projetos",
+      "path": "ESFORÇOS/PROJETOS/Projetos.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
+    },
+    {
+      "basename": "Adicionar",
+      "path": "SISTEMA/SOBRE/LYT/Adicionar.md"
     },
     {
       "basename": "ATLAS",
-      "path": "ATLAS/+/ATLAS.md"
+      "path": "SISTEMA/SOBRE/LYT/ATLAS.md"
     },
     {
-      "basename": "alterações recentes 2",
-      "path": "ATLAS/+/alterações recentes 2.md"
+      "basename": "Como Atlas funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
     },
     {
       "basename": "Notas Recentemente Modificadas",
-      "path": "ATLAS/+/Notas Recentemente Modificadas.md"
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     },
     {
-      "basename": "Visualizações",
-      "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Visualizações.md"
+      "basename": "% TODAS TAREFAS",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
     },
     {
-      "basename": "Fluxos de trabalho",
-      "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Fluxos de trabalho.md"
+      "basename": "GUIAS",
+      "path": "SISTEMA/SOBRE/GUIAS.md"
+    },
+    {
+      "basename": "Como Calendário funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
+    },
+    {
+      "basename": "Como Esforços funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
+    },
+    {
+      "basename": "como + funciona",
+      "path": "SISTEMA/SOBRE/LYT/como + funciona.md"
     },
     {
       "basename": "Comunicar",
-      "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Comunicar.md"
+      "path": "SISTEMA/SOBRE/LYT/Comunicar.md"
     },
     {
       "basename": "Relacionar",
-      "path": "ATLAS/MAPAS/Notas Ideaverse Zero 2/Maps/Relacionar.md"
+      "path": "SISTEMA/SOBRE/LYT/Relacionar.md"
+    },
+    {
+      "basename": "% Linha de Ultima data de alteração",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% Linha de Ultima data de alteração.md"
+    },
+    {
+      "basename": "REUNIOES-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md"
+    },
+    {
+      "basename": "TEMPLATE-BASE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
+    },
+    {
+      "basename": "VIDEO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
+    },
+    {
+      "basename": "PESSOA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md"
+    },
+    {
+      "basename": "NOTA-PROJETO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md"
+    },
+    {
+      "basename": "MUSICA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md"
+    },
+    {
+      "basename": "LIVRO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md"
+    },
+    {
+      "basename": "FERRAMENTA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md"
     }
   ],
   "omittedPaths": [],

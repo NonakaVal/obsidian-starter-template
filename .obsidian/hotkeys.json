@@ -440,5 +440,14 @@
       ],
       "key": "H"
     }
+  ],
+  "obsidian-hotkeys-for-specific-files:HOMEPAGE.md-new-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
   ]
 }

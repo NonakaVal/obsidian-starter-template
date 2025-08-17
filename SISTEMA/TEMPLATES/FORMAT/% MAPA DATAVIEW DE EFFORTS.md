@@ -7,7 +7,7 @@ cssclasses:
 
 # Definir Pasta e Colunas
 
-### 💼 [[EFFORTS]] -  📁 `INPUT[inlineSelect( option('"EFFORTS"'), option('"EFFORTS/AREAS"'), option('"EFFORTS/PROJECTS"'), option('"EFFORTS/ARCHIVES"'), option('"EFFORTS/AREAS/+"'), option('"CALENDAR"'), option('"CALENDAR/+"'), option('"CALENDAR/DAILY"'), option('"CALENDAR/REVIEW"')):path]`
+### 💼 [[EFFORTS]] -  📁 
 
 | Marcador                        | Nome da Seção                 | Expandir na Tabela?               |
 | ------------------------------- | ----------------------------- | --------------------------------- |
