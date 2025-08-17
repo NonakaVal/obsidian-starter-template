@@ -15,8 +15,9 @@
   },
   "monthly": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
+    "folder": "CALENDÁRIO/REVISÕES",
+    "enabled": true
   },
   "quarterly": {
     "format": "",

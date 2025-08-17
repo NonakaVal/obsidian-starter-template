@@ -6,7 +6,7 @@ tab: Á fazer
 
 ```dataview
 TASK
-FROM "CALENDAR/DAILY"
+FROM "CALENDÁRIO/DIAS"
 WHERE !completed AND !checked
 GROUP BY file.name
 
@@ -15,7 +15,7 @@ GROUP BY file.name
 tab: Concluídas
 ```dataview
 TASK
-FROM "CALENDAR/DAILY"
+FROM "CALENDÁRIO/DIAS"
 WHERE completed AND checked
 GROUP BY file.name
 

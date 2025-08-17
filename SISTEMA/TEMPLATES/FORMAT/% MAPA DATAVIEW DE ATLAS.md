@@ -3,6 +3,7 @@ path: '"ATLAS"'
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
+  - wide-page
 ---
 # Definir Pasta e Colunas
 

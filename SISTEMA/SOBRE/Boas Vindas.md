@@ -77,7 +77,7 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 
 
 
-![[Pasted image 20250815103203.png]]
+![[Pasted image 20250815104904.png]]
 
 
 # 🛠 Boas Práticas

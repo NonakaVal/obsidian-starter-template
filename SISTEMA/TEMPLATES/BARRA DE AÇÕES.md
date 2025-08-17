@@ -13,7 +13,7 @@
 
 ---
 
-> [!mountain] **Esforços** »  [[Areas]] | [[Projetos|Projetos]] 
+> [!mountain] **Esforços** »  [[_AREAS]] | [[_PROJETOS|_PROJETOS]] 
 
 
 

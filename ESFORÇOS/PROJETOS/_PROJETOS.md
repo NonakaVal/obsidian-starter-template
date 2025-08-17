@@ -1,6 +1,6 @@
-# [[Projetos]]
+# [[_PROJETOS]]
 
-> [!mountain] [[Areas]] | [[Projetos]] 
+> [!mountain] [[_AREAS]] | [[_PROJETOS]] 
 
 Estes são os projetos ativos que têm mais da sua atenção. Mantenha entre 3 e 11. Priorize pela classificação.
 ``` dataview

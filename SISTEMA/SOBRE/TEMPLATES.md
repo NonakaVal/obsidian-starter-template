@@ -10,17 +10,13 @@ cssclasses:
   - hide-properties_editing
   - hide-properties_reading
 ---
-MapasMapas~ [[Home Pro]] 
-
-Aqui estão todos os modelos, em ordem alfabética, mostrando o número de propriedades que cada um possui.
-
 ````tabs
 
 tab: FORMAT
 
 ```dataviewjs
 // Obter todos os arquivos da pasta Templates
-const templateFiles = dv.pages('"SYSTEM/TEMPLATES/FORMAT"')
+const templateFiles = dv.pages('"SISTEMA/TEMPLATES/FORMAT"')
     .sort(p => p.file.name, 'asc');
 
 // Cabeçalhos da tabela
@@ -63,7 +59,7 @@ tab: SNIPPET
 
 ```dataviewjs
 // Obter todos os arquivos da pasta Templates
-const templateFiles = dv.pages('"SYSTEM/TEMPLATES/SNIPPET"')
+const templateFiles = dv.pages('"SISTEMA/TEMPLATES/SNIPPET"')
     .sort(p => p.file.name, 'asc');
 
 // Cabeçalhos da tabela

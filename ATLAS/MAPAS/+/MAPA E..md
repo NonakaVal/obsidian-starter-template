@@ -1,15 +1,29 @@
 ---
-path: '"ATLAS"'
+path: '"SISTEMA"'
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
+  - wide-page
+configs:
+  - marker: "# Resumo "
+    expand: true
+    name: Resumo
+  - marker: "# [[ACE Folder System|Sistema de organização ACE]] "
+    name: ACE
+    expand: true
+  - marker: "# [[ARC Framework]]"
+    name: ARC
+    expand: true
+  - marker: "# 🛠 Boas Práticas"
+    name: Boas práticas ++
+    expand: true
 ---
-
 # Definir Pasta e Colunas
 
-### 💼 [[EFFORTS]] -  📁 
 
-| Marcador                        | Nome da Seção                 | Expandir na Tabela?               |
+---
+
+| `Marcador`                        | `Nome da Seção`                 | `Expandir na Tabela?`               |
 | ------------------------------- | ----------------------------- | --------------------------------- |
 | `INPUT[text:configs[0].marker]` | `INPUT[text:configs[0].name]` | `INPUT[toggle:configs[0].expand]` |
 | `INPUT[text:configs[1].marker]` | `INPUT[text:configs[1].name]` | `INPUT[toggle:configs[1].expand]` |
@@ -17,11 +31,9 @@ cssclasses:
 | `INPUT[text:configs[3].marker]` | `INPUT[text:configs[3].name]` | `INPUT[toggle:configs[3].expand]` |
 | `INPUT[text:configs[4].marker]` | `INPUT[text:configs[4].name]` | `INPUT[toggle:configs[4].expand]` |
 
-
 ---
 
 # Mapas e Conteúdos
-
 
 ```dataviewjs
 const configs = dv.current().configs;

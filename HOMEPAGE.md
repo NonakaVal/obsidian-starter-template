@@ -10,7 +10,7 @@ cssclasses:
 ### Dashboard -+ Navegar 
 ---
 
-> [!globe] **[[+/ATLAS]]** »   
+> [!globe] **[[ATLAS]]** »   
 >  `BUTTON[search, dash, nav]`
 
 ---
@@ -20,13 +20,14 @@ cssclasses:
 
 ---
 
-> [!mountain] **Esforços** »  [[Areas]] | [[Projetos|Projetos]] 
+> [!mountain] **Esforços** »  [[_AREAS]] | [[_PROJETOS|_PROJETOS]] 
 
 ---
+`BUTTON[readme]`
 
 `BUTTON[recents]`   `BUTTON[hotkeys]` 
 
-`BUTTON[readme]`
+
 
 ---
 
@@ -153,7 +154,6 @@ actions:
 ```
 ```meta-bind-button
 label: Boas Vindas
-icon: code
 hidden: true
 class: ""
 id: readme

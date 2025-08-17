@@ -24,21 +24,6 @@ created:
 
 # TAREFAS E PROCESSOS
 
----
- `BUTTON[tasks-button]`     
-
-```meta-bind-button
-label: Adicionar ou Editar Tarefa 
-hidden: true
-icon: plus
-class: ""
-id: tasks-button
-style: destructive
-actions:
-  - type: command
-    command: obsidian-tasks-plugin:edit-task
-
-```
 
 <%tp.file.cursor()%>
 

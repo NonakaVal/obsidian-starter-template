@@ -37,6 +37,105 @@
           "setFileExistsBehavior": false
         },
         {
+          "id": "ebc3941c-ed51-4da4-abb4-bf15c72eb683",
+          "name": "➕➕ AREA -  PROJETO",
+          "type": "Multi",
+          "command": true,
+          "choices": [
+            {
+              "id": "eba61b27-bfb6-40ac-b0f0-18d4053593cb",
+              "name": "➕ NOVA AREA",
+              "type": "Template",
+              "command": true,
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{VALUE}}"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "ESFORÇOS/AREAS/{{VALUE}}"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": true,
+              "openFileInMode": "default",
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            },
+            {
+              "id": "060c8a74-21bd-48d2-b8d7-095bac09a983",
+              "name": "➕ NOVO PROJETO",
+              "type": "Template",
+              "command": true,
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{VALUE}}"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "ESFORÇOS/PROJETOS/{{VALUE}}"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": true,
+              "openFileInMode": "default",
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            }
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "c23b977e-5e03-4656-9037-672bfb29f740",
+          "name": "📖 MAPA ATLAS DATAVIEW",
+          "type": "Template",
+          "command": true,
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "ATLAS/MAPAS/+"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
           "id": "ee5e8119-1aa0-4823-9994-df9eaec24752",
           "name": "📝 AULA",
           "type": "Template",
@@ -80,36 +179,6 @@
             "enabled": true,
             "folders": [
               "+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
-        },
-        {
-          "id": "b195e56b-e873-4f3f-98ec-fa26d2e519a0",
-          "name": "✍🏻 Novo Post Blog",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/Novo Post Blog.md",
-          "fileNameFormat": {
-            "enabled": true,
-            "format": "{{DATE:}}-{{value}}"
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "ESFORÇOS/PROJETOS/Blog Alex Donega"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -335,174 +404,6 @@
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
           "setFileExistsBehavior": false
-        },
-        {
-          "id": "73daa470-50c0-402f-95a9-f9d48b301098",
-          "name": "🎶 MÚSICA",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
-        },
-        {
-          "id": "1fc029f9-7545-4124-b2d1-30566481a00e",
-          "name": "📌 NOVO MAPA DATAVIEW",
-          "type": "Multi",
-          "command": true,
-          "choices": [
-            {
-              "id": "c23b977e-5e03-4656-9037-672bfb29f740",
-              "name": "📖 MAPA ATLAS",
-              "type": "Template",
-              "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
-              "fileNameFormat": {
-                "enabled": false,
-                "format": ""
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "+"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFileInNewTab": {
-                "enabled": false,
-                "direction": "vertical",
-                "focus": true
-              },
-              "openFile": true,
-              "openFileInMode": "default",
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
-            },
-            {
-              "id": "74577d4e-f6e6-4844-a692-a77886ad1973",
-              "name": "➕ MAPA ESFORÇOS",
-              "type": "Template",
-              "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ESFORÇOS.md",
-              "fileNameFormat": {
-                "enabled": false,
-                "format": ""
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "+"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFileInNewTab": {
-                "enabled": false,
-                "direction": "vertical",
-                "focus": true
-              },
-              "openFile": true,
-              "openFileInMode": "default",
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
-            }
-          ],
-          "collapsed": false
-        },
-        {
-          "id": "ebc3941c-ed51-4da4-abb4-bf15c72eb683",
-          "name": "💼 NOTA ESFORÇOS",
-          "type": "Multi",
-          "command": true,
-          "choices": [
-            {
-              "id": "060c8a74-21bd-48d2-b8d7-095bac09a983",
-              "name": "➕ NOVO PROJETO",
-              "type": "Template",
-              "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
-              "fileNameFormat": {
-                "enabled": true,
-                "format": "{{VALUE}}"
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "ESFORÇOS/PROJETOS/{{VALUE}}"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFileInNewTab": {
-                "enabled": false,
-                "direction": "vertical",
-                "focus": true
-              },
-              "openFile": true,
-              "openFileInMode": "default",
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
-            },
-            {
-              "id": "eba61b27-bfb6-40ac-b0f0-18d4053593cb",
-              "name": "➕ NOVA AREA",
-              "type": "Template",
-              "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
-              "fileNameFormat": {
-                "enabled": true,
-                "format": "{{VALUE}}"
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "ESFORÇOS/AREAS/{{VALUE}}"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFileInNewTab": {
-                "enabled": false,
-                "direction": "vertical",
-                "focus": true
-              },
-              "openFile": true,
-              "openFileInMode": "default",
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
-            }
-          ],
-          "collapsed": false
         }
       ],
       "collapsed": false

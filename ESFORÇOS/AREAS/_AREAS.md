@@ -1,7 +1,7 @@
 
-# [[Areas]]
+# [[_AREAS]]
 
-> [!mountain] [[Areas]] | [[Projetos]] 
+> [!mountain] [[_AREAS]] | [[_PROJETOS]] 
 ``` dataview
 TABLE WITHOUT ID
 file.link as Nota, area as Area,resumo as Resumo

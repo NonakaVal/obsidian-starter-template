@@ -381,15 +381,6 @@
       "key": "P"
     }
   ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "I"
-    }
-  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
@@ -449,5 +440,15 @@
       ],
       "key": "H"
     }
-  ]
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "table-editor-obsidian:table-control-bar": []
 }

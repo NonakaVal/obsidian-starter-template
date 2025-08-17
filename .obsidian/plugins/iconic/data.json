@@ -43,7 +43,8 @@
         "1e72bba6ed9414f3",
         "931df0296d1422b7",
         "7c7b71a060ea143a",
-        "cc75ea778b901110"
+        "cc75ea778b901110",
+        "ce38ba73d23851c6"
       ]
     },
     "ATLAS": {
@@ -61,11 +62,9 @@
         "1e72bba6ed9414f3",
         "931df0296d1422b7",
         "7c7b71a060ea143a",
-        "cc75ea778b901110"
+        "cc75ea778b901110",
+        "ce38ba73d23851c6"
       ]
-    },
-    "Boas Vindas.md": {
-      "icon": "lucide-party-popper"
     },
     "CALENDAR": {
       "icon": "lucide-calendar-fold",
@@ -82,7 +81,8 @@
         "1e72bba6ed9414f3",
         "931df0296d1422b7",
         "7c7b71a060ea143a",
-        "cc75ea778b901110"
+        "cc75ea778b901110",
+        "ce38ba73d23851c6"
       ]
     },
     "CALENDÁRIO": {
@@ -90,7 +90,8 @@
       "unsynced": [
         "7c7b71a060ea143a",
         "1e72bba6ed9414f3",
-        "cc75ea778b901110"
+        "cc75ea778b901110",
+        "ce38ba73d23851c6"
       ]
     },
     "ESFORÇOS": {
@@ -98,7 +99,8 @@
       "unsynced": [
         "7c7b71a060ea143a",
         "1e72bba6ed9414f3",
-        "cc75ea778b901110"
+        "cc75ea778b901110",
+        "ce38ba73d23851c6"
       ]
     },
     "HOMEPAGE.md": {
@@ -115,8 +117,12 @@
         "1e72bba6ed9414f3",
         "931df0296d1422b7",
         "7c7b71a060ea143a",
-        "cc75ea778b901110"
+        "cc75ea778b901110",
+        "ce38ba73d23851c6"
       ]
+    },
+    "SISTEMA/SOBRE/Boas Vindas.md": {
+      "icon": "lucide-party-popper"
     },
     "SISTEMA/SOBRE/GUIAS.md": {
       "icon": "help"
@@ -124,8 +130,8 @@
     "SISTEMA/SOBRE/Notas Recentemente Modificadas.md": {
       "icon": "lucide-clock"
     },
-    "SISTEMA/TEMPLATES/TEMPLATES.md": {
-      "icon": "templater-icon"
+    "SISTEMA/SOBRE/TEMPLATES.md": {
+      "icon": "lucide-square-dashed-bottom-code"
     }
   },
   "bookmarkIcons": {},

@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3e8fc7c5a5667a33",
+        "id": "58339e65e141225c",
         "type": "tabs",
         "children": [
           {
-            "id": "06757103013678be",
+            "id": "780341945b3a3e95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
-                "mode": "source",
+                "file": "HOMEPAGE.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notas Recentemente Modificadas"
+              "title": "HOMEPAGE"
+            }
+          },
+          {
+            "id": "7f7b7961c1265fd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Boas Vindas"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Boas Vindas.md"
+                "file": "SISTEMA/SOBRE/Boas Vindas.md"
               },
               "icon": "lucide-info",
               "title": "Propriedades do arquivo Boas Vindas"
@@ -164,8 +179,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin desativado"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -188,12 +203,12 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin desativado"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -220,7 +235,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ATLAS/FONTES/LYT/Atalhos.md",
+                "file": "SISTEMA/SOBRE/LYT/Atalhos.md",
                 "mode": "source",
                 "source": false
               },
@@ -263,57 +278,56 @@
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
       "iconic:Open rulebook": false,
-      "periodic-notes:Open today": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "06757103013678be",
+  "active": "7f7b7961c1265fd3",
   "lastOpenFiles": [
-    "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
-    "Boas Vindas.md",
-    "ATLAS/FONTES/Aula/2025-05-27-metodologia-skate-para-carro-neotriad.md",
-    "ATLAS/FONTES/Aula/Anúncios de Alta Conversão.md",
-    "ATLAS/FONTES/LYT/Atalhos.md",
-    "ATLAS/FONTES/LYT/Como Esforços funciona.md",
-    "CALENDÁRIO/DIAS/2025-08-16.md",
-    "+/d.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
-    "SISTEMA/TEMPLATES/FORMAT/Novo Post Blog.md",
-    "ESFORÇOS/PROJETOS/Blog Alex Donega/2025-08-16-post.md",
     "HOMEPAGE.md",
-    "ATLAS/FONTES/Aula/Entendendo o seu Mercado.md",
-    "ATLAS/FONTES/Aula/digital-garden-home.md",
-    "ATLAS/FONTES/LYT/ACE Folder System.md",
-    "ESFORÇOS/Projetos.md",
-    "CALENDÁRIO/DIAS/2025-08-15.md",
-    "ATLAS/FONTES/LYT/Buscar Notas.md",
-    "+/D.md",
-    "+/aula.md",
-    "ESFORÇOS/PROJETOS/PROJETO 1/PROJETO 1.md",
-    "ESFORÇOS/PROJETOS/PROJETO 1/PRADS.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
-    "ESFORÇOS/PROJETOS/PROJETO 1",
-    "ESFORÇOS/AREAS/AREA 1/AREA 1.md",
-    "ESFORÇOS/AREAS/AREA 1/NOTA.md",
-    "ESFORÇOS/AREAS/AREA 1",
-    "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
-    "ATLAS/FONTES/Cursos",
-    "ESFORÇOS/PROJETOS/Blog Alex Donega",
-    "ESFORÇOS/PROJETOS",
-    "SISTEMA/SOBRE",
+    "SISTEMA/SOBRE/Boas Vindas.md",
     "SISTEMA/MEDIA/Pasted image 20250816180551.png",
+    "SISTEMA/MEDIA/Pasted image 20250815104904.png",
+    "SISTEMA/MEDIA/Pasted image 20250815103203.png",
+    "SISTEMA/MEDIA/DESIGN/search.gif",
+    "SISTEMA/MEDIA/DESIGN/pomodoro_bell.mp3",
+    "CALENDÁRIO/DIAS/2025-08-15.md",
+    "ESFORÇOS/AREAS/SAUDE/TREINO.md",
+    "ESFORÇOS/AREAS/SAUDE/SAUDE.md",
+    "ESFORÇOS/AREAS/_AREAS.md",
+    "ESFORÇOS/AREAS/SAUDE",
+    "ESFORÇOS/AREAS",
+    "ESFORÇOS/PROJETOS/PROJETO 1/PROJETO 1.md",
+    "ESFORÇOS/PROJETOS/PROJETO 1/NOTA PROJETO 1.md",
+    "ESFORÇOS/PROJETOS/_PROJETOS.md",
+    "ESFORÇOS/PROJETOS/PROJETO 1",
+    "ESFORÇOS/PROJETOS",
+    "CALENDÁRIO/DIAS/2025-08-17.md",
+    "CALENDÁRIO/DIAS/2025-08-16.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
+    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
+    "SISTEMA/SOBRE/LYT/Buscar Notas.md",
+    "ATLAS/MAPAS/+/MAPA E..md",
+    "ESFORÇOS/PROJETOS/PP/PP.md",
+    "ESFORÇOS/AREAS/AREA 1/AREA 1.md",
+    "ESFORÇOS/PROJETOS/PP",
+    "ESFORÇOS/AREAS/AREA 1",
+    "+/D.md",
+    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
+    "CALENDÁRIO/REVISÕES",
+    "ATLAS/MAPAS/+",
+    "ATLAS/MAPAS",
     "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",
     "SISTEMA/MEDIA/Visuals/Images/feynman-triangulation-2.png",
     "SISTEMA/MEDIA/Visuals/Images/CleanShot 2023-07-30 at 21.37.43.png",
-    "SISTEMA/MEDIA/Pasted image 20250815104904.png",
-    "SISTEMA/MEDIA/Pasted image 20250815103203.png",
-    "ATLAS/FONTES/LYT",
-    "ATLAS/RECURSOS/AULAS",
-    "ATLAS/MAPAS",
-    "ESFORÇOS/AREAS",
     "SISTEMA/MEDIA/Visuals/Images/flight-school-hangar.jpg",
     "SISTEMA/MEDIA/Visuals/Images/stay-on-target.jpg",
-    "SISTEMA/MEDIA/Visuals/Images/flight-school-boot.jpg",
-    "SISTEMA/MEDIA/Visuals/Images/lyt-crafting-mocs-1.jpg"
+    "SISTEMA/MEDIA/Visuals/Images/flight-school-boot.jpg"
   ]
 }

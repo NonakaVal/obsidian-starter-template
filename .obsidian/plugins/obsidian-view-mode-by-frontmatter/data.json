@@ -4,15 +4,11 @@
   "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "SYSTEM",
+      "folder": "SISTEMA/TEMPLATES",
       "viewMode": "obsidianEditingMode: source"
     },
     {
-      "folder": "ATLAS/MOCS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "EFFORTS/MAPAS",
+      "folder": "ATLAS/MAPAS",
       "viewMode": "obsidianUIMode: preview"
     }
   ],
@@ -26,32 +22,16 @@
       "viewMode": "obsidianUIMode: preview"
     },
     {
+      "filePattern": "Notas Recentemente Modificadas",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
       "filePattern": "Buscar Notas",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "TEMPLATES",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "GUIAS  DE USO",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "ATLAS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "ATALHOS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "GUIAS",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "Alterações Recentes",
-      "viewMode": "obsidianUIMode: preview"
+      "filePattern": "Atalhos",
+      "viewMode": ""
     }
   ]
 }
