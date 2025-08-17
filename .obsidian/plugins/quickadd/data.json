@@ -44,7 +44,7 @@
         },
         {
           "id": "ebc3941c-ed51-4da4-abb4-bf15c72eb683",
-          "name": "➕➕ AREA -  PROJETO",
+          "name": "➕ AREA -  PROJETO",
           "type": "Multi",
           "command": true,
           "choices": [
@@ -304,42 +304,6 @@
           }
         },
         {
-          "id": "eae49e51-0dfa-4588-8a0d-a8b067f9ddb3",
-          "name": "💡 IDEIA",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/IDEIA-TEMPLATE.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "focus": true,
-            "mode": "default"
-          }
-        },
-        {
           "id": "b9a0d50d-69d7-40d7-b217-c32bbb233c06",
           "name": "📺 VIDEO",
           "type": "Template",
@@ -540,6 +504,36 @@
               },
               "appendLink": false,
               "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            },
+            {
+              "id": "d223214e-cf0c-4a6a-9d27-bfe62d8542aa",
+              "name": "NOVA COLEÇÃO",
+              "type": "Template",
+              "command": true,
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "SISTEMA/COLEÇÕES"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": false,
               "fileOpening": {
                 "location": "tab",
                 "direction": "vertical",

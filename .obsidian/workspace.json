@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Boas Vindas"
+            }
+          },
+          {
+            "id": "2aaa70b3e7b17093",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HOMEPAGE.md",
                 "mode": "preview",
                 "source": false
@@ -20,37 +34,8 @@
               "icon": "lucide-file",
               "title": "HOMEPAGE"
             }
-          },
-          {
-            "id": "7f7b7961c1265fd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOMEPAGE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HOMEPAGE"
-            }
-          },
-          {
-            "id": "1873077aefa0d423",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "NOVO-TEMPLATE"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,10 +118,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
+                "file": "HOMEPAGE.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo NOVO-TEMPLATE"
+              "title": "Propriedades do arquivo HOMEPAGE"
             }
           },
           {
@@ -276,7 +261,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426
+    "width": 426,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,48 +282,48 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1873077aefa0d423",
+  "active": "780341945b3a3e95",
   "lastOpenFiles": [
-    "SISTEMA/TEMPLATES/SNIPPET/SSS.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md",
     "HOMEPAGE.md",
-    "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "ATLAS/FONTES/+.md",
-    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
-    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
-    "SISTEMA/SOBRE/TEMPLATES.md",
-    "SISTEMA/SOBRE/GUIAS.md",
     "SISTEMA/SOBRE/Boas Vindas.md",
-    "CALENDÁRIO/DIAS/2025-08-17.md",
-    "ATLAS/MAPAS/+/mapa 1.md",
-    "+/kk].md",
-    "CALENDÁRIO/DIAS/DIAS.md",
-    "CALENDÁRIO/DIAS/2025-08-15.md",
-    "CALENDÁRIO/DIAS/2025-08-16.md",
-    "CALENDÁRIO/REVISÕES/2025-08.md",
-    "+/d.md",
+    "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md",
+    "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md",
+    "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
+    "SISTEMA/COLEÇÕES/TRABALHO.md",
+    "+/AULA 12.md",
+    "+/DDD.md",
+    "SISTEMA/COLEÇÕES/CURSOS.md",
+    "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
+    "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md",
+    "SISTEMA/COLEÇÕES",
     "SISTEMA/MEDIA/Pasted image 20250816180551.png",
     "SISTEMA/MEDIA/Pasted image 20250815104904.png",
     "SISTEMA/MEDIA/Pasted image 20250815103203.png",
     "SISTEMA/MEDIA/DESIGN/search.gif",
     "SISTEMA/MEDIA/DESIGN/pomodoro_bell.mp3",
-    "ESFORÇOS/AREAS/SAUDE/TREINO.md",
-    "ESFORÇOS/AREAS/SAUDE/SAUDE.md",
-    "ESFORÇOS/AREAS/_AREAS.md",
     "ESFORÇOS/AREAS/SAUDE",
     "ESFORÇOS/AREAS",
-    "ESFORÇOS/PROJETOS/PROJETO 1/PROJETO 1.md",
-    "ESFORÇOS/PROJETOS/PROJETO 1/NOTA PROJETO 1.md",
-    "ESFORÇOS/PROJETOS/_PROJETOS.md",
     "ESFORÇOS/PROJETOS/PROJETO 1",
     "ESFORÇOS/PROJETOS",
-    "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md",
     "ESFORÇOS/PROJETOS/PP",
     "ESFORÇOS/AREAS/AREA 1",
     "CALENDÁRIO/REVISÕES",
     "ATLAS/MAPAS/+",
-    "ATLAS/MAPAS",
     "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",
     "SISTEMA/MEDIA/Visuals/Images/feynman-triangulation-2.png",
     "SISTEMA/MEDIA/Visuals/Images/CleanShot 2023-07-30 at 21.37.43.png",

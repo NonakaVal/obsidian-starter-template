@@ -24,52 +24,56 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md",
-      "timestamp": 1755424270099
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md",
-      "timestamp": 1755424217557
+      "filepath": "SISTEMA/SOBRE/Boas Vindas.md",
+      "timestamp": 1755424822535
     },
     {
       "filepath": "HOMEPAGE.md",
-      "timestamp": 1755424060425
+      "timestamp": 1755424819427
     },
     {
-      "filepath": "SISTEMA/SOBRE/LYT/Atalhos.md",
-      "timestamp": 1755424058472
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md",
+      "timestamp": 1755424809235
     },
     {
-      "filepath": "ATLAS/FONTES/+.md",
-      "timestamp": 1755424030579
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md",
+      "timestamp": 1755424809053
     },
     {
-      "filepath": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
-      "timestamp": 1755424026889
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
+      "timestamp": 1755424808857
     },
     {
-      "filepath": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
-      "timestamp": 1755424025427
+      "filepath": "SISTEMA/COLEÇÕES/TRABALHO.md",
+      "timestamp": 1755424808328
     },
     {
-      "filepath": "SISTEMA/SOBRE/TEMPLATES.md",
-      "timestamp": 1755424022243
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
+      "timestamp": 1755424714868
     },
     {
-      "filepath": "SISTEMA/SOBRE/GUIAS.md",
-      "timestamp": 1755424019127
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
+      "timestamp": 1755424712158
     },
     {
-      "filepath": "SISTEMA/SOBRE/Boas Vindas.md",
-      "timestamp": 1755424013182
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md",
+      "timestamp": 1755424709012
     },
     {
-      "filepath": "CALENDÁRIO/DIAS/2025-08-17.md",
-      "timestamp": 1755423996208
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md",
+      "timestamp": 1755424701492
     },
     {
-      "filepath": "CALENDÁRIO/DIAS/DIAS.md",
-      "timestamp": 1755423943374
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md",
+      "timestamp": 1755424699142
+    },
+    {
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md",
+      "timestamp": 1755424696921
+    },
+    {
+      "filepath": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
+      "timestamp": 1755424695202
     }
   ],
   "bookmarkedFileStore": [],

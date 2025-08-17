@@ -450,5 +450,6 @@
       "key": "D"
     }
   ],
-  "table-editor-obsidian:table-control-bar": []
+  "table-editor-obsidian:table-control-bar": [],
+  "file-explorer:new-file-in-new-pane": []
 }

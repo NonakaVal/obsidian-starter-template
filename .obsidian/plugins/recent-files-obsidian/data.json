@@ -1,24 +1,116 @@
 {
   "recentFiles": [
     {
-      "basename": "NOVO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
-    },
-    {
-      "basename": "NOVO-SNIPPET",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md"
+      "basename": "Boas Vindas",
+      "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
       "basename": "HOMEPAGE",
       "path": "HOMEPAGE.md"
     },
     {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
+      "basename": "COLEÇÃO",
+      "path": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md"
+    },
+    {
+      "basename": "TEMPLATE-BASE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
+    },
+    {
+      "basename": "% MAPA DATAVIEW DE ATLAS",
+      "path": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md"
+    },
+    {
+      "basename": "TRABALHO",
+      "path": "SISTEMA/COLEÇÕES/TRABALHO.md"
+    },
+    {
+      "basename": "AREA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md"
+    },
+    {
+      "basename": "ARTIGO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
+    },
+    {
+      "basename": "AULA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md"
+    },
+    {
+      "basename": "EVENTO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md"
+    },
+    {
+      "basename": "FERRAMENTA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md"
+    },
+    {
+      "basename": "LIVRO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md"
+    },
+    {
+      "basename": "mensal-template",
+      "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
+    },
+    {
+      "basename": "MUSICA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md"
+    },
+    {
+      "basename": "NOTA-AREA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md"
+    },
+    {
+      "basename": "NOTA-DIARIA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
+    },
+    {
+      "basename": "NOTA-PROJETO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md"
+    },
+    {
+      "basename": "NOVO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
+    },
+    {
+      "basename": "PESSOA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md"
+    },
+    {
+      "basename": "PROJETO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
+    },
+    {
+      "basename": "REUNIOES-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md"
+    },
+    {
+      "basename": "VIDEO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
+    },
+    {
+      "basename": "NOVO-SNIPPET",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md"
+    },
+    {
+      "basename": "NOTA",
+      "path": "+/NOTA.md"
+    },
+    {
+      "basename": "AULAS",
+      "path": "SISTEMA/COLEÇÕES/AULAS.md"
     },
     {
       "basename": "+",
       "path": "ATLAS/FONTES/+.md"
+    },
+    {
+      "basename": "GUIAS",
+      "path": "SISTEMA/SOBRE/GUIAS.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
     },
     {
       "basename": "Notas Recentemente Modificadas",
@@ -31,14 +123,6 @@
     {
       "basename": "TEMPLATES",
       "path": "SISTEMA/SOBRE/TEMPLATES.md"
-    },
-    {
-      "basename": "GUIAS",
-      "path": "SISTEMA/SOBRE/GUIAS.md"
-    },
-    {
-      "basename": "Boas Vindas",
-      "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
       "basename": "2025-08-17",
@@ -69,22 +153,6 @@
       "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md"
     },
     {
-      "basename": "NOTA-DIARIA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
-    },
-    {
-      "basename": "NOTA-AREA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md"
-    },
-    {
-      "basename": "NOTA-PROJETO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md"
-    },
-    {
-      "basename": "AREA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md"
-    },
-    {
       "basename": "% TODAS TAREFAS",
       "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
     },
@@ -97,32 +165,12 @@
       "path": "ATLAS/MAPAS/+/MAPA E..md"
     },
     {
-      "basename": "mensal-template",
-      "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
-    },
-    {
-      "basename": "% MAPA DATAVIEW DE ATLAS",
-      "path": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md"
-    },
-    {
-      "basename": "AULA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md"
-    },
-    {
-      "basename": "ARTIGO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
-    },
-    {
       "basename": "Como Esforços funciona",
       "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
     },
     {
       "basename": "ACE Folder System",
       "path": "SISTEMA/SOBRE/LYT/ACE Folder System.md"
-    },
-    {
-      "basename": "PROJETO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
     },
     {
       "basename": "ARC Framework",
@@ -143,34 +191,6 @@
     {
       "basename": "Como Calendário funciona",
       "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
-    },
-    {
-      "basename": "como + funciona",
-      "path": "SISTEMA/SOBRE/LYT/como + funciona.md"
-    },
-    {
-      "basename": "Comunicar",
-      "path": "SISTEMA/SOBRE/LYT/Comunicar.md"
-    },
-    {
-      "basename": "Relacionar",
-      "path": "SISTEMA/SOBRE/LYT/Relacionar.md"
-    },
-    {
-      "basename": "% Linha de Ultima data de alteração",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% Linha de Ultima data de alteração.md"
-    },
-    {
-      "basename": "REUNIOES-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md"
-    },
-    {
-      "basename": "TEMPLATE-BASE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
-    },
-    {
-      "basename": "VIDEO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
     }
   ],
   "omittedPaths": [],
