@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "c4f7fdb608baf8e1",
+    "id": "bbfd664c49715762",
     "type": "split",
     "children": [
       {
-        "id": "0014a2238e5140a2",
+        "id": "3e8fc7c5a5667a33",
         "type": "tabs",
         "children": [
           {
-            "id": "36f72af0eec84308",
+            "id": "06757103013678be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOMEPAGE.md",
-                "mode": "preview",
+                "file": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HOMEPAGE"
+              "title": "Notas Recentemente Modificadas"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "440b3841429709ed",
+    "id": "ecce28e30e96abad",
     "type": "split",
     "children": [
       {
-        "id": "b208c03cadd231ee",
+        "id": "21a624ab639c142e",
         "type": "tabs",
         "children": [
           {
-            "id": "dddbab8b18fd423a",
+            "id": "26bda3c9cb740625",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,34 +48,24 @@
             }
           },
           {
-            "id": "77966b04a7f238ed",
+            "id": "89b309ba1cbbdf51",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "[\"created\"]",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "Procurar"
             }
           },
           {
-            "id": "43051b62a3caf91b",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin desativado"
-            }
-          },
-          {
-            "id": "7159e6aa1f36a4a7",
+            "id": "ab37be2ef210afce",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -83,65 +73,83 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
+          },
+          {
+            "id": "3a0fadd679d2e600",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 458
+    "width": 300
   },
   "right": {
-    "id": "7a43a6c530e72e44",
+    "id": "10862ba78f6a46ca",
     "type": "split",
     "children": [
       {
-        "id": "ea89fdbc5439f479",
+        "id": "c20f8c2c3963ddaf",
         "type": "tabs",
-        "dimension": 50.98039215686274,
         "children": [
           {
-            "id": "f76609bcc580577a",
+            "id": "f873cb294b2c1c1b",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.md"
+                "file": "Boas Vindas.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo HOMEPAGE"
+              "title": "Propriedades do arquivo Boas Vindas"
             }
           },
           {
-            "id": "c29962650cb80fb8",
+            "id": "0f55e8201c696235",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin desativado"
-            }
-          },
-          {
-            "id": "66634c751bd9edef",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
+              "type": "backlink",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": true,
-                "searchQuery": ""
+                "file": "Boas Vindas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-archive",
-              "title": "Todas as propriedades"
+              "icon": "links-coming-in",
+              "title": "Links inversos para Boas Vindas"
             }
           },
           {
-            "id": "4f6e4ddebde66a86",
+            "id": "8191efca6a8d4ab2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Boas Vindas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Boas Vindas"
+            }
+          },
+          {
+            "id": "d5fcfb6006d7b89f",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -151,34 +159,68 @@
             }
           },
           {
-            "id": "90d026528dc7103b",
+            "id": "d2d39fc8f1f5262c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
+            }
+          },
+          {
+            "id": "47226967c8e80964",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "1aafcefc39b75a38",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "468b75df9b7ee1c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eeefb6de41c8abe",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Sources/Aula/Pergunta e Resposta do Webinar Pro.md",
-                "followCursor": true,
-                "showSearch": true,
+                "file": "Boas Vindas.md",
+                "followCursor": false,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Pergunta e Resposta do Webinar Pro"
+              "title": "Sumário de Boas Vindas"
             }
-          }
-        ]
-      },
-      {
-        "id": "6a0abff8126affde",
-        "type": "tabs",
-        "dimension": 24.50980392156863,
-        "children": [
+          },
           {
-            "id": "696a099004040794",
+            "id": "4f85097de9cdee3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SISTEMA/SOBRE/LYT/Atalhos.md",
+                "file": "ATLAS/FONTES/LYT/Atalhos.md",
                 "mode": "source",
                 "source": false
               },
@@ -187,87 +229,25 @@
             }
           },
           {
-            "id": "9ee0ac79a5b8f469",
+            "id": "8aa27e7d296411f7",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "markdown",
               "state": {
-                "file": "Boas Vindas.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.4769863112880814,
-                  "close": true
-                }
+                "file": "ATLAS/FONTES/LYT/Atalhos.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-git-fork",
-              "title": "Gráfico de Boas Vindas"
+              "icon": "lucide-file",
+              "title": "Atalhos"
             }
           }
-        ]
-      },
-      {
-        "id": "8e15cd93a6a4be64",
-        "type": "tabs",
-        "dimension": 24.50980392156863,
-        "children": [
-          {
-            "id": "d535bd36dbc98e0b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "HOMEPAGE.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Links inversos para HOMEPAGE"
-            }
-          },
-          {
-            "id": "ae0aed29d208c352",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Ideaverse Pro Arrival.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Ideaverse Pro Arrival"
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 350
+    "width": 426
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -283,67 +263,57 @@
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
       "iconic:Open rulebook": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "36f72af0eec84308",
+  "active": "06757103013678be",
   "lastOpenFiles": [
+    "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
     "Boas Vindas.md",
-    "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "SISTEMA/TEMPLATES/FORMAT/POST-BLOG.md",
-    "+/12321.md",
-    "ATLAS/FONTES/Aula/Escada de Produtos e Precificação Estratégica.md",
-    "ATLAS/MAPAS/MAPA - Anúncios de Alta Conversão.md",
-    "SISTEMA/SOBRE/LYT/ACE Folder System.md",
-    "SISTEMA/MIDIA/DESIGN/pomodoro_bell.mp3",
-    "SISTEMA/MIDIA/DESIGN/search.gif",
-    "SISTEMA/MIDIA/Pasted image 20250815103203.png",
-    "SISTEMA/MIDIA/Pasted image 20250816180551.png",
-    "SISTEMA/MIDIA/Pasted image 20250815104904.png",
-    "ATLAS/MAPAS",
+    "ATLAS/FONTES/Aula/2025-05-27-metodologia-skate-para-carro-neotriad.md",
     "ATLAS/FONTES/Aula/Anúncios de Alta Conversão.md",
-    "SISTEMA/SOBRE/LYT/Buscar Notas.md",
-    "ATLAS/FONTES/Aula/Entendendo o seu Mercado.md",
-    "ATLAS/FONTES/Aula/Funil Webinar Invisível Automático.md",
-    "ATLAS/FONTES/Aula/Como se preparar para a gravação.md",
+    "ATLAS/FONTES/LYT/Atalhos.md",
+    "ATLAS/FONTES/LYT/Como Esforços funciona.md",
+    "CALENDÁRIO/DIAS/2025-08-16.md",
+    "+/d.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/Novo Post Blog.md",
+    "ESFORÇOS/PROJETOS/Blog Alex Donega/2025-08-16-post.md",
     "HOMEPAGE.md",
-    "ATLAS/FONTES/Aula/Perfil Detalhado - Alex Donega.md",
-    "ATLAS/FONTES/Aula/Script + Roteiro de Webinar 2.0.md",
-    "ATLAS/FONTES/Aula/Introdução.md",
-    "ATLAS/FONTES/Aula/Estrutura de Tráfego para Webinar.md",
-    "ATLAS/FONTES/Aula/Persona 2.0.md",
-    "ATLAS/FONTES/Aula/Pergunta e Resposta do Webinar Pro.md",
-    "ATLAS/FONTES/Aula/Landing Page Estrutura.md",
-    "ATLAS/FONTES/Aula/Funil Webinar Invisível Automático - Checklist.md",
-    "ATLAS/FONTES/Aula/Funil Webinar Zoom High Ticket.md",
-    "ATLAS/FONTES/Aula/Hotkeys Obsidian.md",
-    "ATLAS/FONTES/Aula/Metodologia Skate para Carro - Framework de Desenvolvimento Evolutivo.md",
-    "ATLAS/FONTES/Aula/História de Fundo.md",
+    "ATLAS/FONTES/Aula/Entendendo o seu Mercado.md",
     "ATLAS/FONTES/Aula/digital-garden-home.md",
-    "+",
-    "SISTEMA/SOBRE/LYT",
+    "ATLAS/FONTES/LYT/ACE Folder System.md",
+    "ESFORÇOS/Projetos.md",
+    "CALENDÁRIO/DIAS/2025-08-15.md",
+    "ATLAS/FONTES/LYT/Buscar Notas.md",
+    "+/D.md",
+    "+/aula.md",
+    "ESFORÇOS/PROJETOS/PROJETO 1/PROJETO 1.md",
+    "ESFORÇOS/PROJETOS/PROJETO 1/PRADS.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
+    "ESFORÇOS/PROJETOS/PROJETO 1",
+    "ESFORÇOS/AREAS/AREA 1/AREA 1.md",
+    "ESFORÇOS/AREAS/AREA 1/NOTA.md",
+    "ESFORÇOS/AREAS/AREA 1",
+    "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
     "ATLAS/FONTES/Cursos",
-    "ATLAS/FONTES/Aula",
-    "ATLAS/FONTES",
-    "ATLAS",
-    "CALENDÁRIO/DIAS",
-    "CALENDÁRIO",
-    "x/Visuals/Anexos/Pasted image 20250504222636.png",
-    "x/Visuals/Anexos/Pasted image 20250504222656.png",
-    "x/Visuals/Images/pillars-of-ideaverse-8-bit-narrow1-example.png",
-    "pillars-of-ideaverse-8-bit-narrow1-example.png",
-    "x/Visuals/Anexos/pillars-of-ideaverse-8-bit-narrow4.png",
-    "x/Visuals/Anexos/pillars-of-ideaverse-8-bit-narrow.png",
-    "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
-    "Atlas/Utilities/Canvases/LYT W10 Calendar Canvas.canvas",
-    "Atlas/Utilities/Canvases/LYT Ship Dashboard.canvas",
-    "Atlas/Utilities/Canvases/LYT W11 Calendar Canvas.canvas",
-    "Atlas/Utilities/Canvases/Obsidian Canvas MOC.canvas",
-    "Atlas/Utilities/Canvases/Ship of the Sensemaker.canvas",
-    "Atlas/Utilities/Canvases/LYT 2023 Rules.canvas",
-    "Atlas/Utilities/Canvases/LYT Book Framing.canvas",
-    "Atlas/Utilities/Canvases/LYT Nick Weekly Schedule.canvas",
-    "Atlas/Utilities/Canvases/LYT Website Ideaverse.canvas"
+    "ESFORÇOS/PROJETOS/Blog Alex Donega",
+    "ESFORÇOS/PROJETOS",
+    "SISTEMA/SOBRE",
+    "SISTEMA/MEDIA/Pasted image 20250816180551.png",
+    "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",
+    "SISTEMA/MEDIA/Visuals/Images/feynman-triangulation-2.png",
+    "SISTEMA/MEDIA/Visuals/Images/CleanShot 2023-07-30 at 21.37.43.png",
+    "SISTEMA/MEDIA/Pasted image 20250815104904.png",
+    "SISTEMA/MEDIA/Pasted image 20250815103203.png",
+    "ATLAS/FONTES/LYT",
+    "ATLAS/RECURSOS/AULAS",
+    "ATLAS/MAPAS",
+    "ESFORÇOS/AREAS",
+    "SISTEMA/MEDIA/Visuals/Images/flight-school-hangar.jpg",
+    "SISTEMA/MEDIA/Visuals/Images/stay-on-target.jpg",
+    "SISTEMA/MEDIA/Visuals/Images/flight-school-boot.jpg",
+    "SISTEMA/MEDIA/Visuals/Images/lyt-crafting-mocs-1.jpg"
   ]
 }

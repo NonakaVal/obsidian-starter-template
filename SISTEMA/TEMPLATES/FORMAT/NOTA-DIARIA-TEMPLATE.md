@@ -1,7 +1,7 @@
 ---
 tags:
   - calendar/daily
-created: 2025-08-16 20:48
+created: <% tp.file.creation_date() %>
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
@@ -14,7 +14,7 @@ tab: Resumo Notas criadas
 ```dataview
 TABLE file.link AS Note, file.outlinks AS Outlinks
 FROM "ATLAS" OR "+" OR "EFFORTS"
-WHERE contains(file.outlinks, [[2025-08-16]])
+WHERE contains(file.outlinks, [[<% tp.date.now("YYYY-MM-DD") %>]])
 SORT file.name DESC
 
 ```

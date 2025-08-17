@@ -1,68 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "HOMEPAGE",
-      "path": "HOMEPAGE.md"
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "ARTIGO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
     },
     {
       "basename": "Boas Vindas",
       "path": "Boas Vindas.md"
     },
     {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
-    },
-    {
-      "basename": "POST-BLOG",
-      "path": "SISTEMA/TEMPLATES/FORMAT/POST-BLOG.md"
-    },
-    {
-      "basename": "Escada de Produtos e Precificação Estratégica",
-      "path": "ATLAS/FONTES/Aula/Escada de Produtos e Precificação Estratégica.md"
-    },
-    {
-      "basename": "MAPA - Anúncios de Alta Conversão",
-      "path": "ATLAS/MAPAS/MAPA - Anúncios de Alta Conversão.md"
-    },
-    {
-      "basename": "ACE Folder System",
-      "path": "SISTEMA/SOBRE/LYT/ACE Folder System.md"
-    },
-    {
-      "basename": "Pasted image 20250815103203",
-      "path": "SISTEMA/MIDIA/Pasted image 20250815103203.png"
-    },
-    {
-      "basename": "Pasted image 20250816180551",
-      "path": "SISTEMA/MIDIA/Pasted image 20250816180551.png"
-    },
-    {
-      "basename": "Pasted image 20250815104904",
-      "path": "SISTEMA/MIDIA/Pasted image 20250815104904.png"
+      "basename": "2025-05-27-metodologia-skate-para-carro-neotriad",
+      "path": "ATLAS/FONTES/Aula/2025-05-27-metodologia-skate-para-carro-neotriad.md"
     },
     {
       "basename": "Anúncios de Alta Conversão",
       "path": "ATLAS/FONTES/Aula/Anúncios de Alta Conversão.md"
     },
     {
-      "basename": "Buscar Notas",
-      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
+      "basename": "Atalhos",
+      "path": "ATLAS/FONTES/LYT/Atalhos.md"
     },
     {
-      "basename": "Entendendo o seu Mercado",
-      "path": "ATLAS/FONTES/Aula/Entendendo o seu Mercado.md"
-    },
-    {
-      "basename": "Funil Webinar Invisível Automático",
-      "path": "ATLAS/FONTES/Aula/Funil Webinar Invisível Automático.md"
-    },
-    {
-      "basename": "Como se preparar para a gravação",
-      "path": "ATLAS/FONTES/Aula/Como se preparar para a gravação.md"
-    },
-    {
-      "basename": "2025-08-15",
-      "path": "CALENDÁRIO/DIAS/2025-08-15.md"
+      "basename": "Como Esforços funciona",
+      "path": "ATLAS/FONTES/LYT/Como Esforços funciona.md"
     },
     {
       "basename": "2025-08-16",
@@ -71,6 +35,38 @@
     {
       "basename": "NOTA-DIARIA-TEMPLATE",
       "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
+    },
+    {
+      "basename": "Novo Post Blog",
+      "path": "SISTEMA/TEMPLATES/FORMAT/Novo Post Blog.md"
+    },
+    {
+      "basename": "HOMEPAGE",
+      "path": "HOMEPAGE.md"
+    },
+    {
+      "basename": "Entendendo o seu Mercado",
+      "path": "ATLAS/FONTES/Aula/Entendendo o seu Mercado.md"
+    },
+    {
+      "basename": "digital-garden-home",
+      "path": "ATLAS/FONTES/Aula/digital-garden-home.md"
+    },
+    {
+      "basename": "ACE Folder System",
+      "path": "ATLAS/FONTES/LYT/ACE Folder System.md"
+    },
+    {
+      "basename": "Projetos",
+      "path": "ESFORÇOS/Projetos.md"
+    },
+    {
+      "basename": "2025-08-15",
+      "path": "CALENDÁRIO/DIAS/2025-08-15.md"
+    },
+    {
+      "basename": "Buscar Notas",
+      "path": "ATLAS/FONTES/LYT/Buscar Notas.md"
     },
     {
       "basename": "NOTA-AREA-TEMPLATE",
@@ -83,10 +79,6 @@
     {
       "basename": "AULA-TEMPLATE",
       "path": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md"
-    },
-    {
-      "basename": "ARTIGO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
     },
     {
       "basename": "AREA-TEMPLATE",
@@ -113,28 +105,20 @@
       "path": "ESFORÇOS/PROJETOS/Blog Alex Donega/2025-06-08-Efetividade é um Compromisso com o Porquê.md"
     },
     {
-      "basename": "Projetos",
-      "path": "ESFORÇOS/PROJETOS/Projetos.md"
-    },
-    {
       "basename": "ARC Framework",
-      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
+      "path": "ATLAS/FONTES/LYT/ARC Framework.md"
     },
     {
       "basename": "Adicionar",
-      "path": "SISTEMA/SOBRE/LYT/Adicionar.md"
+      "path": "ATLAS/FONTES/LYT/Adicionar.md"
     },
     {
       "basename": "ATLAS",
-      "path": "SISTEMA/SOBRE/LYT/ATLAS.md"
+      "path": "ATLAS/FONTES/LYT/ATLAS.md"
     },
     {
       "basename": "Como Atlas funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+      "path": "ATLAS/FONTES/LYT/Como Atlas funciona.md"
     },
     {
       "basename": "% TODAS TAREFAS",
@@ -146,27 +130,31 @@
     },
     {
       "basename": "Como Calendário funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
-    },
-    {
-      "basename": "Como Esforços funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
+      "path": "ATLAS/FONTES/LYT/Como Calendário funciona.md"
     },
     {
       "basename": "como + funciona",
-      "path": "SISTEMA/SOBRE/LYT/como + funciona.md"
+      "path": "ATLAS/FONTES/LYT/como + funciona.md"
     },
     {
       "basename": "Comunicar",
-      "path": "SISTEMA/SOBRE/LYT/Comunicar.md"
+      "path": "ATLAS/FONTES/LYT/Comunicar.md"
     },
     {
       "basename": "Relacionar",
-      "path": "SISTEMA/SOBRE/LYT/Relacionar.md"
+      "path": "ATLAS/FONTES/LYT/Relacionar.md"
     },
     {
       "basename": "% Linha de Ultima data de alteração",
       "path": "SISTEMA/TEMPLATES/SNIPPET/% Linha de Ultima data de alteração.md"
+    },
+    {
+      "basename": "Pasted image 20250815104904",
+      "path": "SISTEMA/MEDIA/Pasted image 20250815104904.png"
+    },
+    {
+      "basename": "Pasted image 20250815103203",
+      "path": "SISTEMA/MEDIA/Pasted image 20250815103203.png"
     },
     {
       "basename": "REUNIOES-TEMPLATE",
@@ -199,6 +187,18 @@
     {
       "basename": "FERRAMENTA-TEMPLATE",
       "path": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md"
+    },
+    {
+      "basename": "EVENTO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md"
+    },
+    {
+      "basename": "Dias",
+      "path": "CALENDÁRIO/Dias.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "ESFORÇOS/Areas.md"
     }
   ],
   "omittedPaths": [],

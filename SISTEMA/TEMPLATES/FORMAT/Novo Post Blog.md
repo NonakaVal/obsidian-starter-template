@@ -1,7 +1,7 @@
 ---
 title: 
 description: 
-date: 2025-08-16 21:34:36
+date: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
 author: 
 categories: 
 tags: 
@@ -9,7 +9,7 @@ pin:
 image: 
 math: false
 mermaid: false
-calendar: '[[2025-08-16]]'
+calendar: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 ---
 
 

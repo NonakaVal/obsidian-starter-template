@@ -1,17 +1,17 @@
 ---
-project: "[[FORMAT]]"
+project: "[[<% tp.file.folder() %>]]"
 tags: 
 type: project
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - '[[2025-08-16]]'
+  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 ---
 | `Coleção` | `INPUT[suggester(optionQuery("")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery("ATLAS"), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[FORMAT]] 
+# [[<%tp.file.folder() %>]] 
 
 
 
@@ -47,7 +47,7 @@ tab: Em Aberto
 
 ```dataview
 TASK
-FROM "SISTEMA/TEMPLATES/FORMAT"
+FROM "<% tp.file.folder(true) %>"
 WHERE !completed AND !checked
 GROUP BY file.name
 
@@ -56,7 +56,7 @@ GROUP BY file.name
 tab: Concluídas 
 ```dataview
 TASK
-FROM "SISTEMA/TEMPLATES/FORMAT"
+FROM "<% tp.file.folder(true) %>"
 WHERE completed AND checked
 GROUP BY file.name
 
@@ -65,16 +65,23 @@ GROUP BY file.name
 
 ````
 
-<% tp.file.cursor() %>
+<%tp.file.cursor()%>
 
 #  Notas
 
 ```dataview
 table created AS "Created", resumo AS "Resumo"
-from "ESFORÇOS/PROJETOS/FORMAT"
+from "ESFORÇOS/PROJETOS/<% tp.file.folder() %>"
 where type != "project"
 where type = "project_note"
 sort created DESC
 ```
 
 
+<%* tp.hooks.on_all_templates_executed(async () => { 
+    const file = tp.file.find_tfile(tp.file.path(true)); 
+    const task_tag_value = tp.file.folder().toLowerCase().split(" ").join("_");
+    await app.fileManager.processFrontMatter(file, (frontmatter) => { 
+        frontmatter["tags"] = `project/${task_tag_value}`; 
+    }); 
+}); -%>

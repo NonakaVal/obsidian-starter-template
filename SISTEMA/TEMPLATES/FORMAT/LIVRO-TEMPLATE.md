@@ -1,6 +1,6 @@
 ---
 created:
-  - '[[2025-08-16]]'
+  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
@@ -8,7 +8,7 @@ cssclasses:
 | `Coleção` | `INPUT[suggester(optionQuery("")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[Areas]] 
+# [[<% tp.file.title %>]] 
 
 |📚 **Livro - Metadados**|
 |---|
@@ -19,7 +19,7 @@ cssclasses:
 |**Gênero:** `INPUT[inlineList:Genero]`|
 |**Status:** `INPUT[inlineSelect(option('Para ler'), option('Lendo'), option('Lido'), option('Abandonado'), showcase):Status]`|
 
-<% tp.file.cursor() %>
+<%tp.file.cursor()%>
 
 # Sinopse
 

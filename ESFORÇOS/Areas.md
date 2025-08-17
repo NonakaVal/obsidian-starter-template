@@ -1,6 +1,3 @@
----
-tags: area/esforços
----
 
 # [[Areas]]
 

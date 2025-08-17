@@ -23,6 +23,7 @@ modified:
 > 📅 **Criado em**: `{{created}}`  
 > 📅 **Última edição**: `=link(dateformat(date(today), "yyyy-MM-dd"))` `&= dv.current().file.mtime`
 
+
 > [!tip]- Conceitos e Termos-Chave
 > 
 > - [[Guarda-chuva de dores e desejos]]: Estratégia de criar anúncios específicos para cada dor e desejo do público-alvo

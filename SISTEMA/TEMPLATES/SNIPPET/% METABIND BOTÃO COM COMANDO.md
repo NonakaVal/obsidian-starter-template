@@ -1,13 +1,13 @@
- `BUTTON[Areas]`     
+ `BUTTON[<% tp.file.title %>]`     
 
 ```meta-bind-button
-label: Areas
+label: <% tp.file.title %>
 hidden: true
 class: ""
-id: Areas
+id: <% tp.file.title %>
 style: default
 actions:
   - type: command
-    command: <% tp.file.cursor() %>
+    command: <%tp.file.cursor()%>
 ```
 

@@ -1,4 +1,4 @@
-|  **Homepage**                           | Ctrl + Shift + H |
+| 🏚️ **Homepage**                        | Ctrl + Shift + H |
 | --------------------------------------- | ---------------- |
 | 🎛️ **Paleta de comandos**              | Ctrl + P         |
 | ➡️ **Acessar Nota**                     | Ctrl + O         |
