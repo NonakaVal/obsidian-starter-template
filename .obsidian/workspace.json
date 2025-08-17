@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas.md",
-                "mode": "preview",
+                "file": "HOMEPAGE.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boas Vindas"
+              "title": "HOMEPAGE"
+            }
+          },
+          {
+            "id": "1873077aefa0d423",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "NOVO-TEMPLATE"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,10 +133,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas.md"
+                "file": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo Boas Vindas"
+              "title": "Propriedades do arquivo NOVO-TEMPLATE"
             }
           },
           {
@@ -282,16 +296,32 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7f7b7961c1265fd3",
+  "active": "1873077aefa0d423",
   "lastOpenFiles": [
+    "SISTEMA/TEMPLATES/SNIPPET/SSS.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md",
     "HOMEPAGE.md",
+    "SISTEMA/SOBRE/LYT/Atalhos.md",
+    "ATLAS/FONTES/+.md",
+    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
+    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
+    "SISTEMA/SOBRE/TEMPLATES.md",
+    "SISTEMA/SOBRE/GUIAS.md",
     "SISTEMA/SOBRE/Boas Vindas.md",
+    "CALENDÁRIO/DIAS/2025-08-17.md",
+    "ATLAS/MAPAS/+/mapa 1.md",
+    "+/kk].md",
+    "CALENDÁRIO/DIAS/DIAS.md",
+    "CALENDÁRIO/DIAS/2025-08-15.md",
+    "CALENDÁRIO/DIAS/2025-08-16.md",
+    "CALENDÁRIO/REVISÕES/2025-08.md",
+    "+/d.md",
     "SISTEMA/MEDIA/Pasted image 20250816180551.png",
     "SISTEMA/MEDIA/Pasted image 20250815104904.png",
     "SISTEMA/MEDIA/Pasted image 20250815103203.png",
     "SISTEMA/MEDIA/DESIGN/search.gif",
     "SISTEMA/MEDIA/DESIGN/pomodoro_bell.mp3",
-    "CALENDÁRIO/DIAS/2025-08-15.md",
     "ESFORÇOS/AREAS/SAUDE/TREINO.md",
     "ESFORÇOS/AREAS/SAUDE/SAUDE.md",
     "ESFORÇOS/AREAS/_AREAS.md",
@@ -302,24 +332,9 @@
     "ESFORÇOS/PROJETOS/_PROJETOS.md",
     "ESFORÇOS/PROJETOS/PROJETO 1",
     "ESFORÇOS/PROJETOS",
-    "CALENDÁRIO/DIAS/2025-08-17.md",
-    "CALENDÁRIO/DIAS/2025-08-16.md",
     "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
-    "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
-    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
-    "SISTEMA/SOBRE/LYT/Buscar Notas.md",
-    "ATLAS/MAPAS/+/MAPA E..md",
-    "ESFORÇOS/PROJETOS/PP/PP.md",
-    "ESFORÇOS/AREAS/AREA 1/AREA 1.md",
     "ESFORÇOS/PROJETOS/PP",
     "ESFORÇOS/AREAS/AREA 1",
-    "+/D.md",
-    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
     "CALENDÁRIO/REVISÕES",
     "ATLAS/MAPAS/+",
     "ATLAS/MAPAS",

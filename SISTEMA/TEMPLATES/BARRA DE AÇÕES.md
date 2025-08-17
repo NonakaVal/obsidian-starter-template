@@ -8,7 +8,7 @@
 
 ---
 
-> [!calendar] **Calendário** » **[[Dias]]** 
+> [!calendar] **Calendário** » **[[DIAS]]** 
 >  `BUTTON[today]`  `BUTTON[open-tasks]`
 
 ---

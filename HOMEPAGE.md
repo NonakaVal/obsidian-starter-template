@@ -15,7 +15,7 @@ cssclasses:
 
 ---
 
-> [!calendar] **Calendário** » **[[Dias]]** 
+> [!calendar] **Calendário** » **[[DIAS|Dias]]** 
 >  `BUTTON[today]`  `BUTTON[open-tasks]`
 
 ---
@@ -23,9 +23,8 @@ cssclasses:
 > [!mountain] **Esforços** »  [[_AREAS]] | [[_PROJETOS|_PROJETOS]] 
 
 ---
-`BUTTON[readme]`
 
-`BUTTON[recents]`   `BUTTON[hotkeys]` 
+`BUTTON[recents]` `BUTTON[readme]`  `BUTTON[hotkeys]` 
 
 
 

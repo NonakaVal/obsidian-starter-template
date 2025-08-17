@@ -34,7 +34,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "ebc3941c-ed51-4da4-abb4-bf15c72eb683",
@@ -70,7 +76,13 @@
               "openFile": true,
               "openFileInMode": "default",
               "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
+              "setFileExistsBehavior": false,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
             },
             {
               "id": "060c8a74-21bd-48d2-b8d7-095bac09a983",
@@ -100,7 +112,13 @@
               "openFile": true,
               "openFileInMode": "default",
               "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
+              "setFileExistsBehavior": false,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
             }
           ],
           "collapsed": false
@@ -133,7 +151,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "ee5e8119-1aa0-4823-9994-df9eaec24752",
@@ -163,7 +187,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "70a32506-5522-4fe2-a222-7e395b7c77de",
@@ -193,7 +223,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "21d35060-e46c-4b6c-879d-b660ab65263a",
@@ -223,7 +259,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "001107a9-dea5-43ea-bd59-cbe12455a345",
@@ -253,7 +295,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "eae49e51-0dfa-4588-8a0d-a8b067f9ddb3",
@@ -283,7 +331,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "b9a0d50d-69d7-40d7-b217-c32bbb233c06",
@@ -313,7 +367,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "a1d7f465-6d8c-4b8f-bfdd-057f8fe79a71",
@@ -343,7 +403,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "870caf9a-ea88-4a01-bb1a-f63b64123819",
@@ -373,7 +439,13 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
         },
         {
           "id": "97f0d1f8-49d9-4218-92de-10e0949e3111",
@@ -403,7 +475,81 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
+          "setFileExistsBehavior": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "e353c38f-5c1c-474f-b9af-9001b3bb3753",
+          "name": "*️⃣ NOVO TEMPLATE",
+          "type": "Multi",
+          "command": true,
+          "choices": [
+            {
+              "id": "34b099b1-b547-4462-a6ee-93677eeec177",
+              "name": "SNIPPET",
+              "type": "Template",
+              "command": true,
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "SISTEMA/TEMPLATES/SNIPPET"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            },
+            {
+              "id": "094bcc94-8839-4f2c-aa0f-a67f232b3822",
+              "name": "TEMPLATE DE FORMATAÇÃO",
+              "type": "Template",
+              "command": true,
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/Novo-template.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "SISTEMA/TEMPLATES/FORMAT"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            }
+          ]
         }
       ],
       "collapsed": false
@@ -434,7 +580,13 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "setFileExistsBehavior": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
     },
     {
       "id": "708c308e-d5d0-491d-8e27-29399c75064a",
@@ -462,22 +614,32 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    }
-  ],
-  "macros": [
+      "setFileExistsBehavior": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
+    },
     {
+      "id": "c3f90118-d2f0-4486-9488-175cc476c8b8",
       "name": "Create New Drawing",
-      "id": "35b53903-b60f-4c69-b0c4-6f1050145447",
-      "commands": [
-        {
-          "name": "Excalidraw: Create new drawing - IN A NEW TAB",
-          "type": "Obsidian",
-          "id": "00da4e8b-ea00-4c11-aed8-2bef5b2e1ed0",
-          "commandId": "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab"
-        }
-      ],
-      "runOnStartup": false
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "id": "35b53903-b60f-4c69-b0c4-6f1050145447",
+        "name": "Create New Drawing",
+        "commands": [
+          {
+            "name": "Excalidraw: Create new drawing - IN A NEW TAB",
+            "type": "Obsidian",
+            "id": "00da4e8b-ea00-4c11-aed8-2bef5b2e1ed0",
+            "commandId": "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab"
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",
@@ -487,6 +649,7 @@
   "version": "1.18.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
+  "showCaptureNotification": true,
   "ai": {
     "defaultModel": "Ask me",
     "defaultSISTEMAPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
@@ -548,6 +711,23 @@
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
     "setVersionAfterUpdateModalRelease": true,
-    "addDefaultAIProviders": true
-  }
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true
+  },
+  "macros": [
+    {
+      "name": "Create New Drawing",
+      "id": "35b53903-b60f-4c69-b0c4-6f1050145447",
+      "commands": [
+        {
+          "name": "Excalidraw: Create new drawing - IN A NEW TAB",
+          "type": "Obsidian",
+          "id": "00da4e8b-ea00-4c11-aed8-2bef5b2e1ed0",
+          "commandId": "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
 }

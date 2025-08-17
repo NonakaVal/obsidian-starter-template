@@ -10,6 +10,7 @@
   "showMenuActions": true,
   "showSuggestionIcons": true,
   "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
   "showItemName": "on",
   "biggerSearchResults": "on",
   "maxSearchResults": 50,

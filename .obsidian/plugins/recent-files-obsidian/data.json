@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Boas Vindas",
-      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+      "basename": "NOVO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
+    },
+    {
+      "basename": "NOVO-SNIPPET",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md"
     },
     {
       "basename": "HOMEPAGE",
       "path": "HOMEPAGE.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
+    },
+    {
+      "basename": "+",
+      "path": "ATLAS/FONTES/+.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "BARRA DE AÇÕES",
+      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
+    },
+    {
+      "basename": "TEMPLATES",
+      "path": "SISTEMA/SOBRE/TEMPLATES.md"
+    },
+    {
+      "basename": "GUIAS",
+      "path": "SISTEMA/SOBRE/GUIAS.md"
+    },
+    {
+      "basename": "Boas Vindas",
+      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+    },
+    {
+      "basename": "2025-08-17",
+      "path": "CALENDÁRIO/DIAS/2025-08-17.md"
+    },
+    {
+      "basename": "DIAS",
+      "path": "CALENDÁRIO/DIAS/DIAS.md"
+    },
+    {
+      "basename": "2025-08",
+      "path": "CALENDÁRIO/REVISÕES/2025-08.md"
     },
     {
       "basename": "Pasted image 20250816180551",
@@ -15,18 +59,6 @@
     {
       "basename": "Pasted image 20250815104904",
       "path": "SISTEMA/MEDIA/Pasted image 20250815104904.png"
-    },
-    {
-      "basename": "2025-08-15",
-      "path": "CALENDÁRIO/DIAS/2025-08-15.md"
-    },
-    {
-      "basename": "2025-08-17",
-      "path": "CALENDÁRIO/DIAS/2025-08-17.md"
-    },
-    {
-      "basename": "2025-08-16",
-      "path": "CALENDÁRIO/DIAS/2025-08-16.md"
     },
     {
       "basename": "% TAREFAS DO CALENDÁRIO",
@@ -57,10 +89,6 @@
       "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
     },
     {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
-    },
-    {
       "basename": "Buscar Notas",
       "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
     },
@@ -69,32 +97,8 @@
       "path": "ATLAS/MAPAS/+/MAPA E..md"
     },
     {
-      "basename": "BARRA DE AÇÕES",
-      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
-    },
-    {
-      "basename": "TEMPLATES",
-      "path": "SISTEMA/SOBRE/TEMPLATES.md"
-    },
-    {
-      "basename": "GUIAS",
-      "path": "SISTEMA/SOBRE/GUIAS.md"
-    },
-    {
-      "basename": "Dias",
-      "path": "CALENDÁRIO/DIAS/Dias.md"
-    },
-    {
-      "basename": "2025-08",
-      "path": "CALENDÁRIO/REVISÕES/2025-08.md"
-    },
-    {
       "basename": "mensal-template",
       "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
-    },
-    {
-      "basename": "+",
-      "path": "ATLAS/FONTES/+.md"
     },
     {
       "basename": "% MAPA DATAVIEW DE ATLAS",
@@ -109,16 +113,8 @@
       "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
     },
     {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
-    },
-    {
       "basename": "Como Esforços funciona",
       "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
-    },
-    {
-      "basename": "Novo Post Blog",
-      "path": "SISTEMA/TEMPLATES/FORMAT/Novo Post Blog.md"
     },
     {
       "basename": "ACE Folder System",

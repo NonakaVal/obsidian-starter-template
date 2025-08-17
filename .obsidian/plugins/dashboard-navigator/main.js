@@ -28,7 +28,7 @@ __export(main_exports, {
   default: () => DNPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian8 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 
 // src/settings.ts
 var import_obsidian = require("obsidian");
@@ -45,7 +45,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.DN_MODAL.open();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Default view").setDesc("Select view when opening window").addDropdown((sel) => {
+    new import_obsidian.Setting(containerEl).setName("Default modal view").setDesc("Select the initial view for this plugin's modal when it opens using its primary ribbon icon.").addDropdown((sel) => {
       this.dropdownDefaultView = sel;
       sel.addOption("1", "Dashboard");
       sel.addOption("2", "Navigator");
@@ -64,28 +64,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Navigator table layout").setDesc("Select table results layout").addDropdown((sel) => {
-      this.dropdownTableLayout = sel;
-      sel.addOption("dn-tbl-default", "Default");
-      sel.addOption("dn-tbl-row", "Row striped");
-      sel.addOption("dn-tbl-column", "Column striped");
-      sel.addOption("dn-tbl-bordered", "Bordered");
-      sel.onChange(async (val) => {
-        this.plugin.settings.selected_table_layout = val;
-        this.plugin.DN_MODAL.selected_table_layout = this.plugin.settings.selected_table_layout;
-        await this.plugin.saveSettings();
-      }), sel.setValue(this.plugin.settings.selected_table_layout.toString());
-    }).addExtraButton((btn) => {
-      btn.setIcon("rotate-ccw");
-      btn.setTooltip("Restore default");
-      btn.onClick(() => {
-        this.dropdownTableLayout.setValue(DEFAULT_SETTINGS.selected_table_layout.toString());
-        this.plugin.settings.selected_table_layout = DEFAULT_SETTINGS.selected_table_layout;
-        this.plugin.DN_MODAL.selected_table_layout = this.plugin.settings.selected_table_layout;
-        this.plugin.saveSettings();
-      });
-    });
-    new import_obsidian.Setting(containerEl).setName("Date format").setDesc("Select date format").addDropdown((sel) => {
+    new import_obsidian.Setting(containerEl).setName("Date format").setDesc("Select date format.").addDropdown((sel) => {
       this.dropdownDateFormat = sel;
       sel.addOption("YYYY-MM-DD HH:mm:ss", "YYYY-MM-DD HH:mm:ss");
       sel.addOption("YYYY-MM-DD HH:mm", "YYYY-MM-DD HH:mm");
@@ -108,7 +87,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Font size").setDesc("Select font size in pixels for results and links").addSlider((sli) => {
+    new import_obsidian.Setting(containerEl).setName("Font size").setDesc("Select font size in pixels for results and links.").addSlider((sli) => {
       this.sliderFontSize = sli;
       let slider_val;
       if (this.plugin.settings.font_size) {
@@ -134,7 +113,88 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Files per page").setDesc("Number of results per page").addDropdown((sel) => {
+    new import_obsidian.Setting(containerEl).setName("Recent files").setDesc("Dashboard: Number of recent files per category.").addDropdown((sel) => {
+      this.dropdownRecentFiles = sel;
+      sel.addOption("3", "3");
+      sel.addOption("4", "4");
+      sel.addOption("5", "5");
+      sel.addOption("10", "10");
+      sel.onChange(async (val) => {
+        this.plugin.settings.num_recent_files = parseInt(val);
+        this.plugin.DN_MODAL.num_recent_files = this.plugin.settings.num_recent_files;
+        await this.plugin.saveSettings();
+      }), sel.setValue(this.plugin.settings.num_recent_files.toString());
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.dropdownRecentFiles.setValue(DEFAULT_SETTINGS.num_recent_files.toString());
+        this.plugin.settings.num_recent_files = DEFAULT_SETTINGS.num_recent_files;
+        this.plugin.DN_MODAL.num_recent_files = this.plugin.settings.num_recent_files;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Bookmarks").setDesc("Dashboard: Number of bookmarks to display.").addDropdown((sel) => {
+      this.dropdownBookmarkedFiles = sel;
+      sel.addOption("3", "3");
+      sel.addOption("4", "4");
+      sel.addOption("5", "5");
+      sel.addOption("10", "10");
+      sel.onChange(async (val) => {
+        this.plugin.settings.num_bookmarked_files = parseInt(val);
+        this.plugin.DN_MODAL.num_bookmarked_files = this.plugin.settings.num_bookmarked_files;
+        await this.plugin.saveSettings();
+      }), sel.setValue(this.plugin.settings.num_bookmarked_files.toString());
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.dropdownBookmarkedFiles.setValue(DEFAULT_SETTINGS.num_bookmarked_files.toString());
+        this.plugin.settings.num_bookmarked_files = DEFAULT_SETTINGS.num_bookmarked_files;
+        this.plugin.DN_MODAL.num_bookmarked_files = this.plugin.settings.num_bookmarked_files;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Show pie chart panel").setDesc("Dashboard: Displays a pie chart of file types and a count of all files and folders.").addToggle((toggle) => {
+      this.togglePieChartModule = toggle;
+      toggle.setValue(this.plugin.settings.show_dashboard_piechart).onChange(async (val) => {
+        this.plugin.settings.show_dashboard_piechart = val;
+        this.plugin.DN_MODAL.show_dashboard_piechart = this.plugin.settings.show_dashboard_piechart;
+        await this.plugin.saveSettings();
+      });
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.togglePieChartModule.setValue(DEFAULT_SETTINGS.show_dashboard_piechart);
+        this.plugin.settings.show_dashboard_piechart = DEFAULT_SETTINGS.show_dashboard_piechart;
+        this.plugin.DN_MODAL.show_dashboard_piechart = this.plugin.settings.show_dashboard_piechart;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Search results layout").setDesc("Navigator: Select search results layout.").addDropdown((sel) => {
+      this.dropdownTableLayout = sel;
+      sel.addOption("dn-tbl-default", "Default");
+      sel.addOption("dn-tbl-row", "Row striped");
+      sel.addOption("dn-tbl-column", "Column striped");
+      sel.addOption("dn-tbl-bordered", "Bordered");
+      sel.addOption("dn-tbl-cards", "Cards");
+      sel.onChange(async (val) => {
+        this.plugin.settings.selected_table_layout = val;
+        this.plugin.DN_MODAL.selected_table_layout = this.plugin.settings.selected_table_layout;
+        await this.plugin.saveSettings();
+      }), sel.setValue(this.plugin.settings.selected_table_layout.toString());
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.dropdownTableLayout.setValue(DEFAULT_SETTINGS.selected_table_layout.toString());
+        this.plugin.settings.selected_table_layout = DEFAULT_SETTINGS.selected_table_layout;
+        this.plugin.DN_MODAL.selected_table_layout = this.plugin.settings.selected_table_layout;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Files per page").setDesc("Navigator: Number of results per page.").addDropdown((sel) => {
       this.dropdownFilesPerPage = sel;
       sel.addOption("10", "10");
       sel.addOption("20", "20");
@@ -156,31 +216,10 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Recent files").setDesc("Number of recent files per category").addDropdown((sel) => {
-      this.dropdownRecentFiles = sel;
-      sel.addOption("3", "3");
-      sel.addOption("4", "4");
-      sel.addOption("5", "5");
-      sel.addOption("10", "10");
-      sel.onChange(async (val) => {
-        this.plugin.settings.num_recent_files = parseInt(val);
-        this.plugin.DN_MODAL.num_recent_files = this.plugin.settings.num_recent_files;
-        await this.plugin.saveSettings();
-      }), sel.setValue(this.plugin.settings.num_recent_files.toString());
-    }).addExtraButton((btn) => {
-      btn.setIcon("rotate-ccw");
-      btn.setTooltip("Restore default");
-      btn.onClick(() => {
-        this.dropdownRecentFiles.setValue(DEFAULT_SETTINGS.num_recent_files.toString());
-        this.plugin.settings.num_recent_files = DEFAULT_SETTINGS.num_recent_files;
-        this.plugin.DN_MODAL.num_recent_files = this.plugin.settings.num_recent_files;
-        this.plugin.saveSettings();
-      });
-    });
     const headingColumns1 = containerEl.createEl("div", { cls: "setting-item setting-item-heading" });
     const headingColumns2 = headingColumns1.createEl("div", { cls: "setting-item setting-item-info" });
-    headingColumns2.createEl("div", { text: "Columns", cls: "setting-item-name" });
-    new import_obsidian.Setting(containerEl).setName("Hide column: Ext").setDesc("Navigator: Hide file extension column").addToggle((toggle) => {
+    headingColumns2.createEl("div", { text: "Hidden columns", cls: "setting-item-name" });
+    new import_obsidian.Setting(containerEl).setName("Hide: Ext").setDesc("Navigator: Hide file extension column.").addToggle((toggle) => {
       this.toggleHideExtColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_ext).onChange(async (val) => {
         this.plugin.settings.hide_ext = val;
@@ -197,7 +236,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Hide column: Path").setDesc("Navigator: Hide path column").addToggle((toggle) => {
+    new import_obsidian.Setting(containerEl).setName("Hide: Path").setDesc("Navigator: Hide path column.").addToggle((toggle) => {
       this.toggleHidePathColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_path).onChange(async (val) => {
         this.plugin.settings.hide_path = val;
@@ -214,7 +253,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Hide column: Size").setDesc("Navigator: Hide size column").addToggle((toggle) => {
+    new import_obsidian.Setting(containerEl).setName("Hide: Size").setDesc("Navigator: Hide size column.").addToggle((toggle) => {
       this.toggleHideSizeColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_size).onChange(async (val) => {
         this.plugin.settings.hide_size = val;
@@ -231,7 +270,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Hide column: Date").setDesc("Navigator: Hide date column").addToggle((toggle) => {
+    new import_obsidian.Setting(containerEl).setName("Hide: Date").setDesc("Navigator: Hide date column.").addToggle((toggle) => {
       this.toggleHideDateColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_date).onChange(async (val) => {
         this.plugin.settings.hide_date = val;
@@ -248,7 +287,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Hide column: Tags").setDesc("Navigator: Hide tags column").addToggle((toggle) => {
+    new import_obsidian.Setting(containerEl).setName("Hide: Tags").setDesc("Navigator: Hide tags column.").addToggle((toggle) => {
       this.toggleHideTagsColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_tags).onChange(async (val) => {
         this.plugin.settings.hide_tags = val;
@@ -265,7 +304,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Hide column: Frontmatter").setDesc("Navigator: Hide frontmatter properties column").addToggle((toggle) => {
+    new import_obsidian.Setting(containerEl).setName("Hide: Frontmatter").setDesc("Navigator: Hide frontmatter properties column.").addToggle((toggle) => {
       this.toggleHideFrontmatterColumn = toggle;
       toggle.setValue(this.plugin.settings.hide_frontmatter).onChange(async (val) => {
         this.plugin.settings.hide_frontmatter = val;
@@ -282,10 +321,31 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
+    const headingImageThumbnails1 = containerEl.createEl("div", { cls: "setting-item setting-item-heading" });
+    const headingImageThumbnails2 = headingImageThumbnails1.createEl("div", { cls: "setting-item setting-item-info" });
+    headingImageThumbnails2.createEl("div", { text: "Image thumbnails", cls: "setting-item-name" });
+    new import_obsidian.Setting(containerEl).setName("Show image thumbnails").setDesc("Navigator: Activate to show image thumbnails. Deactivate to show image icons.").addToggle((toggle) => {
+      this.toggleImageThumbnail = toggle;
+      toggle.setValue(this.plugin.settings.image_thumbnail).onChange(async (val) => {
+        this.plugin.settings.image_thumbnail = val;
+        this.plugin.DN_MODAL.image_thumbnail = this.plugin.settings.image_thumbnail;
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    }).addExtraButton((btn) => {
+      btn.setIcon("rotate-ccw");
+      btn.setTooltip("Restore default");
+      btn.onClick(() => {
+        this.toggleImageThumbnail.setValue(DEFAULT_SETTINGS.image_thumbnail);
+        this.plugin.settings.image_thumbnail = DEFAULT_SETTINGS.image_thumbnail;
+        this.plugin.DN_MODAL.image_thumbnail = this.plugin.settings.image_thumbnail;
+        this.plugin.saveSettings();
+      });
+    });
     const headingExcludedFilesFolders1 = containerEl.createEl("div", { cls: "setting-item setting-item-heading" });
     const headingExcludedFilesFolders2 = headingExcludedFilesFolders1.createEl("div", { cls: "setting-item setting-item-info" });
     headingExcludedFilesFolders2.createEl("div", { text: "Excluded files and folders", cls: "setting-item-name" });
-    new import_obsidian.Setting(containerEl).setName("Excluded file extensions").setDesc("File extensions to exclude, separated by commas").addText((text) => {
+    new import_obsidian.Setting(containerEl).setName("Excluded file extensions").setDesc("File extensions to exclude, separated by commas.").addText((text) => {
       this.textExcludedExtensions = text;
       text.setPlaceholder("File extensions to exclude").setValue(this.plugin.settings.excluded_ext).onChange(async (val) => {
         this.plugin.settings.excluded_ext = val;
@@ -302,7 +362,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Excluded folders").setDesc("List of folder paths to exclude, separated by commas").addText((text) => {
+    new import_obsidian.Setting(containerEl).setName("Excluded folders").setDesc("List of folder paths to exclude, separated by commas.").addText((text) => {
       this.textExcludedFolders = text;
       text.setPlaceholder("Folder paths to exclude").setValue(this.plugin.settings.excluded_path).onChange(async (val) => {
         this.plugin.settings.excluded_path = val;
@@ -322,7 +382,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
     const headingFileColors1 = containerEl.createEl("div", { cls: "setting-item setting-item-heading" });
     const headingFileColors2 = headingFileColors1.createEl("div", { cls: "setting-item setting-item-info" });
     headingFileColors2.createEl("div", { text: "File colors", cls: "setting-item-name" });
-    new import_obsidian.Setting(containerEl).setName("Toggle colored files").setDesc("Turn on/off colored files").addToggle((toggle) => {
+    new import_obsidian.Setting(containerEl).setName("Toggle colored files").setDesc("Turn on/off colored files.").addToggle((toggle) => {
       this.toggleColoredFiles = toggle;
       toggle.setValue(this.plugin.settings.colored_files).onChange(async (val) => {
         this.plugin.settings.colored_files = val;
@@ -341,7 +401,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Color: Notes").setDesc("Color of notes").addColorPicker((color) => {
+    new import_obsidian.Setting(containerEl).setName("Color: Notes").setDesc("Color of notes.").addColorPicker((color) => {
       this.colorCompNotes = color;
       color.setValue(this.plugin.settings.color_notes).onChange(async (val) => {
         this.plugin.settings.color_notes = val;
@@ -360,7 +420,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Color: Canvas").setDesc("Color of canvas").addColorPicker((color) => {
+    new import_obsidian.Setting(containerEl).setName("Color: Canvases").setDesc("Color of canvases.").addColorPicker((color) => {
       this.colorCompCanvas = color;
       color.setValue(this.plugin.settings.color_canvas).onChange(async (val) => {
         this.plugin.settings.color_canvas = val;
@@ -379,7 +439,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Color: Images").setDesc("Color of images").addColorPicker((color) => {
+    new import_obsidian.Setting(containerEl).setName("Color: Images").setDesc("Color of images.").addColorPicker((color) => {
       this.colorCompImages = color;
       color.setValue(this.plugin.settings.color_images).onChange(async (val) => {
         this.plugin.settings.color_images = val;
@@ -398,7 +458,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Color: Videos").setDesc("Color of videos").addColorPicker((color) => {
+    new import_obsidian.Setting(containerEl).setName("Color: Videos").setDesc("Color of videos.").addColorPicker((color) => {
       this.colorCompVideos = color;
       color.setValue(this.plugin.settings.color_videos).onChange(async (val) => {
         this.plugin.settings.color_videos = val;
@@ -417,7 +477,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Color: Audios").setDesc("Color of audios").addColorPicker((color) => {
+    new import_obsidian.Setting(containerEl).setName("Color: Audio files").setDesc("Color of audio files.").addColorPicker((color) => {
       this.colorCompAudios = color;
       color.setValue(this.plugin.settings.color_audios).onChange(async (val) => {
         this.plugin.settings.color_audios = val;
@@ -436,7 +496,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Color: PDF").setDesc("Color of PDF files").addColorPicker((color) => {
+    new import_obsidian.Setting(containerEl).setName("Color: PDF").setDesc("Color of PDF files.").addColorPicker((color) => {
       this.colorCompPdf = color;
       color.setValue(this.plugin.settings.color_pdf).onChange(async (val) => {
         this.plugin.settings.color_pdf = val;
@@ -455,7 +515,7 @@ var DNSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Color: Other files").setDesc("Color of other files").addColorPicker((color) => {
+    new import_obsidian.Setting(containerEl).setName("Color: Other files").setDesc("Color of other files.").addColorPicker((color) => {
       this.colorCompOther = color;
       color.setValue(this.plugin.settings.color_other).onChange(async (val) => {
         this.plugin.settings.color_other = val;
@@ -604,21 +664,33 @@ var DNPieChart = class {
 // src/utils/dntablemanager.ts
 var DNTableManager = class {
   constructor(tbl) {
-    this.table = document.querySelector(tbl);
+    this.table = null;
+    const navTable = document.querySelector(tbl);
+    if (navTable) {
+      this.table = navTable;
+    }
   }
   getCells() {
+    if (!this.table) {
+      return document.createElement("div").querySelectorAll("td, th");
+    }
     return this.table.querySelectorAll("td, th");
   }
   hideColumns(columnNames) {
+    if (!this.table) {
+      return;
+    }
     const cells = this.getCells();
+    const availableColumnNames = this.getColumnNames();
+    const numColumns = availableColumnNames.length;
     if (columnNames.length === 0) {
-      for (let i = 0; i < cells.length; i++) {
+      for (let i = 0, len = cells.length; i < len; i++) {
         cells[i].classList.remove("dn-hidden");
       }
     } else {
-      for (let i = 0; i < cells.length; i++) {
-        const colIndex = i % 7;
-        const columnName = this.getColumnNames()[colIndex];
+      for (let i = 0, len = cells.length; i < len; i++) {
+        const colIndex = i % numColumns;
+        const columnName = availableColumnNames[colIndex];
         if (columnNames.includes(columnName)) {
           cells[i].classList.add("dn-hidden");
         } else {
@@ -628,22 +700,55 @@ var DNTableManager = class {
     }
   }
   getColumnNames() {
-    return ["name", "ext", "path", "size", "date", "tags", "frontmatter"];
+    return ["thumbnail", "name", "ext", "path", "size", "date", "tags", "frontmatter"];
   }
 };
 
 // src/dn.ts
 var import_obsidian3 = require("obsidian");
+
+// src/utils/dnbookmarks.ts
+function dnGetBookmarkedFiles(bookmarksJson) {
+  const bookmarksPaths = /* @__PURE__ */ new Set();
+  const stack = [];
+  try {
+    const bookmarks = JSON.parse(bookmarksJson);
+    if (bookmarks.items) {
+      for (let i = bookmarks.items.length - 1; i >= 0; i--) {
+        stack.push(bookmarks.items[i]);
+      }
+    }
+    while (stack.length > 0) {
+      const currentItem = stack.pop();
+      if (!currentItem)
+        continue;
+      if (currentItem.type === "file" && currentItem.path) {
+        bookmarksPaths.add(currentItem.path);
+      } else if (currentItem.type === "group" && currentItem.items) {
+        for (let i = currentItem.items.length - 1; i >= 0; i--) {
+          stack.push(currentItem.items[i]);
+        }
+      }
+    }
+  } catch (error) {
+    return [];
+  }
+  return Array.from(bookmarksPaths);
+}
+
+// src/dn.ts
 var DNModal = class extends import_obsidian2.Modal {
   constructor(app, plugin) {
     super(app);
     this._sort_order = "desc";
     this._sort_column = "modified";
     this._selected_category = "";
-    this._TABLE_LAYOUTS = ["dn-tbl-default", "dn-tbl-row", "dn-tbl-column", "dn-tbl-bordered"];
+    this._TABLE_LAYOUTS = ["dn-tbl-default", "dn-tbl-row", "dn-tbl-column", "dn-tbl-bordered", "dn-tbl-cards"];
     this.selected_table_layout = "dn-tbl-default";
     this.selected_sort_value = "modified-desc";
+    this.current_page = 1;
     this.num_recent_files = 5;
+    this.num_bookmarked_files = 10;
     this.files_per_page = 20;
     this.date_format = "YYYY-MM-DD HH:mm";
     this.default_view = 1;
@@ -660,6 +765,9 @@ var DNModal = class extends import_obsidian2.Modal {
     this.colored_files = false;
     // Hide columns
     this.hide_columns = [];
+    this.image_thumbnail = false;
+    this.show_dashboard_piechart = true;
+    this.onclose_search = "";
     this._previewComponent = new import_obsidian2.Component();
     this.dnHandleIntersection = (entries) => {
       entries.forEach((entry) => {
@@ -678,6 +786,10 @@ var DNModal = class extends import_obsidian2.Modal {
     const { contentEl } = this;
     this._previewComponent.load();
     this._hoverDiv = this.contentEl.createEl("div", { cls: "dn-preview" });
+    this._hoverDiv.addEventListener("click", (evt) => {
+      evt.stopPropagation();
+      evt.stopImmediatePropagation();
+    });
     await this.updateModalData();
     const leaf = (_a = this.app.workspace) == null ? void 0 : _a.getMostRecentLeaf();
     if (leaf !== null) {
@@ -691,12 +803,17 @@ var DNModal = class extends import_obsidian2.Modal {
     this._isDraggingPreview = false;
     this._hoverDivLeft = "";
     this._hoverDivTop = "";
+    await this.dnLoadSearchOnClose();
+    if (this.INPUT_SEARCH.value !== "") {
+      this.dnModalSearchVault(this.INPUT_SEARCH.value);
+    }
   }
   async updateModalData() {
     this._files = [];
     this._folders = [];
     this._recent = [];
     this._last_opened = [];
+    this._bookmarks = [];
     this._notes = [];
     this._images = [];
     this._canvas = [];
@@ -727,6 +844,16 @@ var DNModal = class extends import_obsidian2.Modal {
         this._last_opened.push(f_temp);
       }
     });
+    const bookmarksJsonContent = await this.app.vault.adapter.read(".obsidian/bookmarks.json");
+    const arrBookmarks = dnGetBookmarkedFiles(bookmarksJsonContent);
+    if (Array.isArray(arrBookmarks) && arrBookmarks.length > 0) {
+      arrBookmarks.forEach(async (file) => {
+        const f_bookmarked = await this.app.vault.getAbstractFileByPath(file);
+        if (f_bookmarked instanceof import_obsidian2.TFile) {
+          this._bookmarks.push(f_bookmarked);
+        }
+      });
+    }
   }
   async dnCreateMainUI(el) {
     const mainContainer = el.createEl("div", { cls: "dn-container" });
@@ -756,6 +883,7 @@ var DNModal = class extends import_obsidian2.Modal {
     this._SELECT_TABLE_LAYOUT.createEl("option", { text: "Row striped", value: "dn-tbl-row" });
     this._SELECT_TABLE_LAYOUT.createEl("option", { text: "Column striped", value: "dn-tbl-column" });
     this._SELECT_TABLE_LAYOUT.createEl("option", { text: "Bordered", value: "dn-tbl-bordered" });
+    this._SELECT_TABLE_LAYOUT.createEl("option", { text: "Cards", value: "dn-tbl-cards" });
     this._SELECT_TABLE_LAYOUT.addEventListener("change", () => {
       this.dnSelectTableLayout();
     });
@@ -787,8 +915,28 @@ var DNModal = class extends import_obsidian2.Modal {
     this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf });
     const divVaultStats = this._VIEW_DASHBOARD.createEl("div");
     divVaultStats.setAttribute("id", "dn-vault-stats");
-    const divVaultGraph = this._VIEW_DASHBOARD.createEl("div");
-    divVaultGraph.setAttribute("id", "dn-vault-graph");
+    if (this.show_dashboard_piechart) {
+      const divVaultGraph = this._VIEW_DASHBOARD.createEl("div");
+      divVaultGraph.setAttribute("id", "dn-vault-graph");
+      const canvasPieChart1 = divVaultGraph.createEl("canvas");
+      canvasPieChart1.setAttribute("id", "dashboard-canvas");
+      const styles = getComputedStyle(document.body);
+      const labelColor = styles.getPropertyValue("--text-muted");
+      const pieChart1 = new DNPieChart(canvasPieChart1, 10, 12, 50, labelColor);
+      pieChart1.addData(this._notes.length, this.color_notes, "Notes");
+      pieChart1.addData(this._images.length, this.color_images, "Images");
+      pieChart1.addData(this._canvas.length, this.color_canvas, "Canvases");
+      pieChart1.addData(this._videos.length, this.color_videos, "Videos");
+      pieChart1.addData(this._audios.length, this.color_audios, "Audio files");
+      pieChart1.addData(this._pdf.length, this.color_pdf, "PDFs");
+      pieChart1.addData(this._other.length, this.color_other, "Other files");
+      pieChart1.draw();
+      const divStatsFrame = divVaultGraph.createEl("div", { cls: "dn-stats-files-folders" });
+      divStatsFrame.createEl("div", { cls: "dn-stats-files", text: "Files: " + this._files_excluded_filters.length });
+      divStatsFrame.createEl("div", { cls: "dn-stats-folders", text: "Folders: " + this._folders.length });
+    }
+    const divBookmarkedFiles = this._VIEW_DASHBOARD.createEl("div");
+    divBookmarkedFiles.setAttribute("id", "dn-bookmarked-files");
     const divLastOpenedFiles = this._VIEW_DASHBOARD.createEl("div");
     divLastOpenedFiles.setAttribute("id", "dn-last-opened-files");
     const divRecentFiles = this._VIEW_DASHBOARD.createEl("div");
@@ -863,22 +1011,7 @@ var DNModal = class extends import_obsidian2.Modal {
       this._divSearchResults,
       this._leaf
     );
-    const canvasPieChart1 = divVaultGraph.createEl("canvas");
-    canvasPieChart1.setAttribute("id", "dashboard-canvas");
-    const styles = getComputedStyle(document.body);
-    const labelColor = styles.getPropertyValue("--text-muted");
-    const pieChart1 = new DNPieChart(canvasPieChart1, 10, 12, 50, labelColor);
-    pieChart1.addData(this._notes.length, this.color_notes, "Notes");
-    pieChart1.addData(this._images.length, this.color_images, "Images");
-    pieChart1.addData(this._canvas.length, this.color_canvas, "Canvases");
-    pieChart1.addData(this._videos.length, this.color_videos, "Videos");
-    pieChart1.addData(this._audios.length, this.color_audios, "Audio files");
-    pieChart1.addData(this._pdf.length, this.color_pdf, "PDFs");
-    pieChart1.addData(this._other.length, this.color_other, "Other files");
-    pieChart1.draw();
-    const divStatsFrame = divVaultGraph.createEl("div", { cls: "dn-stats-files-folders" });
-    divStatsFrame.createEl("div", { cls: "dn-stats-files", text: "Files: " + this._files_excluded_filters.length });
-    divStatsFrame.createEl("div", { cls: "dn-stats-folders", text: "Folders: " + this._folders.length });
+    await this.dnCreateRecentFiles("Bookmarks", divBookmarkedFiles, this._bookmarks, this.num_bookmarked_files);
     await this.dnCreateRecentFiles("Recently opened", divLastOpenedFiles, this._last_opened, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent files", divRecentFiles, this._recent, this.num_recent_files);
     await this.dnCreateRecentFiles("Recent notes", divRecentNotes, this._notes, this.num_recent_files);
@@ -923,6 +1056,11 @@ var DNModal = class extends import_obsidian2.Modal {
     topBtnSaved.setAttribute("id", "dn-top-btn-saved");
     topBtnSaved.onClickEvent((evt) => {
       this.plugin.DN_SAVED_SEARCHES_MODAL.open();
+    });
+    const topBtnQuickDisplayOptions = searchRightDiv.createEl("button", { cls: "dn-top-btns-search" });
+    topBtnQuickDisplayOptions.setAttribute("id", "dn-top-btn-table-columns");
+    topBtnQuickDisplayOptions.onClickEvent((evt) => {
+      this.plugin.DN_QUICK_DISPLAY_OPTIONS_MODAL.open();
     });
     const topBtnInfo = searchRightDiv.createEl("button", { cls: "dn-top-btns-search" });
     topBtnInfo.setAttribute("id", "dn-top-btn-info");
@@ -1048,13 +1186,22 @@ var DNModal = class extends import_obsidian2.Modal {
     table.setAttribute("id", "dn-table");
     const thead = table.createEl("thead");
     const tr = thead.createEl("tr");
-    this._th1 = tr.createEl("th", { text: "Name" });
-    this._th2 = tr.createEl("th", { text: "Ext" });
-    this._th3 = tr.createEl("th", { text: "Path" });
-    this._th4 = tr.createEl("th", { text: "Size" });
-    this._th5 = tr.createEl("th", { text: "Date" });
-    this._th6 = tr.createEl("th", { text: "Tags" });
-    this._th7 = tr.createEl("th", { text: "Frontmatter" });
+    thead.addEventListener("contextmenu", (evt) => {
+      const clickedHeader = evt.target.closest("th");
+      if (clickedHeader) {
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.plugin.DN_QUICK_DISPLAY_OPTIONS_MODAL.open();
+      }
+    });
+    this._thThumb = tr.createEl("th", { text: "\u25A0", cls: "dn-th-thumbnail" });
+    this._th1 = tr.createEl("th", { text: "Name", cls: "dn-th-name" });
+    this._th2 = tr.createEl("th", { text: "Ext", cls: "dn-th-ext" });
+    this._th3 = tr.createEl("th", { text: "Path", cls: "dn-th-path" });
+    this._th4 = tr.createEl("th", { text: "Size", cls: "dn-th-size" });
+    this._th5 = tr.createEl("th", { text: "Date", cls: "dn-th-date" });
+    this._th6 = tr.createEl("th", { text: "Tags", cls: "dn-th-tags" });
+    this._th7 = tr.createEl("th", { text: "Frontmatter", cls: "dn-th-frontmatter" });
     this._th1.addEventListener("dblclick", () => this.dnAlternateSortColumn("name"));
     this._th2.addEventListener("dblclick", () => this.dnAlternateSortColumn("ext"));
     this._th3.addEventListener("dblclick", () => this.dnAlternateSortColumn("path"));
@@ -1086,7 +1233,14 @@ var DNModal = class extends import_obsidian2.Modal {
         tr2.removeEventListener("mouseover", async (evt) => {
           this.dnHandleHoverPreview(evt, file);
         });
-        const td1 = tr2.createEl("td");
+        const tdThumbnail = tr2.createEl("td", { title: file.path });
+        this.setThumbnail(tdThumbnail, file);
+        tdThumbnail.onClickEvent((evt) => {
+          if (leaf !== null && file !== null) {
+            this.dnOpenFileAlt(file, evt);
+          }
+        });
+        const td1 = tr2.createEl("td", { cls: "dn-td-name" });
         td1.createEl("a", { cls: this.dnSetFileIconClass(file.extension), text: file.name }).onClickEvent((evt) => {
           if (leaf !== null && file !== null) {
             this.dnOpenFileAlt(file, evt);
@@ -1096,7 +1250,7 @@ var DNModal = class extends import_obsidian2.Modal {
         const fSize = formatFileSize(file.stat.size);
         const fMTime = (0, import_obsidian3.moment)(file.stat.mtime).format(this.date_format);
         const fCTime = (0, import_obsidian3.moment)(file.stat.ctime).format(this.date_format);
-        const td2 = tr2.createEl("td");
+        const td2 = tr2.createEl("td", { cls: "dn-td-ext" });
         td2.createEl("a", { cls: "dn-ext", text: fExt, title: fExt }).onClickEvent((evt) => {
           if (evt.button === 2) {
             evt.preventDefault();
@@ -1105,7 +1259,7 @@ var DNModal = class extends import_obsidian2.Modal {
             this.dnModalSearchVault(this.INPUT_SEARCH.value);
           }
         });
-        const td3 = tr2.createEl("td");
+        const td3 = tr2.createEl("td", { cls: "dn-td-path" });
         const folder_path = getFolderStructure(file.path);
         td3.createEl("a", { cls: "dn-folder-path", text: folder_path, title: file.path }).onClickEvent((evt) => {
           if (evt.button === 2) {
@@ -1115,11 +1269,11 @@ var DNModal = class extends import_obsidian2.Modal {
             this.dnModalSearchVault(this.INPUT_SEARCH.value + "$");
           }
         });
-        tr2.createEl("td", { text: fSize, title: fSize + " bytes" });
-        tr2.createEl("td", { text: fMTime, title: fCTime + " - Created\n" + fMTime + " - Modified" });
+        tr2.createEl("td", { text: fSize, title: fSize + " bytes", cls: "dn-td-size" });
+        tr2.createEl("td", { text: fMTime, title: fCTime + " - Created\n" + fMTime + " - Modified", cls: "dn-td-date" });
         const tags_per_file = getTagsPerFile(file);
         const props_per_file = getPropsPerFile(file);
-        const td6 = tr2.createEl("td", { title: tags_per_file });
+        const td6 = tr2.createEl("td", { title: tags_per_file, cls: "dn-td-tags" });
         if (tags_per_file !== "") {
           const fTags = tags_per_file.split(" ");
           fTags.forEach((tag) => {
@@ -1128,7 +1282,7 @@ var DNModal = class extends import_obsidian2.Modal {
             });
           });
         }
-        const td7 = tr2.createEl("td");
+        const td7 = tr2.createEl("td", { cls: "dn-td-frontmatter" });
         if (props_per_file !== "") {
           const fProps = props_per_file.split("\n");
           fProps.forEach((prop) => {
@@ -1183,6 +1337,57 @@ var DNModal = class extends import_obsidian2.Modal {
       tr.empty();
       paginationContainer.createEl("div", { cls: "dn-pagination-total-results", text: `File(s): 0 ` });
       this._divSearchResults.createEl("p", { cls: "dn-no-results-found", text: "No files found." });
+    }
+    this.current_page = currentPage;
+  }
+  setThumbnail(tdThumbnail, file) {
+    const file_extension = file.extension.toLowerCase();
+    const extensions = {
+      "md": "note",
+      // Images
+      "avif": "image",
+      "bmp": "image",
+      "gif": "image",
+      "ico": "image",
+      "jpeg": "image",
+      "jpg": "image",
+      "png": "image",
+      "raw": "image",
+      "svg": "image",
+      "tif": "image",
+      "tiff": "image",
+      "webp": "image",
+      // Audio files
+      "aac": "audio",
+      "aif": "audio",
+      "aifc": "audio",
+      "aiff": "audio",
+      "flac": "audio",
+      "m4a": "audio",
+      "mp3": "audio",
+      "ogg": "audio",
+      "wav": "audio",
+      "webm": "audio",
+      // Videos
+      "avi": "video",
+      "mov": "video",
+      "mkv": "video",
+      "mp4": "video",
+      // PDF and other formats
+      "pdf": "pdf",
+      "canvas": "canvas"
+    };
+    if (extensions[file_extension] === "image") {
+      tdThumbnail.setAttribute("class", "dn-thumbnail-image");
+      if (this.image_thumbnail) {
+        const imgThumb = tdThumbnail.createEl("img");
+        imgThumb.setAttribute("src", this.app.vault.adapter.getResourcePath((0, import_obsidian2.normalizePath)(file.path)));
+        imgThumb.setAttribute("loading", "lazy");
+      }
+    } else if (extensions[file_extension] !== "image" && file_extension in extensions) {
+      tdThumbnail.setAttribute("class", "dn-thumbnail-" + extensions[file_extension]);
+    } else {
+      tdThumbnail.setAttribute("class", "dn-thumbnail-" + extensions[file_extension]);
     }
   }
   async dnSortFilteredFiles(toggle) {
@@ -1391,6 +1596,8 @@ var DNModal = class extends import_obsidian2.Modal {
       let sortedFiles = [];
       if (title === "Recently opened") {
         sortedFiles = files.slice(0, this.num_recent_files);
+      } else if (title === "Bookmarks") {
+        sortedFiles = files.slice(0, this.num_bookmarked_files);
       } else {
         sortedFiles = await this.dnGetRecentFiles(files);
       }
@@ -1836,10 +2043,12 @@ var DNModal = class extends import_obsidian2.Modal {
   }
   dnShowPreviewFile(evt, file) {
     this._hoverDiv.empty();
+    this.modalEl.addEventListener("click", () => {
+      this.dnHidePreview();
+    });
     const topBar = this._hoverDiv.createEl("div", { cls: "dn-preview-top-bar" });
     const btnClosePreview = topBar.createEl("div", { cls: "modal-close-button" });
-    btnClosePreview.onClickEvent((evt2) => {
-      evt2.stopPropagation();
+    btnClosePreview.onClickEvent(() => {
       this.dnHidePreview();
     });
     const previewTop = topBar.createEl("div", "dn-preview-titlebar");
@@ -1892,6 +2101,9 @@ var DNModal = class extends import_obsidian2.Modal {
       this._hoverDiv.style.top = ((screenHeight - divH) / 2).toString() + "px";
     }
     previewTop.removeEventListener("mousedown", (evt2) => this.dnHoverDragOnMouseDown(evt2));
+    this.modalEl.removeEventListener("click", (evt2) => {
+      this.dnHidePreview();
+    });
   }
   dnHidePreview() {
     this._isDraggingPreview = false;
@@ -2084,6 +2296,17 @@ var DNModal = class extends import_obsidian2.Modal {
     this.INPUT_SEARCH.value = newSearchValue;
     this.dnModalSearchVault(this.INPUT_SEARCH.value);
   }
+  async dnLoadSearchOnClose() {
+    this.INPUT_SEARCH.value = this.plugin.settings.onclose_search;
+    this.plugin.saveSettings();
+  }
+  dnSaveSearchOnClose() {
+    this.plugin.settings.onclose_search = this.INPUT_SEARCH.value;
+    this.plugin.saveSettings();
+  }
+  async dnRedrawResultsTable() {
+    await this.dnShowModalSearchResults({ f: this._files_results, el: this._divSearchResults, leaf: this._leaf, currentPage: this.current_page });
+  }
   onClose() {
     const { contentEl } = this;
     contentEl.empty();
@@ -2101,9 +2324,14 @@ var DNModal = class extends import_obsidian2.Modal {
     });
     this._hoverDiv.removeEventListener("mousemove", (evt) => this.dnHoverDragOnMouseMove(evt));
     this._hoverDiv.removeEventListener("mouseup", (evt) => this.dnHoverDragOnMouseUp(evt));
+    this._hoverDiv.removeEventListener("click", (evt) => {
+      evt.stopPropagation();
+      evt.stopImmediatePropagation();
+    });
     if (this.intersectionObserver) {
       this.intersectionObserver.disconnect();
     }
+    this.dnSaveSearchOnClose();
   }
 };
 
@@ -2487,11 +2715,12 @@ You can quickly filter your search results by interacting with **tags** directly
 
 ### Display results
 
-You can select 4 types of layouts to display the search results:
+You can select 5 types of layouts to display the search results:
 - Default
 - Row striped
 - Column striped
 - Bordered
+- Cards
 
 ### Preview files (hover and context menu)
 
@@ -2571,6 +2800,91 @@ You can hide the following columns:
   }
 };
 
+// src/modals/dnquickdisplayoptionsmodal.ts
+var import_obsidian8 = require("obsidian");
+var DNQuickDisplayOptionsModal = class extends import_obsidian8.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+  }
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.empty();
+    contentEl.createEl("div", { text: "Navigator view: Quick display options", cls: "setting-item setting-item-heading dn-modal-heading" });
+    contentEl.createEl("div", { text: "Hidden columns", cls: "setting-item setting-item-heading" });
+    new import_obsidian8.Setting(contentEl).setName("Hide: Ext").addToggle((toggle) => {
+      this.toggleHideExtColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_ext).onChange(async (val) => {
+        this.plugin.settings.hide_ext = val;
+        this.plugin.dnUpdateHideColumn("ext", val);
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
+    new import_obsidian8.Setting(contentEl).setName("Hide: Path").addToggle((toggle) => {
+      this.toggleHidePathColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_path).onChange(async (val) => {
+        this.plugin.settings.hide_path = val;
+        this.plugin.dnUpdateHideColumn("path", val);
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
+    new import_obsidian8.Setting(contentEl).setName("Hide: Size").addToggle((toggle) => {
+      this.toggleHideSizeColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_size).onChange(async (val) => {
+        this.plugin.settings.hide_size = val;
+        this.plugin.dnUpdateHideColumn("size", val);
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
+    new import_obsidian8.Setting(contentEl).setName("Hide: Date").addToggle((toggle) => {
+      this.toggleHideDateColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_date).onChange(async (val) => {
+        this.plugin.settings.hide_date = val;
+        this.plugin.dnUpdateHideColumn("date", val);
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
+    new import_obsidian8.Setting(contentEl).setName("Hide: Tags").addToggle((toggle) => {
+      this.toggleHideTagsColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_tags).onChange(async (val) => {
+        this.plugin.settings.hide_tags = val;
+        this.plugin.dnUpdateHideColumn("tags", val);
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
+    new import_obsidian8.Setting(contentEl).setName("Hide: Frontmatter").addToggle((toggle) => {
+      this.toggleHideFrontmatterColumn = toggle;
+      toggle.setValue(this.plugin.settings.hide_frontmatter).onChange(async (val) => {
+        this.plugin.settings.hide_frontmatter = val;
+        this.plugin.dnUpdateHideColumn("frontmatter", val);
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
+    contentEl.createEl("div", { text: "Activate toggles to hide columns. Deactivate to show.", cls: "dn-table-column-description" });
+    contentEl.createEl("div", { text: "Image thumbnails", cls: "setting-item setting-item-heading" });
+    new import_obsidian8.Setting(contentEl).setName("Show image thumbnails").addToggle((toggle) => {
+      this.toggleImageThumbnail = toggle;
+      toggle.setValue(this.plugin.settings.image_thumbnail).onChange(async (val) => {
+        this.plugin.settings.image_thumbnail = val;
+        this.plugin.DN_MODAL.image_thumbnail = this.plugin.settings.image_thumbnail;
+        await this.plugin.saveSettings();
+        await this.plugin.DN_MODAL.dnRedrawResultsTable();
+      });
+    });
+    contentEl.createEl("div", { text: "Activate to show image thumbnails. Deactivate to show image icons.", cls: "dn-table-column-description" });
+  }
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
 // src/main.ts
 var DEFAULT_SETTINGS = {
   default_view: 1,
@@ -2579,6 +2893,7 @@ var DEFAULT_SETTINGS = {
   date_format: "YYYY-MM-DD HH:mm",
   files_per_page: 20,
   num_recent_files: 5,
+  num_bookmarked_files: 10,
   excluded_ext: "",
   excluded_path: "",
   color_notes: "#bf48ff",
@@ -2596,18 +2911,23 @@ var DEFAULT_SETTINGS = {
   hide_tags: false,
   hide_frontmatter: false,
   hide_columns: [],
+  show_dashboard_piechart: true,
+  image_thumbnail: true,
+  onclose_search: "",
   saved_searches: []
 };
-var DNPlugin = class extends import_obsidian8.Plugin {
+var DNPlugin = class extends import_obsidian9.Plugin {
   async onload() {
     await this.loadSettings();
     this.DN_MODAL = new DNModal(this.app, this);
+    this.DN_QUICK_DISPLAY_OPTIONS_MODAL = new DNQuickDisplayOptionsModal(this.app, this);
     this.DN_SAVE_SEARCH_MODAL = new DNSaveSearchModal(this.app, this);
     this.DN_SAVED_SEARCHES_MODAL = new DNSavedSearchesModal(this.app, this);
     this.DN_INFO_MODAL = new DNInfoModal(this.app);
     this.DN_MODAL.default_view = this.settings.default_view;
     this.DN_MODAL.date_format = this.settings.date_format;
     this.DN_MODAL.num_recent_files = this.settings.num_recent_files;
+    this.DN_MODAL.num_bookmarked_files = this.settings.num_bookmarked_files;
     this.DN_MODAL.files_per_page = this.settings.files_per_page;
     this.DN_MODAL.selected_table_layout = this.settings.selected_table_layout;
     this.DN_MODAL.excluded_extensions = this.dnGetExcludedExtensions(this.settings.excluded_ext);
@@ -2622,6 +2942,8 @@ var DNPlugin = class extends import_obsidian8.Plugin {
     this.DN_MODAL.color_pdf = this.settings.color_pdf;
     this.DN_MODAL.color_other = this.settings.color_other;
     this.DN_MODAL.hide_columns = this.dnSetHiddenColumns(this.settings.hide_columns);
+    this.DN_MODAL.image_thumbnail = this.settings.image_thumbnail;
+    this.DN_MODAL.show_dashboard_piechart = this.settings.show_dashboard_piechart;
     this.addRibbonIcon("gauge", "Open dashboard navigator", (evt) => {
       this.DN_MODAL.default_view = this.settings.default_view;
       this.DN_MODAL.open();
