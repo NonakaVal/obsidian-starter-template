@@ -22,8 +22,25 @@
               "icon": "lucide-file",
               "title": "Boas Vindas"
             }
+          },
+          {
+            "id": "8571f0843b67ce27",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/SOBRE/Guias Práticos.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Guias Práticos"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -46,7 +63,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -55,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "[\"project\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,10 +123,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas.md"
+                "file": "SISTEMA/SOBRE/Guias Práticos.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Boas Vindas"
+              "title": "Propriedades do arquivo Guias Práticos"
             }
           },
           {
@@ -234,20 +251,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 478,
-    "collapsed": true
+    "width": 478
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
       "callout-manager:Insert Callout": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
@@ -256,36 +271,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d52e8a0a0ed131b9",
+  "active": "8571f0843b67ce27",
   "lastOpenFiles": [
+    "SISTEMA/SOBRE/Boas Vindas.md",
+    "CALENDÁRIO/DIAS/2025-08-20.md",
+    "+/template-snippet-video.md",
+    "+/BASE.md",
+    "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md",
+    "SISTEMA/SOBRE/Guias Práticos.md",
+    "HOMEPAGE.md",
+    "ESFORÇOS/AREAS/_AREAS.md",
+    "ESFORÇOS/AREAS/saúde/TREINO.md",
+    "ESFORÇOS/PROJETOS/_PROJETOS.md",
+    "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md",
+    "ESFORÇOS/PROJETOS/projeto 1/recursos de projeto.md",
+    "ESFORÇOS/PROJETOS/projeto 1",
+    "ESFORÇOS/AREAS/saúde/saúde.md",
+    "ESFORÇOS/AREAS/saúde/dieta.md",
+    "ESFORÇOS/AREAS/saúde",
+    "ATLAS/FONTES/AULAS/aula 1.md",
+    "ATLAS/FONTES/FERRAMENTAS",
+    "+/aula 2.md",
+    "SISTEMA/SOBRE/LYT/Nota.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md",
+    "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
     "SISTEMA/SOBRE/LYT/Atalhos.md",
     "SISTEMA/SOBRE/LYT/Coleções.md",
     "SISTEMA/SOBRE/LYT/Metadados.md",
-    "SISTEMA/SOBRE/GUIAS.md",
-    "SISTEMA/SOBRE/Boas Vindas.md",
-    "HOMEPAGE.md",
+    "+/exemplo.md",
+    "SISTEMA/COLEÇÕES/cursos online.md",
     "SISTEMA/SOBRE/LYT/Markdown.md",
-    "SISTEMA/SOBRE/LYT/Como usar Templater.md",
-    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
     "SISTEMA/MEDIA/Sintaxe básica de formatação - Obsidian Help (20_08_2025 04：01：38).html",
-    "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
-    "ATLAS/MAPAS/+/Mapa Boas Vindas .md",
-    "SISTEMA/SOBRE/LYT/Buscar Notas.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
-    "ESFORÇOS/AREAS/_AREAS.md",
-    "ESFORÇOS/PROJETOS/_PROJETOS.md",
-    "SISTEMA/SOBRE/TEMPLATES.md",
-    "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md",
-    "SISTEMA/SOBRE/LYT/Área - Projetos.md",
-    "SISTEMA/SOBRE/LYT/Nota.md",
-    "SISTEMA/SOBRE/LYT/Nova Coleção.md",
-    "SISTEMA/SOBRE/LYT/Sistema ACE.md",
-    "SISTEMA/SOBRE/LYT/ARC Framework.md",
-    "ATLAS/MAPAS/+/SOBRE.md",
-    "ATLAS/MAPAS/+/MAPA E..md",
-    "ATLAS/FONTES/+.md",
     "Untitled",
-    "ATLAS/FONTES/AULAS/NOTA.md",
     "ESFORÇOS/AREAS/SAUDE",
     "ATLAS/FONTES/AULAS",
     "SISTEMA/COLEÇÕES",
@@ -295,9 +313,6 @@
     "SISTEMA/MEDIA/DESIGN/search.gif",
     "SISTEMA/MEDIA/DESIGN/pomodoro_bell.mp3",
     "ESFORÇOS/AREAS",
-    "ESFORÇOS/PROJETOS/PROJETO 1",
-    "ESFORÇOS/PROJETOS",
-    "ESFORÇOS/PROJETOS/PP",
     "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",
     "SISTEMA/MEDIA/Visuals/Images/feynman-triangulation-2.png",
     "SISTEMA/MEDIA/Visuals/Images/CleanShot 2023-07-30 at 21.37.43.png",

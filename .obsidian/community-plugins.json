@@ -1,6 +1,5 @@
 [
   "table-editor-obsidian",
-  "obsidian42-brat",
   "calendar",
   "callout-manager",
   "obsidian-style-settings",
@@ -10,10 +9,7 @@
   "datacore",
   "dataview",
   "editing-toolbar",
-  "fontsource",
   "obsidian-view-mode-by-frontmatter",
-  "garble-text",
-  "home-tab",
   "homepage",
   "obsidian-hotkeys-for-specific-files",
   "iconic",
@@ -29,5 +25,6 @@
   "settings-search",
   "tag-wrangler",
   "templater-obsidian",
-  "multi-column-markdown"
+  "multi-column-markdown",
+  "fontsource"
 ]

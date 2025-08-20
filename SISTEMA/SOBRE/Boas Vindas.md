@@ -184,7 +184,7 @@ id: help
 style: primary
 actions:
   - type: open
-    link: "[[GUIAS]]"
+    link: "[[Guias Práticos]]"
 
 ```
 
