@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "58339e65e141225c",
+        "id": "f732aef541d9be02",
         "type": "tabs",
         "children": [
           {
-            "id": "780341945b3a3e95",
+            "id": "d52e8a0a0ed131b9",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,37 +22,8 @@
               "icon": "lucide-file",
               "title": "Boas Vindas"
             }
-          },
-          {
-            "id": "da090702cef386e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian e PKM"
-            }
-          },
-          {
-            "id": "ecf5c3433efe5b53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SISTEMA/SOBRE/GUIAS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GUIAS"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"created\"]",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boas Vindas.md",
+                "file": "ATLAS/MAPAS/+/SOBRE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Boas Vindas"
+              "title": "Backlinks for SOBRE"
             }
           },
           {
@@ -223,8 +194,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -236,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boas Vindas.md",
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Boas Vindas"
+              "title": "Outline of Boas Vindas"
             }
           },
           {
@@ -252,21 +222,7 @@
               "type": "markdown",
               "state": {
                 "file": "SISTEMA/SOBRE/LYT/Atalhos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Atalhos"
-            }
-          },
-          {
-            "id": "8aa27e7d296411f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ATLAS/FONTES/LYT/Atalhos.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -278,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426
+    "width": 478
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,48 +255,48 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ecf5c3433efe5b53",
+  "active": "d52e8a0a0ed131b9",
   "lastOpenFiles": [
-    "SISTEMA/SOBRE/Boas Vindas.md",
-    "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
-    "SISTEMA/SOBRE/GUIAS.md",
-    "SISTEMA/SOBRE/LYT/Coleções.md",
-    "ATLAS/FONTES/AULAS/NOTA.md",
-    "ATLAS/FONTES/AULAS",
-    "SISTEMA/SOBRE/LYT/Metadados.md",
-    "+/BASE.md",
-    "CALENDÁRIO/DIAS/2025-08-19.md",
-    "HOMEPAGE.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
     "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "SISTEMA/SOBRE/LYT/ARC Framework.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% metadados.md",
-    "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md",
+    "SISTEMA/SOBRE/Boas Vindas.md",
+    "SISTEMA/SOBRE/LYT/Metadados.md",
+    "HOMEPAGE.md",
+    "ESFORÇOS/AREAS/_AREAS.md",
+    "ESFORÇOS/PROJETOS/_PROJETOS.md",
     "SISTEMA/SOBRE/TEMPLATES.md",
-    "SISTEMA/SOBRE/LYT/Relacionar.md",
-    "SISTEMA/SOBRE/LYT/Comunicar.md",
-    "SISTEMA/SOBRE/LYT/Como Esforços funciona.md",
-    "SISTEMA/SOBRE/LYT/como + funciona.md",
-    "SISTEMA/SOBRE/LYT/Como Atlas funciona.md",
-    "SISTEMA/SOBRE/LYT/Buscar Notas.md",
-    "SISTEMA/SOBRE/LYT/ATLAS.md",
-    "SISTEMA/SOBRE/LYT/Adicionar.md",
-    "SISTEMA/SOBRE/LYT/ACE Folder System.md",
-    "Básico.md",
-    "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md",
-    "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md",
+    "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md",
+    "SISTEMA/SOBRE/GUIAS.md",
+    "SISTEMA/SOBRE/LYT/Área - Projetos.md",
+    "SISTEMA/SOBRE/LYT/Nota.md",
+    "SISTEMA/SOBRE/LYT/Nova Coleção.md",
+    "ATLAS/MAPAS/+/Mapa Boas Vindas .md",
+    "SISTEMA/SOBRE/LYT/Sistema ACE.md",
+    "SISTEMA/SOBRE/LYT/ARC Framework.md",
+    "ATLAS/MAPAS/+/SOBRE.md",
+    "ATLAS/MAPAS/+/MAPA E..md",
+    "ATLAS/FONTES/+.md",
+    "Untitled",
+    "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
+    "ATLAS/FONTES/AULAS/NOTA.md",
+    "SISTEMA/SOBRE/LYT/Coleções.md",
+    "SISTEMA/COLEÇÕES/AULAS.md",
+    "SISTEMA/COLEÇÕES/CURSOS.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
+    "SISTEMA/COLEÇÕES/SAUDE.md",
+    "ESFORÇOS/AREAS/SAUDE",
+    "ATLAS/FONTES/AULAS",
     "SISTEMA/COLEÇÕES",
     "SISTEMA/MEDIA/Pasted image 20250816180551.png",
     "SISTEMA/MEDIA/Pasted image 20250815104904.png",
     "SISTEMA/MEDIA/Pasted image 20250815103203.png",
     "SISTEMA/MEDIA/DESIGN/search.gif",
     "SISTEMA/MEDIA/DESIGN/pomodoro_bell.mp3",
-    "ESFORÇOS/AREAS/SAUDE",
     "ESFORÇOS/AREAS",
     "ESFORÇOS/PROJETOS/PROJETO 1",
     "ESFORÇOS/PROJETOS",
     "ESFORÇOS/PROJETOS/PP",
     "ESFORÇOS/AREAS/AREA 1",
-    "CALENDÁRIO/REVISÕES",
     "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",
     "SISTEMA/MEDIA/Visuals/Images/feynman-triangulation-2.png",
     "SISTEMA/MEDIA/Visuals/Images/CleanShot 2023-07-30 at 21.37.43.png",

@@ -1,19 +1,35 @@
+# 
 `BUTTON[new_note]`  
 
 ### Dashboard -+ Navegar 
 ---
 
-> [!globe] **[[+/ATLAS]]** »   
+> [!globe] **[[ATLAS]]** »   
 >  `BUTTON[search, dash, nav]`
 
 ---
 
-> [!calendar] **Calendário** » **[[DIAS]]** 
->  `BUTTON[today]`  `BUTTON[open-tasks]`
+> [!calendar] **Calendário** » **[[DIAS|Dias]]** 
+>  `BUTTON[today]` `BUTTON[days]`  
 
 ---
 
-> [!mountain] **Esforços** »  [[_AREAS]] | [[_PROJETOS|_PROJETOS]] 
+> [!mountain] **Esforços** » **[[Como Esforços funciona|Esforços]]**
+>  `BUTTON[areas]` `BUTTON[projects]` `BUTTON[open-tasks]`
+
+---
+
+`BUTTON[recents]` `BUTTON[readme]`  `BUTTON[hotkeys]` 
+
+
+
+---
+
+
+
+
+
+
 
 
 
@@ -30,7 +46,6 @@ actions:
 ```
 ```meta-bind-button
 label: Boas Vindas
-icon: code
 hidden: true
 class: ""
 id: readme
@@ -63,11 +78,28 @@ hidden: true
 class: “”
 tooltip: “”
 id: today
-style: default
+style: primary
 actions:
   - type: command
     command: periodic-notes:open-daily-note
 ```
+
+
+
+```meta-bind-button
+label: Dias
+hidden: true
+icon: sun
+class: ""
+id: days
+style: default
+actions:
+  - type: open
+    link: "[[DIAS]]"
+```
+
+
+
 
 ```meta-bind-button
 style: default
@@ -152,22 +184,12 @@ actions:
 ```
 
 
-```meta-bind-button
-label: Dias 
-hidden: true
-class: ""
-id: day
-style: destructive
-actions:
-  - type: open
-    link: "[[Dias]]"
-```
-
 
 
 ```meta-bind-button
 label: Areas
 hidden: true
+icon: list
 class: ""
 id: areas
 style: primary
@@ -180,6 +202,7 @@ actions:
 ```meta-bind-button
 label: Projetos
 hidden: true
+icon: list
 class: ""
 id: projects
 style: primary

@@ -7,9 +7,13 @@ cssclasses:
 # Básico 
 
 
-> [!waypoints]  [[Obsidian e PKM]]  | [[Metadados]]  | [[Coleções]] | [[Atalhos]]   
+> [!waypoints] **Básico** »  [[Obsidian e PKM]]  | [[Metadados]]  | [[Coleções]] | [[Atalhos]]   
 
-> [!box] [[ACE Folder System]] »  |  [[como + funciona|+]] - [[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]] 
+>[!joystick] **Prática**  » [[HOMEPAGE|Home]] | [[Nova Coleção]] | [[Nota]] | [[Área - Projetos]] 
+
+
+
+> [!box] [[Sistema ACE]] »  |  [[como + funciona|+]] - [[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]] 
 
 
 > [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 

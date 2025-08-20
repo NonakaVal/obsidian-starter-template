@@ -451,5 +451,13 @@
     }
   ],
   "table-editor-obsidian:table-control-bar": [],
-  "file-explorer:new-file-in-new-pane": []
+  "file-explorer:new-file-in-new-pane": [],
+  "quickadd:choice:d223214e-cf0c-4a6a-9d27-bfe62d8542aa": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ]
 }

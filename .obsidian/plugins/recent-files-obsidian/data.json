@@ -1,12 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "Boas Vindas",
+      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+    },
+    {
+      "basename": "% TODAS TAREFAS",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
+    },
+    {
+      "basename": "Metadados",
+      "path": "SISTEMA/SOBRE/LYT/Metadados.md"
+    },
+    {
+      "basename": "HOMEPAGE",
+      "path": "HOMEPAGE.md"
+    },
+    {
+      "basename": "_AREAS",
+      "path": "ESFORÇOS/AREAS/_AREAS.md"
+    },
+    {
+      "basename": "_PROJETOS",
+      "path": "ESFORÇOS/PROJETOS/_PROJETOS.md"
+    },
+    {
+      "basename": "TEMPLATES",
+      "path": "SISTEMA/SOBRE/TEMPLATES.md"
+    },
+    {
+      "basename": "REUNIOES-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md"
+    },
+    {
       "basename": "GUIAS",
       "path": "SISTEMA/SOBRE/GUIAS.md"
     },
     {
-      "basename": "Boas Vindas",
-      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+      "basename": "Área - Projetos",
+      "path": "SISTEMA/SOBRE/LYT/Área - Projetos.md"
+    },
+    {
+      "basename": "Nota",
+      "path": "SISTEMA/SOBRE/LYT/Nota.md"
+    },
+    {
+      "basename": "Nova Coleção",
+      "path": "SISTEMA/SOBRE/LYT/Nova Coleção.md"
+    },
+    {
+      "basename": "Mapa Boas Vindas ",
+      "path": "ATLAS/MAPAS/+/Mapa Boas Vindas .md"
+    },
+    {
+      "basename": "Sistema ACE",
+      "path": "SISTEMA/SOBRE/LYT/Sistema ACE.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
     },
     {
       "basename": "Obsidian e PKM",
@@ -17,12 +73,84 @@
       "path": "SISTEMA/SOBRE/LYT/Coleções.md"
     },
     {
-      "basename": "NOTA",
-      "path": "ATLAS/FONTES/AULAS/NOTA.md"
+      "basename": "AULAS",
+      "path": "SISTEMA/COLEÇÕES/AULAS.md"
     },
     {
-      "basename": "Metadados",
-      "path": "SISTEMA/SOBRE/LYT/Metadados.md"
+      "basename": "CURSOS",
+      "path": "SISTEMA/COLEÇÕES/CURSOS.md"
+    },
+    {
+      "basename": "NOTA-DIARIA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
+    },
+    {
+      "basename": "SAUDE",
+      "path": "SISTEMA/COLEÇÕES/SAUDE.md"
+    },
+    {
+      "basename": "TRABALHO",
+      "path": "SISTEMA/COLEÇÕES/TRABALHO.md"
+    },
+    {
+      "basename": "VIDEO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
+    },
+    {
+      "basename": "TEMPLATE-BASE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
+    },
+    {
+      "basename": "PROJETO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
+    },
+    {
+      "basename": "NOVO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
+    },
+    {
+      "basename": "NOVO-SNIPPET",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md"
+    },
+    {
+      "basename": "NOTA-PROJETO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md"
+    },
+    {
+      "basename": "NOTA-AREA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md"
+    },
+    {
+      "basename": "MUSICA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md"
+    },
+    {
+      "basename": "mensal-template",
+      "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
+    },
+    {
+      "basename": "LIVRO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md"
+    },
+    {
+      "basename": "COLEÇÃO",
+      "path": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md"
+    },
+    {
+      "basename": "AULA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md"
+    },
+    {
+      "basename": "ARTIGO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
+    },
+    {
+      "basename": "AREA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md"
+    },
+    {
+      "basename": "BARRA DE AÇÕES",
+      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
     },
     {
       "basename": "BASE",
@@ -33,28 +161,8 @@
       "path": "CALENDÁRIO/DIAS/2025-08-19.md"
     },
     {
-      "basename": "HOMEPAGE",
-      "path": "HOMEPAGE.md"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
-    },
-    {
-      "basename": "ARC Framework",
-      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
-    },
-    {
       "basename": "% metadados",
       "path": "SISTEMA/TEMPLATES/SNIPPET/% metadados.md"
-    },
-    {
-      "basename": "AULA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md"
-    },
-    {
-      "basename": "TEMPLATES",
-      "path": "SISTEMA/SOBRE/TEMPLATES.md"
     },
     {
       "basename": "Relacionar",
@@ -89,116 +197,8 @@
       "path": "SISTEMA/SOBRE/LYT/Adicionar.md"
     },
     {
-      "basename": "ACE Folder System",
-      "path": "SISTEMA/SOBRE/LYT/ACE Folder System.md"
-    },
-    {
-      "basename": "COLEÇÃO",
-      "path": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md"
-    },
-    {
-      "basename": "TEMPLATE-BASE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
-    },
-    {
       "basename": "% MAPA DATAVIEW DE ATLAS",
       "path": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md"
-    },
-    {
-      "basename": "TRABALHO",
-      "path": "SISTEMA/COLEÇÕES/TRABALHO.md"
-    },
-    {
-      "basename": "AREA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md"
-    },
-    {
-      "basename": "ARTIGO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
-    },
-    {
-      "basename": "EVENTO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md"
-    },
-    {
-      "basename": "FERRAMENTA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md"
-    },
-    {
-      "basename": "LIVRO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md"
-    },
-    {
-      "basename": "mensal-template",
-      "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
-    },
-    {
-      "basename": "MUSICA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md"
-    },
-    {
-      "basename": "NOTA-AREA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md"
-    },
-    {
-      "basename": "NOTA-DIARIA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
-    },
-    {
-      "basename": "NOTA-PROJETO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md"
-    },
-    {
-      "basename": "NOVO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
-    },
-    {
-      "basename": "PESSOA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md"
-    },
-    {
-      "basename": "PROJETO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
-    },
-    {
-      "basename": "REUNIOES-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md"
-    },
-    {
-      "basename": "VIDEO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
-    },
-    {
-      "basename": "NOVO-SNIPPET",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md"
-    },
-    {
-      "basename": "AULAS",
-      "path": "SISTEMA/COLEÇÕES/AULAS.md"
-    },
-    {
-      "basename": "+",
-      "path": "ATLAS/FONTES/+.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "BARRA DE AÇÕES",
-      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
-    },
-    {
-      "basename": "2025-08-17",
-      "path": "CALENDÁRIO/DIAS/2025-08-17.md"
-    },
-    {
-      "basename": "DIAS",
-      "path": "CALENDÁRIO/DIAS/DIAS.md"
-    },
-    {
-      "basename": "2025-08",
-      "path": "CALENDÁRIO/REVISÕES/2025-08.md"
     }
   ],
   "omittedPaths": [],

@@ -1,15 +1,25 @@
-# Resumo 
-
-Sistema integrado de **gestão do conhecimento** baseado no [[ACE Folder System|ACE folder system]] e no [[ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[Metadados]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
-(notas associadas).
-
  `BUTTON[help]`
 
 
-# [[ACE Folder System|Sistema de organização ACE]] 
+ 
+# Resumo 
+
+Sistema integrado de **gestão do conhecimento** baseado no [[Sistema ACE|ACE folder system]] e no [[ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[Metadados]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
+(notas associadas).
+
+
+
+
+
+# [[Sistema ACE|Sistema de organização ACE]] 
 O framework **ACE** (Atlas, Calendar, Efforts) é um sistema universal para organizar conhecimento, tempo e ação, complementado por:
 
 > [!box] [[como + funciona|+]] - **[[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]]** 
+
+
+
+----
+
 
 --- start-multi-column: ExampleRegion1  
 ```column-settings  
@@ -60,6 +70,7 @@ largest column:
 │
 📂 ⚙️ SISTEMA — Notas e pastas de uso do sistema
 │
+├── 🗂️ COLEÇÕES - Notas de segmentação
 ├── 🖼️ MÍDIAS
 └── 📋 TEMPLATES — Modelos pré-formatados de uso
     ├── 📂 FORMATAÇÃO
@@ -80,8 +91,32 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 
 ![[Pasted image 20250815104904.png]]
 
-# Metadados 
-![[Metadados]]
+# [[Metadados]]
+
+> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
+
+### Principais metadados:
+
+* **`created` (data de criação):**
+  Permite acompanhar a linha do tempo de suas anotações, gerar históricos ou revisões mensais/anuais.
+
+* **`up` (hierarquia):**
+  Define a nota **superior** ou contexto maior em que essa nota se encaixa.
+
+  > Ex.: um capítulo tem `up: [[Livro X]]`.
+
+* **`collection` (coleção):**
+  Agrupa notas por temas ou áreas.
+
+  > Ex.: `collection: [[AULAS]], [[CURSOS]]`
+
+
+* **`related` (notas associadas):**
+  Lista conexões manuais que complementam o **graph view**.
+
+  > Ex.: `related: [[Conceito Y]], [[Questão Z]]`.
+
+
 
 # 🛠 Boas Práticas
 
@@ -145,7 +180,7 @@ hidden: true
 icon: help
 class: ""
 id: help
-style: default
+style: primary
 actions:
   - type: open
     link: "[[GUIAS]]"

@@ -1,18 +1,12 @@
 > [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | [[Metadados]]  | [[Atalhos]]  | **[[Coleções]]**
 
-```dataviewjs
-const colecoes = dv.pages('"SISTEMA/COLEÇÕES"')
-    .sort(p => p.file.name, 'asc');
 
-dv.table(
-    ["Coleção", "Qtd", "Notas"],
-    colecoes.map(c => [
-        c.file.link,
-        c.file.inlinks.length,
-        c.file.inlinks.length > 0
-            ? c.file.inlinks.map(n => dv.fileLink(n.path))
-            : "—"
-    ])
-);
+```dataview
+TABLE without id file.link as Coleção, file.inlinks as Notas,length(file.inlinks) as Total 
+FROM "SISTEMA/COLEÇÕES"
+WHERE !contains(tags, "#calendar/daily" ) AND (length(file.outlinks) >= 1 OR length(file.inlinks) >= 1)
+SORT length(file.inlinks) desc
 
+
+LIMIT 30
 ```

@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1755663272814,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1755663266556,
+          "path": "SISTEMA/SOBRE/Boas Vindas.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1755663266556,
+          "path": "SISTEMA/SOBRE/GUIAS.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1755663266556,
+          "path": "SISTEMA/SOBRE/TEMPLATES.md"
+        }
+      ],
+      "title": "Boas Vindas"
+    },
+    {
+      "type": "group",
+      "ctime": 1755663344197,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1755663339564,
+          "path": "ESFORÇOS/AREAS/_AREAS.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1755663339564,
+          "path": "ESFORÇOS/PROJETOS/_PROJETOS.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1755663339564,
+          "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+        }
+      ],
+      "title": "Esforços"
+    },
+    {
+      "type": "folder",
+      "ctime": 1755663228376,
+      "path": "SISTEMA/COLEÇÕES"
+    }
+  ]
+}

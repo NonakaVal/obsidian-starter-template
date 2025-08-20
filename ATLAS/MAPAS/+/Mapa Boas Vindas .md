@@ -1,38 +1,26 @@
 ---
-path: '"SISTEMA"'
+path: '"SISTEMA/SOBRE"'
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
   - wide-page
 configs:
   - marker: "# Resumo "
+    name: Resumo 📝
     expand: true
-    name: Resumo
-  - marker: "# [[ACE Folder System|Sistema de organização ACE]] "
-    name: ACE
+  - marker: "# [[Sistema ACE|Sistema de organização ACE]] "
+    name: ACE 📁
     expand: true
   - marker: "# [[ARC Framework]]"
-    name: ARC
+    name: ARC 🔭
+    expand: true
+  - marker: "# [[Metadados]]"
+    name: Metadados
     expand: true
   - marker: "# 🛠 Boas Práticas"
-    name: Boas práticas ++
+    name: 🛠 Boas Práticas
     expand: true
 ---
-# Definir Pasta e Colunas
-
-
----
-
-| `Marcador`                        | `Nome da Seção`                 | `Expandir na Tabela?`               |
-| ------------------------------- | ----------------------------- | --------------------------------- |
-| `INPUT[text:configs[0].marker]` | `INPUT[text:configs[0].name]` | `INPUT[toggle:configs[0].expand]` |
-| `INPUT[text:configs[1].marker]` | `INPUT[text:configs[1].name]` | `INPUT[toggle:configs[1].expand]` |
-| `INPUT[text:configs[2].marker]` | `INPUT[text:configs[2].name]` | `INPUT[toggle:configs[2].expand]` |
-| `INPUT[text:configs[3].marker]` | `INPUT[text:configs[3].name]` | `INPUT[toggle:configs[3].expand]` |
-| `INPUT[text:configs[4].marker]` | `INPUT[text:configs[4].name]` | `INPUT[toggle:configs[4].expand]` |
-
----
-
 # Mapas e Conteúdos
 
 ```dataviewjs
