@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HOMEPAGE",
+      "path": "HOMEPAGE.md"
+    },
+    {
       "basename": "Boas Vindas",
       "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Metadados",
       "path": "SISTEMA/SOBRE/LYT/Metadados.md"
-    },
-    {
-      "basename": "HOMEPAGE",
-      "path": "HOMEPAGE.md"
     },
     {
       "basename": "_AREAS",
