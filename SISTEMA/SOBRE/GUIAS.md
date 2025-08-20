@@ -7,9 +7,12 @@ cssclasses:
 # Básico 
 
 
-> [!waypoints] **Básico** »  [[Obsidian e PKM]]  | [[Metadados]]  | [[Coleções]] | [[Atalhos]]   
+> [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Metadados]]  | [[Coleções]] | [[Atalhos]]   
 
->[!joystick] **Prática**  » [[HOMEPAGE|Home]] | [[Nova Coleção]] | [[Nota]] | [[Área - Projetos]] 
+
+
+
+>[!joystick] **Prática**  » [[HOMEPAGE|Home]] | [[Nova Coleção]] | [[Nota]] | [[Área - Projetos]] | [[Como usar Templater|Templates]]
 
 
 

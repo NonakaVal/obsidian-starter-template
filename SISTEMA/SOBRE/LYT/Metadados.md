@@ -1,4 +1,4 @@
-> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
+> [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| **[[Metadados]]**  | [[Coleções]] | [[Atalhos]]   
 
 No **Obsidian** (e em sistemas de PKM em geral), **metadados** são informações adicionais registradas no início de cada nota, normalmente no formato **YAML frontmatter**:
 

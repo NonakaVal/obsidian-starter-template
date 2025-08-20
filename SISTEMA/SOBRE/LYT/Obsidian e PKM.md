@@ -1,4 +1,4 @@
-> [!waypoints] [[Boas Vindas]] | **[[Obsidian e PKM]]**  | [[Metadados]] | [[Coleções]]
+> [!waypoints] **Básico** »  **[[Obsidian e PKM]]**  |[[Markdown]]| [[Metadados]]  | [[Coleções]] | [[Atalhos]]   
 
 # PKM
 
@@ -6,5 +6,6 @@ A **Gestão do Conhecimento** busca coletar, organizar, conectar e aplicar infor
 
 O **[Obsidian](https://obsidian.md/)** é uma ferramenta ideal para isso, pois funciona como um **segundo cérebro digital**: permite criar notas interligadas, usar metadados e tags, visualizar conexões em gráficos e integrar métodos como [Zettelkasten](https://zettelkasten.de/overview/), LYT ou frameworks próprios
 
-# Markdown
+
+
 

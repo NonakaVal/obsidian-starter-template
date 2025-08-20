@@ -1,14 +1,15 @@
- `BUTTON[help]`
 
-
- 
 # Resumo 
 
 Sistema integrado de **gestão do conhecimento** baseado no [[Sistema ACE|ACE folder system]] e no [[ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[Metadados]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
 (notas associadas).
 
 
+---
+ `BUTTON[help]`
 
+
+---
 
 
 # [[Sistema ACE|Sistema de organização ACE]] 

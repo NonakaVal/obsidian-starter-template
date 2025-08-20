@@ -1,4 +1,4 @@
-> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | [[Metadados]]  | [[Atalhos]]  | **[[Coleções]]**
+> [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Metadados]]  | **[[Coleções]]** | [[Atalhos]]   
 
 
 ```dataview

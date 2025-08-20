@@ -1,3 +1,4 @@
+> [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Metadados]]  | [[Coleções]] | **[[Atalhos]]**   
 
 | 🏚️ **Homepage**                        | Ctrl + Shift + H |
 | --------------------------------------- | ---------------- |
