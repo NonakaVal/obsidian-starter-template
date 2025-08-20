@@ -124,83 +124,11 @@
           "collapsed": false
         },
         {
-          "id": "c23b977e-5e03-4656-9037-672bfb29f740",
-          "name": "📖 MAPA ATLAS DATAVIEW",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "ATLAS/MAPAS/+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "focus": true,
-            "mode": "default"
-          }
-        },
-        {
           "id": "ee5e8119-1aa0-4823-9994-df9eaec24752",
           "name": "📝 AULA",
           "type": "Template",
           "command": true,
           "templatePath": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "focus": true,
-            "mode": "default"
-          }
-        },
-        {
-          "id": "70a32506-5522-4fe2-a222-7e395b7c77de",
-          "name": "📋 ARTIGO",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -268,11 +196,11 @@
           }
         },
         {
-          "id": "001107a9-dea5-43ea-bd59-cbe12455a345",
-          "name": "👤 PESSOA",
+          "id": "70a32506-5522-4fe2-a222-7e395b7c77de",
+          "name": "📋 ARTIGO",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/PESSOA-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -340,11 +268,11 @@
           }
         },
         {
-          "id": "a1d7f465-6d8c-4b8f-bfdd-057f8fe79a71",
-          "name": "👨‍👦‍👦 REUNIÃO",
+          "id": "d223214e-cf0c-4a6a-9d27-bfe62d8542aa",
+          "name": "🗂️ NOVA COLEÇÃO",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -352,35 +280,29 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "+"
+              "SISTEMA/COLEÇÕES"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
             "chooseFromSubfolders": false
           },
           "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false,
+          "openFile": false,
           "fileOpening": {
             "location": "tab",
             "direction": "vertical",
-            "focus": true,
-            "mode": "default"
-          }
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
         },
         {
-          "id": "870caf9a-ea88-4a01-bb1a-f63b64123819",
-          "name": "🤖 FERRAMENTA",
+          "id": "c23b977e-5e03-4656-9037-672bfb29f740",
+          "name": "🖼️ MAPA ATLAS DATAVIEW",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -388,43 +310,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "focus": true,
-            "mode": "default"
-          }
-        },
-        {
-          "id": "97f0d1f8-49d9-4218-92de-10e0949e3111",
-          "name": "🍾 EVENTO",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "+"
+              "ATLAS/MAPAS/+"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
@@ -449,7 +335,7 @@
         },
         {
           "id": "e353c38f-5c1c-474f-b9af-9001b3bb3753",
-          "name": "*️⃣ NOVO TEMPLATE",
+          "name": "⚙️ TEMPLATE ",
           "type": "Multi",
           "command": true,
           "choices": [
@@ -512,36 +398,6 @@
               },
               "fileExistsMode": "Increment the file name",
               "setFileExistsBehavior": false
-            },
-            {
-              "id": "d223214e-cf0c-4a6a-9d27-bfe62d8542aa",
-              "name": "NOVA COLEÇÃO",
-              "type": "Template",
-              "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md",
-              "fileNameFormat": {
-                "enabled": false,
-                "format": ""
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "SISTEMA/COLEÇÕES"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFile": false,
-              "fileOpening": {
-                "location": "tab",
-                "direction": "vertical",
-                "mode": "default",
-                "focus": true
-              },
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
             }
           ]
         }
@@ -549,11 +405,11 @@
       "collapsed": false
     },
     {
-      "id": "33b02e5d-cbf0-4df9-b622-4648b3cfe405",
-      "name": "📝 NOTA DE AREA",
+      "id": "708c308e-d5d0-491d-8e27-29399c75064a",
+      "name": "📝 NOTA DE PROJETO",
       "type": "Template",
       "command": true,
-      "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
+      "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"
@@ -583,11 +439,11 @@
       }
     },
     {
-      "id": "708c308e-d5d0-491d-8e27-29399c75064a",
-      "name": "📝 NOTA DE PROJETO",
+      "id": "33b02e5d-cbf0-4df9-b622-4648b3cfe405",
+      "name": "📝 NOTA DE AREA",
       "type": "Template",
       "command": true,
-      "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
+      "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"
@@ -640,7 +496,7 @@
   "devMode": false,
   "templateFolderPath": "SISTEMA/TEMPLATES/FORMAT",
   "announceUpdates": false,
-  "version": "1.18.1",
+  "version": "2.1.0",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "showCaptureNotification": true,

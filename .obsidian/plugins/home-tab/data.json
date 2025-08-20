@@ -24,56 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "SISTEMA/SOBRE/GUIAS.md",
+      "timestamp": 1755658449198
+    },
+    {
       "filepath": "SISTEMA/SOBRE/Boas Vindas.md",
-      "timestamp": 1755424822535
+      "timestamp": 1755658435850
     },
     {
-      "filepath": "HOMEPAGE.md",
-      "timestamp": 1755424819427
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md",
-      "timestamp": 1755424809235
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md",
-      "timestamp": 1755424809053
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
-      "timestamp": 1755424808857
-    },
-    {
-      "filepath": "SISTEMA/COLEÇÕES/TRABALHO.md",
-      "timestamp": 1755424808328
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
-      "timestamp": 1755424714868
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
-      "timestamp": 1755424712158
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md",
-      "timestamp": 1755424709012
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/EVENTO-TEMPLATE.md",
-      "timestamp": 1755424701492
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/FERRAMENTA-TEMPLATE.md",
-      "timestamp": 1755424699142
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md",
-      "timestamp": 1755424696921
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
-      "timestamp": 1755424695202
+      "filepath": "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
+      "timestamp": 1755658412504
     }
   ],
   "bookmarkedFileStore": [],

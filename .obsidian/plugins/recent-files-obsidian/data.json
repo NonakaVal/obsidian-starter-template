@@ -1,12 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "GUIAS",
+      "path": "SISTEMA/SOBRE/GUIAS.md"
+    },
+    {
       "basename": "Boas Vindas",
       "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
+      "basename": "Obsidian e PKM",
+      "path": "SISTEMA/SOBRE/LYT/Obsidian e PKM.md"
+    },
+    {
+      "basename": "Coleções",
+      "path": "SISTEMA/SOBRE/LYT/Coleções.md"
+    },
+    {
+      "basename": "NOTA",
+      "path": "ATLAS/FONTES/AULAS/NOTA.md"
+    },
+    {
+      "basename": "Metadados",
+      "path": "SISTEMA/SOBRE/LYT/Metadados.md"
+    },
+    {
+      "basename": "BASE",
+      "path": "+/BASE.md"
+    },
+    {
+      "basename": "2025-08-19",
+      "path": "CALENDÁRIO/DIAS/2025-08-19.md"
+    },
+    {
       "basename": "HOMEPAGE",
       "path": "HOMEPAGE.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
+    },
+    {
+      "basename": "% metadados",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% metadados.md"
+    },
+    {
+      "basename": "AULA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md"
+    },
+    {
+      "basename": "TEMPLATES",
+      "path": "SISTEMA/SOBRE/TEMPLATES.md"
+    },
+    {
+      "basename": "Relacionar",
+      "path": "SISTEMA/SOBRE/LYT/Relacionar.md"
+    },
+    {
+      "basename": "Comunicar",
+      "path": "SISTEMA/SOBRE/LYT/Comunicar.md"
+    },
+    {
+      "basename": "Como Esforços funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
+    },
+    {
+      "basename": "como + funciona",
+      "path": "SISTEMA/SOBRE/LYT/como + funciona.md"
+    },
+    {
+      "basename": "Como Atlas funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
+    },
+    {
+      "basename": "Buscar Notas",
+      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
+    },
+    {
+      "basename": "ATLAS",
+      "path": "SISTEMA/SOBRE/LYT/ATLAS.md"
+    },
+    {
+      "basename": "Adicionar",
+      "path": "SISTEMA/SOBRE/LYT/Adicionar.md"
+    },
+    {
+      "basename": "ACE Folder System",
+      "path": "SISTEMA/SOBRE/LYT/ACE Folder System.md"
     },
     {
       "basename": "COLEÇÃO",
@@ -31,10 +115,6 @@
     {
       "basename": "ARTIGO-TEMPLATE",
       "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
-    },
-    {
-      "basename": "AULA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md"
     },
     {
       "basename": "EVENTO-TEMPLATE",
@@ -93,10 +173,6 @@
       "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md"
     },
     {
-      "basename": "NOTA",
-      "path": "+/NOTA.md"
-    },
-    {
       "basename": "AULAS",
       "path": "SISTEMA/COLEÇÕES/AULAS.md"
     },
@@ -105,24 +181,12 @@
       "path": "ATLAS/FONTES/+.md"
     },
     {
-      "basename": "GUIAS",
-      "path": "SISTEMA/SOBRE/GUIAS.md"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
-    },
-    {
       "basename": "Notas Recentemente Modificadas",
       "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     },
     {
       "basename": "BARRA DE AÇÕES",
       "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
-    },
-    {
-      "basename": "TEMPLATES",
-      "path": "SISTEMA/SOBRE/TEMPLATES.md"
     },
     {
       "basename": "2025-08-17",
@@ -135,62 +199,6 @@
     {
       "basename": "2025-08",
       "path": "CALENDÁRIO/REVISÕES/2025-08.md"
-    },
-    {
-      "basename": "Pasted image 20250816180551",
-      "path": "SISTEMA/MEDIA/Pasted image 20250816180551.png"
-    },
-    {
-      "basename": "Pasted image 20250815104904",
-      "path": "SISTEMA/MEDIA/Pasted image 20250815104904.png"
-    },
-    {
-      "basename": "% TAREFAS DO CALENDÁRIO",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md"
-    },
-    {
-      "basename": "% TAREFAS EFFORTS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md"
-    },
-    {
-      "basename": "% TODAS TAREFAS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
-    },
-    {
-      "basename": "Buscar Notas",
-      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
-    },
-    {
-      "basename": "MAPA E.",
-      "path": "ATLAS/MAPAS/+/MAPA E..md"
-    },
-    {
-      "basename": "Como Esforços funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
-    },
-    {
-      "basename": "ACE Folder System",
-      "path": "SISTEMA/SOBRE/LYT/ACE Folder System.md"
-    },
-    {
-      "basename": "ARC Framework",
-      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
-    },
-    {
-      "basename": "Adicionar",
-      "path": "SISTEMA/SOBRE/LYT/Adicionar.md"
-    },
-    {
-      "basename": "ATLAS",
-      "path": "SISTEMA/SOBRE/LYT/ATLAS.md"
-    },
-    {
-      "basename": "Como Atlas funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
-    },
-    {
-      "basename": "Como Calendário funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
     }
   ],
   "omittedPaths": [],

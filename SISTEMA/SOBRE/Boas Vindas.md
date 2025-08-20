@@ -1,9 +1,10 @@
 # Resumo 
 
-Sistema integrado de **gestão do conhecimento** baseado no [[ACE Folder System|ACE folder system]] e no [[ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **metadados** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
+Sistema integrado de **gestão do conhecimento** baseado no [[ACE Folder System|ACE folder system]] e no [[ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[Metadados]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
 (notas associadas).
 
-`BUTTON[Homepage]` `BUTTON[help]`
+ `BUTTON[help]`
+
 
 # [[ACE Folder System|Sistema de organização ACE]] 
 O framework **ACE** (Atlas, Calendar, Efforts) é um sistema universal para organizar conhecimento, tempo e ação, complementado por:
@@ -79,6 +80,8 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 
 ![[Pasted image 20250815104904.png]]
 
+# Metadados 
+![[Metadados]]
 
 # 🛠 Boas Práticas
 
