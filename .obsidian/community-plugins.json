@@ -8,7 +8,6 @@
   "dashboard-navigator",
   "datacore",
   "dataview",
-  "editing-toolbar",
   "obsidian-view-mode-by-frontmatter",
   "homepage",
   "obsidian-hotkeys-for-specific-files",
@@ -26,5 +25,7 @@
   "tag-wrangler",
   "templater-obsidian",
   "multi-column-markdown",
-  "fontsource"
+  "fontsource",
+  "obsidian-hover-editor",
+  "editing-toolbar"
 ]

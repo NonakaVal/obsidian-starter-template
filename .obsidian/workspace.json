@@ -24,9 +24,8 @@
             }
           },
           {
-            "id": "8571f0843b67ce27",
+            "id": "bc5e92d34d1d55ab",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -34,13 +33,11 @@
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Guias Práticos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +60,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -123,10 +120,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/SOBRE/Guias Práticos.md"
+                "file": "SISTEMA/SOBRE/Boas Vindas.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo Guias Práticos"
+              "title": "File properties for Boas Vindas"
             }
           },
           {
@@ -211,7 +208,8 @@
               "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -255,13 +253,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "callout-manager:Insert Callout": false,
       "dashboard-navigator:Open dashboard navigator": false,
@@ -271,16 +269,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8571f0843b67ce27",
+  "active": "d2d39fc8f1f5262c",
   "lastOpenFiles": [
+    "SISTEMA/SOBRE/Guias Práticos.md",
+    "SISTEMA/SOBRE/LYT/Relacionar.md",
+    "Plugins do Obsidian.md",
+    "SISTEMA/SOBRE/LYT/Checklist.md",
     "SISTEMA/SOBRE/Boas Vindas.md",
+    "SISTEMA/SOBRE/LYT/ARC Framework.md",
+    "CALENDÁRIO/DIAS/2025-08-21.md",
+    "SISTEMA/SOBRE/LYT/Coleções.md",
+    "SISTEMA/SOBRE/LYT/Metadados.md",
+    "SISTEMA/SOBRE/LYT/Sistema ACE.md",
+    "SISTEMA/SOBRE/LYT/MOC definição.md",
+    "SISTEMA/MEDIA/Pasted image 20250816180551.png",
+    "SISTEMA/MEDIA/Pasted image 20250815104904.png",
+    "SISTEMA/SOBRE/LYT/Como Atlas funciona.md",
+    "HOMEPAGE.md",
+    "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
     "CALENDÁRIO/DIAS/2025-08-20.md",
     "+/template-snippet-video.md",
     "+/BASE.md",
     "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md",
     "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md",
-    "SISTEMA/SOBRE/Guias Práticos.md",
-    "HOMEPAGE.md",
     "ESFORÇOS/AREAS/_AREAS.md",
     "ESFORÇOS/AREAS/saúde/TREINO.md",
     "ESFORÇOS/PROJETOS/_PROJETOS.md",
@@ -290,25 +301,12 @@
     "ESFORÇOS/AREAS/saúde/saúde.md",
     "ESFORÇOS/AREAS/saúde/dieta.md",
     "ESFORÇOS/AREAS/saúde",
-    "ATLAS/FONTES/AULAS/aula 1.md",
     "ATLAS/FONTES/FERRAMENTAS",
-    "+/aula 2.md",
-    "SISTEMA/SOBRE/LYT/Nota.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md",
-    "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
-    "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "SISTEMA/SOBRE/LYT/Coleções.md",
-    "SISTEMA/SOBRE/LYT/Metadados.md",
-    "+/exemplo.md",
-    "SISTEMA/COLEÇÕES/cursos online.md",
-    "SISTEMA/SOBRE/LYT/Markdown.md",
     "SISTEMA/MEDIA/Sintaxe básica de formatação - Obsidian Help (20_08_2025 04：01：38).html",
     "Untitled",
     "ESFORÇOS/AREAS/SAUDE",
     "ATLAS/FONTES/AULAS",
     "SISTEMA/COLEÇÕES",
-    "SISTEMA/MEDIA/Pasted image 20250816180551.png",
-    "SISTEMA/MEDIA/Pasted image 20250815104904.png",
     "SISTEMA/MEDIA/Pasted image 20250815103203.png",
     "SISTEMA/MEDIA/DESIGN/search.gif",
     "SISTEMA/MEDIA/DESIGN/pomodoro_bell.mp3",

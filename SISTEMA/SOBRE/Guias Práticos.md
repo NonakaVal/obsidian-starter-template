@@ -4,7 +4,7 @@ cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 ---
-# Básico 
+# Conceitos Básicos 
 
 
 
@@ -23,6 +23,7 @@ cssclasses:
 
 > [!box] [[Sistema ACE]] »  |  [[como + funciona|+]] - [[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]] 
 
+> [!rainbow] Framework ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
 
-> [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
-
+---
+# Checklist Prático ![[Checklist]]
