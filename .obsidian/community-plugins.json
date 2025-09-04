@@ -1,12 +1,8 @@
 [
-  "table-editor-obsidian",
   "calendar",
   "callout-manager",
   "obsidian-style-settings",
   "tabs",
-  "obsidian-chartsview-plugin",
-  "dashboard-navigator",
-  "datacore",
   "dataview",
   "obsidian-view-mode-by-frontmatter",
   "homepage",
@@ -25,7 +21,8 @@
   "tag-wrangler",
   "templater-obsidian",
   "multi-column-markdown",
-  "fontsource",
-  "obsidian-hover-editor",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-chartsview-plugin",
+  "datacore",
+  "dashboard-navigator"
 ]

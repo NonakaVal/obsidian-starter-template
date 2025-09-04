@@ -1,12 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "aula 1",
+      "path": "+/aula 1.md"
+    },
+    {
+      "basename": "DIAS",
+      "path": "CALENDÁRIO/REVISÕES/DIAS.md"
+    },
+    {
+      "basename": "vidfeo 1",
+      "path": "+/vidfeo 1.md"
+    },
+    {
+      "basename": "2025-09-04",
+      "path": "CALENDÁRIO/DIAS/2025-09-04.md"
+    },
+    {
       "basename": "Boas Vindas",
       "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
+      "basename": "aula 1",
+      "path": "ATLAS/FONTES/AULAS/aula 1.md"
+    },
+    {
+      "basename": "NOTA DE AULA",
+      "path": "ESFORÇOS/AREAS/TREINO/NOTA DE AULA.md"
+    },
+    {
+      "basename": "TREINO",
+      "path": "ESFORÇOS/AREAS/TREINO/TREINO.md"
+    },
+    {
+      "basename": "2025-08",
+      "path": "CALENDÁRIO/REVISÕES/2025-08.md"
+    },
+    {
+      "basename": "HOMEPAGE",
+      "path": "HOMEPAGE.md"
+    },
+    {
+      "basename": "% TODAS TAREFAS",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    },
+    {
+      "basename": "_AREAS",
+      "path": "ESFORÇOS/AREAS/_AREAS.md"
+    },
+    {
+      "basename": "tabs",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/tabs.md"
+    },
+    {
+      "basename": "TEMPLATES",
+      "path": "SISTEMA/SOBRE/TEMPLATES.md"
+    },
+    {
+      "basename": "% MAPA DATAVIEW DE ATLAS",
+      "path": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md"
+    },
+    {
+      "basename": "BARRA DE AÇÕES",
+      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
+    },
+    {
+      "basename": "Pasted image 20250815104904",
+      "path": "SISTEMA/MEDIA/Pasted image 20250815104904.png"
+    },
+    {
+      "basename": "base",
+      "path": "+/base.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "Buscar Notas",
+      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
+    },
+    {
       "basename": "Guias Práticos",
       "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
     },
     {
       "basename": "Checklist",
@@ -15,10 +95,6 @@
     {
       "basename": "ARC Framework",
       "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
-    },
-    {
-      "basename": "2025-08-21",
-      "path": "CALENDÁRIO/DIAS/2025-08-21.md"
     },
     {
       "basename": "Coleções",
@@ -41,16 +117,8 @@
       "path": "SISTEMA/MEDIA/Pasted image 20250816180551.png"
     },
     {
-      "basename": "Pasted image 20250815104904",
-      "path": "SISTEMA/MEDIA/Pasted image 20250815104904.png"
-    },
-    {
       "basename": "Como Atlas funciona",
       "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
-    },
-    {
-      "basename": "HOMEPAGE",
-      "path": "HOMEPAGE.md"
     },
     {
       "basename": "Obsidian e PKM",
@@ -61,10 +129,6 @@
       "path": "CALENDÁRIO/DIAS/2025-08-20.md"
     },
     {
-      "basename": "BASE",
-      "path": "+/BASE.md"
-    },
-    {
       "basename": "VIDEO-TEMPLATE",
       "path": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
     },
@@ -73,40 +137,8 @@
       "path": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md"
     },
     {
-      "basename": "_AREAS",
-      "path": "ESFORÇOS/AREAS/_AREAS.md"
-    },
-    {
-      "basename": "TREINO",
-      "path": "ESFORÇOS/AREAS/saúde/TREINO.md"
-    },
-    {
       "basename": "_PROJETOS",
       "path": "ESFORÇOS/PROJETOS/_PROJETOS.md"
-    },
-    {
-      "basename": "projeto 1",
-      "path": "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md"
-    },
-    {
-      "basename": "recursos de projeto",
-      "path": "ESFORÇOS/PROJETOS/projeto 1/recursos de projeto.md"
-    },
-    {
-      "basename": "saúde",
-      "path": "ESFORÇOS/AREAS/saúde/saúde.md"
-    },
-    {
-      "basename": "dieta",
-      "path": "ESFORÇOS/AREAS/saúde/dieta.md"
-    },
-    {
-      "basename": "aula 1",
-      "path": "ATLAS/FONTES/AULAS/aula 1.md"
-    },
-    {
-      "basename": "aula 2",
-      "path": "+/aula 2.md"
     },
     {
       "basename": "Nota",
@@ -115,10 +147,6 @@
     {
       "basename": "% ADICIONAR VIDEO",
       "path": "SISTEMA/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
     },
     {
       "basename": "Markdown",
@@ -145,22 +173,6 @@
       "path": "SISTEMA/SOBRE/LYT/Como usar Templater.md"
     },
     {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "Buscar Notas",
-      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
-    },
-    {
-      "basename": "% TODAS TAREFAS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
-    },
-    {
-      "basename": "TEMPLATES",
-      "path": "SISTEMA/SOBRE/TEMPLATES.md"
-    },
-    {
       "basename": "REUNIOES-TEMPLATE",
       "path": "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md"
     },
@@ -173,24 +185,8 @@
       "path": "SISTEMA/SOBRE/LYT/Nova Coleção.md"
     },
     {
-      "basename": "AULAS",
-      "path": "SISTEMA/COLEÇÕES/AULAS.md"
-    },
-    {
-      "basename": "CURSOS",
-      "path": "SISTEMA/COLEÇÕES/CURSOS.md"
-    },
-    {
       "basename": "NOTA-DIARIA-TEMPLATE",
       "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
-    },
-    {
-      "basename": "SAUDE",
-      "path": "SISTEMA/COLEÇÕES/SAUDE.md"
-    },
-    {
-      "basename": "TRABALHO",
-      "path": "SISTEMA/COLEÇÕES/TRABALHO.md"
     },
     {
       "basename": "TEMPLATE-BASE",

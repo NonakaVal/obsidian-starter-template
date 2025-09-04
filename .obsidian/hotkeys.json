@@ -459,5 +459,30 @@
       ],
       "key": "C"
     }
+  ],
+  "quickadd:choice:708c308e-d5d0-491d-8e27-29399c75064a": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:33b02e5d-cbf0-4df9-b622-4648b3cfe405": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "dashboard-navigator:navigator": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
   ]
 }

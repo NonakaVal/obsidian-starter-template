@@ -34,7 +34,7 @@
   "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-sleek",
   "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
   "anuppuccin-theme-settings@@anp-speech-bubble": true,
-  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-frappe",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-macchiato",
   "anuppuccin-theme-settings@@anp-stacked-header-width": 30,
   "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-safari-tab-toggle",
   "anuppuccin-theme-settings@@anp-alt-tab-custom-height": 40,
@@ -331,5 +331,10 @@
   "shimmering-focus@@normal-out-back-links": true,
   "shimmering-focus@@classic-inline-backlinks": true,
   "shimmering-focus@@show-outline-buttons": true,
-  "quick-explorer@@qe-hide-breadcrumbs": true
+  "quick-explorer@@qe-hide-breadcrumbs": true,
+  "anuppuccin-theme-settings@@anp-table-width": true,
+  "anuppuccin-theme-settings@@anp-table-auto": true,
+  "anuppuccin-theme-settings@@anp-table-th-highlight": true,
+  "anuppuccin-theme-settings@@anp-td-highlight": "anp-table-row-alt",
+  "modular-css-layout-wv@@wide-dataview-global": false
 }

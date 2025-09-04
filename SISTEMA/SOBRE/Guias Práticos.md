@@ -7,11 +7,7 @@ cssclasses:
 # Conceitos Básicos 
 
 
-
 > [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Metadados]]  | [[Coleções]] | [[Atalhos]]   
-
- > [!VIDEO]- Introdução
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1T0g5g8oqpPTwwMMWGF5_a0asJHXlX0nm/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 >[!joystick] **Prática**  »  [[Nota]] | [[Área - Projetos]] | [[Como usar Templater|Templates]]
 

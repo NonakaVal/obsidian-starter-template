@@ -1,15 +1,19 @@
 ---
 created:
-  - "[[2025-08-20]]"
-up: "[[ATLAS]]"
-collection: "[[SISTEMA/COLEÇÕES/Estudos.md|Estudos]]"
-related:
-  - "[[aula 1|aula 1]]"
+  - '[[2025-09-04]]'
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
 | `Up` | `INPUT[suggester(optionQuery("")):up]`    | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
+
+
+---
+# [[base]] 
+
+
+
 ---
 
-# [[aula 1]] 
-
-aula 1
+Last modified :   `="[[" + dateformat(date(today), "yyyy-MM-dd") + "]]"` - `$= dv.current().file.mtime`

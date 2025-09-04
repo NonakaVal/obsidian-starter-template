@@ -13,7 +13,7 @@ const initialSettings = {
   queryPath: "",
   initialNameFilter: "",
   viewHeight: "900px",
-excludedFolders: ["SISTEMA","CALENDÁRIO"],
+excludedFolders: ["CALENDÁRIO"],
   pagination: { isEnabled: true, itemsPerPage: 4 },
   placeholders: {
     headerTitle: "Buscar Notas",

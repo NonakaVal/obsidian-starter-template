@@ -593,17 +593,61 @@ function getTagsPerFile(file) {
     return "";
   }
 }
+// Otimizar a função getPropsPerFile - versão melhorada
+// Substitua a função getPropsPerFile atual por esta versão melhorada
+// Substitua a função getPropsPerFile atual por esta versão melhorada
 function getPropsPerFile(file) {
   const fileProperties = [];
   const cache = this.app.metadataCache.getFileCache(file);
-  if (cache == null ? void 0 : cache.frontmatter) {
+
+  if (cache?.frontmatter) {
+    // Processa TODAS as propriedades do frontmatter, não apenas as pré-definidas
     for (const [key, value] of Object.entries(cache.frontmatter)) {
-      fileProperties.push(`'${key}: ${value}'`);
+      // Ignora propriedades vazias, nulas ou undefined
+      if (value === null || value === undefined || value === '') {
+        continue;
+      }
+
+      const iconMap = {
+        'created': '📅',
+        'cssclasses': '🔷',
+        'tags': '🏷️',
+        'up': '⬆️',
+        'collection': '📚',
+        'related': '🔗',
+        'type': '📄',
+        'area': '📁',
+        'resumo': '📝',
+        'path': '🗺️',
+        'project': '🗂️',
+        'configs': '⚙️',
+        'Criador': '👤',
+        'aliases': '🔤'
+      };
+      const icon = iconMap[key] || '📌'; // Ícone padrão
+
+      // Trata arrays - cada item vira uma linha individual
+      if (Array.isArray(value)) {
+        value.forEach(item => {
+          if (item && item.toString().trim() !== '') {
+            fileProperties.push(`${icon} ${item.toString().trim()}`);
+          }
+        });
+      }
+      // Trata objetos
+      else if (typeof value === 'object' && value !== null) {
+        fileProperties.push(`${icon} ${JSON.stringify(value)}`);
+      }
+      // Trata valores simples - MOSTRA APENAS O ÍCONE E O VALOR
+      else {
+        fileProperties.push(`${icon} ${value.toString().trim()}`);
+      }
     }
   }
-  return fileProperties.join(" \n");
-}
 
+  // Retorna cada propriedade em sua própria linha
+  return fileProperties.join("\n");
+}
 // src/utils/dnpiechart.ts
 var DNPieChart = class {
   constructor(canvas, margin = 10, fontSize = 12, legendWidth = 50, labelColor = "#828282") {
@@ -1201,7 +1245,7 @@ var DNModal = class extends import_obsidian2.Modal {
     this._th4 = tr.createEl("th", { text: "Size", cls: "dn-th-size" });
     this._th5 = tr.createEl("th", { text: "Date", cls: "dn-th-date" });
     this._th6 = tr.createEl("th", { text: "Tags", cls: "dn-th-tags" });
-    this._th7 = tr.createEl("th", { text: "Frontmatter", cls: "dn-th-frontmatter" });
+
     this._th1.addEventListener("dblclick", () => this.dnAlternateSortColumn("name"));
     this._th2.addEventListener("dblclick", () => this.dnAlternateSortColumn("ext"));
     this._th3.addEventListener("dblclick", () => this.dnAlternateSortColumn("path"));
@@ -1282,18 +1326,32 @@ var DNModal = class extends import_obsidian2.Modal {
             });
           });
         }
+        // Na função que cria a tabela (procure pela criação da coluna frontmatter)
         const td7 = tr2.createEl("td", { cls: "dn-td-frontmatter" });
         if (props_per_file !== "") {
+          // Divide por linhas - cada linha é uma propriedade individual
           const fProps = props_per_file.split("\n");
+
           fProps.forEach((prop) => {
-            td7.createEl("a", { cls: "dn-tag", text: prop, title: props_per_file }).onClickEvent((evt) => {
-              if (evt.button === 2) {
-                evt.preventDefault();
-              } else {
-                this.INPUT_SEARCH.value = prop;
-                this.dnModalSearchVault(this.INPUT_SEARCH.value);
-              }
-            });
+            if (prop.trim() !== "") {
+              // Cria um div separado para cada propriedade
+              const propDiv = td7.createEl("div", {
+                cls: "dn-frontmatter-value",
+                text: prop
+              });
+
+              // Faz cada propriedade ser clicável para busca
+              propDiv.addEventListener('click', (evt) => {
+                if (evt.button === 0) { // apenas clique esquerdo
+                  // Extrai apenas o valor da propriedade para busca
+                  const valueOnly = prop.includes(':') ? prop.split(':')[1].trim() : prop;
+                  this.INPUT_SEARCH.value = valueOnly;
+                  this.dnModalSearchVault(this.INPUT_SEARCH.value);
+                }
+              });
+              propDiv.style.cursor = 'pointer';
+              propDiv.style.marginBottom = '2px';
+            }
           });
         }
       });
@@ -2571,216 +2629,213 @@ var DNInfoModal = class extends import_obsidian7.Modal {
   constructor(app) {
     super(app);
     this._markdownContent = `
-### Dashboard navigator quick reference
+### Guia de referência rápida do navegador do painel
 
-The **Dashboard navigator** search allows you to quickly access and filter specific files within your vault. Quickly find notes, images, canvases, audios, videos, PDFs, and more with simple commands.
+A pesquisa do **navegador do painel** permite acessar e filtrar rapidamente arquivos específicos em seu cofre. Encontre rapidamente notas, imagens, quadros (canvases), áudios, vídeos, PDFs e muito mais com comandos simples.
 
-#### Basic commands
+#### Comandos básicos
 
-- \`@notes\`: Lists all **notes**.
-- \`@images\`: Lists all **images**.
-- \`@canvas\` or \`@canvases\`: Lists all **canvases**.
-- \`@audio\` or \`@audios\`: Lists all **audio** files.
-- \`@video\` or \`@videos\`: Lists all **video** files.
-- \`@pdf\` or \`@pdfs\`: Lists all **PDF** files.
-- \`@other\`: Lists all **other** file types.
+- \`@notes\`: Lista todas as **notas**.
+- \`@images\`: Lista todas as **imagens**.
+- \`@canvas\` ou \`@canvases\`: Lista todos os **quadros (canvases)**.
+- \`@audio\` ou \`@audios\`: Lista todos os arquivos de **áudio**.
+- \`@video\` ou \`@videos\`: Lista todos os arquivos de **vídeo**.
+- \`@pdf\` ou \`@pdfs\`: Lista todos os arquivos **PDF**.
+- \`@other\`: Lista todos os **outros** tipos de arquivo.
 
-#### Advanced filtering with search terms
+#### Filtragem avançada com termos de pesquisa
 
-You can combine the basic commands with search terms to narrow down your results:
+Você pode combinar os comandos básicos com termos de pesquisa para refinar seus resultados:
 
-* \`@notes #tag1\`: Lists **notes** with the tag \`#tag1\`.
-* \`@notes desired_word #tag2\`: Lists **notes** with \`desired_word\` and \`#tag2\`.
+* \`@notes #tag1\`: Lista **notas** com a tag \`#tag1\`.
+* \`@notes palavra_desejada #tag2\`: Lista **notas** com \`palavra_desejada\` e \`#tag2\`.
 
-#### Search filters shorthands
+#### Atalhos para filtros de pesquisa
 
 - \`@n\` = \`@notes\`
 - \`@i\` = \`@images\`
-- \`@c\` = \`@canvas\` or \`@canvases\`
-- \`@a\` = \`@audio\` or \`@audios\`
-- \`@v\` = \`@video\` or \`@videos\`
-- \`@p\` = \`@pdf\` or \`@pdfs\`
+- \`@c\` = \`@canvas\` ou \`@canvases\`
+- \`@a\` = \`@audio\` ou \`@audios\`
+- \`@v\` = \`@video\` ou \`@videos\`
+- \`@p\` = \`@pdf\` ou \`@pdfs\`
 - \`@o\` = \`@other\`
 
-#### Date filters and shorthands
+#### Filtros de data e seus atalhos
 
-For quick filtering by date ranges, use the following date filters or the respective shorthands:
+Para uma filtragem rápida por intervalos de datas, use os seguintes filtros de data ou os respectivos atalhos:
 
-**Current day:**
-- \`@d\`, \`@day\`, or \`@today\`
+**Dia atual:**
+- \`@d\`, \`@day\` ou \`@today\`
 
-**Current day and yesterday:**
-- \`@d-1\` or \`@day-1\`
+**Dia atual e ontem:**
+- \`@d-1\` ou \`@day-1\`
 
-**Current day and past x days:**
-- \`@d-2\` to \`@d-7\` or \`@day-2\` to \`@day-7\` (for 2 to 7 days before)
+**Dia atual e últimos x dias:**
+- \`@d-2\` a \`@d-7\` ou \`@day-2\` a \`@day-7\` (para 2 a 7 dias antes)
 
-**Current week:**
-- \`@w\` or \`@week\`
+**Semana atual:**
+- \`@w\` ou \`@week\`
 
-**Current month and past x months:**
-- \`@m\` or \`@month\` (current month)
-- \`@m-1\` or \`@month-1\` (current month and previous month)
-- \`@m-2\` to \`@m-12\` or \`@month-2\` to \`@month-12\` (current month and 2 to 12 months prior)
+**Mês atual e últimos x meses:**
+- \`@m\` ou \`@month\` (mês atual)
+- \`@m-1\` ou \`@month-1\` (mês atual e mês anterior)
+- \`@m-2\` a \`@m-12\` ou \`@month-2\` a \`@month-12\` (mês atual e 2 a 12 meses anteriores)
 
-**Current year:**
-- \`@y\` or \`@year\`
+**Ano atual:**
+- \`@y\` ou \`@year\`
 
-Example:
+Exemplo:
 
-To filter for data from the current month and the previous month, you would use \`@m-1\`.
+Para filtrar dados do mês atual e do mês anterior, você usaria \`@m-1\`.
 
-#### Combining search terms, file types and date filters
+#### Combinando termos de pesquisa, tipos de arquivo e filtros de data
 
-You can combine search terms, file types (one per search) and date filters for more precise results:
+Você pode combinar termos de pesquisa, tipos de arquivo (um por pesquisa) e filtros de data para obter resultados mais precisos:
 
-- \`@notes #tag1 @month\`: Lists **notes** with the tag \`tag1\` created/modified this month (*Shorthand*: \`@n #tag1 @m\`).
-- \`@images @week\`: Lists **images** added this week (*Shorthand*: \`@i @w\`).
+- \`@notes #tag1 @month\`: Lista **notas** com a tag \`tag1\` criadas/modificadas este mês (*Atalho*: \`@n #tag1 @m\`).
+- \`@images @week\`: Lista **imagens** adicionadas esta semana (*Atalho*: \`@i @w\`).
 
-#### Quoted search
+#### Pesquisa com aspas
 
-- **Specific quoted search**: Search for specific sentences in frontmatter metadata or for specific filename using double or single quotes. For example, \`"this is the description of a note"\`.
+- **Pesquisa específica com aspas**: Pesquise por frases específicas em metadados frontmatter ou por nomes de arquivo específicos usando aspas duplas ou simples. Por exemplo, \`"esta é a descrição de uma nota"\`.
 
-#### Additional tips
+#### Dicas adicionais
 
-* **Case sensitivity:** Search terms are **case-insensitive**.
+* **Diferenciação de maiúsculas e minúsculas:** Os termos de pesquisa **não diferenciam** maiúsculas de minúsculas.
 
-* **Multiple commands:** You can use **multiple commands in a single query**, separated by spaces.
+* **Múltiplos comandos:** Você pode usar **múltiplos comandos em uma única consulta**, separados por espaços.
 
-#### Excluding results
+#### Excluindo resultados
 
-To exclude specific content from your search results, you can use the \`!\` exclamation point followed by the text, tag or folder you want to exclude. This will remove any items that match the exclusion term.
+Para excluir conteúdo específico dos resultados da sua pesquisa, você pode usar o ponto de exclamação \`!\` seguido do texto, tag ou pasta que deseja excluir. Isso removerá quaisquer itens que correspondam ao termo de exclusão.
 
-Example:
+Exemplo:
 
-- \`@notes #work #pending !#urgent\`: This will list **all notes** tagged with \`#work\` and \`#pending\` except those tagged with \`#urgent\`.
+- \`@notes #work #pending !#urgent\`: Isso listará **todas as notas** marcadas com \`#work\` e \`#pending\`, exceto aquelas marcadas com \`#urgent\`.
 
-#### Combining exclusions with other filters
+#### Combinando exclusões com outros filtros
 
-You can combine exclusions with other filters, such as tags and date, to further refine your search:
+Você pode combinar exclusões com outros filtros, como tags e data, para refinar ainda mais sua pesquisa:
 
-- \`@notes #meeting !#international @month\`: This will list all notes tagged with \`#meeting\` that were created or modified this month, **excluding** those tagged with \`#international\`.
+- \`@notes #meeting !#international @month\`: Isso listará todas as notas marcadas com \`#meeting\` que foram criadas ou modificadas este mês, **excluindo** aquelas marcadas com \`#international\`.
 
-- To find all notes tagged \`#meeting\` created/modified in the current month: \`@notes #meeting @month\`.
+- Para encontrar todas as notas marcadas com \`#meeting\` criadas/modificadas no mês atual: \`@notes #meeting @month\`.
 
-By effectively using exclusions, you can tailor your searches to your specific needs and quickly find the information you're looking for.
+Usando exclusões de forma eficaz, você pode personalizar suas pesquisas para suas necessidades específicas e encontrar rapidamente as informações que procura.
 
-#### Frontmatter metadata search
-    
-To search for specific frontmatter metadata, use the following syntax:
+#### Pesquisa de metadados frontmatter
 
-**1. Search by property or value:**
+Para pesquisar metadados frontmatter específicos, use a seguinte sintaxe:
 
-- Property match (all notes with this property): \`'name_of_the_property:'\`
+**1. Pesquisar por propriedade ou valor:**
 
-Example: \`'task:'\` or \`'created:'\`
+- Correspondência de propriedade (todas as notas com esta propriedade): \`'nome_da_propriedade:'\`
 
-- Search for the value in one metadata property: \`'task:' value\` or \`'task:' 'This is a sentence to match'\`. The sentence to match can be in single or double quotes
+Exemplo: \`'task:'\` ou \`'created:'\`
 
-Example: \`'task:' 'create pdf'\`
+- Pesquisar pelo valor em uma propriedade de metadados: \`'task:' valor\` ou \`'task:' 'Esta é uma frase para corresponder'\`. A frase a ser correspondida pode estar entre aspas simples ou duplas.
 
-**2. Search by property and value:**
+Exemplo: \`'task:' 'criar pdf'\`
 
-- Exact match: \`'name_of_the_property: value'\`
+**2. Pesquisar por propriedade e valor:**
 
-Example: \`'topic: javascript'\`
+- Correspondência exata: \`'nome_da_propriedade: valor'\`
 
-**Tips:**
+Exemplo: \`'topic: javascript'\`
 
-- Use single quotes (\`'\`) to enclose when searching for specific metadata.
+**Dicas:**
 
-- You can use the context menu (navigator view or dashboard view to open the **Frontmatter** or **File properties** modal). Click on the desired frontmatter metadata to quickly search for an exact match within your notes.
+- Use aspas simples (\`'\`) para delimitar ao pesquisar por metadados específicos.
 
-#### Tag actions
+- Você pode usar o menu de contexto (visualização do navegador ou visualização do painel para abrir o modal **Frontmatter** ou **Propriedades do arquivo**). Clique no metadado frontmatter desejado para pesquisar rapidamente por uma correspondência exata em suas notas.
 
-You can quickly filter your search results by interacting with **tags** directly within the **Navigator view**, **File Properties modal**, or **Tags modal**. These actions let you include or exclude tags from your current search query.
+#### Ações com tags
 
-**\`Shift + left-click\`: Toggle tag inclusion**
+Você pode filtrar rapidamente seus resultados de pesquisa interagindo com **tags** diretamente na **visualização do Navegador**, no modal **Propriedades do Arquivo** ou no modal **Tags**. Essas ações permitem incluir ou excluir tags de sua consulta de pesquisa atual.
 
-1. A \`Shift + left-click\` on a tag toggles between these states:
+**\`Shift + clique esquerdo\`: Alternar inclusão de tag**
 
-* **Add tag:** This adds the tag to your search query. You'll **only see results that have this tag.** (e.g., \`#tag\`)
-* **Remove tag:** This removes the tag from your search query. The tag will **no longer filter your results**.
+1. Um \`Shift + clique esquerdo\` em uma tag alterna entre esses estados:
 
-**\`Ctrl + left-click\`: Toggle tag exclusion command**
+* **Adicionar tag:** Isso adiciona a tag à sua consulta de pesquisa. Você **só verá resultados que têm esta tag.** (por exemplo, \`#tag\`)
+* **Remover tag:** Isso remove a tag da sua consulta de pesquisa. A tag **não filtrará mais seus resultados**.
 
-2. A **Ctrl + left-click** on a tag toggles between these states, specifically managing an *exclusion command*:
+**\`Ctrl + clique esquerdo\`: Alternar comando de exclusão de tag**
 
-* **Add exclusion command:** This adds a command to your search query to **exclude** the tag. You'll **only see results that *do NOT* have this tag.** (e.g., \`!#tag\`)
-* **Remove exclusion command:** This removes the exclusion command for that tag from your search query. The tag will **no longer filter your results by exclusion**.
+2. Um **Ctrl + clique esquerdo** em uma tag alterna entre esses estados, gerenciando especificamente um *comando de exclusão*:
 
-### Sort files
+* **Adicionar comando de exclusão:** Isso adiciona um comando à sua consulta de pesquisa para **excluir** a tag. Você **só verá resultados que *NÃO* têm esta tag.** (por exemplo, \`!#tag\`)
+* **Remover comando de exclusão:** Isso remove o comando de exclusão para essa tag da sua consulta de pesquisa. A tag **não filtrará mais seus resultados por exclusão**.
 
-- You can sort the files by double clicking on the table header and also by using the dropdown select.
+### Ordenar arquivos
 
-### Display results
+- Você pode ordenar os arquivos clicando duas vezes no cabeçalho da tabela e também usando o seletor dropdown.
 
-You can select 5 types of layouts to display the search results:
-- Default
-- Row striped
-- Column striped
-- Bordered
-- Cards
+### Exibir resultados
 
-### Preview files (hover and context menu)
+Você pode selecionar 5 tipos de layouts para exibir os resultados da pesquisa:
+- Padrão
+- Linha listrada
+- Coluna listrada
+- Com bordas
+- Cartões (Cards)
 
-- **Quick file inspection**: You can choose to preview files using either the **hover preview** or the dedicated context menu item (**Show preview**) in the Dashboard and/or Navigator views. 
+### Visualizar arquivos (passar o mouse e menu de contexto)
 
-- By simply hovering over a file or note while holding down the \`Ctrl\` (Windows/Linux) or \`Command\` (macOS) key, you can instantly preview its content.
+- **Inspeção rápida de arquivos**: Você pode optar por visualizar arquivos usando a **visualização ao passar o mouse** ou o item dedicado do menu de contexto (**Mostrar visualização**) nas visualizações do Painel e/ou do Navegador.
 
-- **Context menu**: \`Show preview\` option. This allows you to preview a file or note without the need for a modifier key.
+- Simplesmente passando o mouse sobre um arquivo ou nota enquanto mantém pressionada a tecla \`Ctrl\` (Windows/Linux) ou \`Command\` (macOS), você pode visualizar instantaneamente seu conteúdo.
 
-- The **preview window** displays the file's **name** and **path**. You will find three buttons on this window:
+- **Menu de contexto**: opção \`Mostrar visualização\`. Isso permite visualizar um arquivo ou nota sem a necessidade de uma tecla modificadora.
 
-1. **Open**: Directly opens the file.
-2. **Open in new tab**: Opens the file in a new tab.
-3. **Open in new window**: Opens the file in a completely new window.
+- A **janela de visualização** exibe o **nome** e o **caminho** do arquivo. Você encontrará três botões nesta janela:
 
+1.  **Abrir**: Abre o arquivo diretamente.
+2.  **Abrir em nova guia**: Abre o arquivo em uma nova guia.
+3.  **Abrir em nova janela**: Abre o arquivo em uma janela completamente nova.
 
-### Drag-and-drop preview window
+### Arrastar e soltar a janela de visualização
 
-- **Drag-and-drop positioning**: You have the freedom to move the preview window to any desired location on the screen. The preview window's position is remembered for subsequent previews (till you close the Dashboard navigator window), ensuring consistency and reducing the need for constant readjustment.
+- **Posicionamento por arrastar e soltar**: Você tem a liberdade de mover a janela de visualização para qualquer local desejado na tela. A posição da janela de visualização é lembrada para visualizações subsequentes (até você fechar a janela do navegador do painel), garantindo consistência e reduzindo a necessidade de reajustes constantes.
 
-- **Default position**: If you close and reopen the Dashboard navigator window, the preview will automatically return to its default position.
+- **Posição padrão**: Se você fechar e reabrir a janela do navegador do painel, a visualização retornará automaticamente à sua posição padrão.
 
-### Context menu
+### Menu de contexto
 
-- Right-click the mouse button on the desired file link or table result to open the context menu. You can open the note in various ways (same tab, new tab, new window and also show its properties and metadata). You can also open the note by **double clicking** on the desired result.
+- Clique com o botão direito do mouse no link do arquivo desejado ou no resultado da tabela para abrir o menu de contexto. Você pode abrir a nota de várias maneiras (mesma guia, nova guia, nova janela e também mostrar suas propriedades e metadados). Você também pode abrir a nota **clicando duas vezes** no resultado desejado.
 
-### Navigator view: Hide columns
+### Visualização do Navegador: Ocultar colunas
 
-The column-hiding feature gives you the flexibility to customize the **navigator view** to suit your specific preferences and workflow. By **hiding unnecessary columns** you can create a cleaner, more focused view that highlights the information most relevant to you.
+O recurso de ocultar colunas oferece a flexibilidade de personalizar a **visualização do navegador** para atender às suas preferências e fluxo de trabalho específicos. **Ocultando colunas desnecessárias**, você pode criar uma visualização mais limpa e focada que destaca as informações mais relevantes para você.
 
-You can hide the following columns:
-- **Ext**: Shows the file extension.
-- **Path**: Shows the location of the file within your vault structure.
-- **Size**: Displays the file size.
-- **Date**: Indicates the modification date of the file.
-- **Tags**: Lists the tags associated with the note, making it easier to categorize and search for notes.
-- **Frontmatter**: Lists the frontmatter/metadata associated with the note.
+Você pode ocultar as seguintes colunas:
+- **Ext**: Mostra a extensão do arquivo.
+- **Caminho (Path)**: Mostra a localização do arquivo dentro da estrutura do seu cofre.
+- **Tamanho (Size)**: Exibe o tamanho do arquivo.
+- **Data (Date)**: Indica a data de modificação do arquivo.
+- **Tags (Tags)**: Lista as tags associadas à nota, facilitando a categorização e pesquisa de notas.
+- **Frontmatter**: Lista os metadados frontmatter associados à nota.
 
-### Excluded file extensions
+### Extensões de arquivo excluídas
 
-- Open **plugin settings** and select the file extensions that you don't want to display (extensions separated by commas).
+- Abra **configurações do plugin** e selecione as extensões de arquivo que você não deseja exibir (extensões separadas por vírgulas).
 
-- Enter file extensions: In the provided text field, list the file extensions you want to exclude, separated by commas. For example: \`txt, docx, js\`.
+- Insira extensões de arquivo: No campo de texto fornecido, liste as extensões de arquivo que deseja excluir, separadas por vírgulas. Por exemplo: \`txt, docx, js\`.
 
-### Excluded folders
+### Pastas excluídas
 
-- Open **plugin settings** and select the file extensions that you don't want to display (folder paths separated by commas).
+- Abra **configurações do plugin** e selecione as extensões de arquivo que você não deseja exibir (caminhos de pastas separados por vírgulas).
 
-- Enter folder paths: In the provided space, list the folder names or paths to the folders(subfolders) you want to exclude, separating them with commas. For example: \`folder1/subfolder, source_files, folder2\`.
+- Insira caminhos de pastas: No espaço fornecido, liste os nomes das pastas ou os caminhos para as pastas (subpastas) que deseja excluir, separando-os com vírgulas. Por exemplo: \`pasta1/subpasta, arquivos_fonte, pasta2\`.
 
-### Colored files
+### Arquivos coloridos
 
-- Select custom colors for files in the dashboard and navigator views. 
-- These colors will be reflected in the piechart graph, making it easier to identify and track different file types. To activate this feature, go to **plugin settings** and **toggle colored files**.
+- Selecione cores personalizadas para arquivos nas visualizações do painel e do navegador.
+- Essas cores serão refletidas no gráfico de pizza, facilitando a identificação e o rastreamento de diferentes tipos de arquivo. Para ativar esse recurso, vá para **configurações do plugin** e **ative arquivos coloridos**.
 
-### Colored tags support
+### Suporte a tags coloridas
 
-- If the theme being used supports colored tags or if you are using custom CSS snippet to color tags, the **tags** column and **file properties** window will show colored tags accordingly.
-
-`;
+- Se o tema em uso suportar tags coloridas ou se você estiver usando um snippet CSS personalizado para colorir tags, a coluna de **tags** e a janela de **propriedades do arquivo** mostrarão as tags coloridas de acordo.`;
     this._mdComponent = new import_obsidian7.Component();
   }
   onOpen() {
@@ -2916,6 +2971,8 @@ var DEFAULT_SETTINGS = {
   onclose_search: "",
   saved_searches: []
 };
+
+
 var DNPlugin = class extends import_obsidian9.Plugin {
   async onload() {
     await this.loadSettings();
@@ -3025,6 +3082,7 @@ var DNPlugin = class extends import_obsidian9.Plugin {
   async saveSettings() {
     await this.saveData(this.settings);
   }
+
 };
 
 

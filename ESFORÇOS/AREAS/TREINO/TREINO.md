@@ -1,20 +1,19 @@
 ---
-up: "[[SISTEMA/COLEÇÕES/SAUDE.md|SAUDE]]"
-area: "[[saúde]]"
-tags: area/saúde
+up:
+  - "[[Efforts]]"
+area: "[[TREINO]]"
+tags: area/treino
 type: area_family
-created: "[[2025-08-20]]"
+created: "[[2025-09-04]]"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
-collection: "[[SISTEMA/COLEÇÕES/TRABALHO.md|TRABALHO]]"
-related:
-  - "[[ATLAS/FONTES/AULAS/aula 1.md|aula 1]]"
+collection: "[[SISTEMA/COLEÇÕES/SAUDE.md|SAUDE]]"
 ---
 | `Up` | `INPUT[suggester(optionQuery("")):up]`    | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[saúde]] 
+# [[TREINO]] 
 
 
 ---
@@ -37,7 +36,7 @@ actions:
 
 ```dataview
 table created AS "Created", resumo AS "Resumo"
-from "ESFORÇOS/AREAS/saúde"
+from "ESFORÇOS/AREAS/TREINO"
 where type != "area"
 where type = "area_note"
 where type != "area_note_sub"
@@ -52,7 +51,7 @@ tab: Em Aberto
 
 ```dataview
 TASK
-FROM "ESFORÇOS/AREAS/saúde"
+FROM "ESFORÇOS/AREAS/TREINO"
 WHERE !completed AND !checked
 GROUP BY file.name
 
@@ -61,7 +60,7 @@ GROUP BY file.name
 tab: Concluídas 
 ```dataview
 TASK
-FROM "ESFORÇOS/AREAS/saúde"
+FROM "ESFORÇOS/AREAS/TREINO"
 WHERE completed AND checked
 GROUP BY file.name
 

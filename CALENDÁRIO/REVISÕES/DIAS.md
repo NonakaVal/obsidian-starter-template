@@ -4,13 +4,16 @@ up:
 collection:
   - "[[Mapas]]"
   - "[[Visualizações]]"
-related: 
+related:
 created: 2025-04-07 19:27
+cssclasses:
+  - wide-page
 ---
+
 ```dataview
 TABLE WITHOUT ID
-file.link as Nota, created as Criada
+file.link as Nota , file.inlinks AS inlins, length(file.inlinks) as Total 
 FROM "CALENDÁRIO/DIAS"
-sort file.name desc
+sort file.ctime desc
 ```
 
