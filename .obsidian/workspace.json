@@ -8,12 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "beb49244727310fa",
+            "id": "cd91a72a31bab20d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SISTEMA/SOBRE/_COLEÇÕES.md",
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -27,8 +28,35 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "_COLEÇÕES"
+              "title": "Boas Vindas"
+            }
+          },
+          {
+            "id": "beb49244727310fa",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HOMEPAGE.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "HOMEPAGE"
             }
           }
         ]
@@ -124,15 +152,41 @@
         "type": "tabs",
         "children": [
           {
+            "id": "ca19f0e65e17ab32",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/SOBRE/Guias Práticos.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Guias Práticos"
+            }
+          },
+          {
             "id": "f873cb294b2c1c1b",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/SOBRE/_COLEÇÕES.md"
+                "file": "SISTEMA/SOBRE/Boas Vindas.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo _COLEÇÕES"
+              "title": "Propriedades do arquivo Boas Vindas"
             }
           },
           {
@@ -238,46 +292,47 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "26bda3c9cb740625",
+  "active": "cd91a72a31bab20d",
   "lastOpenFiles": [
-    "ATLAS/trabalho.md",
-    "Sem título.md",
+    "HOMEPAGE.md",
+    "SISTEMA/SOBRE/Guias Práticos.md",
+    "+/_Areas.md",
+    "SISTEMA/SOBRE/Boas Vindas.md",
+    "ESFORÇOS/PROJETOS/projeto 1/nota projeto 1.md",
+    "attachments/2025-09-04 12-28-55.mp4",
+    "attachments",
+    "SISTEMA/SOBRE/LYT/Markdown.md",
+    "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md",
+    "ESFORÇOS/2_PROJETOS.md",
+    "ESFORÇOS/PROJETOS/projeto 1",
+    "ESFORÇOS/1_AREAS.md",
+    "ESFORÇOS/AREAS/Saúde/Saúde.md",
+    "ESFORÇOS/AREAS/Finanças/Tabelas de gastos pessoais.md",
+    "ESFORÇOS/AREAS/Finanças/Finanças.md",
+    "ESFORÇOS/AREAS/Finanças",
+    "ESFORÇOS/AREAS/Saúde/Alimentação.md",
+    "ESFORÇOS/AREAS/Saúde/metas de treino.md",
+    "ESFORÇOS/AREAS/Saúde",
+    "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
+    "SISTEMA/SOBRE/LYT/Área - Projetos.md",
+    "CALENDÁRIO/DIAS/2025-09-04.md",
+    "CALENDÁRIO/DIAS/2025-08-17.md",
+    "CALENDÁRIO/DIAS/2025-08-19.md",
+    "CALENDÁRIO/DIAS/2025-08-20.md",
+    "CALENDÁRIO/REVISÕES/DIAS.md",
+    "SISTEMA/SOBRE/LYT/Como Calendário funciona.md",
+    "ATLAS/MAPAS/+/mapa 2.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
+    "SISTEMA/SOBRE/LYT/Como Esforços funciona.md",
+    "+/Sem título.base",
+    "ATLAS/FONTES/LIVROS",
+    "ATLAS/FONTES/Sem título.canvas",
     "Sem título.canvas",
     "+",
-    "SISTEMA/SOBRE/_COLEÇÕES.md",
-    "+/dd.md",
-    "HOMEPAGE.md",
-    "+/trabalho2.md",
-    "SISTEMA/COLEÇÕES/Trabalho.md",
-    "+/aula 1.md",
-    "ATLAS/FONTES/AULAS/aula 1.md",
     "SISTEMA/MEDIA/Pasted image 20250816180551.png",
     "SISTEMA/MEDIA/Pasted image 20250815104904.png",
-    "SISTEMA/COLEÇÕES/Estudos.md",
-    "ESFORÇOS/PROJETOS/projeto 2/projeto 2.md",
-    "SISTEMA/COLEÇÕES/finanças.md",
-    "+/1.md",
-    "CALENDÁRIO/DIAS/2025-09-04.md",
-    "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "+/Sem título.base",
-    "ATLAS/MAPAS/+/mapa.md",
-    "ESFORÇOS/PROJETOS/projeto 3/projeto 3.md",
-    "ESFORÇOS/PROJETOS/projeto 3/nota 2.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
-    "SISTEMA/SOBRE/TEMPLATES.md",
-    "ESFORÇOS/PROJETOS/projeto 3/projeto nota 2.md",
-    "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
     "ESFORÇOS/PROJETOS/projeto 3",
     "ESFORÇOS/PROJETOS/projeto 2",
-    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
-    "CALENDÁRIO/REVISÕES/2025-09.md",
-    "CALENDÁRIO/REVISÕES/2025-08.md",
-    "+/Sem título 1.base",
-    "ESFORÇOS/AREAS/finanças",
-    "ESFORÇOS/PROJETOS/projeto 1",
-    "ESFORÇOS/AREAS/saude",
-    "ESFORÇOS/AREAS/saúde",
-    "ESFORÇOS/AREAS/saude 1",
     "SISTEMA/MEDIA/Pasted image 20250815103203.png",
     "SISTEMA/MEDIA/DESIGN/search.gif",
     "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",

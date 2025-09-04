@@ -1,16 +1,172 @@
 {
   "recentFiles": [
     {
-      "basename": "_COLEÇÕES",
-      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
+      "basename": "Boas Vindas",
+      "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
       "basename": "HOMEPAGE",
       "path": "HOMEPAGE.md"
     },
     {
-      "basename": "Trabalho",
-      "path": "SISTEMA/COLEÇÕES/Trabalho.md"
+      "basename": "Guias Práticos",
+      "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
+      "basename": "nota projeto 1",
+      "path": "ESFORÇOS/PROJETOS/projeto 1/nota projeto 1.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "SISTEMA/SOBRE/LYT/Markdown.md"
+    },
+    {
+      "basename": "projeto 1",
+      "path": "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md"
+    },
+    {
+      "basename": "2_PROJETOS",
+      "path": "ESFORÇOS/2_PROJETOS.md"
+    },
+    {
+      "basename": "1_AREAS",
+      "path": "ESFORÇOS/1_AREAS.md"
+    },
+    {
+      "basename": "Saúde",
+      "path": "ESFORÇOS/AREAS/Saúde/Saúde.md"
+    },
+    {
+      "basename": "Tabelas de gastos pessoais",
+      "path": "ESFORÇOS/AREAS/Finanças/Tabelas de gastos pessoais.md"
+    },
+    {
+      "basename": "Finanças",
+      "path": "ESFORÇOS/AREAS/Finanças/Finanças.md"
+    },
+    {
+      "basename": "Alimentação",
+      "path": "ESFORÇOS/AREAS/Saúde/Alimentação.md"
+    },
+    {
+      "basename": "metas de treino",
+      "path": "ESFORÇOS/AREAS/Saúde/metas de treino.md"
+    },
+    {
+      "basename": "Obsidian e PKM",
+      "path": "SISTEMA/SOBRE/LYT/Obsidian e PKM.md"
+    },
+    {
+      "basename": "Área - Projetos",
+      "path": "SISTEMA/SOBRE/LYT/Área - Projetos.md"
+    },
+    {
+      "basename": "2025-09-04",
+      "path": "CALENDÁRIO/DIAS/2025-09-04.md"
+    },
+    {
+      "basename": "2025-08-17",
+      "path": "CALENDÁRIO/DIAS/2025-08-17.md"
+    },
+    {
+      "basename": "2025-08-19",
+      "path": "CALENDÁRIO/DIAS/2025-08-19.md"
+    },
+    {
+      "basename": "2025-08-20",
+      "path": "CALENDÁRIO/DIAS/2025-08-20.md"
+    },
+    {
+      "basename": "DIAS",
+      "path": "CALENDÁRIO/REVISÕES/DIAS.md"
+    },
+    {
+      "basename": "Como Calendário funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
+    },
+    {
+      "basename": "mapa 2",
+      "path": "ATLAS/MAPAS/+/mapa 2.md"
+    },
+    {
+      "basename": "% TODAS TAREFAS",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    },
+    {
+      "basename": "Como Esforços funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
+    },
+    {
+      "basename": "Como Atlas funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
+    },
+    {
+      "basename": "como + funciona",
+      "path": "SISTEMA/SOBRE/LYT/como + funciona.md"
+    },
+    {
+      "basename": "Coleções",
+      "path": "SISTEMA/SOBRE/LYT/Coleções.md"
+    },
+    {
+      "basename": "Adicionar",
+      "path": "SISTEMA/SOBRE/LYT/Adicionar.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
+    },
+    {
+      "basename": "Sem título",
+      "path": "+/Sem título.base"
+    },
+    {
+      "basename": "Buscar Notas",
+      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
+    },
+    {
+      "basename": "livro 1",
+      "path": "ATLAS/FONTES/LIVROS/livro 1.md"
+    },
+    {
+      "basename": "_COLEÇÕES",
+      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
+    },
+    {
+      "basename": "livro de finanças",
+      "path": "ATLAS/FONTES/LIVROS/livro de finanças.md"
+    },
+    {
+      "basename": "dicas de finanças",
+      "path": "+/dicas de finanças.md"
+    },
+    {
+      "basename": "aula 5",
+      "path": "ATLAS/FONTES/AULAS/aula 5.md"
+    },
+    {
+      "basename": "aula 4",
+      "path": "ATLAS/FONTES/AULAS/aula 4.md"
+    },
+    {
+      "basename": "mapa 1",
+      "path": "ATLAS/MAPAS/+/mapa 1.md"
+    },
+    {
+      "basename": "aula 2",
+      "path": "ATLAS/FONTES/AULAS/aula 2.md"
+    },
+    {
+      "basename": "aula 1",
+      "path": "ATLAS/FONTES/AULAS/aula 1.md"
+    },
+    {
+      "basename": "ATLAS",
+      "path": "SISTEMA/SOBRE/LYT/ATLAS.md"
+    },
+    {
+      "basename": "Metadados",
+      "path": "SISTEMA/SOBRE/LYT/Metadados.md"
     },
     {
       "basename": "Pasted image 20250816180551",
@@ -19,18 +175,6 @@
     {
       "basename": "Pasted image 20250815104904",
       "path": "SISTEMA/MEDIA/Pasted image 20250815104904.png"
-    },
-    {
-      "basename": "Estudos",
-      "path": "SISTEMA/COLEÇÕES/Estudos.md"
-    },
-    {
-      "basename": "finanças",
-      "path": "SISTEMA/COLEÇÕES/finanças.md"
-    },
-    {
-      "basename": "2025-09-04",
-      "path": "CALENDÁRIO/DIAS/2025-09-04.md"
     },
     {
       "basename": "Atalhos",
@@ -51,130 +195,6 @@
     {
       "basename": "PROJETO-TEMPLATE",
       "path": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
-    },
-    {
-      "basename": "BARRA DE AÇÕES",
-      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
-    },
-    {
-      "basename": "2025-09",
-      "path": "CALENDÁRIO/REVISÕES/2025-09.md"
-    },
-    {
-      "basename": "2025-08",
-      "path": "CALENDÁRIO/REVISÕES/2025-08.md"
-    },
-    {
-      "basename": "DIAS",
-      "path": "CALENDÁRIO/REVISÕES/DIAS.md"
-    },
-    {
-      "basename": "2_PROJETOS",
-      "path": "ESFORÇOS/2_PROJETOS.md"
-    },
-    {
-      "basename": "1_AREAS",
-      "path": "ESFORÇOS/1_AREAS.md"
-    },
-    {
-      "basename": "Buscar Notas",
-      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
-    },
-    {
-      "basename": "Boas Vindas",
-      "path": "SISTEMA/SOBRE/Boas Vindas.md"
-    },
-    {
-      "basename": "saude",
-      "path": "SISTEMA/COLEÇÕES/saude.md"
-    },
-    {
-      "basename": "NOTA-AREA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md"
-    },
-    {
-      "basename": "AULA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md"
-    },
-    {
-      "basename": "ARTIGO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md"
-    },
-    {
-      "basename": "AREA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md"
-    },
-    {
-      "basename": "Comunicar",
-      "path": "SISTEMA/SOBRE/LYT/Comunicar.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "% TODAS TAREFAS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
-    },
-    {
-      "basename": "% TAREFAS EFFORTS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md"
-    },
-    {
-      "basename": "NOTA-DIARIA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "SISTEMA/SOBRE/Guias Práticos.md"
-    },
-    {
-      "basename": "tabs",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/tabs.md"
-    },
-    {
-      "basename": "% MAPA DATAVIEW DE ATLAS",
-      "path": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md"
-    },
-    {
-      "basename": "Checklist",
-      "path": "SISTEMA/SOBRE/LYT/Checklist.md"
-    },
-    {
-      "basename": "ARC Framework",
-      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
-    },
-    {
-      "basename": "Coleções",
-      "path": "SISTEMA/SOBRE/LYT/Coleções.md"
-    },
-    {
-      "basename": "Metadados",
-      "path": "SISTEMA/SOBRE/LYT/Metadados.md"
-    },
-    {
-      "basename": "Sistema ACE",
-      "path": "SISTEMA/SOBRE/LYT/Sistema ACE.md"
-    },
-    {
-      "basename": "MOC definição",
-      "path": "SISTEMA/SOBRE/LYT/MOC definição.md"
-    },
-    {
-      "basename": "Como Atlas funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
-    },
-    {
-      "basename": "Obsidian e PKM",
-      "path": "SISTEMA/SOBRE/LYT/Obsidian e PKM.md"
-    },
-    {
-      "basename": "2025-08-20",
-      "path": "CALENDÁRIO/DIAS/2025-08-20.md"
-    },
-    {
-      "basename": "VIDEO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md"
     }
   ],
   "omittedPaths": [],

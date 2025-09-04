@@ -24,12 +24,20 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "SISTEMA/SOBRE/GUIAS.md",
-      "timestamp": 1755674402331
+      "filepath": "SISTEMA/SOBRE/Boas Vindas.md",
+      "timestamp": 1757002048647
     },
     {
-      "filepath": "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
-      "timestamp": 1755674294386
+      "filepath": "HOMEPAGE.md",
+      "timestamp": 1757002047190
+    },
+    {
+      "filepath": "SISTEMA/SOBRE/Guias Práticos.md",
+      "timestamp": 1757002042537
+    },
+    {
+      "filepath": "ESFORÇOS/PROJETOS/projeto 1/nota projeto 1.md",
+      "timestamp": 1757001602138
     }
   ],
   "bookmarkedFileStore": [
@@ -37,19 +45,22 @@
       "filepath": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
-      "filepath": "SISTEMA/SOBRE/GUIAS.md"
+      "filepath": "SISTEMA/SOBRE/Guias Práticos.md"
     },
     {
       "filepath": "SISTEMA/SOBRE/TEMPLATES.md"
     },
     {
-      "filepath": "ESFORÇOS/AREAS/_AREAS.md"
+      "filepath": "ESFORÇOS/1_AREAS.md"
     },
     {
-      "filepath": "ESFORÇOS/PROJETOS/_PROJETOS.md"
+      "filepath": "ESFORÇOS/2_PROJETOS.md"
     },
     {
       "filepath": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    },
+    {
+      "filepath": "SISTEMA/SOBRE/_COLEÇÕES.md"
     }
   ],
   "searchDelay": 0,

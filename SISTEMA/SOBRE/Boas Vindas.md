@@ -4,21 +4,27 @@ cssclasses:
 
 # Resumo 
 
-Sistema integrado de **gestão do conhecimento** baseado no [[LYT/Sistema ACE|ACE folder system]] e no [[LYT/ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[LYT/Metadados]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
+Sistema integrado de **gestão do conhecimento** baseado no [[Sistema ACE|ACE folder system]] e no [[ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[Metadados]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
 (notas associadas).
 
 
 ---
+
+
+---
+> [!VIDEO]+ Introdução
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1Uf3IgXp_voeLt2NgQgfph4glzGCZZmW9/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+
  `BUTTON[help]`
 
 
 ---
 
 
-# [[LYT/Sistema ACE|Sistema de organização ACE]] 
+# [[Sistema ACE|Sistema de organização ACE]] 
 O framework **ACE** (Atlas, Calendar, Efforts) é um sistema universal para organizar conhecimento, tempo e ação, complementado por:
 
-> [!box] [[LYT/como + funciona|+]] - **[[LYT/Como Atlas funciona|Atlas]] - [[LYT/Como Calendário funciona|Calendário]] - [[LYT/Como Esforços funciona|Esforços]]** 
+> [!box] [[como + funciona|+]] - **[[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]]** 
 
 
 
@@ -83,21 +89,21 @@ largest column:
 ```
 ---
 
-# [[LYT/ARC Framework]]
+# [[ARC Framework]]
 ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse é um framework que amplia seu processo criativo.
 
 **Ciclo**: Novas ideias → Organização natural → Aplicação concreta = Sistema autossustentável de aprendizado.
 
-> [!rainbow] ARC » [[LYT/Adicionar]] | [[LYT/Relacionar]] | [[LYT/Comunicar]] 
+> [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
 
 
 
 
 ![[Pasted image 20250815104904.png]]
 
-# [[LYT/Metadados]]
+# [[Metadados]]
 
-> [!waypoints] [[Boas Vindas]] | [[LYT/Obsidian e PKM]]  | **[[LYT/Metadados]]**  | [[LYT/Coleções]]
+> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
 
 ### Principais metadados:
 

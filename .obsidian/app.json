@@ -2,7 +2,7 @@
   "propertiesInDocument": "hidden",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "attachments",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
   "userIgnoreFilters": [
     "SISTEMA/"

@@ -31,8 +31,7 @@ for (let p of colecoes) {
     }
 }
 
-// Resumo melhorado
-dv.header(2, "📚 Resumo das Coleções");
+
 
 // Criar container para os cartões
 const container = dv.el("div", "", {
