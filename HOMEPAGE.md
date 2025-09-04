@@ -3,35 +3,71 @@ cssclasses:
   - no-inline
   - hide-properties_editing
   - hide-properties_reading
+banner: "https://w.wallhaven.cc/full/po/wallhaven-pokg2e.png"
 ---
+```widgets
+type: clock
+```
+<br><br>
+
+`BUTTON[new_note]`     `BUTTON[collection]`          `BUTTON[lembrete]`
+
+<br><br>
+
+```meta-bind-button
+label: Lembrete
+hidden: true
+icon: plus
+class: ""
+id: lembrete
+style: destructive
+actions:
+  - type: command
+    command: quickadd:choice:7ec7e9a0-be26-4424-9caf-5751f9865da3
+```
+```meta-bind-button
+label: Base
+icon: plus
+hidden: true
+class: ""
+id: base
+style: destructive
+actions:
+  - type: command
+    command: bases:new-file
+```
+
+````tabs
+tab: Atlas
+
+> [!globe] **[[ATLAS]]** »  
+>  `BUTTON[dash, nav]`  `BUTTON[base]`
+
+```dataview
+TABLE without id file.link as Coleção, length(file.inlinks) as Notas 
+FROM "SISTEMA/COLEÇÕES"
+SORT length(file.inlinks) desc
 
 
-`BUTTON[new_note]`   `BUTTON[collection]`
+LIMIT 30
+```
 
-### Dashboard -+ Navegar 
----
+tab: Calendário
 
-> [!globe] **[[ATLAS]]** »   
->  `BUTTON[dash, nav]`
-
----
-
-> [!calendar] Calendário » **[[DIAS|Dias]]** 
+> [!calendar] Calendário » 
 >  `BUTTON[today]` `BUTTON[days]`  
-
----
+tab: Esforços
 
 > [!mountain]  » **[[Como Esforços funciona|Esforços]]**
 >  `BUTTON[areas]` `BUTTON[projects]` `BUTTON[open-tasks]`
+````
+
+
+
+<br><br>
+
 
 ---
-
-
-
-
----
-`BUTTON[recents]` 
-
 
 ````tabs
 
@@ -135,7 +171,7 @@ const PASTAS_INCLUIR = [
 
 // Exclui apenas pastas de sistema
 const PASTAS_EXCLUIR = [
-    /^System\//     // Ignora pastas de sistema
+    /^SYSTEM\//     // Ignora pastas de sistema
 ];
 
 //-----------------------------------------------------
@@ -196,7 +232,7 @@ for (let grupo of grupos) {
 tab: 🗂️ Totais Coleções
 
 ```dataview
-TABLE file.inlinks as Backlinks, length(file.inlinks) as Total 
+TABLE length(file.inlinks) as Total, file.inlinks as Backlinks  
 FROM "SISTEMA/COLEÇÕES"
 SORT length(file.inlinks) desc
 
@@ -220,7 +256,7 @@ actions:
     command: quickadd:choice:d223214e-cf0c-4a6a-9d27-bfe62d8542aa
 ```
 
-`BUTTON[hotkeys]` 
+`BUTTON[hotkeys]` `BUTTON[recents]` 
 ****
 ----
 
@@ -276,7 +312,7 @@ hidden: true
 class: “”
 tooltip: “”
 id: today
-style: default
+style: primary
 actions:
   - type: command
     command: periodic-notes:open-daily-note
@@ -455,7 +491,7 @@ hidden: true
 icon: sun
 class: ""
 id: days
-style: default
+style: destructive
 actions:
   - type: open
     link: "[[DIAS]]"
@@ -572,3 +608,4 @@ actions:
 ```
 
 
+[^1]: 

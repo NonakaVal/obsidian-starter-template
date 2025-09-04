@@ -1,5 +1,12 @@
 {
   "propertiesInDocument": "hidden",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "SISTEMA/MEDIA"
+  "attachmentFolderPath": "attachments",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": false,
+  "userIgnoreFilters": [
+    "SISTEMA/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+"
 }

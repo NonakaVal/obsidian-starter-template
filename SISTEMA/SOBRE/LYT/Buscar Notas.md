@@ -3,6 +3,8 @@ cssclasses:
   - hide-properties_editing
   - hide-properties_reading
   - wide-page
+collection: "[[Mapas]]"
+up:
 ---
 ```datacorejsx
 /// 📄 Configurações Iniciais
@@ -13,7 +15,7 @@ const initialSettings = {
   queryPath: "",
   initialNameFilter: "",
   viewHeight: "900px",
-excludedFolders: ["CALENDÁRIO"],
+excludedFolders: ["CALENDÁRIO", "SISTEMA"],
   pagination: { isEnabled: true, itemsPerPage: 4 },
   placeholders: {
     headerTitle: "Buscar Notas",

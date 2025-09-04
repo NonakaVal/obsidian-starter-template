@@ -8,8 +8,6 @@
     "shortName": "Mo"
   },
   "syncInterval": 200,
-  "minSyncInterval": 50,
-  "maxSyncInterval": 1000,
   "enableJs": true,
   "viewFieldDisplayNullAsEmpty": true,
   "enableSyntaxHighlighting": true,
@@ -18,5 +16,7 @@
   "buttonTemplates": [],
   "excludedFolders": [
     "templates"
-  ]
+  ],
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000
 }

@@ -1,14 +1,15 @@
 ---
 project: "[[<% tp.file.folder() %>]]"
-tags: 
+tags:
 type: project
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
   - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+up: "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
 ---
-| `Up` | `INPUT[suggester(optionQuery("")):up]`    | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
+ `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
 # [[<%tp.file.folder() %>]] 

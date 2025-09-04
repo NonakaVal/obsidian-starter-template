@@ -1,27 +1,52 @@
-# 
-`BUTTON[new_note]`  
+`BUTTON[new_note]`     `BUTTON[collection]`          `BUTTON[lembrete]`
 
-### Dashboard -+ Navegar 
----
 
-> [!globe] **[[ATLAS]]** »   
->  `BUTTON[search, dash, nav]`
+```meta-bind-button
+label: Lembrete
+hidden: true
+icon: plus
+class: ""
+id: lembrete
+style: destructive
+actions:
+  - type: command
+    command: quickadd:choice:7ec7e9a0-be26-4424-9caf-5751f9865da3
+```
 
----
 
-> [!calendar] **Calendário** » **[[DIAS|Dias]]** 
+```meta-bind-button
+label: Base
+icon: plus
+hidden: true
+class: ""
+id: base
+style: destructive
+actions:
+  - type: command
+    command: bases:new-file
+```
+
+
+
+
+# Dashboard -+ Navegar 
+
+
+````tabs
+tab: Atlas
+
+> [!globe] **[[ATLAS]]** »  
+>  `BUTTON[dash, nav]`  `BUTTON[base]`
+
+tab: Calendário
+
+> [!calendar] Calendário » 
 >  `BUTTON[today]` `BUTTON[days]`  
+tab: Esforços
 
----
-
-> [!mountain] **Esforços** » **[[Como Esforços funciona|Esforços]]**
+> [!mountain]  » **[[Como Esforços funciona|Esforços]]**
 >  `BUTTON[areas]` `BUTTON[projects]` `BUTTON[open-tasks]`
-
----
-
-`BUTTON[recents]` `BUTTON[readme]`  `BUTTON[hotkeys]` 
-
-
+````
 
 ---
 
@@ -31,6 +56,17 @@
 
 
 
+```meta-bind-button
+label: Nova Coleção
+hidden: true
+icon: plus
+class: ""
+id: collection
+style: destructive
+actions:
+  - type: command
+    command: quickadd:choice:d223214e-cf0c-4a6a-9d27-bfe62d8542aa
+```
 
 
 ```meta-bind-button

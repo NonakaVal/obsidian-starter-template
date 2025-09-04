@@ -24,5 +24,7 @@
   "editing-toolbar",
   "obsidian-chartsview-plugin",
   "datacore",
-  "dashboard-navigator"
+  "widgets",
+  "dashboard-navigator",
+  "obsidian-banners"
 ]

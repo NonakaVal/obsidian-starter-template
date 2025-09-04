@@ -3,8 +3,8 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "up": "multitext",
-    "collection": "multitext",
+    "up": "text",
+    "collection": "text",
     "related": "multitext"
   }
 }

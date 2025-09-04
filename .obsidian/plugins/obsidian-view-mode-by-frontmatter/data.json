@@ -40,6 +40,10 @@
     {
       "filePattern": "DIAS",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "% TODAS TAREFAS",
+      "viewMode": "obsidianUIMode: preview"
     }
   ]
 }

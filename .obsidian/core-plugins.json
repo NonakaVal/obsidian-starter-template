@@ -5,7 +5,7 @@
   "graph": true,
   "backlink": true,
   "canvas": true,
-  "outgoing-link": true,
+  "outgoing-link": false,
   "tag-pane": true,
   "properties": true,
   "page-preview": true,

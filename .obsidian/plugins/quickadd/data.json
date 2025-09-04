@@ -490,6 +490,76 @@
           }
         ]
       }
+    },
+    {
+      "id": "7ec7e9a0-be26-4424-9caf-5751f9865da3",
+      "name": "📝 LEMBRETE",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "CALENDÁRIO/DIAS/{{date}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{time}}-{{value}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# Lembretes",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    },
+    {
+      "id": "a2caccb1-1160-4573-b24c-d01e9d892505",
+      "name": "Criar Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{value}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Tarefas",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
     }
   ],
   "inputPrompt": "single-line",

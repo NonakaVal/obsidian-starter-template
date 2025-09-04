@@ -6,6 +6,9 @@ cssclasses:
   - hide-properties_editing
   - hide-properties_reading
 ---
+
+# Lembretes
+
 # Notas Criadas Hoje
 
 `````tabs
@@ -26,6 +29,8 @@ tab: Tarefas
 
 
 `````
+
+
 
 # Ações rápidas
 
