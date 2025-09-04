@@ -4,6 +4,8 @@ An integrated **knowledge management system** based on the \[\[ACE System|ACE fo
 
 ---
 
+💾 [Download .zip](https://github.com/NonakaVal/obsidian-ACE-ARC/archive/refs/heads/main.zip)
+
 # \[\[ACE System|ACE Organization System]]
 
 The **ACE** (Atlas, Calendar, Efforts) framework is a universal system for organizing knowledge, time, and action, complemented by:
