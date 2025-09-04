@@ -9,7 +9,7 @@ cssclasses:
 > [!VIDEO]+ Antes de Começar
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1Gt1vNixHlcXwISGDZ-en7H-Da_1QSKar/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
-> [!VIDEO]- Criando notas 
+> [!VIDEO]- Coleções e novas notas 
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1KBC1ZRqST8VdFGr59N6BVZhgd8Y2M7kj/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 > [!VIDEO]- Criando notas para Areas e Projetos
