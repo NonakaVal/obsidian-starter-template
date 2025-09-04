@@ -29,26 +29,6 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
-    "+": {
-      "icon": "lucide-plus-square",
-      "unsynced": [
-        "62aa804a619c5bdd",
-        "7696e62fe394c3aa",
-        "ba9f8f47e0d1a857",
-        "b530024e3f444144",
-        "d1468d6092e56ec9",
-        "01b0916a894d17b1",
-        "ae38a1c4c82f5f27",
-        "4672d59c41b6b755",
-        "81755fa6debd60c6",
-        "1e72bba6ed9414f3",
-        "931df0296d1422b7",
-        "7c7b71a060ea143a",
-        "cc75ea778b901110",
-        "ce38ba73d23851c6",
-        "f2c9f9d54f693b5d"
-      ]
-    },
     "ATLAS": {
       "icon": "lucide-notebook-pen",
       "unsynced": [

@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "53fd7aae1701bb95",
+        "id": "f250f854b4943503",
         "type": "tabs",
         "children": [
           {
-            "id": "886d0414fe68a592",
+            "id": "beb49244727310fa",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SISTEMA/MEDIA/Pasted image 20250816180551.png"
+                "file": "SISTEMA/SOBRE/_COLEÇÕES.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250816180551"
+              "icon": "lucide-file",
+              "title": "_COLEÇÕES"
             }
           }
         ]
@@ -51,13 +63,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SISTEMA/MEDIA/Pasted image 20250816180551.png",
+                "file": "HOMEPAGE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Pasted image 20250816180551"
+              "title": "Sumário de HOMEPAGE"
             }
           },
           {
@@ -117,10 +129,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/MEDIA/Pasted image 20250816180551.png"
+                "file": "SISTEMA/SOBRE/_COLEÇÕES.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo Pasted image 20250816180551"
+              "title": "Propriedades do arquivo _COLEÇÕES"
             }
           },
           {
@@ -226,18 +238,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "886d0414fe68a592",
+  "active": "26bda3c9cb740625",
   "lastOpenFiles": [
+    "ATLAS/trabalho.md",
+    "Sem título.md",
+    "Sem título.canvas",
+    "+",
+    "SISTEMA/SOBRE/_COLEÇÕES.md",
+    "+/dd.md",
+    "HOMEPAGE.md",
+    "+/trabalho2.md",
+    "SISTEMA/COLEÇÕES/Trabalho.md",
+    "+/aula 1.md",
+    "ATLAS/FONTES/AULAS/aula 1.md",
+    "SISTEMA/MEDIA/Pasted image 20250816180551.png",
     "SISTEMA/MEDIA/Pasted image 20250815104904.png",
     "SISTEMA/COLEÇÕES/Estudos.md",
     "ESFORÇOS/PROJETOS/projeto 2/projeto 2.md",
     "SISTEMA/COLEÇÕES/finanças.md",
-    "ATLAS/FONTES/AULAS/aula 1.md",
     "+/1.md",
     "CALENDÁRIO/DIAS/2025-09-04.md",
-    "HOMEPAGE.md",
     "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "+/aula 1.md",
     "+/Sem título.base",
     "ATLAS/MAPAS/+/mapa.md",
     "ESFORÇOS/PROJETOS/projeto 3/projeto 3.md",
@@ -251,20 +272,12 @@
     "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
     "CALENDÁRIO/REVISÕES/2025-09.md",
     "CALENDÁRIO/REVISÕES/2025-08.md",
-    "CALENDÁRIO/REVISÕES/DIAS.md",
-    "ESFORÇOS/2_PROJETOS.md",
-    "ESFORÇOS/1_AREAS.md",
-    "SISTEMA/SOBRE/LYT/Buscar Notas.md",
-    "SISTEMA/SOBRE/Boas Vindas.md",
-    "ESFORÇOS/AREAS/finanças/1.md",
     "+/Sem título 1.base",
     "ESFORÇOS/AREAS/finanças",
     "ESFORÇOS/PROJETOS/projeto 1",
     "ESFORÇOS/AREAS/saude",
     "ESFORÇOS/AREAS/saúde",
     "ESFORÇOS/AREAS/saude 1",
-    "ESFORÇOS/AREAS/area 1",
-    "SISTEMA/MEDIA/Pasted image 20250816180551.png",
     "SISTEMA/MEDIA/Pasted image 20250815103203.png",
     "SISTEMA/MEDIA/DESIGN/search.gif",
     "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",

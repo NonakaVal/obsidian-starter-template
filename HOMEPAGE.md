@@ -3,7 +3,7 @@ cssclasses:
   - no-inline
   - hide-properties_editing
   - hide-properties_reading
-banner: "https://w.wallhaven.cc/full/po/wallhaven-pokg2e.png"
+banner: "https://w.wallhaven.cc/full/zp/wallhaven-zp85qo.png"
 ---
 ```widgets
 type: clock
@@ -13,6 +13,40 @@ type: clock
 `BUTTON[new_note]`     `BUTTON[collection]`          `BUTTON[lembrete]`
 
 <br><br>
+
+
+````tabs
+tab: Atlas
+
+> [!globe] **[[ATLAS]]** »  
+>  `BUTTON[dash, nav]`  `BUTTON[col]`
+
+```dataview
+TABLE without id file.link as Coleção, length(file.inlinks) as Notas 
+FROM "SISTEMA/COLEÇÕES"
+SORT length(file.inlinks) desc
+
+
+LIMIT 30
+```
+
+
+
+
+
+
+
+
+
+tab: Calendário
+
+> [!calendar] Calendário » 
+>  `BUTTON[today]` `BUTTON[days]`  
+tab: Esforços
+
+> [!mountain]  » **[[Como Esforços funciona|Esforços]]**
+>  `BUTTON[areas]` `BUTTON[projects]` `BUTTON[open-tasks]`
+````
 
 ```meta-bind-button
 label: Lembrete
@@ -36,32 +70,18 @@ actions:
   - type: command
     command: bases:new-file
 ```
+```meta-bind-button
+label: Coleções
+hidden: true
+icon: folder
+class: ""
+id: col
+style: destructive
+actions:
+  - type: open
+    link: "[[_COLEÇÕES]]"
 
-````tabs
-tab: Atlas
-
-> [!globe] **[[ATLAS]]** »  
->  `BUTTON[dash, nav]`  `BUTTON[base]`
-
-```dataview
-TABLE without id file.link as Coleção, length(file.inlinks) as Notas 
-FROM "SISTEMA/COLEÇÕES"
-SORT length(file.inlinks) desc
-
-
-LIMIT 30
 ```
-
-tab: Calendário
-
-> [!calendar] Calendário » 
->  `BUTTON[today]` `BUTTON[days]`  
-tab: Esforços
-
-> [!mountain]  » **[[Como Esforços funciona|Esforços]]**
->  `BUTTON[areas]` `BUTTON[projects]` `BUTTON[open-tasks]`
-````
-
 
 
 <br><br>
