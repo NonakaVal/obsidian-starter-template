@@ -43,15 +43,6 @@
       "key": "P"
     }
   ],
-  "editor:insert-footnote": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "V"
-    }
-  ],
   "quickadd:choice:2007de3a-6e66-4c31-b749-ea2232af1ebc": [
     {
       "modifiers": [
@@ -67,15 +58,6 @@
         "Mod"
       ],
       "key": "N"
-    }
-  ],
-  "recent-files-obsidian:recent-files-open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "R"
     }
   ],
   "app:delete-file": [
@@ -278,14 +260,6 @@
       "key": "T"
     }
   ],
-  "quickadd:choice:492e1d7e-18a9-4365-8c42-3f7490e0bd33": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
   "templater-obsidian:replace-in-file-templater": [],
   "obsidian-hotkeys-for-specific-files:EFFORTS/09_AREAS/ESTUDOS.md": [
     {
@@ -405,6 +379,15 @@
       "key": "N"
     }
   ],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
   "bookmarks:open": [
     {
       "modifiers": [
@@ -423,7 +406,15 @@
       "key": "O"
     }
   ],
-  "obsidian-hotkeys-for-specific-files:SYSTEM/HOMEPAGE.md": [
+  "quickadd:choice:3edf5ca1-598e-42e8-beec-fe2714a9a1f9": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "recent-files-obsidian:recent-files-open": [
     {
       "modifiers": [
         "Mod",
@@ -432,13 +423,22 @@
       "key": "H"
     }
   ],
-  "obsidian-hotkeys-for-specific-files:HOMEPAGE.md-new-tab": [
+  "editor:toggle-source": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "H"
+      "key": "S"
+    }
+  ],
+  "obsidian-checklist-plugin:show-checklist-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
     }
   ],
   "daily-notes": [
@@ -450,48 +450,50 @@
       "key": "D"
     }
   ],
-  "table-editor-obsidian:table-control-bar": [],
   "file-explorer:new-file-in-new-pane": [],
-  "quickadd:choice:d223214e-cf0c-4a6a-9d27-bfe62d8542aa": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "C"
-    }
-  ],
-  "quickadd:choice:708c308e-d5d0-491d-8e27-29399c75064a": [
+  "quickadd:choice:6430f0b6-4d07-44f9-9b1a-45e79f6bee19": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "N"
+      "key": "A"
     }
   ],
-  "quickadd:choice:33b02e5d-cbf0-4df9-b622-4648b3cfe405": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "N"
-    }
-  ],
-  "dashboard-navigator:navigator": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "D"
-    }
-  ],
-  "homepage:open-homepage": [
+  "workspace:close-window": [],
+  "workspaces:open-modal": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "H"
+      "key": "W"
+    }
+  ],
+  "obsidian42-brat:allCommands": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
     }
   ]
 }

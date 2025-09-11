@@ -9,5 +9,6 @@
   ],
   "newFileLocation": "folder",
   "newFileFolderPath": "+",
-  "readableLineLength": true
+  "readableLineLength": true,
+  "defaultViewMode": "source"
 }

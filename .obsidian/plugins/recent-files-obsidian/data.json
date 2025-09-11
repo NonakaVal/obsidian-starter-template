@@ -5,6 +5,26 @@
       "path": "HOMEPAGE.md"
     },
     {
+      "basename": "Nick Milo's Starting Custom Callouts",
+      "path": "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "2025-09-11",
+      "path": "CALENDÁRIO/DIAS/2025-09-11.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "_COLEÇÕES",
+      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
+    },
+    {
       "basename": "scripts dataviewjs",
       "path": "+/scripts dataviewjs.md"
     },
@@ -23,10 +43,6 @@
     {
       "basename": "Boas Vindas",
       "path": "SISTEMA/SOBRE/Boas Vindas.md"
-    },
-    {
-      "basename": "Nick Milo's Starting Custom Callouts",
-      "path": "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md"
     },
     {
       "basename": "Guias Práticos",
@@ -49,14 +65,6 @@
       "path": "+/Views.md"
     },
     {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "2025-09-11",
-      "path": "CALENDÁRIO/DIAS/2025-09-11.md"
-    },
-    {
       "basename": "% TODAS TAREFAS",
       "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "Templates",
       "path": "SISTEMA/SOBRE/Templates.md"
-    },
-    {
-      "basename": "_COLEÇÕES",
-      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
     },
     {
       "basename": "Logs",
@@ -103,10 +107,6 @@
     {
       "basename": "Sources",
       "path": "+/Sources.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "DIAS",
