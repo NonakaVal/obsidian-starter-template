@@ -5,20 +5,52 @@
       "path": "HOMEPAGE.md"
     },
     {
-      "basename": "Nick Milo's Starting Custom Callouts",
-      "path": "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md"
+      "basename": "scripts dataviewjs",
+      "path": "+/scripts dataviewjs.md"
+    },
+    {
+      "basename": "2025-09-04",
+      "path": "CALENDÁRIO/DIAS/2025-09-04.md"
+    },
+    {
+      "basename": "nte",
+      "path": "+/nte.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
     },
     {
       "basename": "Boas Vindas",
       "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+      "basename": "Nick Milo's Starting Custom Callouts",
+      "path": "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md"
     },
     {
-      "basename": "SCRIPTS JS",
-      "path": "+/SCRIPTS JS.md"
+      "basename": "Guias Práticos",
+      "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
+      "basename": "Como Esforços funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
+    },
+    {
+      "basename": "Como Calendário funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
+    },
+    {
+      "basename": "Como Atlas funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
+    },
+    {
+      "basename": "Views",
+      "path": "+/Views.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     },
     {
       "basename": "2025-09-11",
@@ -37,20 +69,12 @@
       "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md"
     },
     {
-      "basename": "Guias Práticos",
-      "path": "SISTEMA/SOBRE/Guias Práticos.md"
-    },
-    {
       "basename": "Templates",
       "path": "SISTEMA/SOBRE/Templates.md"
     },
     {
       "basename": "_COLEÇÕES",
       "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
-    },
-    {
-      "basename": "Como Esforços funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
     },
     {
       "basename": "Logs",
@@ -137,10 +161,6 @@
       "path": "SISTEMA/SOBRE/LYT/Área - Projetos.md"
     },
     {
-      "basename": "2025-09-04",
-      "path": "CALENDÁRIO/DIAS/2025-09-04.md"
-    },
-    {
       "basename": "2025-08-17",
       "path": "CALENDÁRIO/DIAS/2025-08-17.md"
     },
@@ -153,16 +173,8 @@
       "path": "CALENDÁRIO/DIAS/2025-08-20.md"
     },
     {
-      "basename": "Como Calendário funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
-    },
-    {
       "basename": "mapa 2",
       "path": "ATLAS/MAPAS/+/mapa 2.md"
-    },
-    {
-      "basename": "Como Atlas funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
     },
     {
       "basename": "como + funciona",
@@ -187,14 +199,6 @@
     {
       "basename": "livro 1",
       "path": "ATLAS/FONTES/LIVROS/livro 1.md"
-    },
-    {
-      "basename": "livro de finanças",
-      "path": "ATLAS/FONTES/LIVROS/livro de finanças.md"
-    },
-    {
-      "basename": "dicas de finanças",
-      "path": "+/dicas de finanças.md"
     }
   ],
   "omittedPaths": [],

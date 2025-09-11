@@ -1,39 +1,49 @@
 ---
 banner: "https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png"
 cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 banner_y: 0.35088
 ---
 ```widgets
 type: clock
 ```
-> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
 
  <br>
 
-`BUTTON[new]` [^1] [^4]  `BUTTON[collection]`    `BUTTON[lembrete]`   
+[^5]  [^6] 
+
+`BUTTON[new]` [^1] [^2] `BUTTON[collection]`    `BUTTON[lembrete]`   [^7] 
+
+
+
 <br>
 
-> [!globe]+ **[[Atlas]]** [^3] » [[como + funciona|+]] | [[MOC definição|Mapas]] | [[Coleções]] 
->  >  `BUTTON[dash, nav]` [^2]  `BUTTON[col]`  `BUTTON[last]`  
+> [!globe]+ **[[Atlas]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** [^3] [^4]
+>  >  `BUTTON[dash, nav]`   `BUTTON[col]`  `BUTTON[last]`  [^7]
 
 --- start-multi-column: ExampleRegion3
 
-> [!calendar]+ **[[Como Calendário funciona|Calendar]]** [^3] » [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] 
-> `BUTTON[today]`   `BUTTON[task]`    [^3]
+> [!calendar]- **[[Como Calendário funciona|Calendar]]**  »» [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] [^3]
+> `BUTTON[today]`   `BUTTON[task]`    
 
 \--- end-column ---
 
-> [!mountain]+ **[[Efforts]]** [^3] » [[Como Esforços funciona|Works]] 
-> `BUTTON[areas]`  `BUTTON[project]`  [^3]
+> [!mountain]- **[[Efforts]]**  »» [[Como Esforços funciona|Works]] [^3]
+> `BUTTON[areas]`  `BUTTON[project]`  
 > 
 >  `BUTTON[eff]`
 
 --- end-multi-column
-
+[^7]
 
 
 <br><br>
+
 # Trabalhos... 
+
+[^7]
+
 ---
 `````tabs
 tab: 📝 Atividades Recentes
@@ -245,6 +255,25 @@ tab: Efforts
 `````
 
 
+
+
+[^7]
+# Recursos e Sistema 
+
+
+- ! [[Boas Vindas]]
+- help [[Guias Práticos]]
+- & [[Templates]]
+- clock [[Notas Recentemente Modificadas]]
+- ? [[Nick Milo's Starting Custom Callouts]]
+- %  [[Atalhos]]
+
+[^7] 
+# Footnotes
+---
+
+
+
 ```meta-bind-button
 label: Nota
 hidden: true
@@ -269,21 +298,6 @@ actions:
 ```
 
 
-# Recursos e Sistema 
-
-
-- ! [[Boas Vindas]]
-- help [[Guias Práticos]]
-- & [[Templates]]
-- clock [[Notas Recentemente Modificadas]]
-- ? [[Nick Milo's Starting Custom Callouts]]
-- %  [[Atalhos]]
-
-
-
----
-
-
 ```meta-bind-button
 label: Notas Recentes
 hidden: true
@@ -295,7 +309,6 @@ actions:
   - type: command
     command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/Notas Recentemente Modificadas.md
 ```
-
 
 
 ```meta-bind-button
@@ -334,10 +347,6 @@ actions:
   - type: command
     command: quickadd:choice:d223214e-cf0c-4a6a-9d27-bfe62d8542aa
 ```
-
-<br><br>
-<br><br>
-
 
 ```meta-bind-button
 label: Area / Projeto
@@ -378,7 +387,6 @@ actions:
 ```
 
 
-
 ```meta-bind-button
 label: Areas
 hidden: true
@@ -392,7 +400,6 @@ actions:
 ```
 
 
-
 ```meta-bind-button
 label: Lembrete
 hidden: true
@@ -404,6 +411,7 @@ actions:
   - type: command
     command: quickadd:choice:7ec7e9a0-be26-4424-9caf-5751f9865da3
 ```
+
 ```meta-bind-button
 label: Dashboard
 hidden: true
@@ -415,7 +423,6 @@ actions:
   - type: command
     command: dashboard-navigator:dashboard
 ```
-
 
 ```meta-bind-button
 label: Nota Diária
@@ -429,17 +436,24 @@ actions:
     command: daily-notes
 ```
 
-
-
-[^1]: Seu ponto de partida e base principal.
-		- Eu quero... [[Add|Adicionar]] ideias.
-		- Eu quero... [[Relate|Relacionar]] ideias.
-		- Eu quero... [[Communicate|Comunicar]] ideias.
-
-[^2]: Use as seguintes coleções para navegar rapidamente pelo seu ideaverso:
+[^1]: - Seu ponto de partida e base principal.
+		- Eu quero... [[Adicionar]] ideias.
+		- Eu quero... [[Relacionar]] ideias.
+		- Eu quero... [[Comunicar]] ideias.
 	
+
+[^2]: > [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
+	> ![[Pasted image 20250815104904.png]]
+
+[^3]: > [!box] [[como + funciona|+]] - **[[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]]** 
+	> - **A – Atlas** → Guarda referências e conhecimento geral. É o “mapa” das suas ideias, conceitos e temas.
+	> - **C – Calendário** → Armazena tudo que está ligado a datas: eventos, prazos, registros cronológicos.
+	> - **E – Esforços** → Contém seus projetos, tarefas e iniciativas que exigem ação.
+	> - ![[Pasted image 20250816180551.png]]
+
+[^4]: Use as seguintes coleções para navegar rapidamente pelo seu ideaverso:
 	- Eu quero... navegar pelo meu conhecimento 
-		- [[Maps|Mapas]], [[Views|Visualizações]], [[Collections|Coleções]]
+		- [[MOC definição|Mapas]], [[Views|Visualizações]], [[Coleções]]
 	- Eu quero... navegar pelas minhas fontes 
 		- [[Sources|Fontes]], [[Books|Livros]], [[Movies|Filmes]], [[Series|Séries]]
 	- Eu quero... navegar pelos meus esforços 
@@ -449,42 +463,57 @@ actions:
 	- Eu quero... navegar por ideias 
 		- [[Things|Coisas]], [[Statements|Declarações]], [[Concepts|Conceitos]], [[Quotes|Citações]], [[Questions|Perguntas]]
 
-[^3]: > [!box] [[como + funciona|+]] - **[[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]]** 
-		
-	<div style="background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%); padding: 20px; border-radius: 16px; color: #ecf0f1; box-shadow: 0 8px 25px rgba(0,0,0,0.4); margin-bottom: 24px; border: 1px solid #34495e;">
-	  <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.4em; margin-top: 0; color: #3498db;">🌐 Atlas</h3>
-	  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 0;">
-	    <li>📍 <strong>Espaço:</strong> Atlas</li>
-	    <li>🧠 <strong>Foco:</strong> Conhecimento</li>
-	    <li>♾️ <strong>Dimensão Temporal:</strong> Atemporal</li>
-	    <li>💡 <strong>Intenção:</strong> Compreender</li>
-	    <li>🗺️ <strong>Princípio Organizador:</strong> Espaço (relações)</li>
-	  </ul>
-	</div>
+[^5]: Metadados
 	
-	<div style="background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%); padding: 20px; border-radius: 16px; color: #ecf0f1; box-shadow: 0 8px 25px rgba(0,0,0,0.4); margin-bottom: 24px; border: 1px solid #34495e;">
-	  <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.4em; margin-top: 0; color: #e74c3c;">📅 Calendar</h3>
-	  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 0;">
-	    <li>⏰ <strong>Espaço:</strong> Calendar</li>
-	    <li>⏳ <strong>Foco:</strong> Tempo</li>
-	    <li>📜 <strong>Dimensão Temporal:</strong> Temporal</li>
-	    <li>🎯 <strong>Intenção:</strong> Focar</li>
-	    <li>📈 <strong>Princípio Organizador:</strong> Sequência temporal</li>
-	  </ul>
-	</div>
+	> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
 	
-	<div style="background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%); padding: 20px; border-radius: 16px; color: #ecf0f1; box-shadow: 0 8px 25px rgba(0,0,0,0.4); margin-bottom: 24px; border: 1px solid #34495e;">
-	  <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.4em; margin-top: 0; color: #2ecc71;">⚡ Efforts</h3>
-	  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 0;">
-	    <li>🔥 <strong>Espaço:</strong> Efforts</li>
-	    <li>🏃 <strong>Foco:</strong> Ação</li>
-	    <li>❗ <strong>Dimensão Temporal:</strong> Oportuno</li>
-	    <li>▶️ <strong>Intenção:</strong> Agir</li>
-	    <li>🚩 <strong>Princípio Organizador:</strong> Prioridade / urgência</li>
-	  </ul>
-	</div>
+	### Principais metadados:
+	
+	* **`created` (data de criação):**
+	  Permite acompanhar a linha do tempo de suas anotações, gerar históricos ou revisões mensais/anuais.
+	
+	* **`up` (hierarquia):**
+	  Define a nota **superior** ou contexto maior em que essa nota se encaixa.
+	
+	  > Ex.: um capítulo tem `up: [[Livro X]]`.
+	
+	* **`collection` (coleção):**
+	  Agrupa notas por temas ou áreas.
+	
+	  > Ex.: `collection: [[AULAS]], [[CURSOS]]`
+	
+	
+	* **`related` (notas associadas):**
+	  Lista conexões manuais que complementam o **graph view**.
+	
+	  > Ex.: `related: [[Conceito Y]], [[Questão Z]]`.
+	
+	
 
-
-[^4]: > [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
+[^6]: # 🛠 Boas Práticas
 	
-	![[Pasted image 20250815104904.png]]
+	- Revisão Regular: Reserve um tempo semanalmente para revisar e atualizar notas, garantindo que as informações permaneçam relevantes e corretas.
+	- Limpeza de Tags e Pastas: Periodicamente, revise tags e a estrutura de pastas para evitar redundâncias ou categorias desatualizadas.
+	- Backup: Faça backups regulares de sua vault para evitar perda de dados.
+	- Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o sistema.
+
+[^7]: 
+	| 🏚️ **Homepage**                        | Ctrl + Shift + H |
+	| --------------------------------------- | ---------------- |
+	| 🎛️ **Paleta de comandos**              | Ctrl + P         |
+	| ➡️ **Acessar Nota**                     | Ctrl + O         |
+	| 🗓️ **Nota Diária**                     | Ctrl + Shift + I |
+	| ➕ **Nova Nota**                         | Ctrl + N         |
+	| 📜 **Inserir Snippet Template**         | Alt + E          |
+	| 🔖 **Adicionar Propriedade do Arquivo** | Ctrl + ;         |
+	| 📑 **Mostrar Favoritos**                | Ctrl + Shift + B |
+	| ⭐ **Favoritar Todas as Abas**           | Alt + B          |
+	| 🗂️ **Explorador de Arquivos**          | Ctrl + Shift + P |
+	| 📦 **Mover Arquivo**                    | Alt + M          |
+	| 📄 **Mostrar Títulos**                  | Ctrl + Shift + O |
+	| 🔍 **Pesquisar nos Arquivos**           | Ctrl + Shift + F |
+	| 🚪 **Fechar Aba**                       | Alt + W          |
+	| 🚪 **Fechar Janela**                    | Ctrl + Shift + W |
+	| 🗑️ **Excluir Arquivo**                 | Ctrl + Shift + - |
+	
+	

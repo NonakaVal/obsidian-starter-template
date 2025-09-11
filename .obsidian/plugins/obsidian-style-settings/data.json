@@ -206,7 +206,7 @@
   "anuppuccin-theme-settings@@ctp-custom-overlay1@@light": "#CCCCCC",
   "anuppuccin-theme-settings@@ctp-custom-overlay0@@dark": "#4CFFD2",
   "anuppuccin-theme-settings@@ctp-custom-overlay0@@light": "#0C9FCE",
-  "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight",
+  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border",
   "anuppuccin-theme-settings@@anp-callout-color-toggle": true,
   "anuppuccin-theme-settings@@tag-radius": 2,
   "anuppuccin-theme-settings@@cards-border-width": "4px",

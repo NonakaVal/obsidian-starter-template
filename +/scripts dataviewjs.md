@@ -36,10 +36,12 @@ function deveIncluir(pasta) {
     return PASTAS_INCLUIR.some(regex => regex.test(pasta)) &&
            !PASTAS_EXCLUIR.some(regex => regex.test(pasta));
 }
+
 function getIcon(folder) {
     const upperFolder = folder.toUpperCase();
     return ICONES[Object.keys(ICONES).find(key => upperFolder.includes(key))] || ICONES.DEFAULT;
 }
+
 function formatarIdade(data) {
     const diff = Date.now() - data.toJSDate().getTime();
     const minutos = diff / 1000 / 60;
@@ -50,6 +52,7 @@ function formatarIdade(data) {
     if (minutos < 525600) return `${Math.floor(minutos / 43200)} m`;
     return `${Math.floor(minutos / 525600)} a`;
 }
+
 function estilizarLink(p) {
     return `**${dv.fileLink(p.file.path, false, p.file.name)}**`;
 }
@@ -60,7 +63,7 @@ function estilizarLink(p) {
 const pages = dv.pages("")
     .where(p => deveIncluir(p.file.folder))
     .sort(p => p.file.mtime, 'desc')
-    .limit(20);  // 🔥 Alterado para 10 notas
+    .limit(10);  // 🔥 Alterado para 10 notas
 
 //-----------------------------------------------------
 // EXIBIÇÃO
@@ -74,10 +77,9 @@ dv.table(
         `\`${formatarIdade(p.file.mtime)}\``
     ])
 );
+
 ```
 
-
-# últimas Criadas
 
 ```js
 //-----------------------------------------------------
@@ -159,4 +161,5 @@ for (let grupo of grupos) {
     );
 }
 
-```
+````
+
