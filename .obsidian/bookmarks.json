@@ -17,42 +17,10 @@
         {
           "type": "file",
           "ctime": 1755663266556,
-          "path": "SISTEMA/SOBRE/TEMPLATES.md"
+          "path": "SISTEMA/SOBRE/Templates.md"
         }
       ],
       "title": "Boas Vindas"
-    },
-    {
-      "type": "group",
-      "ctime": 1755663344197,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1755663339564,
-          "path": "ESFORÇOS/1_AREAS.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1755663339564,
-          "path": "ESFORÇOS/2_PROJETOS.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1755663339564,
-          "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
-        }
-      ],
-      "title": "Esforços"
-    },
-    {
-      "type": "folder",
-      "ctime": 1755663228376,
-      "path": "SISTEMA/COLEÇÕES"
-    },
-    {
-      "type": "file",
-      "ctime": 1756996619611,
-      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
     }
   ]
 }

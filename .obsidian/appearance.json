@@ -3,17 +3,18 @@
   "theme": "moonstone",
   "enabledCssSnippets": [
     "dashboarPlusPlus",
-    "hidePropertiesBase",
     "imageGallery",
     "MCL - Gallery Cards",
     "MCL - Multi Column",
     "MCL - Wide Views",
     "MCL Wide Views",
-    "Nick Milo - Aligned Callout Header Titles",
-    "Nick Milo - Anuppuchin - Soft Folders",
-    "Nick Milo - Anuppuchin - Soft Paper",
-    "Nick Milo - Custom Callouts - Pro",
+    "Nick Milo - Tighter Bottom Properties Margin for Border",
     "Nick Milo - Prism",
-    "Nick Milo - Tighter Bottom Properties Margin for Border"
-  ]
+    "Nick Milo - Custom Callouts - Pro",
+    "Nick Milo - Anuppuchin - Soft Paper",
+    "Nick Milo - Anuppuchin - Soft Folders",
+    "Nick Milo - Aligned Callout Header Titles",
+    "hidePropertiesBase"
+  ],
+  "baseFontSize": 16
 }

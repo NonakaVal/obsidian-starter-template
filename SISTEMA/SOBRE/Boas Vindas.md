@@ -24,7 +24,7 @@ Sistema integrado de **gestão do conhecimento** baseado no [[Sistema ACE|ACE fo
 # [[Sistema ACE|Sistema de organização ACE]] 
 O framework **ACE** (Atlas, Calendar, Efforts) é um sistema universal para organizar conhecimento, tempo e ação, complementado por:
 
-> [!box] [[como + funciona|+]] - **[[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]]** 
+
 
 
 
@@ -95,9 +95,6 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 **Ciclo**: Novas ideias → Organização natural → Aplicação concreta = Sistema autossustentável de aprendizado.
 
 > [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
-
-
-
 
 ![[Pasted image 20250815104904.png]]
 

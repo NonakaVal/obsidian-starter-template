@@ -5,12 +5,52 @@
       "path": "HOMEPAGE.md"
     },
     {
+      "basename": "Nick Milo's Starting Custom Callouts",
+      "path": "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md"
+    },
+    {
+      "basename": "Boas Vindas",
+      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "SCRIPTS JS",
+      "path": "+/SCRIPTS JS.md"
+    },
+    {
       "basename": "2025-09-11",
       "path": "CALENDÁRIO/DIAS/2025-09-11.md"
     },
     {
       "basename": "% TODAS TAREFAS",
       "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    },
+    {
+      "basename": "% TAREFAS EFFORTS",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md"
+    },
+    {
+      "basename": "% TAREFAS DO CALENDÁRIO",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md"
+    },
+    {
+      "basename": "Guias Práticos",
+      "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "SISTEMA/SOBRE/Templates.md"
+    },
+    {
+      "basename": "_COLEÇÕES",
+      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
+    },
+    {
+      "basename": "Como Esforços funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
     },
     {
       "basename": "Logs",
@@ -29,20 +69,12 @@
       "path": "+/Plan and Review.md"
     },
     {
-      "basename": "_COLEÇÕES",
-      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
-    },
-    {
       "basename": "tabs-2",
       "path": "SISTEMA/TEMPLATES/SNIPPET/tabs-2.md"
     },
     {
       "basename": "% METABIND BOTÃO COM COMANDO",
       "path": "SISTEMA/TEMPLATES/SNIPPET/% METABIND BOTÃO COM COMANDO.md"
-    },
-    {
-      "basename": "Boas Vindas",
-      "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
       "basename": "Sources",
@@ -53,16 +85,8 @@
       "path": "README.md"
     },
     {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
-    },
-    {
       "basename": "DIAS",
       "path": "CALENDÁRIO/REVISÕES/DIAS.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "SISTEMA/SOBRE/Guias Práticos.md"
     },
     {
       "basename": "nota projeto 1",
@@ -137,10 +161,6 @@
       "path": "ATLAS/MAPAS/+/mapa 2.md"
     },
     {
-      "basename": "Como Esforços funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
-    },
-    {
       "basename": "Como Atlas funciona",
       "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
     },
@@ -175,30 +195,6 @@
     {
       "basename": "dicas de finanças",
       "path": "+/dicas de finanças.md"
-    },
-    {
-      "basename": "aula 5",
-      "path": "ATLAS/FONTES/AULAS/aula 5.md"
-    },
-    {
-      "basename": "aula 4",
-      "path": "ATLAS/FONTES/AULAS/aula 4.md"
-    },
-    {
-      "basename": "mapa 1",
-      "path": "ATLAS/MAPAS/+/mapa 1.md"
-    },
-    {
-      "basename": "aula 2",
-      "path": "ATLAS/FONTES/AULAS/aula 2.md"
-    },
-    {
-      "basename": "aula 1",
-      "path": "ATLAS/FONTES/AULAS/aula 1.md"
-    },
-    {
-      "basename": "ATLAS",
-      "path": "SISTEMA/SOBRE/LYT/ATLAS.md"
     }
   ],
   "omittedPaths": [],

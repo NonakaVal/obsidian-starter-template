@@ -1,7 +1,8 @@
 {
   "callouts": {
     "custom": [
-      "meta"
+      "meta",
+      "box"
     ],
     "settings": {
       "meta": [

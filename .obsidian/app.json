@@ -8,5 +8,6 @@
     "SISTEMA/"
   ],
   "newFileLocation": "folder",
-  "newFileFolderPath": "+"
+  "newFileFolderPath": "+",
+  "readableLineLength": true
 }

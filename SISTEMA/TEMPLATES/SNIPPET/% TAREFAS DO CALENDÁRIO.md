@@ -1,5 +1,3 @@
-# [[% TAREFAS DO CALENDÁRIO]]
-
 ````tabs
 
 tab: Á fazer

@@ -1,33 +1,42 @@
 ---
 banner: "https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png"
 cssclasses:
-banner_y: 0.60476
+banner_y: 0.35088
 ---
 ```widgets
 type: clock
 ```
-# Começar...
+> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
 
-`BUTTON[new]`      `BUTTON[lembrete]` [^1]
+ <br>
 
+`BUTTON[new]` [^1] [^4]  `BUTTON[collection]`    `BUTTON[lembrete]`   
+<br>
 
+> [!globe]+ **[[Atlas]]** [^3] » [[como + funciona|+]] | [[MOC definição|Mapas]] | [[Coleções]] 
+>  >  `BUTTON[dash, nav]` [^2]  `BUTTON[col]`  `BUTTON[last]`  
 
+--- start-multi-column: ExampleRegion3
 
----
-
-> [!globe]+ **[[Atlas]]** » [[como + funciona|+]] | [[MOC definição|Mapas]] | [[Coleções]] 
->  >  `BUTTON[dash, nav]`  `BUTTON[col]` `BUTTON[collection]`  [^2]
-
-
-
-> [!calendar]+ **[[Calendar]]** » [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] 
+> [!calendar]+ **[[Como Calendário funciona|Calendar]]** [^3] » [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] 
 > `BUTTON[today]`   `BUTTON[task]`    [^3]
 
-> [!mountain]+ **[[Efforts]]** » [[Como Esforços funciona|Works]] 
-> `BUTTON[areas]`  `BUTTON[project]`  `BUTTON[eff]` [^3]
+\--- end-column ---
+
+> [!mountain]+ **[[Efforts]]** [^3] » [[Como Esforços funciona|Works]] 
+> `BUTTON[areas]`  `BUTTON[project]`  [^3]
+> 
+>  `BUTTON[eff]`
+
+--- end-multi-column
+
+
+
 <br><br>
-# Revisar
+# Trabalhos... 
 ---
+`````tabs
+tab: 📝 Atividades Recentes
 
 ````tabs
 
@@ -90,7 +99,7 @@ function estilizarLink(p) {
 const pages = dv.pages("")
     .where(p => deveIncluir(p.file.folder))
     .sort(p => p.file.mtime, 'desc')
-    .limit(20);  // 🔥 Alterado para 10 notas
+    .limit(10);  // 🔥 Alterado para 10 notas
 
 //-----------------------------------------------------
 // EXIBIÇÃO
@@ -189,49 +198,11 @@ for (let grupo of grupos) {
     );
 }
 
-tab: 
-
-```dataview
-TABLE length(file.inlinks) as Total, file.inlinks as Backlinks  
-FROM "SISTEMA/COLEÇÕES"
-SORT length(file.inlinks) desc
-
-
-LIMIT 30
-```
-
-
-
 ````
-
-```meta-bind-button
-label: Coleções 
-hidden: true
-icon: layout
-class: ""
-id: col
-style: primary
-actions:
-  - type: command
-    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/_COLEÇÕES.md
-```
-
-
-```meta-bind-button
-label: Criar Coleção
-hidden: true
-icon: folder
-class: ""
-id: collection
-style: destructive
-actions:
-  - type: command
-    command: quickadd:choice:d223214e-cf0c-4a6a-9d27-bfe62d8542aa
-```
-
+tab: 🗂️ Coleções
 
 ````tabs
-tab: 🗂️ Totais Coleções
+tab: 📂 Totais Coleções
 
 ```dataview
 TABLE without id file.link as Coleção, length(file.inlinks) as Notas 
@@ -255,6 +226,24 @@ LIMIT 30
 ```
 
 ````
+
+tab: ☑️ Tarefas
+
+# 
+
+
+````tabs
+tab: Calendário 
+![[% TAREFAS DO CALENDÁRIO]]
+
+tab: Efforts
+![[% TAREFAS EFFORTS]]
+
+````
+
+
+`````
+
 
 ```meta-bind-button
 label: Nota
@@ -280,11 +269,34 @@ actions:
 ```
 
 
-# Sistema
+# Recursos e Sistema 
 
-- [[TEMPLATES]]
-- [[Atalhos]]
-- [[Mapa Boas Vindas ]]
+
+- ! [[Boas Vindas]]
+- help [[Guias Práticos]]
+- & [[Templates]]
+- clock [[Notas Recentemente Modificadas]]
+- ? [[Nick Milo's Starting Custom Callouts]]
+- %  [[Atalhos]]
+
+
+
+---
+
+
+```meta-bind-button
+label: Notas Recentes
+hidden: true
+icon: clock
+class: ""
+id: last
+style: destructive
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/Notas Recentemente Modificadas.md
+```
+
+
 
 ```meta-bind-button
 label: Tarefas
@@ -299,7 +311,29 @@ actions:
 ```
 
 
+```meta-bind-button
+label: Coleções 
+hidden: true
+icon: layout
+class: ""
+id: col
+style: primary
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/_COLEÇÕES.md
+```
 
+```meta-bind-button
+label: Criar Coleção
+hidden: true
+icon: folder
+class: ""
+id: collection
+style: destructive
+actions:
+  - type: command
+    command: quickadd:choice:d223214e-cf0c-4a6a-9d27-bfe62d8542aa
+```
 
 <br><br>
 <br><br>
@@ -329,8 +363,6 @@ actions:
   - type: command
     command: obsidian-hotkeys-for-specific-files:ESFORÇOS/2_PROJETOS.md
 ```
-
-
 
 
 ```meta-bind-button
@@ -399,12 +431,10 @@ actions:
 
 
 
-
 [^1]: Seu ponto de partida e base principal.
-	
-	- Eu quero... [[Add|Adicionar]] ideias.
-	- Eu quero... [[Relate|Relacionar]] ideias.
-	- Eu quero... [[Communicate|Comunicar]] ideias.
+		- Eu quero... [[Add|Adicionar]] ideias.
+		- Eu quero... [[Relate|Relacionar]] ideias.
+		- Eu quero... [[Communicate|Comunicar]] ideias.
 
 [^2]: Use as seguintes coleções para navegar rapidamente pelo seu ideaverso:
 	
@@ -418,15 +448,43 @@ actions:
 		- [[People|Pessoas]], [[Entities|Entidades]], [[Meetings|Reuniões]]
 	- Eu quero... navegar por ideias 
 		- [[Things|Coisas]], [[Statements|Declarações]], [[Concepts|Conceitos]], [[Quotes|Citações]], [[Questions|Perguntas]]
-	
-	
 
-[^3]: Use seu ideaverso para assumir o controle da sua vida e ser mais intencional sobre as coisas:
+[^3]: > [!box] [[como + funciona|+]] - **[[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]]** 
+		
+	<div style="background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%); padding: 20px; border-radius: 16px; color: #ecf0f1; box-shadow: 0 8px 25px rgba(0,0,0,0.4); margin-bottom: 24px; border: 1px solid #34495e;">
+	  <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.4em; margin-top: 0; color: #3498db;">🌐 Atlas</h3>
+	  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 0;">
+	    <li>📍 <strong>Espaço:</strong> Atlas</li>
+	    <li>🧠 <strong>Foco:</strong> Conhecimento</li>
+	    <li>♾️ <strong>Dimensão Temporal:</strong> Atemporal</li>
+	    <li>💡 <strong>Intenção:</strong> Compreender</li>
+	    <li>🗺️ <strong>Princípio Organizador:</strong> Espaço (relações)</li>
+	  </ul>
+	</div>
 	
-	- Eu quero... refletir sobre minha vida 
-		- [[Life Map|Mapa da Vida]]
-	- Eu quero... fazer registros sobre coisas específicas 
-		- [[Logs|Registros]]
-	- Eu quero... ser mais intencional sobre minha vida 
-		- [[Plan and Review|Planejar e Revisar]]
+	<div style="background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%); padding: 20px; border-radius: 16px; color: #ecf0f1; box-shadow: 0 8px 25px rgba(0,0,0,0.4); margin-bottom: 24px; border: 1px solid #34495e;">
+	  <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.4em; margin-top: 0; color: #e74c3c;">📅 Calendar</h3>
+	  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 0;">
+	    <li>⏰ <strong>Espaço:</strong> Calendar</li>
+	    <li>⏳ <strong>Foco:</strong> Tempo</li>
+	    <li>📜 <strong>Dimensão Temporal:</strong> Temporal</li>
+	    <li>🎯 <strong>Intenção:</strong> Focar</li>
+	    <li>📈 <strong>Princípio Organizador:</strong> Sequência temporal</li>
+	  </ul>
+	</div>
 	
+	<div style="background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%); padding: 20px; border-radius: 16px; color: #ecf0f1; box-shadow: 0 8px 25px rgba(0,0,0,0.4); margin-bottom: 24px; border: 1px solid #34495e;">
+	  <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.4em; margin-top: 0; color: #2ecc71;">⚡ Efforts</h3>
+	  <ul style="padding-left: 20px; margin-top: 10px; margin-bottom: 0;">
+	    <li>🔥 <strong>Espaço:</strong> Efforts</li>
+	    <li>🏃 <strong>Foco:</strong> Ação</li>
+	    <li>❗ <strong>Dimensão Temporal:</strong> Oportuno</li>
+	    <li>▶️ <strong>Intenção:</strong> Agir</li>
+	    <li>🚩 <strong>Princípio Organizador:</strong> Prioridade / urgência</li>
+	  </ul>
+	</div>
+
+
+[^4]: > [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
+	
+	![[Pasted image 20250815104904.png]]

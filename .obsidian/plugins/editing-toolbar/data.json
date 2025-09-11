@@ -879,7 +879,7 @@
   "cMenuNumRows": 12,
   "cMenuWidth": 610,
   "cMenuFontColor": "#4f81bd",
-  "cMenuBackgroundColor": "#affad1",
+  "cMenuBackgroundColor": "#fff88f",
   "autohide": false,
   "Iscentered": false,
   "custom_bg1": "#FFB78B8C",

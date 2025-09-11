@@ -1,6 +1,3 @@
-# [[% TAREFAS EFFORTS]]
-
-
 ````tabs
 tab: AREAS
 

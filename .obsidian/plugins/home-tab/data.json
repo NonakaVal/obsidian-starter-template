@@ -25,15 +25,43 @@
   "recentFilesStore": [
     {
       "filepath": "HOMEPAGE.md",
-      "timestamp": 1757591906634
+      "timestamp": 1757596488005
+    },
+    {
+      "filepath": "+/SCRIPTS JS.md",
+      "timestamp": 1757596418937
     },
     {
       "filepath": "CALENDÁRIO/DIAS/2025-09-11.md",
-      "timestamp": 1757591762603
+      "timestamp": 1757595981825
     },
     {
       "filepath": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
-      "timestamp": 1757591756407
+      "timestamp": 1757595775768
+    },
+    {
+      "filepath": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md",
+      "timestamp": 1757595559883
+    },
+    {
+      "filepath": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md",
+      "timestamp": 1757595549448
+    },
+    {
+      "filepath": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
+      "timestamp": 1757595024340
+    },
+    {
+      "filepath": "SISTEMA/SOBRE/Boas Vindas.md",
+      "timestamp": 1757595013199
+    },
+    {
+      "filepath": "SISTEMA/SOBRE/Guias Práticos.md",
+      "timestamp": 1757594794528
+    },
+    {
+      "filepath": "SISTEMA/SOBRE/Templates.md",
+      "timestamp": 1757594658050
     }
   ],
   "bookmarkedFileStore": [
@@ -44,19 +72,7 @@
       "filepath": "SISTEMA/SOBRE/Guias Práticos.md"
     },
     {
-      "filepath": "SISTEMA/SOBRE/TEMPLATES.md"
-    },
-    {
-      "filepath": "ESFORÇOS/1_AREAS.md"
-    },
-    {
-      "filepath": "ESFORÇOS/2_PROJETOS.md"
-    },
-    {
-      "filepath": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
-    },
-    {
-      "filepath": "SISTEMA/SOBRE/_COLEÇÕES.md"
+      "filepath": "SISTEMA/SOBRE/Templates.md"
     }
   ],
   "searchDelay": 0,

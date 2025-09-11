@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c1c13bcda12a40ee",
+        "id": "c9c6e591aed0dda5",
         "type": "tabs",
         "children": [
           {
-            "id": "f155bf6cbb4a1dd9",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
-            }
-          },
-          {
-            "id": "6d0a1d57bb6f5ab4",
+            "id": "fca2406d468fb714",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,36 +32,12 @@
             }
           },
           {
-            "id": "8c5d2b1a910f903d",
+            "id": "42388bd0ffa58e10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "% TODAS TAREFAS"
-            }
-          },
-          {
-            "id": "e505b03718399ac5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/checklist.md",
+                "file": "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,35 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "checklist"
-            }
-          },
-          {
-            "id": "a0563c12eb81a53c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Plan and Review.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Plan and Review"
+              "title": "Nick Milo's Starting Custom Callouts"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,11 +133,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 405
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -209,7 +151,6 @@
           {
             "id": "ca19f0e65e17ab32",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -227,7 +168,6 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Guias Práticos"
             }
@@ -265,8 +205,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -289,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
+                "file": "HOMEPAGE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +239,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para BARRA DE AÇÕES"
+              "title": "Links inversos para HOMEPAGE"
             }
           }
         ],
@@ -328,8 +268,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388,
-    "collapsed": true
+    "width": 388
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -349,19 +288,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6d0a1d57bb6f5ab4",
+  "active": "fca2406d468fb714",
   "lastOpenFiles": [
+    "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md",
+    "SISTEMA/SOBRE/Boas Vindas.md",
     "HOMEPAGE.md",
+    "_index_notas.md",
+    "index.py",
+    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
+    "+/SCRIPTS JS.md",
+    "SISTEMA/SCRIPTS/last-created.js",
+    "SISTEMA/SCRIPTS/last-modified.js",
+    "SISTEMA/SCRIPTS/last-modified.JS",
+    "SISTEMA/SCRIPTS/1.JS",
+    "SISTEMA/SCRIPTS",
     "CALENDÁRIO/DIAS/2025-09-11.md",
     "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md",
+    "SISTEMA/SOBRE/Guias Práticos.md",
+    "SISTEMA/SOBRE/Templates.md",
+    "SISTEMA/SOBRE/_COLEÇÕES.md",
+    "SISTEMA/SOBRE/LYT/Como Esforços funciona.md",
     "+/Logs.md",
     "SISTEMA/SOBRE/LYT/Coleções.md",
     "+/checklist.md",
     "+/Plan and Review.md",
-    "SISTEMA/SOBRE/_COLEÇÕES.md",
     "SISTEMA/TEMPLATES/SNIPPET/tabs-2.md",
     "SISTEMA/TEMPLATES/SNIPPET/% METABIND BOTÃO COM COMANDO.md",
-    "SISTEMA/SOBRE/Boas Vindas.md",
     "SISTEMA/MEDIA/Images/lyt-crafting-mocs-2.jpg",
     "SISTEMA/MEDIA/Images/flight-school-checklist.jpg",
     "SISTEMA/MEDIA/Images/lyt-crafting-mocs-0.jpg",
@@ -375,29 +329,14 @@
     "SISTEMA/MEDIA/Images",
     "+/Sources.md",
     "README.md",
-    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
     "CALENDÁRIO/REVISÕES/DIAS.md",
-    "SISTEMA/SOBRE/Guias Práticos.md",
     "+/_Areas.md",
     "ESFORÇOS/PROJETOS/projeto 1/nota projeto 1.md",
     "attachments/2025-09-04 12-28-55.mp4",
     "attachments",
     "SISTEMA/SOBRE/LYT/Markdown.md",
-    "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md",
-    "ESFORÇOS/2_PROJETOS.md",
     "ESFORÇOS/PROJETOS/projeto 1",
-    "ESFORÇOS/1_AREAS.md",
-    "ESFORÇOS/AREAS/Saúde/Saúde.md",
-    "ESFORÇOS/AREAS/Finanças/Tabelas de gastos pessoais.md",
-    "ESFORÇOS/AREAS/Finanças/Finanças.md",
-    "ESFORÇOS/AREAS/Finanças",
-    "ESFORÇOS/AREAS/Saúde/Alimentação.md",
-    "ESFORÇOS/AREAS/Saúde",
-    "+/Sem título.base",
-    "ATLAS/FONTES/LIVROS",
     "ATLAS/FONTES/Sem título.canvas",
-    "Sem título.canvas",
-    "+",
-    "ESFORÇOS/PROJETOS/projeto 3"
+    "Sem título.canvas"
   ]
 }

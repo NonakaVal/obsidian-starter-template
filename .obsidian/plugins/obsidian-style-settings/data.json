@@ -119,7 +119,6 @@
   "obsidian-prism-theme@@h1-text-color-custom-lt": "#000000",
   "obsidian-prism-theme@@h2-text-color-custom-lt": "#000000",
   "obsidian-prism-theme@@h2-text-color-lt": "var(--h2-text-color-custom-lt)",
-  "obsidian-prism-theme@@file-line-width": 700,
   "obsidian-prism-theme@@h3-text-color-lt": "var(--h3-text-color-custom-lt)",
   "obsidian-prism-theme@@h3-text-color-custom-lt": "#000000",
   "blue-topaz-theme@@background-primary-bg-4-bt@@light": "#F4F4F0",
@@ -142,7 +141,7 @@
   "obsidian-prism-theme@@pt-disable-mark-highlight-styling": false,
   "obsidian-prism-theme@@pt-collapsed-pinned-tab": false,
   "obsidian-prism-theme@@color-schemes-lt": "pt-color-scheme-swan-lt",
-  "obsidian-prism-theme@@color-scheme-style-lt": "pt-color-scheme-style-two-tone-and-border-lt",
+  "obsidian-prism-theme@@color-scheme-style-lt": "pt-color-scheme-style-minimal-lt",
   "obsidian-prism-theme@@accent-style-lt": "pt-accent-style-borderandfilled-lt",
   "obsidian-prism-theme@@pt-custom-vault-banner": true,
   "obsidian-prism-theme@@custom-vault-banner-icon-url": "url(https://uploads-ssl.webflow.com/5f7f16adf0e1d240ab23c493/5ff2602effc81bfa162ac2a7_LYT_04.png)",
@@ -190,8 +189,8 @@
   "minimal-style@@h2-weight": 600,
   "minimal-style@@h6-l": false,
   "minimal-style@@h6-style": "normal",
-  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-purple-dt",
-  "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-custom-dt",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-cyan-dt",
+  "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-accent-dt",
   "obsidian-prism-theme@@highlight-text-accent-custom-dt": "#E9DCFB",
   "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-rosepine-light",
   "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-sapphire",
@@ -336,5 +335,7 @@
   "anuppuccin-theme-settings@@anp-table-auto": true,
   "anuppuccin-theme-settings@@anp-table-th-highlight": true,
   "anuppuccin-theme-settings@@anp-td-highlight": "anp-table-row-alt",
-  "modular-css-layout-wv@@wide-dataview-global": false
+  "modular-css-layout-wv@@wide-dataview-global": false,
+  "obsidian-prism-theme@@accent-style-dt": "pt-accent-style-borderandfilled-dt",
+  "obsidian-prism-theme@@file-line-width": 770
 }

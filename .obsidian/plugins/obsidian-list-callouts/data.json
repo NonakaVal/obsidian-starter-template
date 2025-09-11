@@ -26,5 +26,17 @@
   {
     "color": "158, 158, 158",
     "char": "%"
+  },
+  {
+    "char": "help",
+    "color": "150, 213, 217",
+    "icon": "lucide-file-question",
+    "custom": true
+  },
+  {
+    "char": "clock",
+    "color": "217, 214, 120",
+    "icon": "lucide-clock-4",
+    "custom": true
   }
 ]

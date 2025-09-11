@@ -19,6 +19,10 @@
     {
       "useMoment": false,
       "file": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     }
   ],
   "useExistingPane": true,
