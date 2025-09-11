@@ -560,6 +560,18 @@
         "mode": "default",
         "focus": true
       }
+    },
+    {
+      "id": "1c3182cc-49dc-4354-b029-ebead8a51342",
+      "name": "button 1",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "button 1",
+        "id": "7b4aaa59-eb5c-498c-b995-c95856a1b0b2",
+        "commands": []
+      }
     }
   ],
   "inputPrompt": "single-line",

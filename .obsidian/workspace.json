@@ -4,39 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f250f854b4943503",
+        "id": "c1c13bcda12a40ee",
         "type": "tabs",
         "children": [
           {
-            "id": "cd91a72a31bab20d",
+            "id": "f155bf6cbb4a1dd9",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Boas Vindas"
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
             }
           },
           {
-            "id": "beb49244727310fa",
+            "id": "6d0a1d57bb6f5ab4",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -54,12 +37,84 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "HOMEPAGE"
             }
+          },
+          {
+            "id": "8c5d2b1a910f903d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "% TODAS TAREFAS"
+            }
+          },
+          {
+            "id": "e505b03718399ac5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/checklist.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "checklist"
+            }
+          },
+          {
+            "id": "a0563c12eb81a53c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Plan and Review.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Plan and Review"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,10 +238,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas.md"
+                "file": "HOMEPAGE.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo Boas Vindas"
+              "title": "Propriedades do arquivo HOMEPAGE"
             }
           },
           {
@@ -210,8 +265,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -247,7 +302,8 @@
               "title": "Links inversos para BARRA DE AÇÕES"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -272,7 +328,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 388,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -284,18 +341,42 @@
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
       "callout-manager:Insert Callout": false,
-      "homepage:Open homepage": false,
       "iconic:Open rulebook": false,
       "templater-obsidian:Templater": false,
-      "dashboard-navigator:Open dashboard navigator": false,
       "widgets:Add widget": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "homepage:Open homepage": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "cd91a72a31bab20d",
+  "active": "6d0a1d57bb6f5ab4",
   "lastOpenFiles": [
     "HOMEPAGE.md",
+    "CALENDÁRIO/DIAS/2025-09-11.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
+    "+/Logs.md",
+    "SISTEMA/SOBRE/LYT/Coleções.md",
+    "+/checklist.md",
+    "+/Plan and Review.md",
+    "SISTEMA/SOBRE/_COLEÇÕES.md",
+    "SISTEMA/TEMPLATES/SNIPPET/tabs-2.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% METABIND BOTÃO COM COMANDO.md",
     "SISTEMA/SOBRE/Boas Vindas.md",
+    "SISTEMA/MEDIA/Images/lyt-crafting-mocs-2.jpg",
+    "SISTEMA/MEDIA/Images/flight-school-checklist.jpg",
+    "SISTEMA/MEDIA/Images/lyt-crafting-mocs-0.jpg",
+    "SISTEMA/MEDIA/Images/flow-map.png",
+    "SISTEMA/MEDIA/Images/sensemaking-archetypes-clean.png",
+    "SISTEMA/MEDIA/Images/LYT Ideaverse Wallpaper - Purple.jpg",
+    "SISTEMA/MEDIA/Images/lyt-crafting-mocs-5.jpg",
+    "SISTEMA/MEDIA/Images/flight-school-interfacing-excellence-award.jpg",
+    "SISTEMA/MEDIA/Images/robert-mccall-space-ship-launch-narrow.jpg",
+    "SISTEMA/MEDIA/Images/flight-school-map.jpg",
+    "SISTEMA/MEDIA/Images",
+    "+/Sources.md",
+    "README.md",
+    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
+    "CALENDÁRIO/REVISÕES/DIAS.md",
     "SISTEMA/SOBRE/Guias Práticos.md",
     "+/_Areas.md",
     "ESFORÇOS/PROJETOS/projeto 1/nota projeto 1.md",
@@ -311,35 +392,12 @@
     "ESFORÇOS/AREAS/Finanças/Finanças.md",
     "ESFORÇOS/AREAS/Finanças",
     "ESFORÇOS/AREAS/Saúde/Alimentação.md",
-    "ESFORÇOS/AREAS/Saúde/metas de treino.md",
     "ESFORÇOS/AREAS/Saúde",
-    "SISTEMA/SOBRE/LYT/Obsidian e PKM.md",
-    "SISTEMA/SOBRE/LYT/Área - Projetos.md",
-    "CALENDÁRIO/DIAS/2025-09-04.md",
-    "CALENDÁRIO/DIAS/2025-08-17.md",
-    "CALENDÁRIO/DIAS/2025-08-19.md",
-    "CALENDÁRIO/DIAS/2025-08-20.md",
-    "CALENDÁRIO/REVISÕES/DIAS.md",
-    "SISTEMA/SOBRE/LYT/Como Calendário funciona.md",
-    "ATLAS/MAPAS/+/mapa 2.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
-    "SISTEMA/SOBRE/LYT/Como Esforços funciona.md",
     "+/Sem título.base",
     "ATLAS/FONTES/LIVROS",
     "ATLAS/FONTES/Sem título.canvas",
     "Sem título.canvas",
     "+",
-    "SISTEMA/MEDIA/Pasted image 20250816180551.png",
-    "SISTEMA/MEDIA/Pasted image 20250815104904.png",
-    "ESFORÇOS/PROJETOS/projeto 3",
-    "ESFORÇOS/PROJETOS/projeto 2",
-    "SISTEMA/MEDIA/Pasted image 20250815103203.png",
-    "SISTEMA/MEDIA/DESIGN/search.gif",
-    "SISTEMA/MEDIA/Visuals/Images/flight-school-checklist.jpg",
-    "SISTEMA/MEDIA/Visuals/Images/feynman-triangulation-2.png",
-    "SISTEMA/MEDIA/Visuals/Images/CleanShot 2023-07-30 at 21.37.43.png",
-    "SISTEMA/MEDIA/Visuals/Images/flight-school-hangar.jpg",
-    "SISTEMA/MEDIA/Visuals/Images/stay-on-target.jpg",
-    "SISTEMA/MEDIA/Visuals/Images/flight-school-boot.jpg"
+    "ESFORÇOS/PROJETOS/projeto 3"
   ]
 }

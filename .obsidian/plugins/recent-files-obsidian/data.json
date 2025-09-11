@@ -1,12 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "HOMEPAGE",
+      "path": "HOMEPAGE.md"
+    },
+    {
+      "basename": "2025-09-11",
+      "path": "CALENDÁRIO/DIAS/2025-09-11.md"
+    },
+    {
+      "basename": "% TODAS TAREFAS",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    },
+    {
+      "basename": "Logs",
+      "path": "+/Logs.md"
+    },
+    {
+      "basename": "Coleções",
+      "path": "SISTEMA/SOBRE/LYT/Coleções.md"
+    },
+    {
+      "basename": "checklist",
+      "path": "+/checklist.md"
+    },
+    {
+      "basename": "Plan and Review",
+      "path": "+/Plan and Review.md"
+    },
+    {
+      "basename": "_COLEÇÕES",
+      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
+    },
+    {
+      "basename": "tabs-2",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/tabs-2.md"
+    },
+    {
+      "basename": "% METABIND BOTÃO COM COMANDO",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% METABIND BOTÃO COM COMANDO.md"
+    },
+    {
       "basename": "Boas Vindas",
       "path": "SISTEMA/SOBRE/Boas Vindas.md"
     },
     {
-      "basename": "HOMEPAGE",
-      "path": "HOMEPAGE.md"
+      "basename": "Sources",
+      "path": "+/Sources.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "DIAS",
+      "path": "CALENDÁRIO/REVISÕES/DIAS.md"
     },
     {
       "basename": "Guias Práticos",
@@ -77,20 +129,12 @@
       "path": "CALENDÁRIO/DIAS/2025-08-20.md"
     },
     {
-      "basename": "DIAS",
-      "path": "CALENDÁRIO/REVISÕES/DIAS.md"
-    },
-    {
       "basename": "Como Calendário funciona",
       "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
     },
     {
       "basename": "mapa 2",
       "path": "ATLAS/MAPAS/+/mapa 2.md"
-    },
-    {
-      "basename": "% TODAS TAREFAS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
     },
     {
       "basename": "Como Esforços funciona",
@@ -103,10 +147,6 @@
     {
       "basename": "como + funciona",
       "path": "SISTEMA/SOBRE/LYT/como + funciona.md"
-    },
-    {
-      "basename": "Coleções",
-      "path": "SISTEMA/SOBRE/LYT/Coleções.md"
     },
     {
       "basename": "Adicionar",
@@ -127,10 +167,6 @@
     {
       "basename": "livro 1",
       "path": "ATLAS/FONTES/LIVROS/livro 1.md"
-    },
-    {
-      "basename": "_COLEÇÕES",
-      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
     },
     {
       "basename": "livro de finanças",
@@ -163,38 +199,6 @@
     {
       "basename": "ATLAS",
       "path": "SISTEMA/SOBRE/LYT/ATLAS.md"
-    },
-    {
-      "basename": "Metadados",
-      "path": "SISTEMA/SOBRE/LYT/Metadados.md"
-    },
-    {
-      "basename": "Pasted image 20250816180551",
-      "path": "SISTEMA/MEDIA/Pasted image 20250816180551.png"
-    },
-    {
-      "basename": "Pasted image 20250815104904",
-      "path": "SISTEMA/MEDIA/Pasted image 20250815104904.png"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
-    },
-    {
-      "basename": "mapa",
-      "path": "ATLAS/MAPAS/+/mapa.md"
-    },
-    {
-      "basename": "NOTA-PROJETO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md"
-    },
-    {
-      "basename": "TEMPLATES",
-      "path": "SISTEMA/SOBRE/TEMPLATES.md"
-    },
-    {
-      "basename": "PROJETO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md"
     }
   ],
   "omittedPaths": [],

@@ -1,8 +1,8 @@
 {
-  "height": 210,
+  "height": 270,
   "style": "gradient",
   "showInInternalEmbed": true,
-  "internalEmbedHeight": null,
+  "internalEmbedHeight": 190,
   "showInPreviewEmbed": true,
   "previewEmbedHeight": 100,
   "frontmatterField": null,

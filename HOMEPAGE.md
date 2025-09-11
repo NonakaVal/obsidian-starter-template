@@ -1,97 +1,37 @@
 ---
+banner: "https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png"
 cssclasses:
-  - no-inline
-  - hide-properties_editing
-  - hide-properties_reading
-banner: "https://w.wallhaven.cc/full/zp/wallhaven-zp85qo.png"
+banner_y: 0.60476
 ---
 ```widgets
 type: clock
 ```
-<br><br>
+# Começar...
 
-`BUTTON[new_note]`     `BUTTON[collection]`          `BUTTON[lembrete]`
-
-<br><br>
+`BUTTON[new]`      `BUTTON[lembrete]` [^1]
 
 
-````tabs
-tab: Atlas
-
-> [!globe] **[[ATLAS]]** »  
->  `BUTTON[dash, nav]`  `BUTTON[col]`
-
-```dataview
-TABLE without id file.link as Coleção, length(file.inlinks) as Notas 
-FROM "SISTEMA/COLEÇÕES"
-SORT length(file.inlinks) desc
-
-
-LIMIT 30
-```
-
-
-
-
-
-
-
-
-
-tab: Calendário
-
-> [!calendar] Calendário » 
->  `BUTTON[today]` `BUTTON[days]`  
-tab: Esforços
-
-> [!mountain]  » **[[Como Esforços funciona|Esforços]]**
->  `BUTTON[areas]` `BUTTON[projects]` `BUTTON[open-tasks]`
-````
-
-```meta-bind-button
-label: Lembrete
-hidden: true
-icon: plus
-class: ""
-id: lembrete
-style: destructive
-actions:
-  - type: command
-    command: quickadd:choice:7ec7e9a0-be26-4424-9caf-5751f9865da3
-```
-```meta-bind-button
-label: Base
-icon: plus
-hidden: true
-class: ""
-id: base
-style: destructive
-actions:
-  - type: command
-    command: bases:new-file
-```
-```meta-bind-button
-label: Coleções
-hidden: true
-icon: folder
-class: ""
-id: col
-style: destructive
-actions:
-  - type: open
-    link: "[[_COLEÇÕES]]"
-
-```
-
-
-<br><br>
 
 
 ---
 
+> [!globe]+ **[[Atlas]]** » [[como + funciona|+]] | [[MOC definição|Mapas]] | [[Coleções]] 
+>  >  `BUTTON[dash, nav]`  `BUTTON[col]` `BUTTON[collection]`  [^2]
+
+
+
+> [!calendar]+ **[[Calendar]]** » [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] 
+> `BUTTON[today]`   `BUTTON[task]`    [^3]
+
+> [!mountain]+ **[[Efforts]]** » [[Como Esforços funciona|Works]] 
+> `BUTTON[areas]`  `BUTTON[project]`  `BUTTON[eff]` [^3]
+<br><br>
+# Revisar
+---
+
 ````tabs
 
-tab: ⏱️ Notas Alteradas Recentemente
+tab: ⏱️ Alteradas Recentemente
 
 ```dataviewjs
 //-----------------------------------------------------
@@ -249,7 +189,7 @@ for (let grupo of grupos) {
     );
 }
 
-tab: 🗂️ Totais Coleções
+tab: 
 
 ```dataview
 TABLE length(file.inlinks) as Total, file.inlinks as Backlinks  
@@ -265,9 +205,22 @@ LIMIT 30
 ````
 
 ```meta-bind-button
-label: Nova Coleção
+label: Coleções 
 hidden: true
-icon: plus
+icon: layout
+class: ""
+id: col
+style: primary
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/_COLEÇÕES.md
+```
+
+
+```meta-bind-button
+label: Criar Coleção
+hidden: true
+icon: folder
 class: ""
 id: collection
 style: destructive
@@ -276,114 +229,44 @@ actions:
     command: quickadd:choice:d223214e-cf0c-4a6a-9d27-bfe62d8542aa
 ```
 
-`BUTTON[hotkeys]` `BUTTON[recents]` 
-****
-----
+
+````tabs
+tab: 🗂️ Totais Coleções
+
+```dataview
+TABLE without id file.link as Coleção, length(file.inlinks) as Notas 
+FROM "SISTEMA/COLEÇÕES"
+SORT length(file.inlinks) desc
 
 
-
-
-
-
-
-
-```meta-bind-button
-label: Mapa de Templates
-hidden: true
-icon: code
-class: ""
-id: templates
-style: destructive
-actions:
-  - type: open
-    link: "[[TEMPLATES]]"
-```
-```meta-bind-button
-label: Boas Vindas
-hidden: true
-class: ""
-id: readme
-style: destructive
-actions:
-  - type: open
-    link: "[[Boas Vindas]]"
-
+LIMIT 30
 ```
 
+tab: 📂 Coleções  (Links)
 
-```meta-bind-button
-label: Atalhos
-icon: keyboard
-hidden: true
-class: ""
-id: hotkeys
-style: default
-actions:
-  - type: open
-    link: "[[Atalhos]]"
 
+```dataview
+TABLE length(file.inlinks) as Total, file.inlinks as Backlinks  
+FROM "SISTEMA/COLEÇÕES"
+SORT length(file.inlinks) desc
+
+
+LIMIT 30
 ```
 
+````
 
 ```meta-bind-button
-label: Nota diária
-icon: calendar
+label: Nota
 hidden: true
-class: “”
-tooltip: “”
-id: today
-style: primary
-actions:
-  - type: command
-    command: periodic-notes:open-daily-note
-```
-
-```meta-bind-button
-style: default
-icon: list
-id: open-tasks
-hidden: true
-label: Tarefas
-action:
-  type: open
-  link: "[[% TODAS TAREFAS]]"
-```
-
-
-```meta-bind-button
-style: default
-id: open-overview
-hidden: true
-label: Visão Geral Atlas
-action:
-  type: open
-  link: "[[ATLAS]]"
-```
-
-```meta-bind-button
-label: Criar Nota
 icon: plus
-hidden: true
 class: ""
-id: new_note
+id: new
 style: primary
 actions:
   - type: command
     command: quickadd:choice:9dd5d65e-dae6-4ada-8590-069c6fedb6c2
 ```
-
-```meta-bind-button
-label: Dashboard de Notas
-hidden: true
-icon: notebook
-class: ""
-id: dash
-style: primary
-actions:
-  - type: command
-    command: dashboard-navigator:dashboard
-```
-
 ```meta-bind-button
 label: Navegador de Notas
 hidden: true
@@ -396,112 +279,57 @@ actions:
     command: dashboard-navigator:navigator
 ```
 
+
+# Sistema
+
+- [[TEMPLATES]]
+- [[Atalhos]]
+- [[Mapa Boas Vindas ]]
+
 ```meta-bind-button
-label: Página de busca 
+label: Tarefas
 hidden: true
-icon: search
+icon: workflow
 class: ""
-id: search
+id: task
 style: primary
 actions:
-  - type: open
-    link: "[[Buscar Notas]]"
-```
-
-```meta-bind-button
-label: Notas Recentemente Modificadas
-hidden: true
-icon: clock
-class: ""
-id: recents
-style: destructive
-actions:
-  - type: open
-    link: "[[Notas Recentemente Modificadas]]"
-```
-
-
-```meta-bind-button
-label: Dias 
-hidden: true
-class: ""
-id: day
-style: destructive
-actions:
-  - type: open
-    link: "[[Dias]]"
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md
 ```
 
 
 
+
+<br><br>
+<br><br>
+
+
 ```meta-bind-button
-label: Areas
+label: Area / Projeto
 hidden: true
+icon: plus
 class: ""
-id: areas
+id: eff
 style: primary
 actions:
-  - type: open
-    link: "[[_AREAS]]"
+  - type: command
+    command: quickadd:choice:ebc3941c-ed51-4da4-abb4-bf15c72eb683
 ```
 
 
 ```meta-bind-button
 label: Projetos
 hidden: true
+icon: swords
 class: ""
-id: projects
-style: primary
-actions:
-  - type: open
-    link: "[[_Projetos]]"
-```
-
-
-
-
-
-
-
-```meta-bind-button
-label: Boas Vindas
-hidden: true
-class: ""
-id: readme
+id: project
 style: destructive
 actions:
-  - type: open
-    link: "[[Boas Vindas]]"
-
-```
-
-
-```meta-bind-button
-label: Atalhos
-icon: keyboard
-hidden: true
-class: ""
-id: hotkeys
-style: default
-actions:
-  - type: open
-    link: "[[Atalhos]]"
-
-```
-
-
-```meta-bind-button
-label: Nota diária
-icon: calendar
-hidden: true
-class: “”
-tooltip: “”
-id: today
-style: primary
-actions:
   - type: command
-    command: periodic-notes:open-daily-note
+    command: obsidian-hotkeys-for-specific-files:ESFORÇOS/2_PROJETOS.md
 ```
+
 
 
 
@@ -510,54 +338,44 @@ label: Dias
 hidden: true
 icon: sun
 class: ""
-id: days
+id: dias
 style: destructive
 actions:
-  - type: open
-    link: "[[DIAS]]"
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:CALENDÁRIO/REVISÕES/DIAS.md
 ```
 
 
 
-
 ```meta-bind-button
-style: default
-icon: list
-id: open-tasks
+label: Areas
 hidden: true
-label: Tarefas
-action:
-  type: open
-  link: "[[% TODAS TAREFAS]]"
-```
-
-
-```meta-bind-button
-style: default
-id: open-overview
-hidden: true
-label: Visão Geral Atlas
-action:
-  type: open
-  link: "[[ATLAS]]"
-```
-
-```meta-bind-button
-label: Criar Nota
-icon: plus
-hidden: true
+icon: sword
 class: ""
-id: new_note
-style: primary
+id: areas
+style: destructive
 actions:
   - type: command
-    command: quickadd:choice:9dd5d65e-dae6-4ada-8590-069c6fedb6c2
+    command: obsidian-hotkeys-for-specific-files:ESFORÇOS/1_AREAS.md
 ```
 
+
+
 ```meta-bind-button
-label: Dashboard de Notas
+label: Lembrete
 hidden: true
-icon: notebook
+icon: plus
+class: ""
+id: lembrete
+style: destructive
+actions:
+  - type: command
+    command: quickadd:choice:7ec7e9a0-be26-4424-9caf-5751f9865da3
+```
+```meta-bind-button
+label: Dashboard
+hidden: true
+icon: book 
 class: ""
 id: dash
 style: primary
@@ -566,66 +384,49 @@ actions:
     command: dashboard-navigator:dashboard
 ```
 
-```meta-bind-button
-label: Navegador de Notas
-hidden: true
-icon: map
-class: ""
-id: nav
-style: primary
-actions:
-  - type: command
-    command: dashboard-navigator:navigator
-```
 
 ```meta-bind-button
-label: Página de busca 
+label: Nota Diária
 hidden: true
-icon: search
+icon: calendar
 class: ""
-id: search
-style: primary
-actions:
-  - type: open
-    link: "[[Buscar Notas]]"
-```
-
-```meta-bind-button
-label: Notas Recentes
-hidden: true
-icon: clock
-class: ""
-id: recents
+id: today
 style: destructive
 actions:
-  - type: open
-    link: "[[Notas Recentemente Modificadas]]"
-```
-
-```meta-bind-button
-label: Areas
-hidden: true
-icon: list
-class: ""
-id: areas
-style: primary
-actions:
-  - type: open
-    link: "[[_Areas]]"
+  - type: command
+    command: daily-notes
 ```
 
 
-```meta-bind-button
-label: Projetos
-hidden: true
-icon: list
-class: ""
-id: projects
-style: primary
-actions:
-  - type: open
-    link: "[[_Projetos]]"
-```
 
 
-[^1]: 
+[^1]: Seu ponto de partida e base principal.
+	
+	- Eu quero... [[Add|Adicionar]] ideias.
+	- Eu quero... [[Relate|Relacionar]] ideias.
+	- Eu quero... [[Communicate|Comunicar]] ideias.
+
+[^2]: Use as seguintes coleções para navegar rapidamente pelo seu ideaverso:
+	
+	- Eu quero... navegar pelo meu conhecimento 
+		- [[Maps|Mapas]], [[Views|Visualizações]], [[Collections|Coleções]]
+	- Eu quero... navegar pelas minhas fontes 
+		- [[Sources|Fontes]], [[Books|Livros]], [[Movies|Filmes]], [[Series|Séries]]
+	- Eu quero... navegar pelos meus esforços 
+		- [[Efforts|Esforços]]
+	- Eu quero... navegar pelo meu mundo 
+		- [[People|Pessoas]], [[Entities|Entidades]], [[Meetings|Reuniões]]
+	- Eu quero... navegar por ideias 
+		- [[Things|Coisas]], [[Statements|Declarações]], [[Concepts|Conceitos]], [[Quotes|Citações]], [[Questions|Perguntas]]
+	
+	
+
+[^3]: Use seu ideaverso para assumir o controle da sua vida e ser mais intencional sobre as coisas:
+	
+	- Eu quero... refletir sobre minha vida 
+		- [[Life Map|Mapa da Vida]]
+	- Eu quero... fazer registros sobre coisas específicas 
+		- [[Logs|Registros]]
+	- Eu quero... ser mais intencional sobre minha vida 
+		- [[Plan and Review|Planejar e Revisar]]
+	

@@ -1,5 +1,26 @@
 {
-  "files": [],
+  "files": [
+    {
+      "useMoment": false,
+      "file": "ESFORÇOS/1_AREAS.md"
+    },
+    {
+      "useMoment": false,
+      "file": "ESFORÇOS/2_PROJETOS.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SISTEMA/SOBRE/_COLEÇÕES.md"
+    },
+    {
+      "useMoment": false,
+      "file": "CALENDÁRIO/REVISÕES/DIAS.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    }
+  ],
   "useExistingPane": true,
   "useHoverEditor": false
 }
