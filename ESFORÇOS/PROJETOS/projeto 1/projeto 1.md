@@ -1,23 +1,23 @@
 ---
-project: "[[projeto 1]]"
+project: "[[Projeto 1]]"
 tags: project/projeto_1
 type: project
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - "[[2025-09-04]]"
+  - "[[2025-09-12]]"
 up: "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
+resumo: descrição projeto 1
 collection: "[[SISTEMA/COLEÇÕES/Trabalho.md|Trabalho]]"
-inicio: 2025-09-04
-entrega: 2025-09-30
+inicio: 2025-09-12
+entrega: 2025-11-30
 status: Aguardando
-resumo: projeto 1 do trabalho
 ---
  `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[projeto 1]] 
+# [[Projeto 1]] 
 
 
 
@@ -53,7 +53,7 @@ tab: Em Aberto
 
 ```dataview
 TASK
-FROM "ESFORÇOS/PROJETOS/projeto 1"
+FROM "ESFORÇOS/PROJETOS/Projeto 1"
 WHERE !completed AND !checked
 GROUP BY file.name
 
@@ -62,7 +62,7 @@ GROUP BY file.name
 tab: Concluídas 
 ```dataview
 TASK
-FROM "ESFORÇOS/PROJETOS/projeto 1"
+FROM "ESFORÇOS/PROJETOS/Projeto 1"
 WHERE completed AND checked
 GROUP BY file.name
 
@@ -77,7 +77,7 @@ GROUP BY file.name
 
 ```dataview
 table created AS "Created", resumo AS "Resumo"
-from "ESFORÇOS/PROJETOS/projeto 1"
+from "ESFORÇOS/PROJETOS/Projeto 1"
 where type != "project"
 where type = "project_note"
 sort created DESC

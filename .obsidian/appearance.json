@@ -1,6 +1,6 @@
 {
-  "cssTheme": "AnuPpuccin",
-  "theme": "moonstone",
+  "cssTheme": "Prism",
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "dashboarPlusPlus",
     "imageGallery",
@@ -16,5 +16,6 @@
     "Nick Milo - Aligned Callout Header Titles",
     "hidePropertiesBase"
   ],
-  "baseFontSize": 16
+  "baseFontSize": 15,
+  "baseFontSizeAction": true
 }

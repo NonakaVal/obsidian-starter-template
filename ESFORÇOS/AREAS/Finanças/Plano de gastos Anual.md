@@ -1,25 +1,22 @@
 ---
-area: "[[Saúde]]"
-resumo: Nota para Definir metas de treino semanais
-tags: area/saúde/metas_de_treino
+area: "[[Finanças]]"
+resumo: Planejamento de gastos ger
+tags: area/finanças/plano_de_gastos_anual
 type: area_note
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - "[[2025-09-04]]"
+  - "[[2025-09-12]]"
 up:
   - "[[../../../ESFORÇOS/1_AREAS|1_AREAS]]"
-collection: "[[SISTEMA/COLEÇÕES/Saúde.md|Saúde]]"
-related:
-  - "[[ESFORÇOS/AREAS/Saúde/Saúde.md|Saúde]]"
 ---
-~ [[Saúde]] 
+~ [[Finanças]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[metas de treino]] 
+# [[Plano de gastos Anual]] 
 
 
 # Definir Resumo 
@@ -47,7 +44,6 @@ actions:
 
 
 ---
-- [ ] treinar 4 dias por semana por 3 meses
 
 
 

@@ -1,8 +1,0 @@
-views:
-  - type: table
-    name: Tabela
-    order:
-      - file.name
-      - file.mtime
-      - file.tags
-      - collection

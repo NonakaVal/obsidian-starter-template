@@ -1,8 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "Guias Práticos",
+      "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
       "basename": "HOMEPAGE",
       "path": "HOMEPAGE.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
+    },
+    {
+      "basename": "BARRA DE AÇÕES",
+      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
+    },
+    {
+      "basename": "2025-09-12",
+      "path": "CALENDÁRIO/DIAS/2025-09-12.md"
+    },
+    {
+      "basename": "Análise SWOT",
+      "path": "ESFORÇOS/PROJETOS/Projeto 1/Análise SWOT.md"
+    },
+    {
+      "basename": "% ADICIONAR VIDEO",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md"
+    },
+    {
+      "basename": "2_PROJETOS",
+      "path": "ESFORÇOS/2_PROJETOS.md"
+    },
+    {
+      "basename": "NOTA-DIARIA-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
+    },
+    {
+      "basename": "Projeto 1",
+      "path": "ESFORÇOS/PROJETOS/Projeto 1/Projeto 1.md"
+    },
+    {
+      "basename": "1_AREAS",
+      "path": "ESFORÇOS/1_AREAS.md"
+    },
+    {
+      "basename": "Saúde",
+      "path": "ESFORÇOS/AREAS/Saúde/Saúde.md"
+    },
+    {
+      "basename": "Plano de gastos Anual",
+      "path": "ESFORÇOS/AREAS/Finanças/Plano de gastos Anual.md"
+    },
+    {
+      "basename": "Finanças",
+      "path": "ESFORÇOS/AREAS/Finanças/Finanças.md"
+    },
+    {
+      "basename": "Metas de ganhos",
+      "path": "ESFORÇOS/AREAS/Finanças/Metas de ganhos.md"
+    },
+    {
+      "basename": "Meta de treinos",
+      "path": "ESFORÇOS/AREAS/Saúde/Meta de treinos.md"
+    },
+    {
+      "basename": "_COLEÇÕES",
+      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
     },
     {
       "basename": "Nick Milo's Starting Custom Callouts",
@@ -21,32 +85,12 @@
       "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     },
     {
-      "basename": "_COLEÇÕES",
-      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
-    },
-    {
-      "basename": "scripts dataviewjs",
-      "path": "+/scripts dataviewjs.md"
-    },
-    {
       "basename": "2025-09-04",
       "path": "CALENDÁRIO/DIAS/2025-09-04.md"
     },
     {
-      "basename": "nte",
-      "path": "+/nte.md"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
-    },
-    {
       "basename": "Boas Vindas",
       "path": "SISTEMA/SOBRE/Boas Vindas.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "SISTEMA/SOBRE/Guias Práticos.md"
     },
     {
       "basename": "Como Esforços funciona",
@@ -59,10 +103,6 @@
     {
       "basename": "Como Atlas funciona",
       "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
-    },
-    {
-      "basename": "Views",
-      "path": "+/Views.md"
     },
     {
       "basename": "% TODAS TAREFAS",
@@ -81,20 +121,8 @@
       "path": "SISTEMA/SOBRE/Templates.md"
     },
     {
-      "basename": "Logs",
-      "path": "+/Logs.md"
-    },
-    {
       "basename": "Coleções",
       "path": "SISTEMA/SOBRE/LYT/Coleções.md"
-    },
-    {
-      "basename": "checklist",
-      "path": "+/checklist.md"
-    },
-    {
-      "basename": "Plan and Review",
-      "path": "+/Plan and Review.md"
     },
     {
       "basename": "tabs-2",
@@ -105,52 +133,12 @@
       "path": "SISTEMA/TEMPLATES/SNIPPET/% METABIND BOTÃO COM COMANDO.md"
     },
     {
-      "basename": "Sources",
-      "path": "+/Sources.md"
-    },
-    {
       "basename": "DIAS",
       "path": "CALENDÁRIO/REVISÕES/DIAS.md"
     },
     {
-      "basename": "nota projeto 1",
-      "path": "ESFORÇOS/PROJETOS/projeto 1/nota projeto 1.md"
-    },
-    {
       "basename": "Markdown",
       "path": "SISTEMA/SOBRE/LYT/Markdown.md"
-    },
-    {
-      "basename": "projeto 1",
-      "path": "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md"
-    },
-    {
-      "basename": "2_PROJETOS",
-      "path": "ESFORÇOS/2_PROJETOS.md"
-    },
-    {
-      "basename": "1_AREAS",
-      "path": "ESFORÇOS/1_AREAS.md"
-    },
-    {
-      "basename": "Saúde",
-      "path": "ESFORÇOS/AREAS/Saúde/Saúde.md"
-    },
-    {
-      "basename": "Tabelas de gastos pessoais",
-      "path": "ESFORÇOS/AREAS/Finanças/Tabelas de gastos pessoais.md"
-    },
-    {
-      "basename": "Finanças",
-      "path": "ESFORÇOS/AREAS/Finanças/Finanças.md"
-    },
-    {
-      "basename": "Alimentação",
-      "path": "ESFORÇOS/AREAS/Saúde/Alimentação.md"
-    },
-    {
-      "basename": "metas de treino",
-      "path": "ESFORÇOS/AREAS/Saúde/metas de treino.md"
     },
     {
       "basename": "Obsidian e PKM",
@@ -173,32 +161,12 @@
       "path": "CALENDÁRIO/DIAS/2025-08-20.md"
     },
     {
-      "basename": "mapa 2",
-      "path": "ATLAS/MAPAS/+/mapa 2.md"
-    },
-    {
       "basename": "como + funciona",
       "path": "SISTEMA/SOBRE/LYT/como + funciona.md"
     },
     {
       "basename": "Adicionar",
       "path": "SISTEMA/SOBRE/LYT/Adicionar.md"
-    },
-    {
-      "basename": "ARC Framework",
-      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
-    },
-    {
-      "basename": "Sem título",
-      "path": "+/Sem título.base"
-    },
-    {
-      "basename": "Buscar Notas",
-      "path": "SISTEMA/SOBRE/LYT/Buscar Notas.md"
-    },
-    {
-      "basename": "livro 1",
-      "path": "ATLAS/FONTES/LIVROS/livro 1.md"
     }
   ],
   "omittedPaths": [],

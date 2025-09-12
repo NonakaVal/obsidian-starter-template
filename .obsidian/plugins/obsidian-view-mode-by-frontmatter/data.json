@@ -44,6 +44,10 @@
     {
       "filePattern": "% TODAS TAREFAS",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "BARRA DE AÇÕES",
+      "viewMode": "obsidianUIMode: preview"
     }
   ]
 }

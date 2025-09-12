@@ -5,11 +5,10 @@ up:
 area: "[[Finanças]]"
 tags: area/finanças
 type: area_family
-created: "[[2025-09-04]]"
+created: "[[2025-09-12]]"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
-collection: "[[SISTEMA/COLEÇÕES/Finanças.md|Finanças]]"
 ---
  `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 

@@ -1,34 +1,29 @@
 ---
-project: "[[projeto 1]]"
-resumo: "mapear requisitos para início "
-tags: project/projeto_1/nota_projeto_1
-type: project_note
+area: "[[Finanças]]"
+resumo: Objetivos e metas
+tags: area/finanças/metas_de_ganhos
+type: area_note
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - "[[2025-09-04]]"
+  - "[[2025-09-12]]"
 up:
-  - "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
-collection: "[[SISTEMA/COLEÇÕES/Trabalho.md|Trabalho]]"
-related:
-  - "[[ESFORÇOS/PROJETOS/projeto 1/projeto 1.md|projeto 1]]"
+  - "[[../../../ESFORÇOS/1_AREAS|1_AREAS]]"
 ---
-~ [[projeto 1]] 
+~ [[Finanças]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[nota projeto 1]] 
----
+# [[Metas de ganhos]] 
+
 
 # Definir Resumo 
 `INPUT[textArea(showcase, class(meta-bind-full-width), class(meta-bind-high)):resumo]`
 
 
-
 # TAREFAS E PROCESSOS
-
 
  `BUTTON[NOTA-AREA-TEMPLATE]`     
 
@@ -45,10 +40,11 @@ actions:
 ```
 
 
-
-
 ## Tarefas
-- [ ] task 1
+
+
+---
+- [ ] Somar 10k na carteira até final do ano
 
 
 

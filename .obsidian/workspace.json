@@ -8,8 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "84cec9afc31907ed",
+            "id": "ca5e1184413ffdc4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -27,18 +28,19 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "HOMEPAGE"
             }
           },
           {
-            "id": "95130933fe8bf0f2",
+            "id": "c5514930ee95eeb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md",
-                "mode": "preview",
+                "file": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Nick Milo's Starting Custom Callouts"
+              "title": "BARRA DE AÇÕES"
             }
           }
         ]
@@ -78,7 +80,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -87,13 +89,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOMEPAGE.md",
+                "file": "SISTEMA/SOBRE/Guias Práticos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de HOMEPAGE"
+              "title": "Outline of Guias Práticos"
             }
           },
           {
@@ -120,7 +122,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           },
           {
@@ -133,11 +135,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 405
+    "width": 347.5
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -180,7 +183,7 @@
                 "file": "HOMEPAGE.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo HOMEPAGE"
+              "title": "File properties for HOMEPAGE"
             }
           },
           {
@@ -209,7 +212,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Todas as propriedades"
+              "title": "All properties"
             }
           },
           {
@@ -218,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOMEPAGE.md",
+                "file": "SISTEMA/SOBRE/Guias Práticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,11 +231,10 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para HOMEPAGE"
+              "title": "Backlinks for Guias Práticos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -245,7 +247,7 @@
               "type": "markdown",
               "state": {
                 "file": "SISTEMA/SOBRE/LYT/Atalhos.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -268,17 +270,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458.5
+    "width": 441.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "callout-manager:Insert Callout": false,
       "iconic:Open rulebook": false,
       "templater-obsidian:Templater": false,
@@ -288,41 +290,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "84cec9afc31907ed",
+  "active": "d2d39fc8f1f5262c",
   "lastOpenFiles": [
-    "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md",
     "HOMEPAGE.md",
+    "SISTEMA/SOBRE/LYT/Atalhos.md",
+    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
+    "CALENDÁRIO/DIAS/2025-09-12.md",
+    "ATLAS/MAPAS/+/Mapa Boas Vindas .md",
+    "ATLAS/MAPAS/+/mapa 2.md",
+    "ATLAS/MAPAS/+/mapa 1.md",
+    "ESFORÇOS/PROJETOS/Projeto 1/Análise SWOT.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md",
+    "ESFORÇOS/2_PROJETOS.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
+    "ESFORÇOS/PROJETOS/Projeto 1/Projeto 1.md",
+    "ESFORÇOS/PROJETOS/Projeto 1",
+    "ESFORÇOS/1_AREAS.md",
+    "ESFORÇOS/AREAS/Saúde/Saúde.md",
+    "ESFORÇOS/AREAS/Finanças/Plano de gastos Anual.md",
+    "ESFORÇOS/AREAS/Finanças/Finanças.md",
+    "ESFORÇOS/AREAS/Finanças/Metas de ganhos.md",
+    "ESFORÇOS/AREAS/Finanças",
+    "ESFORÇOS/AREAS/Saúde/Meta de treinos.md",
+    "ESFORÇOS/AREAS/Saúde",
+    "SISTEMA/SOBRE/_COLEÇÕES.md",
+    "+/scripts dataviewjs.md",
+    "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md",
     "README.md",
     "CALENDÁRIO/DIAS/2025-09-11.md",
     "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
-    "SISTEMA/SOBRE/_COLEÇÕES.md",
-    "+/scripts dataviewjs.md",
     "CALENDÁRIO/DIAS/2025-09-04.md",
     "+/nte.md",
-    "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "SISTEMA/SOBRE/Boas Vindas.md",
     "SISTEMA/MEDIA/Pasted image 20250910044512.png",
-    "SISTEMA/SOBRE/Guias Práticos.md",
-    "SISTEMA/SOBRE/LYT/Como Esforços funciona.md",
-    "SISTEMA/SOBRE/LYT/Como Calendário funciona.md",
-    "SISTEMA/SOBRE/LYT/Como Atlas funciona.md",
-    "+/Views.md",
-    "_index_notas.md",
     "index.py",
     "SISTEMA/SCRIPTS/last-created.js",
     "SISTEMA/SCRIPTS/last-modified.js",
     "SISTEMA/SCRIPTS/last-modified.JS",
     "SISTEMA/SCRIPTS/1.JS",
     "SISTEMA/SCRIPTS",
-    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md",
-    "SISTEMA/SOBRE/Templates.md",
-    "+/Logs.md",
-    "SISTEMA/SOBRE/LYT/Coleções.md",
-    "+/checklist.md",
-    "+/Plan and Review.md",
-    "SISTEMA/TEMPLATES/SNIPPET/tabs-2.md",
     "SISTEMA/MEDIA/Images/lyt-crafting-mocs-2.jpg",
     "SISTEMA/MEDIA/Images/flight-school-checklist.jpg",
     "SISTEMA/MEDIA/Images/lyt-crafting-mocs-0.jpg",
@@ -333,9 +338,6 @@
     "SISTEMA/MEDIA/Images/flight-school-interfacing-excellence-award.jpg",
     "SISTEMA/MEDIA/Images/robert-mccall-space-ship-launch-narrow.jpg",
     "SISTEMA/MEDIA/Images",
-    "attachments/2025-09-04 12-28-55.mp4",
-    "attachments",
-    "ESFORÇOS/PROJETOS/projeto 1",
     "ATLAS/FONTES/Sem título.canvas",
     "Sem título.canvas"
   ]

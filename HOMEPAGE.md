@@ -1,14 +1,15 @@
 ---
-banner: "https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png"
+banner: "https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
-banner_y: 0.35088
+banner_y: 0.71024
 ---
 ```widgets
 type: clock
 ```
- <br>
+# ...
+
 
 [^5]  [^6] 
 
@@ -28,7 +29,7 @@ type: clock
 
 \--- end-column ---
 
-> [!mountain]- **[[Efforts]]**  »» [[Como Esforços funciona|Works]] [^3]
+> [!mountain]- **[[Como Esforços funciona|Esforços]]**  »» [[Como Esforços funciona|Works]] [^3]
 > `BUTTON[areas]`  `BUTTON[project]`  
 > 
 >  `BUTTON[eff]`
@@ -37,7 +38,7 @@ type: clock
 [^7]
 
 
-<br><br>
+<br>
 
 # Trabalhos... 
 
@@ -134,7 +135,7 @@ tab: 📍 Últimas notas criadas
 const ICONES = {
     "AULAS": "📚",
     "PROJETOS": "🛠️",
-    "EFFORTS": "⚡",
+    "ESFORÇOS": "⚡",
     "NOTAS": "📝",
     "ATLAS": "🌍",
     "DEFAULT": "📄"
@@ -143,7 +144,7 @@ const ICONES = {
 // Inclui EFFORTS, ATLAS e qualquer pasta com +
 const PASTAS_INCLUIR = [
     /.*\+.*/,       // Pastas com "+"
-    /^EFFORTS/,     // Pasta EFFORTS
+    /^ESFORÇOS/,     // Pasta EFFORTS
     /^ATLAS/        // Pasta ATLAS
 ];
 
@@ -245,7 +246,7 @@ tab: ☑️ Tarefas
 tab: Calendário 
 ![[% TAREFAS DO CALENDÁRIO]]
 
-tab: Efforts
+tab: Esforços
 ![[% TAREFAS EFFORTS]]
 
 ````

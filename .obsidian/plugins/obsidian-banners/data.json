@@ -1,10 +1,10 @@
 {
-  "height": 350,
+  "height": 170,
   "style": "gradient",
   "showInInternalEmbed": true,
-  "internalEmbedHeight": 190,
+  "internalEmbedHeight": 100,
   "showInPreviewEmbed": true,
-  "previewEmbedHeight": 100,
+  "previewEmbedHeight": null,
   "frontmatterField": null,
   "bannerDragModifier": "none",
   "iconHorizontalAlignment": "left",

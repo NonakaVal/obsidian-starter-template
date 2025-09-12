@@ -5,7 +5,7 @@ up:
 area: "[[Saúde]]"
 tags: area/saúde
 type: area_family
-created: "[[2025-09-04]]"
+created: "[[2025-09-12]]"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
