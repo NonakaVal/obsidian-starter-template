@@ -13,7 +13,9 @@
 --- start-multi-column: ExampleRegion3
 
 > [!calendar]- **[[Como Calendário funciona|Calendar]]**  »» [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] 
-> `BUTTON[today]`[^4]   `BUTTON[task]`    
+> `BUTTON[today]`[^4]  `BUTTON[mes]` [^5]
+>  
+>  `BUTTON[task]`    
 
 \--- end-column ---
 
@@ -25,6 +27,18 @@
 --- end-multi-column
 [^7]
 
+
+```meta-bind-button
+label: Revisar Mês
+hidden: true
+icon: calendar-days
+class: ""
+id: mes
+style: destructive
+actions:
+  - type: command
+    command: periodic-notes:open-monthly-note
+```
 
 ```meta-bind-button
 label: Nota
@@ -195,3 +209,5 @@ actions:
 [^3]: `Alt + H`
 
 [^4]: `Ctrl + Shift + D`
+
+[^5]: `Ctrl + Shift + M`

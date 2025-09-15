@@ -4,9 +4,7 @@
   "attachmentFolderPath": "SISTEMA/MEDIA",
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
-  "userIgnoreFilters": [
-    "SISTEMA/"
-  ],
+  "userIgnoreFilters": null,
   "newFileLocation": "folder",
   "newFileFolderPath": "+",
   "readableLineLength": true,

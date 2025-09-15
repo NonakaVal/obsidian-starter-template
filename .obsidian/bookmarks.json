@@ -21,6 +21,16 @@
         }
       ],
       "title": "Boas Vindas"
+    },
+    {
+      "type": "folder",
+      "ctime": 1757690828803,
+      "path": "SISTEMA"
+    },
+    {
+      "type": "folder",
+      "ctime": 1757690839031,
+      "path": "SISTEMA/TEMPLATES"
     }
   ]
 }

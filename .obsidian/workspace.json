@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca5e1184413ffdc4",
+            "id": "818992d1de9c521a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -34,13 +34,14 @@
             }
           },
           {
-            "id": "c5514930ee95eeb0",
+            "id": "c1ba33d7ea4a43de",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
-                "mode": "source",
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -53,11 +54,30 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "BARRA DE AÇÕES"
+              "title": "Boas Vindas"
+            }
+          },
+          {
+            "id": "32741ed96db980b3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/SOBRE/Guias Práticos.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Guias Práticos"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,21 +104,6 @@
             }
           },
           {
-            "id": "4eeefb6de41c8abe",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "SISTEMA/SOBRE/Guias Práticos.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Guias Práticos"
-            }
-          },
-          {
             "id": "89b309ba1cbbdf51",
             "type": "leaf",
             "state": {
@@ -112,7 +117,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Search"
             }
           },
           {
@@ -135,8 +140,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,6 +154,21 @@
         "id": "c20f8c2c3963ddaf",
         "type": "tabs",
         "children": [
+          {
+            "id": "4eeefb6de41c8abe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Boas Vindas"
+            }
+          },
           {
             "id": "ca19f0e65e17ab32",
             "type": "leaf",
@@ -221,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SISTEMA/SOBRE/Guias Práticos.md",
+                "file": "HOMEPAGE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +250,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Guias Práticos"
+              "title": "Backlinks for HOMEPAGE"
             }
           }
         ]
@@ -240,6 +259,43 @@
         "id": "468b75df9b7ee1c6",
         "type": "tabs",
         "children": [
+          {
+            "id": "f1767b69ffcf88ce",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "HOMEPAGE.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3242333202184635,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of HOMEPAGE"
+            }
+          },
           {
             "id": "4f85097de9cdee3e",
             "type": "leaf",
@@ -270,7 +326,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.5
+    "width": 477
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,40 +343,41 @@
       "widgets:Add widget": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
+      "workspaces:Manage workspace layouts": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "d2d39fc8f1f5262c",
+  "active": "c1ba33d7ea4a43de",
   "lastOpenFiles": [
     "HOMEPAGE.md",
-    "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
-    "CALENDÁRIO/DIAS/2025-09-12.md",
-    "ATLAS/MAPAS/+/Mapa Boas Vindas .md",
-    "ATLAS/MAPAS/+/mapa 2.md",
-    "ATLAS/MAPAS/+/mapa 1.md",
-    "ESFORÇOS/PROJETOS/Projeto 1/Análise SWOT.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md",
-    "ESFORÇOS/2_PROJETOS.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md",
-    "ESFORÇOS/PROJETOS/Projeto 1/Projeto 1.md",
-    "ESFORÇOS/PROJETOS/Projeto 1",
-    "ESFORÇOS/1_AREAS.md",
-    "ESFORÇOS/AREAS/Saúde/Saúde.md",
-    "ESFORÇOS/AREAS/Finanças/Plano de gastos Anual.md",
-    "ESFORÇOS/AREAS/Finanças/Finanças.md",
-    "ESFORÇOS/AREAS/Finanças/Metas de ganhos.md",
-    "ESFORÇOS/AREAS/Finanças",
-    "ESFORÇOS/AREAS/Saúde/Meta de treinos.md",
-    "ESFORÇOS/AREAS/Saúde",
+    "SISTEMA/SOBRE/Guias Práticos.md",
+    "SISTEMA/SOBRE/Boas Vindas.md",
+    "SISTEMA/SOBRE/homepage-help.md",
+    "SISTEMA/SOBRE/LYT/Checklist.md",
+    "SISTEMA/SOBRE/LYT/Markdown.md",
+    "SISTEMA/SOBRE/LYT/Como Calendário funciona.md",
+    "SISTEMA/SOBRE/LYT/Coleções.md",
     "SISTEMA/SOBRE/_COLEÇÕES.md",
-    "+/scripts dataviewjs.md",
-    "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md",
     "README.md",
-    "CALENDÁRIO/DIAS/2025-09-11.md",
-    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
-    "CALENDÁRIO/DIAS/2025-09-04.md",
-    "+/nte.md",
+    "hometest.md",
+    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
+    "CALENDÁRIO/REVISÕES/2025-09.md",
+    "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
+    "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
+    "CALENDÁRIO/REVISÕES/2025-08.md",
+    "SISTEMA/SOBRE/Templates.md",
+    "CALENDÁRIO/REVISÕES/DIAS.md",
+    "CALENDÁRIO/DIAS/2025-09-15.md",
+    "ESFORÇOS/2_PROJETOS.md",
+    "CALENDÁRIO/DIAS/2025-09-12.md",
+    "SISTEMA/SOBRE/LYT/Atalhos.md",
+    "SISTEMA/SOBRE/LYT/Como usar Templater.md",
+    "SISTEMA/SOBRE/LYT/Sistema ACE.md",
+    "SISTEMA/TEMPLATES/SNIPPET/multicollum 2 colluns.md",
+    "ATLAS/MAPAS/+/Mapa Boas Vindas .md",
+    "ESFORÇOS/PROJETOS/Projeto 1",
+    "ESFORÇOS/AREAS/Finanças",
+    "ESFORÇOS/AREAS/Saúde",
     "SISTEMA/MEDIA/Pasted image 20250910044512.png",
     "index.py",
     "SISTEMA/SCRIPTS/last-created.js",

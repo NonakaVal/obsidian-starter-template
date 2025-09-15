@@ -1,27 +1,35 @@
-
+---
+banner: "https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
+banner_y: 0.71024
+---
 ```widgets
 type: clock
 ```
+# ...
 
 
-`BUTTON[new]`[^1]  `BUTTON[collection]`    `BUTTON[lembrete]`  [^2]
+[^5]  [^6] 
+
+`BUTTON[new]` [^1] [^2] `BUTTON[collection]` [^8]   `BUTTON[lembrete]`  
+
 
 
 <br>
 
-> [!globe]+ **[[Atlas]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** 
->  >  `BUTTON[dash, nav]`   `BUTTON[col]`  `BUTTON[last]` [^3]
+> [!globe]+ **[[Atlas]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** [^3] [^4]
+>  >  `BUTTON[dash, nav]`   `BUTTON[col]`  `BUTTON[last]`
 
 --- start-multi-column: ExampleRegion3
 
-> [!calendar]- **[[Como Calendário funciona|Calendar]]**  »» [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] 
-> `BUTTON[today]`[^4]  `BUTTON[mes]` [^5]
->  
->  `BUTTON[task]`    
+> [!calendar]- **[[Como Calendário funciona|Calendar]]**  »» [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] [^3]
+> `BUTTON[today]`   `BUTTON[task]`    
 
 \--- end-column ---
 
-> [!mountain]- **[[Como Esforços funciona|Esforços]]**  »» [[Como Esforços funciona|Works]] 
+> [!mountain]- **[[Como Esforços funciona|Esforços]]**  »» [[Como Esforços funciona|Works]] [^3]
 > `BUTTON[areas]`  `BUTTON[project]`  
 > 
 >  `BUTTON[eff]`
@@ -29,7 +37,10 @@ type: clock
 --- end-multi-column
 
 
-# ... 
+
+<br>
+
+# Trabalhos... 
 
 
 ---
@@ -245,7 +256,6 @@ tab: Esforços
 
 
 
-[^7]
 # Recursos e Sistema 
 
 
@@ -256,18 +266,11 @@ tab: Esforços
 - ? [[Nick Milo's Starting Custom Callouts]]
 - %  [[Atalhos]]
 
+[^7] 
+# Footnotes
+---
 
-```meta-bind-button
-label: Revisar Mês
-hidden: true
-icon: calendar-days
-class: ""
-id: mes
-style: destructive
-actions:
-  - type: command
-    command: periodic-notes:open-monthly-note
-```
+
 
 ```meta-bind-button
 label: Nota
@@ -431,12 +434,82 @@ actions:
     command: daily-notes
 ```
 
-[^1]: `Ctrl + N`
+[^1]: - Seu ponto de partida e base principal.
+		- Eu quero... [[Adicionar]] ideias.
+		- Eu quero... [[Relacionar]] ideias.
+		- Eu quero... [[Comunicar]] ideias.
+	
 
-[^2]: `Alt + L`
+[^2]: > [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
+	> ![[Pasted image 20250815104904.png]]
 
-[^3]: `Alt + H`
+[^3]: > [!box] [[como + funciona|+]] - **[[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]]** 
+	> - **A – Atlas** → Guarda referências e conhecimento geral. É o “mapa” das suas ideias, conceitos e temas.
+	> - **C – Calendário** → Armazena tudo que está ligado a datas: eventos, prazos, registros cronológicos.
+	> - **E – Esforços** → Contém seus projetos, tarefas e iniciativas que exigem ação.
+	> - ![[Pasted image 20250816180551.png]]
 
-[^4]: `Ctrl + Shift + D`
+[^4]: Use as seguintes coleções para navegar rapidamente pelo seu ideaverso:
+	- Eu quero... navegar pelo meu conhecimento 
+		- [[MOC definição|Mapas]], [[Coleções]]
+	- Eu quero... navegar pelos meus esforços 
+		- [[Como Esforços funciona|Esforços]]
+	- Eu quero... navegar pelo meu calendário.
+		- [[Como Calendário funciona|Calendário]]
 
-[^5]: `Ctrl + Shift + M`
+[^5]: Metadados
+	
+	> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
+	
+	### Principais metadados:
+	
+	* **`created` (data de criação):**
+	  Permite acompanhar a linha do tempo de suas anotações, gerar históricos ou revisões mensais/anuais.
+	
+	* **`up` (hierarquia):**
+	  Define a nota **superior** ou contexto maior em que essa nota se encaixa.
+	
+	  > Ex.: um capítulo tem `up: [[Livro X]]`.
+	
+	* **`collection` (coleção):**
+	  Agrupa notas por temas ou áreas.
+	
+	  > Ex.: `collection: [[AULAS]], [[CURSOS]]`
+	
+	
+	* **`related` (notas associadas):**
+	  Lista conexões manuais que complementam o **graph view**.
+	
+	  > Ex.: `related: [[Conceito Y]], [[Questão Z]]`.
+	
+	
+
+[^6]: # 🛠 Boas Práticas
+	
+	- Revisão Regular: Reserve um tempo semanalmente para revisar e atualizar notas, garantindo que as informações permaneçam relevantes e corretas.
+	- Limpeza de Tags e Pastas: Periodicamente, revise tags e a estrutura de pastas para evitar redundâncias ou categorias desatualizadas.
+	- Backup: Faça backups regulares de sua vault para evitar perda de dados.
+	- Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o sistema.
+
+[^7]: 
+	| 🏚️ **Homepage**                        | Ctrl + Shift + H |
+	| --------------------------------------- | ---------------- |
+	| 🎛️ **Paleta de comandos**              | Ctrl + P         |
+	| ➡️ **Acessar Nota**                     | Ctrl + O         |
+	| 🗓️ **Nota Diária**                     | Ctrl + Shift + I |
+	| ➕ **Nova Nota**                         | Ctrl + N         |
+	| 📜 **Inserir Snippet Template**         | Alt + E          |
+	| 🔖 **Adicionar Propriedade do Arquivo** | Ctrl + ;         |
+	| 📑 **Mostrar Favoritos**                | Ctrl + Shift + B |
+	| ⭐ **Favoritar Todas as Abas**           | Alt + B          |
+	| 🗂️ **Explorador de Arquivos**          | Ctrl + Shift + P |
+	| 📦 **Mover Arquivo**                    | Alt + M          |
+	| 📄 **Mostrar Títulos**                  | Ctrl + Shift + O |
+	| 🔍 **Pesquisar nos Arquivos**           | Ctrl + Shift + F |
+	| 🚪 **Fechar Aba**                       | Alt + W          |
+	| 🚪 **Fechar Janela**                    | Ctrl + Shift + W |
+	| 🗑️ **Excluir Arquivo**                 | Ctrl + Shift + - |
+	
+	
+
+[^8]: ![[Coleções]]

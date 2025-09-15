@@ -414,6 +414,15 @@
       "key": "N"
     }
   ],
+  "recent-files-obsidian:recent-files-open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
   "editor:toggle-source": [
     {
       "modifiers": [
@@ -452,15 +461,6 @@
     }
   ],
   "workspace:close-window": [],
-  "workspaces:open-modal": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
   "obsidian42-brat:allCommands": [
     {
       "modifiers": [
@@ -487,20 +487,83 @@
       "key": "F"
     }
   ],
-  "quickadd:choice:7ec7e9a0-be26-4424-9caf-5751f9865da3": [
+  "callout-manager:manage-callouts": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "L"
+      "key": "C"
     }
   ],
-  "recent-files-obsidian:recent-files-open": [
+  "workspaces:open-modal": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "H"
+      "key": "A"
+    }
+  ],
+  "workspaces:save": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:save-file": [],
+  "obsidian-hotkeys-for-specific-files:ATLAS/01_INDEX/index-templates.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:README.md-new-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:+/ATLAS.base": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "5"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:ATLAS/ATLAS.base": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "5"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:SYSTEM/ASSETS/Dataview/@-templates.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:SYSTEM/SCRIPTS/index-.py-new-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
     }
   ]
 }

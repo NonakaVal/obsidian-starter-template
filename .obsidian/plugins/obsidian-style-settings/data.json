@@ -144,7 +144,7 @@
   "obsidian-prism-theme@@color-scheme-style-lt": "pt-color-scheme-style-minimal-lt",
   "obsidian-prism-theme@@accent-style-lt": "pt-accent-style-borderandfilled-lt",
   "obsidian-prism-theme@@pt-custom-vault-banner": false,
-  "obsidian-prism-theme@@pt-file-explorer-folder-icon-color": "pt-file-explorer-folder-icon-active",
+  "obsidian-prism-theme@@pt-file-explorer-folder-icon-color": "pt-file-explorer-folder-icon-accent",
   "obsidian-prism-theme@@pt-file-explorer-folder-icon": false,
   "obsidian-prism-theme@@tab-header-alignment": "pt-tab-header-left",
   "obsidian-prism-theme@@nav-header-left-sidebar-position": "pt-nav-header-left-sidebar-position-bottom",
@@ -336,7 +336,10 @@
   "anuppuccin-theme-settings@@anp-td-highlight": "anp-table-row-alt",
   "modular-css-layout-wv@@wide-dataview-global": false,
   "obsidian-prism-theme@@accent-style-dt": "pt-accent-style-borderandfilled-dt",
-  "obsidian-prism-theme@@file-line-width": 910,
   "obsidian-prism-theme@@custom-vault-banner-icon-url": "url(https://upload.wikimedia.org/wikipedia/commons/1/10/2023_Obsidian_logo.svg)",
-  "obsidian-prism-theme@@pt-colored-folders": false
+  "obsidian-prism-theme@@pt-colored-folders": false,
+  "obsidian-prism-theme@@pt-colored-folders-files-match": false,
+  "obsidian-prism-theme@@pt-focused-mode": false,
+  "obsidian-prism-theme@@pt-titlebar-hide-text": false,
+  "obsidian-prism-theme@@file-line-width": 740
 }

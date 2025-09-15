@@ -1,6 +1,6 @@
 {
-  "cssTheme": "Prism",
-  "theme": "obsidian",
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "dashboarPlusPlus",
     "imageGallery",
@@ -9,13 +9,13 @@
     "MCL - Wide Views",
     "MCL Wide Views",
     "Nick Milo - Tighter Bottom Properties Margin for Border",
-    "Nick Milo - Prism",
-    "Nick Milo - Custom Callouts - Pro",
     "Nick Milo - Anuppuchin - Soft Paper",
     "Nick Milo - Anuppuchin - Soft Folders",
     "Nick Milo - Aligned Callout Header Titles",
-    "hidePropertiesBase"
+    "hidePropertiesBase",
+    "Nick Milo - Custom Callouts - Pro",
+    "Nick Milo - Prism"
   ],
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "baseFontSizeAction": true
 }

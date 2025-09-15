@@ -97,6 +97,9 @@
         "20d1cf2ee6071a00"
       ]
     },
+    "HOMEPAGE.md": {
+      "icon": "homepage"
+    },
     "SISTEMA": {
       "icon": "lucide-settings",
       "unsynced": [
@@ -120,6 +123,9 @@
     },
     "SISTEMA/SOBRE/Guias Práticos.md": {
       "icon": "help"
+    },
+    "SISTEMA/SOBRE/LYT/Atalhos.md": {
+      "icon": "lucide-keyboard"
     },
     "SISTEMA/SOBRE/Notas Recentemente Modificadas.md": {
       "icon": "lucide-clock"
