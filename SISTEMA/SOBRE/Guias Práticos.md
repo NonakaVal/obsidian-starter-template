@@ -6,6 +6,8 @@ cssclasses:
 banner: "https://w.wallhaven.cc/full/1k/wallhaven-1kzydv.jpg"
 banner_y: 0.75
 ---
+# Primeiros passos
+
 > [!VIDEO]- Formatação Markdown
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1MUXAJNB2pC_2cJndcC77p69uib_cfIbl/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
@@ -28,6 +30,8 @@ actions:
 
 ```
 
+# Criando Notas 
+
 > [!VIDEO]- Nova Nota e coleções
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1gOAEAKT_2kHUHJFvZ39ZLpdtMHISn4_V/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
@@ -36,6 +40,8 @@ actions:
 
 > [!VIDEO]- Criando Notas para Areas e Projetos
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/17Ky8iQVGziB6b0y4tNYvXA6tsFJOuAyT/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+
+# Acessando conhecimento
 
 > [!VIDEO]- Usando Dashboard e Busca
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/16MvId-GkiNeifueNUtQlXR_4aN4voQAD/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
@@ -46,7 +52,7 @@ actions:
 > [!VIDEO]- Dashboard++ e outras propriedades
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
-### Recursos complementares
+# Recursos complementares
 
 > [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Metadados]]  | [[Coleções]] | [[Atalhos]]   
 

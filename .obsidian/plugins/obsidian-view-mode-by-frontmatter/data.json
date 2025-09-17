@@ -48,6 +48,10 @@
     {
       "filePattern": "BARRA DE AÇÕES",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Guias Práticos",
+      "viewMode": "obsidianUIMode: preview"
     }
   ]
 }

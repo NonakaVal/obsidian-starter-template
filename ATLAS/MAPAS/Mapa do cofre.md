@@ -101,7 +101,7 @@ tags:
 - 📄 [[Metadados]]
 - 📄 [[Custom Callouts]]
 - 📄 [[SISTEMA/SOBRE/LYT/Nota]]
-- 📄 [[Nova Coleção]]
+- 📄 [[SISTEMA/SOBRE/LYT/Nova Coleção]]
 - 📄 [[Obsidian e PKM]]
 - 📄 [[Relacionar]]
 - 📄 [[Sistema ACE]]

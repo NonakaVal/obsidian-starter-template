@@ -11,7 +11,7 @@
           "name": "➕ NOTA BASE",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/base.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -53,7 +53,7 @@
               "name": "➕ NOVA AREA",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/AREA-TEMPLATE.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/area.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -89,7 +89,7 @@
               "name": "➕ NOVO PROJETO",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/PROJETO-TEMPLATE.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/projeto.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -128,7 +128,7 @@
           "name": "📝 AULA",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/AULA-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/aula.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -164,79 +164,7 @@
           "name": "📖 LIVRO",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/LIVRO-TEMPLATE.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "focus": true,
-            "mode": "default"
-          }
-        },
-        {
-          "id": "70a32506-5522-4fe2-a222-7e395b7c77de",
-          "name": "📋 ARTIGO",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/ARTIGO-TEMPLATE.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "focus": true,
-            "mode": "default"
-          }
-        },
-        {
-          "id": "b9a0d50d-69d7-40d7-b217-c32bbb233c06",
-          "name": "📺 VIDEO",
-          "type": "Template",
-          "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/VIDEO-TEMPLATE.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/livro.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -272,7 +200,7 @@
           "name": "🗂️ NOVA COLEÇÃO",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/COLEÇÃO.md",
+          "templatePath": "SISTEMA/TEMPLATES/FORMAT/coleção.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -344,7 +272,7 @@
               "name": "SNIPPET",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOVO-SNIPPET.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/snippet.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
@@ -374,7 +302,7 @@
               "name": "TEMPLATE DE FORMATAÇÃO",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/Novo-template.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/template.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
@@ -409,7 +337,7 @@
       "name": "📝 NOTA DE PROJETO",
       "type": "Template",
       "command": true,
-      "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOTA-PROJETO-TEMPLATE.md",
+      "templatePath": "SISTEMA/TEMPLATES/FORMAT/projeto nota.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"
@@ -443,7 +371,7 @@
       "name": "📝 NOTA DE AREA",
       "type": "Template",
       "command": true,
-      "templatePath": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
+      "templatePath": "SISTEMA/TEMPLATES/FORMAT/area nota.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"

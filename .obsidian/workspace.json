@@ -77,13 +77,13 @@
             }
           },
           {
-            "id": "7555800bb91cb629",
+            "id": "332cdf982d89f525",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "SISTEMA/SOBRE/Templates.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -97,11 +97,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Templates"
+            }
+          },
+          {
+            "id": "5a0a34c12b2dfae4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/TEMPLATES/FORMAT/livro.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "livro"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,39 +218,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca19f0e65e17ab32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SISTEMA/SOBRE/Guias Práticos.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Guias Práticos"
-            }
-          },
-          {
             "id": "f873cb294b2c1c1b",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "SISTEMA/TEMPLATES/FORMAT/livro.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo README"
+              "title": "Propriedades do arquivo livro"
             }
           },
           {
@@ -277,8 +277,7 @@
               "title": "Backlinks for HOMEPAGE"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -290,7 +289,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "SISTEMA/TEMPLATES/FORMAT/livro.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -318,7 +317,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de README"
+              "title": "Gráfico de livro"
             }
           },
           {
@@ -350,8 +349,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336,
-    "collapsed": true
+    "width": 336
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -372,38 +370,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7555800bb91cb629",
+  "active": "5a0a34c12b2dfae4",
   "lastOpenFiles": [
-    "SISTEMA/SOBRE/Boas Vindas.md",
-    "README.md",
+    "SISTEMA/TEMPLATES/FORMAT/MUSICA-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/livro.md",
+    "SISTEMA/TEMPLATES/FORMAT/snippet.md",
+    "SISTEMA/TEMPLATES/FORMAT/REUNIOES-TEMPLATE.md",
+    "SISTEMA/TEMPLATES/FORMAT/template.md",
+    "SISTEMA/TEMPLATES/FORMAT/coleção.md",
+    "SISTEMA/TEMPLATES/FORMAT/nota diaria.md",
+    "SISTEMA/TEMPLATES/FORMAT/artigo.md",
+    "SISTEMA/TEMPLATES/FORMAT/aula.md",
+    "SISTEMA/TEMPLATES/FORMAT/projeto nota.md",
+    "SISTEMA/TEMPLATES/FORMAT/projeto.md",
+    "SISTEMA/TEMPLATES/FORMAT/area nota.md",
+    "SISTEMA/TEMPLATES/FORMAT/area.md",
+    "SISTEMA/TEMPLATES/FORMAT/base.md",
+    "SISTEMA/SOBRE/Templates.md",
     "HOMEPAGE.md",
-    "SISTEMA/SOBRE/Guias Práticos.md",
-    "+/nota.md",
-    "ATLAS/FONTES/Cursos/Cursos.md",
-    "ATLAS/FONTES/Livros",
-    "ATLAS/FONTES/Cursos/Aula 1.md",
-    "ATLAS/FONTES/Cursos",
-    "ATLAS/MAPAS/Mapa do cofre.md",
-    "ATLAS/FONTES/Livros/Livro 1.md",
-    "ATLAS/FONTES/Livros/Livros.md",
-    "ATLAS/FONTES/Cursos/Curso 1.md",
-    "ATLAS/FONTES/Cursos/Segunda Aula.md",
     "SISTEMA/SOBRE/homepage-help.md",
-    "+/Curos.md",
-    "SISTEMA/COLEÇÕES/Estudos.md",
-    "ATLAS/FONTES/Livros/Livro 1.md",
-    "ATLAS/FONTES/Cursos/Curso 1.md",
-    "ATLAS/FONTES/Livros/Capítulo 1.md",
-    "ATLAS/FONTES/Cursos/Aula 3.md",
-    "ATLAS/FONTES/Cursos/Aula 1.md",
+    "SISTEMA/SOBRE/_COLEÇÕES.md",
+    "SISTEMA/SOBRE/Guias Práticos.md",
+    "CALENDÁRIO/REVISÕES/2025-09.md",
+    "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
+    "CALENDÁRIO/REVISÕES/DIAS.md",
+    "CALENDÁRIO/REVISÕES/2025-08.md",
+    "SISTEMA/SOBRE/Boas Vindas.md",
+    "CALENDÁRIO/DIAS/2025-09-17.md",
+    "README.md",
     "ATLAS/FONTES/Livros",
     "ATLAS/FONTES/Cursos",
-    "ATLAS/MAPAS/Livros.md",
-    "ATLAS/MAPAS/Cursos .md",
-    "ATLAS/FONTES/Cursos/Aula 2.md",
-    "SISTEMA/COLEÇÕES/Trabalho.md",
-    "SISTEMA/COLEÇÕES/Saúde.md",
-    "SISTEMA/COLEÇÕES/Finanças.md",
+    "ATLAS/FONTES/Livros",
+    "ATLAS/FONTES/Cursos",
     "ESFORÇOS/PROJETOS/Projeto 1",
     "ESFORÇOS/AREAS/Finanças",
     "ESFORÇOS/AREAS/Saúde",

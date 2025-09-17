@@ -1,20 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "livro",
+      "path": "SISTEMA/TEMPLATES/FORMAT/livro.md"
     },
     {
-      "basename": "Boas Vindas",
-      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+      "basename": "snippet",
+      "path": "SISTEMA/TEMPLATES/FORMAT/snippet.md"
+    },
+    {
+      "basename": "template",
+      "path": "SISTEMA/TEMPLATES/FORMAT/template.md"
+    },
+    {
+      "basename": "coleção",
+      "path": "SISTEMA/TEMPLATES/FORMAT/coleção.md"
+    },
+    {
+      "basename": "nota diaria",
+      "path": "SISTEMA/TEMPLATES/FORMAT/nota diaria.md"
+    },
+    {
+      "basename": "artigo",
+      "path": "SISTEMA/TEMPLATES/FORMAT/artigo.md"
+    },
+    {
+      "basename": "aula",
+      "path": "SISTEMA/TEMPLATES/FORMAT/aula.md"
+    },
+    {
+      "basename": "projeto nota",
+      "path": "SISTEMA/TEMPLATES/FORMAT/projeto nota.md"
+    },
+    {
+      "basename": "projeto",
+      "path": "SISTEMA/TEMPLATES/FORMAT/projeto.md"
+    },
+    {
+      "basename": "area nota",
+      "path": "SISTEMA/TEMPLATES/FORMAT/area nota.md"
+    },
+    {
+      "basename": "area",
+      "path": "SISTEMA/TEMPLATES/FORMAT/area.md"
+    },
+    {
+      "basename": "base",
+      "path": "SISTEMA/TEMPLATES/FORMAT/base.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "SISTEMA/SOBRE/Templates.md"
     },
     {
       "basename": "HOMEPAGE",
       "path": "HOMEPAGE.md"
     },
     {
+      "basename": "homepage-help",
+      "path": "SISTEMA/SOBRE/homepage-help.md"
+    },
+    {
+      "basename": "_COLEÇÕES",
+      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
+    },
+    {
       "basename": "Guias Práticos",
       "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
+      "basename": "2025-09",
+      "path": "CALENDÁRIO/REVISÕES/2025-09.md"
+    },
+    {
+      "basename": "mensal-template",
+      "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
+    },
+    {
+      "basename": "DIAS",
+      "path": "CALENDÁRIO/REVISÕES/DIAS.md"
+    },
+    {
+      "basename": "Boas Vindas",
+      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+    },
+    {
+      "basename": "2025-09-17",
+      "path": "CALENDÁRIO/DIAS/2025-09-17.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Cursos",
@@ -45,28 +121,12 @@
       "path": "ATLAS/FONTES/Cursos/Segunda Aula.md"
     },
     {
-      "basename": "homepage-help",
-      "path": "SISTEMA/SOBRE/homepage-help.md"
-    },
-    {
       "basename": "Notas Recentemente Modificadas",
       "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     },
     {
       "basename": "Markdown",
       "path": "SISTEMA/SOBRE/LYT/Markdown.md"
-    },
-    {
-      "basename": "_COLEÇÕES",
-      "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
-    },
-    {
-      "basename": "TEMPLATE-BASE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
-    },
-    {
-      "basename": "NOVO-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
     },
     {
       "basename": "Como Calendário funciona",
@@ -89,36 +149,12 @@
       "path": "SISTEMA/SOBRE/LYT/Custom Callouts.md"
     },
     {
-      "basename": "Templates",
-      "path": "SISTEMA/SOBRE/Templates.md"
-    },
-    {
       "basename": "Checklist",
       "path": "SISTEMA/SOBRE/LYT/Checklist.md"
     },
     {
       "basename": "Coleções",
       "path": "SISTEMA/SOBRE/LYT/Coleções.md"
-    },
-    {
-      "basename": "2025-09",
-      "path": "CALENDÁRIO/REVISÕES/2025-09.md"
-    },
-    {
-      "basename": "mensal-template",
-      "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
-    },
-    {
-      "basename": "NOTA-AREA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md"
-    },
-    {
-      "basename": "2025-08",
-      "path": "CALENDÁRIO/REVISÕES/2025-08.md"
-    },
-    {
-      "basename": "DIAS",
-      "path": "CALENDÁRIO/REVISÕES/DIAS.md"
     },
     {
       "basename": "2025-09-15",
@@ -149,10 +185,6 @@
       "path": "SISTEMA/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md"
     },
     {
-      "basename": "NOTA-DIARIA-TEMPLATE",
-      "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
-    },
-    {
       "basename": "1_AREAS",
       "path": "ESFORÇOS/1_AREAS.md"
     },
@@ -163,38 +195,6 @@
     {
       "basename": "2025-09-04",
       "path": "CALENDÁRIO/DIAS/2025-09-04.md"
-    },
-    {
-      "basename": "Como Esforços funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
-    },
-    {
-      "basename": "Como Atlas funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Atlas funciona.md"
-    },
-    {
-      "basename": "% TODAS TAREFAS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
-    },
-    {
-      "basename": "% TAREFAS EFFORTS",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS EFFORTS.md"
-    },
-    {
-      "basename": "% TAREFAS DO CALENDÁRIO",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% TAREFAS DO CALENDÁRIO.md"
-    },
-    {
-      "basename": "tabs-2",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/tabs-2.md"
-    },
-    {
-      "basename": "% METABIND BOTÃO COM COMANDO",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% METABIND BOTÃO COM COMANDO.md"
-    },
-    {
-      "basename": "Obsidian e PKM",
-      "path": "SISTEMA/SOBRE/LYT/Obsidian e PKM.md"
     }
   ],
   "omittedPaths": [
