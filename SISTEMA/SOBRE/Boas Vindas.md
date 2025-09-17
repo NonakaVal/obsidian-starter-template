@@ -1,5 +1,9 @@
 ---
 cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
+banner: "https://w.wallhaven.cc/full/1k/wallhaven-1kzydv.jpg"
+banner_y: 0.65403
 ---
 
 # Resumo 
@@ -13,7 +17,7 @@ Sistema integrado de **gestão do conhecimento** baseado no [[Sistema ACE|ACE fo
 
 ---
 > [!VIDEO]+ Introdução
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1Uf3IgXp_voeLt2NgQgfph4glzGCZZmW9/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1QGSu6xrdlwJLBCjEV11XLTz9Vd8kI2Mn/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 
 

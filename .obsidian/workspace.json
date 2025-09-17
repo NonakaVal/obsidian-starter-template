@@ -8,6 +8,32 @@
         "type": "tabs",
         "children": [
           {
+            "id": "00b04ee400e048e9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Boas Vindas"
+            }
+          },
+          {
             "id": "818992d1de9c521a",
             "type": "leaf",
             "pinned": true,
@@ -34,32 +60,6 @@
             }
           },
           {
-            "id": "c1ba33d7ea4a43de",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Boas Vindas"
-            }
-          },
-          {
             "id": "32741ed96db980b3",
             "type": "leaf",
             "pinned": true,
@@ -76,8 +76,7 @@
               "title": "Guias Práticos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,22 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "4eeefb6de41c8abe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SISTEMA/SOBRE/Guias Práticos.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Guias Práticos"
             }
           },
           {
@@ -155,21 +169,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4eeefb6de41c8abe",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Boas Vindas"
-            }
-          },
-          {
             "id": "ca19f0e65e17ab32",
             "type": "leaf",
             "state": {
@@ -199,10 +198,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOMEPAGE.md"
+                "file": "SISTEMA/SOBRE/Boas Vindas.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for HOMEPAGE"
+              "title": "Propriedades do arquivo Boas Vindas"
             }
           },
           {
@@ -253,7 +252,8 @@
               "title": "Backlinks for HOMEPAGE"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -265,7 +265,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HOMEPAGE.md",
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -293,7 +293,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of HOMEPAGE"
+              "title": "Gráfico de Boas Vindas"
             }
           },
           {
@@ -321,60 +321,64 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 477
+    "width": 336,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
+      "bases:Criar nova base": false,
       "callout-manager:Insert Callout": false,
       "iconic:Open rulebook": false,
       "templater-obsidian:Templater": false,
       "widgets:Add widget": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
-      "workspaces:Manage workspace layouts": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "c1ba33d7ea4a43de",
+  "active": "00b04ee400e048e9",
   "lastOpenFiles": [
     "HOMEPAGE.md",
-    "SISTEMA/SOBRE/Guias Práticos.md",
     "SISTEMA/SOBRE/Boas Vindas.md",
+    "SISTEMA/SOBRE/Guias Práticos.md",
+    "+/nota.md",
+    "ATLAS/FONTES/Cursos/Cursos.md",
+    "ATLAS/FONTES/Livros",
+    "ATLAS/FONTES/Cursos/Aula 1.md",
+    "ATLAS/FONTES/Cursos",
+    "ATLAS/MAPAS/Mapa do cofre.md",
+    "ATLAS/FONTES/Livros/Livro 1.md",
+    "ATLAS/FONTES/Livros/Livros.md",
+    "ATLAS/FONTES/Cursos/Curso 1.md",
+    "ATLAS/FONTES/Cursos/Segunda Aula.md",
     "SISTEMA/SOBRE/homepage-help.md",
-    "SISTEMA/SOBRE/LYT/Checklist.md",
-    "SISTEMA/SOBRE/LYT/Markdown.md",
-    "SISTEMA/SOBRE/LYT/Como Calendário funciona.md",
-    "SISTEMA/SOBRE/LYT/Coleções.md",
-    "SISTEMA/SOBRE/_COLEÇÕES.md",
-    "README.md",
-    "hometest.md",
-    "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md",
-    "CALENDÁRIO/REVISÕES/2025-09.md",
-    "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
-    "SISTEMA/TEMPLATES/FORMAT/NOTA-AREA-TEMPLATE.md",
-    "CALENDÁRIO/REVISÕES/2025-08.md",
-    "SISTEMA/SOBRE/Templates.md",
-    "CALENDÁRIO/REVISÕES/DIAS.md",
-    "CALENDÁRIO/DIAS/2025-09-15.md",
-    "ESFORÇOS/2_PROJETOS.md",
-    "CALENDÁRIO/DIAS/2025-09-12.md",
-    "SISTEMA/SOBRE/LYT/Atalhos.md",
-    "SISTEMA/SOBRE/LYT/Como usar Templater.md",
-    "SISTEMA/SOBRE/LYT/Sistema ACE.md",
-    "SISTEMA/TEMPLATES/SNIPPET/multicollum 2 colluns.md",
-    "ATLAS/MAPAS/+/Mapa Boas Vindas .md",
+    "+/Curos.md",
+    "SISTEMA/COLEÇÕES/Estudos.md",
+    "ATLAS/FONTES/Livros/Livro 1.md",
+    "ATLAS/FONTES/Cursos/Curso 1.md",
+    "ATLAS/FONTES/Livros/Capítulo 1.md",
+    "ATLAS/FONTES/Cursos/Aula 3.md",
+    "ATLAS/FONTES/Cursos/Aula 1.md",
+    "ATLAS/FONTES/Livros",
+    "ATLAS/FONTES/Cursos",
+    "ATLAS/MAPAS/Livros.md",
+    "ATLAS/MAPAS/Cursos .md",
+    "ATLAS/FONTES/Cursos/Aula 2.md",
+    "SISTEMA/COLEÇÕES/Trabalho.md",
+    "SISTEMA/COLEÇÕES/Saúde.md",
+    "SISTEMA/COLEÇÕES/Finanças.md",
+    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
     "ESFORÇOS/PROJETOS/Projeto 1",
     "ESFORÇOS/AREAS/Finanças",
     "ESFORÇOS/AREAS/Saúde",
@@ -382,9 +386,6 @@
     "index.py",
     "SISTEMA/SCRIPTS/last-created.js",
     "SISTEMA/SCRIPTS/last-modified.js",
-    "SISTEMA/SCRIPTS/last-modified.JS",
-    "SISTEMA/SCRIPTS/1.JS",
-    "SISTEMA/SCRIPTS",
     "SISTEMA/MEDIA/Images/lyt-crafting-mocs-2.jpg",
     "SISTEMA/MEDIA/Images/flight-school-checklist.jpg",
     "SISTEMA/MEDIA/Images/lyt-crafting-mocs-0.jpg",
@@ -394,7 +395,6 @@
     "SISTEMA/MEDIA/Images/lyt-crafting-mocs-5.jpg",
     "SISTEMA/MEDIA/Images/flight-school-interfacing-excellence-award.jpg",
     "SISTEMA/MEDIA/Images/robert-mccall-space-ship-launch-narrow.jpg",
-    "SISTEMA/MEDIA/Images",
     "ATLAS/FONTES/Sem título.canvas",
     "Sem título.canvas"
   ]

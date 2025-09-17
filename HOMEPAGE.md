@@ -1,7 +1,14 @@
+---
+banner: "https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png"
+banner_y: 0.28082
+---
 
 ```widgets
 type: clock
 ```
+
+
+
 
 
 `BUTTON[new]`[^1]  `BUTTON[collection]`    `BUTTON[lembrete]`  [^2]
@@ -253,7 +260,7 @@ tab: Esforços
 - help [[Guias Práticos]]
 - & [[Templates]]
 - clock [[Notas Recentemente Modificadas]]
-- ? [[Nick Milo's Starting Custom Callouts]]
+- ? [[Custom Callouts]]
 - %  [[Atalhos]]
 
 
@@ -280,6 +287,7 @@ actions:
   - type: command
     command: quickadd:choice:9dd5d65e-dae6-4ada-8590-069c6fedb6c2
 ```
+
 ```meta-bind-button
 label: Navegador de Notas
 hidden: true
@@ -369,17 +377,6 @@ actions:
 ```
 
 
-```meta-bind-button
-label: Dias
-hidden: true
-icon: sun
-class: ""
-id: dias
-style: destructive
-actions:
-  - type: command
-    command: obsidian-hotkeys-for-specific-files:CALENDÁRIO/REVISÕES/DIAS.md
-```
 
 
 ```meta-bind-button
@@ -394,6 +391,17 @@ actions:
     command: obsidian-hotkeys-for-specific-files:ESFORÇOS/1_AREAS.md
 ```
 
+```meta-bind-button
+label: Dias
+hidden: true
+icon: sun
+class: ""
+id: dias
+style: destructive
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:CALENDÁRIO/REVISÕES/DIAS.md
+```
 
 ```meta-bind-button
 label: Lembrete

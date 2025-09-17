@@ -473,25 +473,6 @@
       }
     },
     {
-      "id": "c3f90118-d2f0-4486-9488-175cc476c8b8",
-      "name": "Create New Drawing",
-      "type": "Macro",
-      "command": false,
-      "runOnStartup": false,
-      "macro": {
-        "id": "35b53903-b60f-4c69-b0c4-6f1050145447",
-        "name": "Create New Drawing",
-        "commands": [
-          {
-            "name": "Excalidraw: Create new drawing - IN A NEW TAB",
-            "type": "Obsidian",
-            "id": "00da4e8b-ea00-4c11-aed8-2bef5b2e1ed0",
-            "commandId": "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab"
-          }
-        ]
-      }
-    },
-    {
       "id": "7ec7e9a0-be26-4424-9caf-5751f9865da3",
       "name": "📝 LEMBRETE",
       "type": "Capture",
@@ -525,60 +506,15 @@
         "mode": "default",
         "focus": true
       }
-    },
-    {
-      "id": "a2caccb1-1160-4573-b24c-d01e9d892505",
-      "name": "Criar Task",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Tarefas",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": true,
-      "openFile": false,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      }
-    },
-    {
-      "id": "1c3182cc-49dc-4354-b029-ebead8a51342",
-      "name": "button 1",
-      "type": "Macro",
-      "command": true,
-      "runOnStartup": false,
-      "macro": {
-        "name": "button 1",
-        "id": "7b4aaa59-eb5c-498c-b995-c95856a1b0b2",
-        "commands": []
-      }
     }
   ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "SISTEMA/TEMPLATES/FORMAT",
   "announceUpdates": false,
-  "version": "2.1.0",
+  "version": "2.3.0",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "showCaptureNotification": true,

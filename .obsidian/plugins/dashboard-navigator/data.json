@@ -23,6 +23,8 @@
   "hide_date": false,
   "hide_tags": true,
   "hide_frontmatter": false,
+  "hide_backlinks": false,
+  "hide_outgoing": false,
   "hide_columns": [
     "tags",
     "path",
@@ -31,7 +33,10 @@
   ],
   "show_dashboard_piechart": true,
   "image_thumbnail": true,
+  "thumbnail_size": 82,
+  "primary_tags_results_visible": true,
   "tags_sidebar": true,
+  "tags_sidebar_sorted_by_frequency": false,
   "onclose_search": "",
   "saved_searches": []
 }

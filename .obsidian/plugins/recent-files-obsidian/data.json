@@ -13,36 +13,88 @@
       "path": "SISTEMA/SOBRE/Guias Práticos.md"
     },
     {
+      "basename": "Cursos",
+      "path": "ATLAS/FONTES/Cursos/Cursos.md"
+    },
+    {
+      "basename": "Aula 1",
+      "path": "ATLAS/FONTES/Cursos/Aula 1.md"
+    },
+    {
+      "basename": "Mapa do cofre",
+      "path": "ATLAS/MAPAS/Mapa do cofre.md"
+    },
+    {
+      "basename": "Livro 1",
+      "path": "ATLAS/FONTES/Livros/Livro 1.md"
+    },
+    {
+      "basename": "Livros",
+      "path": "ATLAS/FONTES/Livros/Livros.md"
+    },
+    {
+      "basename": "Curso 1",
+      "path": "ATLAS/FONTES/Cursos/Curso 1.md"
+    },
+    {
+      "basename": "Segunda Aula",
+      "path": "ATLAS/FONTES/Cursos/Segunda Aula.md"
+    },
+    {
       "basename": "homepage-help",
       "path": "SISTEMA/SOBRE/homepage-help.md"
     },
     {
-      "basename": "Checklist",
-      "path": "SISTEMA/SOBRE/LYT/Checklist.md"
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     },
     {
       "basename": "Markdown",
       "path": "SISTEMA/SOBRE/LYT/Markdown.md"
     },
     {
-      "basename": "Como Calendário funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
-    },
-    {
-      "basename": "Coleções",
-      "path": "SISTEMA/SOBRE/LYT/Coleções.md"
-    },
-    {
       "basename": "_COLEÇÕES",
       "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "TEMPLATE-BASE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/TEMPLATE-BASE.md"
+    },
+    {
+      "basename": "NOVO-TEMPLATE",
+      "path": "SISTEMA/TEMPLATES/FORMAT/NOVO-TEMPLATE.md"
+    },
+    {
+      "basename": "Como Calendário funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
+    },
+    {
+      "basename": "Sistema ACE",
+      "path": "SISTEMA/SOBRE/LYT/Sistema ACE.md"
     },
     {
       "basename": "BARRA DE AÇÕES",
       "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
+    },
+    {
+      "basename": "Custom Callouts",
+      "path": "SISTEMA/SOBRE/LYT/Custom Callouts.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "SISTEMA/SOBRE/Templates.md"
+    },
+    {
+      "basename": "Checklist",
+      "path": "SISTEMA/SOBRE/LYT/Checklist.md"
+    },
+    {
+      "basename": "Coleções",
+      "path": "SISTEMA/SOBRE/LYT/Coleções.md"
     },
     {
       "basename": "2025-09",
@@ -59,10 +111,6 @@
     {
       "basename": "2025-08",
       "path": "CALENDÁRIO/REVISÕES/2025-08.md"
-    },
-    {
-      "basename": "Templates",
-      "path": "SISTEMA/SOBRE/Templates.md"
     },
     {
       "basename": "DIAS",
@@ -89,16 +137,8 @@
       "path": "SISTEMA/SOBRE/LYT/Como usar Templater.md"
     },
     {
-      "basename": "Sistema ACE",
-      "path": "SISTEMA/SOBRE/LYT/Sistema ACE.md"
-    },
-    {
       "basename": "multicollum 2 colluns",
       "path": "SISTEMA/TEMPLATES/SNIPPET/multicollum 2 colluns.md"
-    },
-    {
-      "basename": "Análise SWOT",
-      "path": "ESFORÇOS/PROJETOS/Projeto 1/Análise SWOT.md"
     },
     {
       "basename": "% ADICIONAR VIDEO",
@@ -109,44 +149,12 @@
       "path": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
     },
     {
-      "basename": "Projeto 1",
-      "path": "ESFORÇOS/PROJETOS/Projeto 1/Projeto 1.md"
-    },
-    {
       "basename": "1_AREAS",
       "path": "ESFORÇOS/1_AREAS.md"
     },
     {
-      "basename": "Saúde",
-      "path": "ESFORÇOS/AREAS/Saúde/Saúde.md"
-    },
-    {
-      "basename": "Plano de gastos Anual",
-      "path": "ESFORÇOS/AREAS/Finanças/Plano de gastos Anual.md"
-    },
-    {
-      "basename": "Finanças",
-      "path": "ESFORÇOS/AREAS/Finanças/Finanças.md"
-    },
-    {
-      "basename": "Metas de ganhos",
-      "path": "ESFORÇOS/AREAS/Finanças/Metas de ganhos.md"
-    },
-    {
-      "basename": "Meta de treinos",
-      "path": "ESFORÇOS/AREAS/Saúde/Meta de treinos.md"
-    },
-    {
-      "basename": "Nick Milo's Starting Custom Callouts",
-      "path": "SISTEMA/SOBRE/LYT/Nick Milo's Starting Custom Callouts.md"
-    },
-    {
       "basename": "2025-09-11",
       "path": "CALENDÁRIO/DIAS/2025-09-11.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     },
     {
       "basename": "2025-09-04",
@@ -183,22 +191,6 @@
     {
       "basename": "Obsidian e PKM",
       "path": "SISTEMA/SOBRE/LYT/Obsidian e PKM.md"
-    },
-    {
-      "basename": "Área - Projetos",
-      "path": "SISTEMA/SOBRE/LYT/Área - Projetos.md"
-    },
-    {
-      "basename": "2025-08-17",
-      "path": "CALENDÁRIO/DIAS/2025-08-17.md"
-    },
-    {
-      "basename": "2025-08-19",
-      "path": "CALENDÁRIO/DIAS/2025-08-19.md"
-    },
-    {
-      "basename": "2025-08-20",
-      "path": "CALENDÁRIO/DIAS/2025-08-20.md"
     }
   ],
   "omittedPaths": [

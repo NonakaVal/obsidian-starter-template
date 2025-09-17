@@ -3,7 +3,7 @@ banner: "https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
-banner_y: 0.71024
+banner_y: 0.74913
 ---
 ```widgets
 type: clock
@@ -263,7 +263,7 @@ tab: Esforços
 - help [[Guias Práticos]]
 - & [[Templates]]
 - clock [[Notas Recentemente Modificadas]]
-- ? [[Nick Milo's Starting Custom Callouts]]
+- ? [[Custom Callouts]]
 - %  [[Atalhos]]
 
 [^7] 
