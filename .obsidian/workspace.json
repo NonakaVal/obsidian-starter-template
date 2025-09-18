@@ -41,7 +41,7 @@
               "type": "markdown",
               "state": {
                 "file": "SISTEMA/SOBRE/Guias Práticos.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -174,10 +174,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/SOBRE/homepage-help.md"
+                "file": "SISTEMA/SOBRE/Boas Vindas.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo homepage-help"
+              "title": "Propriedades do arquivo Boas Vindas"
             }
           },
           {
@@ -240,7 +240,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SISTEMA/SOBRE/homepage-help.md",
+                "file": "SISTEMA/SOBRE/Boas Vindas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de homepage-help"
+              "title": "Gráfico de Boas Vindas"
             }
           },
           {
