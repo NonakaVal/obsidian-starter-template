@@ -260,7 +260,7 @@ tab: Esforços
 
 
 - ! [[Boas Vindas 🎉]]
-- help [[Guias Práticos ❓]]
+- help [[Guias Práticos]]
 - & [[Templates]]
 - clock [[Notas Recentemente Modificadas]]
 - ? [[Custom Callouts]]

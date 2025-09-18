@@ -77,7 +77,7 @@ tags:
 ## 📂 SOBRE
 
 - 📄 [[Boas Vindas 🎉]]
-- 📄 [[Guias Práticos ❓]]
+- 📄 [[Guias Práticos]]
 - 📄 [[Notas Recentemente Modificadas]]
 - 📄 [[Templates]]
 - 📄 [[homepage-help]]

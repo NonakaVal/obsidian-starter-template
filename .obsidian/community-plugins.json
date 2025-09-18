@@ -4,7 +4,6 @@
   "obsidian-style-settings",
   "tabs",
   "dataview",
-  "obsidian-view-mode-by-frontmatter",
   "obsidian-hotkeys-for-specific-files",
   "iconic",
   "js-engine",
@@ -25,5 +24,6 @@
   "datacore",
   "widgets",
   "dashboard-navigator",
-  "homepage"
+  "homepage",
+  "obsidian-view-mode-by-frontmatter"
 ]

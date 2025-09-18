@@ -147,6 +147,6 @@ id: help
 style: primary
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/Guias Práticos ❓.md-new-tab
+    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/Guias Práticos.md-new-tab
 ```
 

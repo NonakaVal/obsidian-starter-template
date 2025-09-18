@@ -479,7 +479,7 @@
   "devMode": false,
   "templateFolderPath": "SISTEMA/TEMPLATES/FORMAT",
   "announceUpdates": false,
-  "version": "2.3.0",
+  "version": "2.4.0",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,

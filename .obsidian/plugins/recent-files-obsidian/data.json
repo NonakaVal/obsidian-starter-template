@@ -5,6 +5,22 @@
       "path": "SISTEMA/SOBRE/Boas Vindas 🎉.md"
     },
     {
+      "basename": "homepage-help",
+      "path": "SISTEMA/SOBRE/homepage-help.md"
+    },
+    {
+      "basename": "Guias Práticos",
+      "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
+      "basename": "area",
+      "path": "SISTEMA/TEMPLATES/FORMAT/area.md"
+    },
+    {
+      "basename": "Guias Práticos ❓",
+      "path": "SISTEMA/SOBRE/Guias Práticos ❓.md"
+    },
+    {
       "basename": "nota exemplo calendário",
       "path": "+/nota exemplo calendário.md"
     },
@@ -13,20 +29,12 @@
       "path": "+/exemplos snippets.md"
     },
     {
-      "basename": "Guias Práticos ❓",
-      "path": "SISTEMA/SOBRE/Guias Práticos ❓.md"
-    },
-    {
       "basename": "Checklist",
       "path": "SISTEMA/SOBRE/LYT/Checklist.md"
     },
     {
       "basename": "Dashboard++",
       "path": "SISTEMA/SOBRE/Dashboard++.md"
-    },
-    {
-      "basename": "homepage-help",
-      "path": "SISTEMA/SOBRE/homepage-help.md"
     },
     {
       "basename": "🏠",
@@ -127,10 +135,6 @@
     {
       "basename": "artigo",
       "path": "SISTEMA/TEMPLATES/FORMAT/artigo.md"
-    },
-    {
-      "basename": "area",
-      "path": "SISTEMA/TEMPLATES/FORMAT/area.md"
     },
     {
       "basename": "base",
