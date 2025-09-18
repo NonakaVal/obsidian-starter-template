@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "Boas Vindas 🎉"
             }
-          },
-          {
-            "id": "54e571843dffffd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/nota exemplo calendário.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "nota exemplo calendário"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,10 +131,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+/nota exemplo calendário.md"
+                "file": "SISTEMA/SOBRE/Boas Vindas 🎉.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for nota exemplo calendário"
+              "title": "File properties for Boas Vindas 🎉"
             }
           },
           {
@@ -304,10 +279,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "54e571843dffffd3",
+  "active": "00b04ee400e048e9",
   "lastOpenFiles": [
-    "+/Sem título.base",
+    "obsidian-ACE-ARC.zip",
     "+/nota exemplo calendário.md",
+    "+/Sem título.base",
     "+/nova nota.md",
     "+/exemplos snippets.md",
     "SISTEMA/SOBRE/Boas Vindas 🎉.md",
