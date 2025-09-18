@@ -6,15 +6,15 @@ cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - "[[2025-09-17]]"
+  - "[[2025-09-18]]"
 up: "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
-collection: "[[SISTEMA/COLEÇÕES/Trabalho .md|Trabalho ]]"
+collection: "[[SISTEMA/COLEÇÕES/Trabalho.md|Trabalho]]"
 related:
   - "[[ESFORÇOS/AREAS/Finanças/Finanças.md|Finanças]]"
-inicio: 2025-09-17
-entrega: 2025-09-24
+inicio: 2025-09-18
+entrega: 2025-09-27
 status: Em andamento
-resumo: "Resumo do projeto "
+resumo: Resumo do projeto
 ---
  `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
@@ -48,7 +48,6 @@ actions:
 ```
 
 
-
 # Tarefas 
 ````tabs
 tab: Em Aberto
@@ -72,8 +71,6 @@ GROUP BY file.name
 
 
 ````
-
-
 
 #  Notas
 

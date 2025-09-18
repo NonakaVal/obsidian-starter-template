@@ -379,15 +379,6 @@
       "key": "N"
     }
   ],
-  "homepage:open-homepage": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
   "bookmarks:open": [
     {
       "modifiers": [
@@ -604,6 +595,14 @@
         "Alt"
       ],
       "key": "V"
+    }
+  ],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
     }
   ]
 }

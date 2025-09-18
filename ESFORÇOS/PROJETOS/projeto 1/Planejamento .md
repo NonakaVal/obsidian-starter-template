@@ -1,30 +1,34 @@
 ---
-area: "[[Saúde]]"
-resumo: |
-  Acompanho de calorias e Receitas para dieta
-tags: area/saúde/dieta
-type: area_note
+project: "[[projeto 1]]"
+resumo: Fases de planejamento
+tags: project/projeto_1/planejamento_
+type: project_note
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - "[[2025-09-17]]"
+  - "[[2025-09-18]]"
 up:
-  - "[[../../../ESFORÇOS/1_AREAS|1_AREAS]]"
+  - "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
+collection: "[[SISTEMA/COLEÇÕES/Trabalho.md|Trabalho]]"
+related:
+  - "[[ESFORÇOS/PROJETOS/projeto 1/projeto 1.md|projeto 1]]"
 ---
-~ [[Saúde]] 
+~ [[projeto 1]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[Dieta]] 
-
+# [[Planejamento ]] 
+---
 
 # Definir Resumo 
 `INPUT[textArea(showcase, class(meta-bind-full-width), class(meta-bind-high)):resumo]`
 
 
+
 # TAREFAS E PROCESSOS
+
 
  `BUTTON[NOTA-AREA-TEMPLATE]`     
 
@@ -41,15 +45,14 @@ actions:
 ```
 
 
+
+
 ## Tarefas
 
 
----
 
 
 
 
-
-
-- [x] Meta de calorias x
-- [ ] Atualizar lista de receitas
+- [ ] Análise de dados e histórico
+- [ ] Implementar processos e encontrar indicadores de teste

@@ -61,7 +61,7 @@ tags:
 - 📄 [[Análise SWOT]]
 - 📄 [[Projeto 1]]
 
-- 📄 [[HOMEPAGE]]
+- 📄 [[🏠]]
 - 📄 [[README]]
 
 # 📁 SISTEMA
@@ -76,8 +76,8 @@ tags:
 
 ## 📂 SOBRE
 
-- 📄 [[Boas Vindas]]
-- 📄 [[Guias Práticos]]
+- 📄 [[Boas Vindas 🎉]]
+- 📄 [[Guias Práticos ❓]]
 - 📄 [[Notas Recentemente Modificadas]]
 - 📄 [[Templates]]
 - 📄 [[homepage-help]]

@@ -18,7 +18,7 @@
   ],
   "files": [
     {
-      "filePattern": "HOMEPAGE",
+      "filePattern": "🏠",
       "viewMode": "obsidianUIMode: preview"
     },
     {
@@ -51,6 +51,10 @@
     },
     {
       "filePattern": "Guias Práticos",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Dashboard++",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

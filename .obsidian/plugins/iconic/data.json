@@ -24,7 +24,7 @@
   "dialogState": {
     "iconMode": true,
     "emojiMode": false,
-    "rulePage": "file"
+    "rulePage": "folder"
   },
   "appIcons": {},
   "tabIcons": {},
@@ -97,9 +97,6 @@
         "20d1cf2ee6071a00"
       ]
     },
-    "HOMEPAGE.md": {
-      "icon": "homepage"
-    },
     "SISTEMA": {
       "icon": "lucide-settings",
       "unsynced": [
@@ -118,7 +115,7 @@
         "20d1cf2ee6071a00"
       ]
     },
-    "SISTEMA/SOBRE/Boas Vindas.md": {
+    "SISTEMA/SOBRE/Boas Vindas 🎉.md": {
       "icon": "lucide-party-popper"
     },
     "SISTEMA/SOBRE/LYT/Atalhos.md": {

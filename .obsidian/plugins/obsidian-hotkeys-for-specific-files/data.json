@@ -23,6 +23,22 @@
     {
       "useMoment": false,
       "file": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SISTEMA/SOBRE/Guias Práticos ❓.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SISTEMA/SOBRE/homepage-help.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SISTEMA/SOBRE/Dashboard++.md"
+    },
+    {
+      "useMoment": false,
+      "file": "SISTEMA/SOBRE/LYT/Checklist.md"
     }
   ],
   "useExistingPane": true,

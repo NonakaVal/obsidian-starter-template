@@ -1,7 +1,7 @@
 ---
-area: "[[Finanças]]"
-resumo: Metas de gastos e revisão de ganhos
-tags: area/finanças/planejamento_de_gastos
+area: "[[Saúde]]"
+resumo: Definições das metas de treino
+tags: area/saúde/acompanhamento_e_metas_de_treino
 type: area_note
 cssclasses:
   - hide-properties_reading
@@ -12,12 +12,12 @@ up:
   - "[[../../../ESFORÇOS/1_AREAS|1_AREAS]]"
 collection: "[[SISTEMA/COLEÇÕES/Desenvolvimento pessoal.md|Desenvolvimento pessoal]]"
 ---
-~ [[Finanças]] 
+~ [[Saúde]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[Planejamento de gastos]] 
+# [[Acompanhamento e metas de treino]] 
 
 
 # Definir Resumo 
@@ -47,8 +47,4 @@ actions:
 ---
 
 
-
-
-
-
-- [ ] Criar tabela de controle
+- [ ] Treino inicial 3 vezes por semana durante 2 meses

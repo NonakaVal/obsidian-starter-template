@@ -1,32 +1,30 @@
 ---
-project: "[[projeto 1]]"
-resumo: documentos processos necessarios
-tags: project/projeto_1/esboço_inicial_e_planejamento_de_requisitos
-type: project_note
+area: "[[Saúde]]"
+resumo: Listas de receitas e métricas de calorias
+tags: area/saúde/dieta_e_receitas
+type: area_note
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - "[[2025-09-17]]"
+  - "[[2025-09-18]]"
 up:
-  - "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
-collection: "[[SISTEMA/COLEÇÕES/Trabalho .md|Trabalho ]]"
+  - "[[../../../ESFORÇOS/1_AREAS|1_AREAS]]"
+collection: "[[SISTEMA/COLEÇÕES/Desenvolvimento pessoal.md|Desenvolvimento pessoal]]"
 ---
-~ [[projeto 1]] 
+~ [[Saúde]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[esboço inicial e planejamento de requisitos]] 
----
+# [[Dieta e receitas]] 
+
 
 # Definir Resumo 
 `INPUT[textArea(showcase, class(meta-bind-full-width), class(meta-bind-high)):resumo]`
 
 
-
 # TAREFAS E PROCESSOS
-
 
  `BUTTON[NOTA-AREA-TEMPLATE]`     
 
@@ -43,13 +41,15 @@ actions:
 ```
 
 
-
-
 ## Tarefas
 
 
+---
 
 
 
 
-- [ ] tarefa 1
+
+
+- [x] Aprender 10 notas receitas saudáveis
+- [ ] Diminuir fastfood 3 semanas

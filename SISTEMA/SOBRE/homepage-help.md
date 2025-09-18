@@ -259,8 +259,8 @@ tab: Esforços
 # Recursos e Sistema 
 
 
-- ! [[Boas Vindas]]
-- help [[Guias Práticos]]
+- ! [[Boas Vindas 🎉]]
+- help [[Guias Práticos ❓]]
 - & [[Templates]]
 - clock [[Notas Recentemente Modificadas]]
 - ? [[Custom Callouts]]
@@ -459,7 +459,7 @@ actions:
 
 [^5]: Metadados
 	
-	> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
+	> [!waypoints] [[Boas Vindas 🎉]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
 	
 	### Principais metadados:
 	

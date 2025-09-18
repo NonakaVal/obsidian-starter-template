@@ -5,7 +5,7 @@ up:
 area: "[[Finanças]]"
 tags: area/finanças
 type: area_family
-created: "[[2025-09-17]]"
+created: "[[2025-09-18]]"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading

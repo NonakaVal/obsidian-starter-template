@@ -16,7 +16,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Boas Vindas.md",
+                    "file": "SISTEMA/SOBRE/Boas Vindas 🎉.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": true,
@@ -32,33 +32,7 @@
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Boas Vindas"
-                }
-              },
-              {
-                "id": "818992d1de9c521a",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "HOMEPAGE.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "HOMEPAGE"
+                  "title": "Boas Vindas 🎉"
                 }
               },
               {
@@ -68,23 +42,24 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Guias Práticos.md",
-                    "mode": "preview",
+                    "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
+                    "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Guias Práticos"
+                  "title": "Guias Práticos ❓"
                 }
               },
               {
-                "id": "332cdf982d89f525",
+                "id": "5b460192d8b24f51",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SISTEMA/SOBRE/homepage-help.md",
+                    "file": "🏠.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": true,
@@ -98,12 +73,37 @@
                       "unlinkedCollapsed": true
                     }
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
-                  "title": "homepage-help"
+                  "title": "🏠"
+                }
+              },
+              {
+                "id": "fd78db74f7160e44",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "SISTEMA/SOBRE/LYT/Markdown.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Markdown"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -127,6 +127,26 @@
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "3a0fadd679d2e600",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              },
+              {
+                "id": "ab37be2ef210afce",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Marcadores"
                 }
               },
               {
@@ -160,26 +180,6 @@
                   "icon": "lucide-search",
                   "title": "Search"
                 }
-              },
-              {
-                "id": "ab37be2ef210afce",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "3a0fadd679d2e600",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent Files"
-                }
               }
             ]
           }
@@ -201,10 +201,10 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Guias Práticos.md"
+                    "file": "SISTEMA/SOBRE/Guias Práticos ❓.md"
                   },
                   "icon": "lucide-info",
-                  "title": "Propriedades do arquivo Guias Práticos"
+                  "title": "Propriedades do arquivo Guias Práticos ❓"
                 }
               },
               {
@@ -233,41 +233,33 @@
                     "searchQuery": ""
                   },
                   "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "402202eb84be83d7",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "HOMEPAGE.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for HOMEPAGE"
+                  "title": "Todas as propriedades"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "468b75df9b7ee1c6",
             "type": "tabs",
             "children": [
               {
+                "id": "d2d39fc8f1f5262c",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
                 "id": "f1767b69ffcf88ce",
                 "type": "leaf",
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Guias Práticos.md",
+                    "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -295,7 +287,26 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Gráfico de Guias Práticos"
+                  "title": "Gráfico de Guias Práticos ❓"
+                }
+              },
+              {
+                "id": "402202eb84be83d7",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Links inversos para Guias Práticos ❓"
                 }
               },
               {
@@ -311,16 +322,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "Atalhos"
-                }
-              },
-              {
-                "id": "d2d39fc8f1f5262c",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
                 }
               }
             ]
@@ -349,7 +350,7 @@
         }
       },
       "active": "32741ed96db980b3",
-      "mtime": "2025-09-17T17:37:39-03:00"
+      "mtime": "2025-09-18T14:06:05-03:00"
     }
   },
   "active": "Videos guia"

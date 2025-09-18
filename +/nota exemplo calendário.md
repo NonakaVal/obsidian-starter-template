@@ -1,6 +1,6 @@
 ---
 created:
-  - '[[2025-09-17]]'
+  - '[[2025-09-18]]'
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
@@ -10,7 +10,7 @@ cssclasses:
 
 
 ---
-# [[nova nota]] 
+# [[nota exemplo calendário]] 
 
 
 

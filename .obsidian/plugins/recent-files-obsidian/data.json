@@ -1,20 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Boas Vindas",
-      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+      "basename": "nota exemplo calendário",
+      "path": "+/nota exemplo calendário.md"
     },
     {
-      "basename": "Guias Práticos",
-      "path": "SISTEMA/SOBRE/Guias Práticos.md"
+      "basename": "exemplos snippets",
+      "path": "+/exemplos snippets.md"
     },
     {
-      "basename": "HOMEPAGE",
-      "path": "HOMEPAGE.md"
+      "basename": "Boas Vindas 🎉",
+      "path": "SISTEMA/SOBRE/Boas Vindas 🎉.md"
+    },
+    {
+      "basename": "Guias Práticos ❓",
+      "path": "SISTEMA/SOBRE/Guias Práticos ❓.md"
+    },
+    {
+      "basename": "Checklist",
+      "path": "SISTEMA/SOBRE/LYT/Checklist.md"
+    },
+    {
+      "basename": "Dashboard++",
+      "path": "SISTEMA/SOBRE/Dashboard++.md"
     },
     {
       "basename": "homepage-help",
       "path": "SISTEMA/SOBRE/homepage-help.md"
+    },
+    {
+      "basename": "🏠",
+      "path": "🏠.md"
+    },
+    {
+      "basename": "2_PROJETOS",
+      "path": "ESFORÇOS/2_PROJETOS.md"
+    },
+    {
+      "basename": "1_AREAS",
+      "path": "ESFORÇOS/1_AREAS.md"
+    },
+    {
+      "basename": "2025-09",
+      "path": "CALENDÁRIO/REVISÕES/2025-09.md"
+    },
+    {
+      "basename": "2025-09-18",
+      "path": "CALENDÁRIO/DIAS/2025-09-18.md"
+    },
+    {
+      "basename": "2025-09-15",
+      "path": "CALENDÁRIO/DIAS/2025-09-15.md"
+    },
+    {
+      "basename": "2025-09-17",
+      "path": "CALENDÁRIO/DIAS/2025-09-17.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
     },
     {
       "basename": "Markdown",
@@ -25,48 +69,8 @@
       "path": "ATLAS/FONTES/Cursos/Aula 1.md"
     },
     {
-      "basename": "2_PROJETOS",
-      "path": "ESFORÇOS/2_PROJETOS.md"
-    },
-    {
-      "basename": "projeto 1",
-      "path": "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md"
-    },
-    {
-      "basename": "esboço inicial e planejamento de requisitos",
-      "path": "ESFORÇOS/PROJETOS/projeto 1/esboço inicial e planejamento de requisitos.md"
-    },
-    {
-      "basename": "Finanças",
-      "path": "ESFORÇOS/AREAS/Finanças/Finanças.md"
-    },
-    {
-      "basename": "Planejamento de gastos",
-      "path": "ESFORÇOS/AREAS/Finanças/Planejamento de gastos.md"
-    },
-    {
-      "basename": "Saúde",
-      "path": "ESFORÇOS/AREAS/Saúde/Saúde.md"
-    },
-    {
-      "basename": "Dieta",
-      "path": "ESFORÇOS/AREAS/Saúde/Dieta.md"
-    },
-    {
-      "basename": "Metas de treino",
-      "path": "ESFORÇOS/AREAS/Saúde/Metas de treino.md"
-    },
-    {
       "basename": "exemplo",
       "path": "SISTEMA/TEMPLATES/FORMAT/exemplo.md"
-    },
-    {
-      "basename": "nova nota",
-      "path": "+/nova nota.md"
-    },
-    {
-      "basename": "exemplos snippets",
-      "path": "+/exemplos snippets.md"
     },
     {
       "basename": "% Linha de Ultima data de alteração",
@@ -137,20 +141,12 @@
       "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
     },
     {
-      "basename": "2025-09",
-      "path": "CALENDÁRIO/REVISÕES/2025-09.md"
-    },
-    {
       "basename": "mensal-template",
       "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
     },
     {
       "basename": "DIAS",
       "path": "CALENDÁRIO/REVISÕES/DIAS.md"
-    },
-    {
-      "basename": "2025-09-17",
-      "path": "CALENDÁRIO/DIAS/2025-09-17.md"
     },
     {
       "basename": "README",
@@ -167,38 +163,6 @@
     {
       "basename": "Livro 1",
       "path": "ATLAS/FONTES/Livros/Livro 1.md"
-    },
-    {
-      "basename": "Livros",
-      "path": "ATLAS/FONTES/Livros/Livros.md"
-    },
-    {
-      "basename": "Curso 1",
-      "path": "ATLAS/FONTES/Cursos/Curso 1.md"
-    },
-    {
-      "basename": "Segunda Aula",
-      "path": "ATLAS/FONTES/Cursos/Segunda Aula.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "Como Calendário funciona",
-      "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
-    },
-    {
-      "basename": "ARC Framework",
-      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
-    },
-    {
-      "basename": "Sistema ACE",
-      "path": "SISTEMA/SOBRE/LYT/Sistema ACE.md"
-    },
-    {
-      "basename": "BARRA DE AÇÕES",
-      "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
     }
   ],
   "omittedPaths": [

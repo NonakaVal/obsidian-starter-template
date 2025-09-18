@@ -104,7 +104,7 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 
 # [[Metadados]]
 
-> [!waypoints] [[Boas Vindas]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
+> [!waypoints] [[Boas Vindas 🎉]] | [[Obsidian e PKM]]  | **[[Metadados]]**  | [[Coleções]]
 
 ### Principais metadados:
 
@@ -136,29 +136,17 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 - Backup: Faça backups regulares de sua vault para evitar perda de dados.
 - Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o sistema.
 ---
+ `BUTTON[help]`     
 
 ```meta-bind-button
-label: Guias Práticos
-hidden: false
+label: Guias Prático
+hidden: true
 icon: help
 class: ""
 id: help
 style: primary
 actions:
-  - type: open
-    link: "[[Guias Práticos]]"
-
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/Guias Práticos ❓.md-new-tab
 ```
 
-```meta-bind-button
-label: Homepage
-hidden: true
-icon: home
-class: ""
-id: Homepage
-style: primary
-actions:
-  - type: open
-    link: "[[HOMEPAGE]]"
-
-```
