@@ -1,32 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "Boas Vindas",
+      "path": "SISTEMA/SOBRE/Boas Vindas.md"
+    },
+    {
+      "basename": "Guias Práticos",
+      "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
+      "basename": "HOMEPAGE",
+      "path": "HOMEPAGE.md"
+    },
+    {
+      "basename": "homepage-help",
+      "path": "SISTEMA/SOBRE/homepage-help.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "SISTEMA/SOBRE/LYT/Markdown.md"
+    },
+    {
+      "basename": "Aula 1",
+      "path": "ATLAS/FONTES/Cursos/Aula 1.md"
+    },
+    {
+      "basename": "2_PROJETOS",
+      "path": "ESFORÇOS/2_PROJETOS.md"
+    },
+    {
+      "basename": "projeto 1",
+      "path": "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md"
+    },
+    {
+      "basename": "esboço inicial e planejamento de requisitos",
+      "path": "ESFORÇOS/PROJETOS/projeto 1/esboço inicial e planejamento de requisitos.md"
+    },
+    {
+      "basename": "Finanças",
+      "path": "ESFORÇOS/AREAS/Finanças/Finanças.md"
+    },
+    {
+      "basename": "Planejamento de gastos",
+      "path": "ESFORÇOS/AREAS/Finanças/Planejamento de gastos.md"
+    },
+    {
+      "basename": "Saúde",
+      "path": "ESFORÇOS/AREAS/Saúde/Saúde.md"
+    },
+    {
+      "basename": "Dieta",
+      "path": "ESFORÇOS/AREAS/Saúde/Dieta.md"
+    },
+    {
+      "basename": "Metas de treino",
+      "path": "ESFORÇOS/AREAS/Saúde/Metas de treino.md"
+    },
+    {
+      "basename": "exemplo",
+      "path": "SISTEMA/TEMPLATES/FORMAT/exemplo.md"
+    },
+    {
+      "basename": "nova nota",
+      "path": "+/nova nota.md"
+    },
+    {
+      "basename": "exemplos snippets",
+      "path": "+/exemplos snippets.md"
+    },
+    {
+      "basename": "% Linha de Ultima data de alteração",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% Linha de Ultima data de alteração.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "SISTEMA/SOBRE/Templates.md"
+    },
+    {
       "basename": "livro",
       "path": "SISTEMA/TEMPLATES/FORMAT/livro.md"
     },
     {
-      "basename": "snippet",
-      "path": "SISTEMA/TEMPLATES/FORMAT/snippet.md"
-    },
-    {
-      "basename": "template",
-      "path": "SISTEMA/TEMPLATES/FORMAT/template.md"
-    },
-    {
-      "basename": "coleção",
-      "path": "SISTEMA/TEMPLATES/FORMAT/coleção.md"
-    },
-    {
       "basename": "nota diaria",
       "path": "SISTEMA/TEMPLATES/FORMAT/nota diaria.md"
-    },
-    {
-      "basename": "artigo",
-      "path": "SISTEMA/TEMPLATES/FORMAT/artigo.md"
-    },
-    {
-      "basename": "aula",
-      "path": "SISTEMA/TEMPLATES/FORMAT/aula.md"
     },
     {
       "basename": "projeto nota",
@@ -41,6 +97,34 @@
       "path": "SISTEMA/TEMPLATES/FORMAT/area nota.md"
     },
     {
+      "basename": "iframe",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/iframe.md"
+    },
+    {
+      "basename": "% METABIND BOTÃO COM COMANDO",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% METABIND BOTÃO COM COMANDO.md"
+    },
+    {
+      "basename": "aula",
+      "path": "SISTEMA/TEMPLATES/FORMAT/aula.md"
+    },
+    {
+      "basename": "snippet",
+      "path": "SISTEMA/TEMPLATES/FORMAT/snippet.md"
+    },
+    {
+      "basename": "template",
+      "path": "SISTEMA/TEMPLATES/FORMAT/template.md"
+    },
+    {
+      "basename": "coleção",
+      "path": "SISTEMA/TEMPLATES/FORMAT/coleção.md"
+    },
+    {
+      "basename": "artigo",
+      "path": "SISTEMA/TEMPLATES/FORMAT/artigo.md"
+    },
+    {
       "basename": "area",
       "path": "SISTEMA/TEMPLATES/FORMAT/area.md"
     },
@@ -49,24 +133,8 @@
       "path": "SISTEMA/TEMPLATES/FORMAT/base.md"
     },
     {
-      "basename": "Templates",
-      "path": "SISTEMA/SOBRE/Templates.md"
-    },
-    {
-      "basename": "HOMEPAGE",
-      "path": "HOMEPAGE.md"
-    },
-    {
-      "basename": "homepage-help",
-      "path": "SISTEMA/SOBRE/homepage-help.md"
-    },
-    {
       "basename": "_COLEÇÕES",
       "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "SISTEMA/SOBRE/Guias Práticos.md"
     },
     {
       "basename": "2025-09",
@@ -81,10 +149,6 @@
       "path": "CALENDÁRIO/REVISÕES/DIAS.md"
     },
     {
-      "basename": "Boas Vindas",
-      "path": "SISTEMA/SOBRE/Boas Vindas.md"
-    },
-    {
       "basename": "2025-09-17",
       "path": "CALENDÁRIO/DIAS/2025-09-17.md"
     },
@@ -95,10 +159,6 @@
     {
       "basename": "Cursos",
       "path": "ATLAS/FONTES/Cursos/Cursos.md"
-    },
-    {
-      "basename": "Aula 1",
-      "path": "ATLAS/FONTES/Cursos/Aula 1.md"
     },
     {
       "basename": "Mapa do cofre",
@@ -125,10 +185,6 @@
       "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
     },
     {
-      "basename": "Markdown",
-      "path": "SISTEMA/SOBRE/LYT/Markdown.md"
-    },
-    {
       "basename": "Como Calendário funciona",
       "path": "SISTEMA/SOBRE/LYT/Como Calendário funciona.md"
     },
@@ -143,58 +199,6 @@
     {
       "basename": "BARRA DE AÇÕES",
       "path": "SISTEMA/TEMPLATES/BARRA DE AÇÕES.md"
-    },
-    {
-      "basename": "Custom Callouts",
-      "path": "SISTEMA/SOBRE/LYT/Custom Callouts.md"
-    },
-    {
-      "basename": "Checklist",
-      "path": "SISTEMA/SOBRE/LYT/Checklist.md"
-    },
-    {
-      "basename": "Coleções",
-      "path": "SISTEMA/SOBRE/LYT/Coleções.md"
-    },
-    {
-      "basename": "2025-09-15",
-      "path": "CALENDÁRIO/DIAS/2025-09-15.md"
-    },
-    {
-      "basename": "2_PROJETOS",
-      "path": "ESFORÇOS/2_PROJETOS.md"
-    },
-    {
-      "basename": "2025-09-12",
-      "path": "CALENDÁRIO/DIAS/2025-09-12.md"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "SISTEMA/SOBRE/LYT/Atalhos.md"
-    },
-    {
-      "basename": "Como usar Templater",
-      "path": "SISTEMA/SOBRE/LYT/Como usar Templater.md"
-    },
-    {
-      "basename": "multicollum 2 colluns",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/multicollum 2 colluns.md"
-    },
-    {
-      "basename": "% ADICIONAR VIDEO",
-      "path": "SISTEMA/TEMPLATES/SNIPPET/% ADICIONAR VIDEO.md"
-    },
-    {
-      "basename": "1_AREAS",
-      "path": "ESFORÇOS/1_AREAS.md"
-    },
-    {
-      "basename": "2025-09-11",
-      "path": "CALENDÁRIO/DIAS/2025-09-11.md"
-    },
-    {
-      "basename": "2025-09-04",
-      "path": "CALENDÁRIO/DIAS/2025-09-04.md"
     }
   ],
   "omittedPaths": [

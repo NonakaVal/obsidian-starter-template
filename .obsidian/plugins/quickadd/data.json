@@ -434,6 +434,45 @@
         "mode": "default",
         "focus": true
       }
+    },
+    {
+      "id": "ae846d91-78c4-4e44-8b5d-f1f5075abb88",
+      "name": "Nova Tarefa",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": false,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "## Tafefas ",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": true,
+      "task": true,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
     }
   ],
   "inputPrompt": "single-line",

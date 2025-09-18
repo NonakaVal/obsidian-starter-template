@@ -1,22 +1,23 @@
 ---
-project: "[[<% tp.file.folder() %>]]"
-resumo:
-tags:
+project: "[[projeto 1]]"
+resumo: documentos processos necessarios
+tags: project/projeto_1/esboço_inicial_e_planejamento_de_requisitos
 type: project_note
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
 created:
-  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+  - "[[2025-09-17]]"
 up:
   - "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
+collection: "[[SISTEMA/COLEÇÕES/Trabalho .md|Trabalho ]]"
 ---
-~ [[<%tp.file.folder() %>]] 
+~ [[projeto 1]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[<% tp.file.title %>]] 
+# [[esboço inicial e planejamento de requisitos]] 
 ---
 
 # Definir Resumo 
@@ -42,7 +43,7 @@ actions:
 ```
 
 
-<%tp.file.cursor()%>
+
 
 ## Tarefas
 
@@ -51,4 +52,4 @@ actions:
 
 
 
-<%* tp.hooks.on_all_templates_executed(async () => { const file = tp.file.find_tfile(tp.file.path(true)); const value1 = tp.file.folder().split(" ").map(word => word.toLowerCase()).join("_"); const value2 = tp.file.title.split(" ").map(word => word.toLowerCase()).join("_"); await app.fileManager.processFrontMatter(file, (frontmatter) => { frontmatter["tags"] = `project/${value1}/${value2}`; }); }); -%>
+- [ ] tarefa 1

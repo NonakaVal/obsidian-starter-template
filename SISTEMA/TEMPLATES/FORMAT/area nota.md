@@ -36,7 +36,7 @@ id: NOTA-AREA-TEMPLATE
 style: primary
 actions:
   - type: command
-    command: quickadd:choice:a2caccb1-1160-4573-b24c-d01e9d892505
+    command: quickadd:choice:ae846d91-78c4-4e44-8b5d-f1f5075abb88
 ```
 
 

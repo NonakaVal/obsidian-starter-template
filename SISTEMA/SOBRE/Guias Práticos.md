@@ -8,7 +8,7 @@ banner_y: 0.75
 ---
 # Primeiros passos
 
-> [!VIDEO]- Formatação Markdown
+> [!VIDEO]- [[Markdown|Formatação Markdown]]
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1MUXAJNB2pC_2cJndcC77p69uib_cfIbl/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 > [!VIDEO]- Básico das Configurações e Estilos
@@ -32,27 +32,30 @@ actions:
 
 # Criando Notas 
 
-> [!VIDEO]- Nova Nota e coleções
+> [!VIDEO]- Entendendo Fluxo de criação de notas na estrutura ARC-ACE
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1gOAEAKT_2kHUHJFvZ39ZLpdtMHISn4_V/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 > [!VIDEO]- Templates e Quick Add
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1iasmh2ByfPN7--RDoVl4FM6-1vRYnGnr/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1wVs59keZsXV7qUzVcZG2v6lwR3zcVf7K/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 > [!VIDEO]- Criando Notas para Areas e Projetos
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/17Ky8iQVGziB6b0y4tNYvXA6tsFJOuAyT/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1cpyU7YMr7ndQGRynHTqMEGY7RAJky9VM/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 # Acessando conhecimento
 
 > [!VIDEO]- Usando Dashboard e Busca
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/16MvId-GkiNeifueNUtQlXR_4aN4voQAD/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1FFxjvKi-v2HlebF2bsjXFeFn0jrpP9He/view?usp=drive_link" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
-> [!VIDEO]- Notas Diárias e Revisões
+> [!VIDEO]- Notas Diárias e Revisões (Não postado)
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
-> [!VIDEO]- Dashboard++ e outras propriedades
+> [!VIDEO]- Dashboard++ e outras propriedades (Não postado)
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 # Recursos complementares
+
+> [!video] Playlist Youtube
+> Contents
 
 > [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Metadados]]  | [[Coleções]] | [[Atalhos]]   
 
