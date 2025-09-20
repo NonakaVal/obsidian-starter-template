@@ -1,6 +1,3 @@
-
-# [[% TODAS TAREFAS]]
-
 ````tabs
 tab: Calendário 
 ![[% TAREFAS DO CALENDÁRIO]]

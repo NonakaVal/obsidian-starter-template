@@ -9,6 +9,7 @@ created:
   - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 up: "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
 ---
+
  `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---

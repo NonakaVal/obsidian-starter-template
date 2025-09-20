@@ -32,8 +32,105 @@
               "icon": "lucide-file",
               "title": "Boas Vindas 🎉"
             }
+          },
+          {
+            "id": "63c737fde508d1dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "🏠"
+            }
+          },
+          {
+            "id": "b08ee9d37d00ba35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/colecoes.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "colecoes"
+            }
+          },
+          {
+            "id": "78c648a47b7c1414",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/recent-.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "recent-"
+            }
+          },
+          {
+            "id": "b9d6f285c0e77afb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/nmew.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "nmew"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +153,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -65,8 +162,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           },
           {
@@ -131,10 +228,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas 🎉.md"
+                "file": "🏠.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Boas Vindas 🎉"
+              "title": "Propriedades do arquivo 🏠"
             }
           },
           {
@@ -262,14 +359,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
+      "bases:Criar nova base": false,
       "callout-manager:Insert Callout": false,
       "iconic:Open rulebook": false,
       "templater-obsidian:Templater": false,
@@ -279,43 +376,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "00b04ee400e048e9",
+  "active": "63c737fde508d1dd",
   "lastOpenFiles": [
+    "SISTEMA/TEMPLATES/FORMAT/template.md",
+    "SISTEMA/TEMPLATES/FORMAT/snippet.md",
+    "SISTEMA/TEMPLATES/FORMAT/projeto nota.md",
+    "SISTEMA/TEMPLATES/FORMAT/projeto.md",
+    "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
+    "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
+    "SISTEMA/TEMPLATES/FORMAT/exemplo.md",
+    "SISTEMA/TEMPLATES/FORMAT/livro.md",
+    "SISTEMA/TEMPLATES/FORMAT/coleção.md",
+    "SISTEMA/TEMPLATES/FORMAT/base.md",
+    "SISTEMA/TEMPLATES/FORMAT/aula.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% metadados.md",
+    "SISTEMA/TEMPLATES/FORMAT/nota diaria.md",
+    "README.md",
+    "🏠 1.md",
+    "🏠.md",
+    "+/colecoes.md",
+    "+/recent-.md",
+    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
+    "SISTEMA/SOBRE/LYT/Como Esforços funciona.md",
+    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
+    "+/nmew.md",
+    "SISTEMA/TEMPLATES/FORMAT/desktop.ini",
+    "desktop.ini",
+    "SISTEMA/SOBRE/Boas Vindas 🎉.md",
     "obsidian-ACE-ARC.zip",
     "SISTEMA/SOBRE/homepage-help.md",
     "SISTEMA/SOBRE/Guias Práticos.md",
     "SISTEMA/TEMPLATES/FORMAT/area.md",
-    "SISTEMA/SOBRE/Boas Vindas 🎉.md",
-    "SISTEMA/SOBRE/Guias Práticos ❓.md",
-    "+/nota exemplo calendário.md",
     "+/Sem título.base",
-    "+/nova nota.md",
-    "+/exemplos snippets.md",
-    "SISTEMA/SOBRE/LYT/Checklist.md",
-    "SISTEMA/SOBRE/Dashboard++.md",
-    "🏠.md",
-    "+/Guias Práticos.md",
-    "ESFORÇOS/2_PROJETOS.md",
-    "ESFORÇOS/1_AREAS.md",
     "ESFORÇOS/PROJETOS/projeto 1/desktop.ini",
-    "ESFORÇOS/PROJETOS/Projeto/nota projeto 1.md",
-    "ESFORÇOS/AREAS/Saúde/Saúde.md",
-    "ESFORÇOS/AREAS/Saúde/Acompanhamento e metas de treino.md",
-    "ESFORÇOS/AREAS/Saúde/Dieta e receitas.md",
     "ESFORÇOS/AREAS/Saúde",
-    "ESFORÇOS/PROJETOS/projeto 1/Resumo reunião.md",
-    "ESFORÇOS/PROJETOS/projeto 1/projeto 1.md",
-    "ESFORÇOS/PROJETOS/projeto 1/Planejamento .md",
     "ESFORÇOS/PROJETOS/projeto 1",
-    "ESFORÇOS/AREAS/Finanças/Finanças.md",
-    "ESFORÇOS/AREAS/Finanças/Planejamento de gastos.md",
     "ESFORÇOS/AREAS/Finanças",
-    "ESFORÇOS/PROJETOS/Projeto/Projeto 1.md",
     "ESFORÇOS/PROJETOS/Projeto",
-    "ESFORÇOS/AREAS/Saúde/Metas de treino e acompanhamento físico .md",
     "Não confirmado 140638.crdownload",
-    "ATLAS/FONTES/Livros",
-    "ATLAS/FONTES/Cursos",
     "SISTEMA/MEDIA/Pasted image 20250910044512.png",
     "SISTEMA/MEDIA/Images/lyt-crafting-mocs-2.jpg",
     "SISTEMA/MEDIA/Images/flight-school-checklist.jpg",

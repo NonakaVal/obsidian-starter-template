@@ -11,12 +11,14 @@ created:
 up:
   - "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
 ---
+
 ~ [[<%tp.file.folder() %>]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
 # [[<% tp.file.title %>]] 
+
 ---
 
 # Definir Resumo 

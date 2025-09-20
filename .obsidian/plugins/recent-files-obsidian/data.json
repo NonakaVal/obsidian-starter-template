@@ -1,6 +1,82 @@
 {
   "recentFiles": [
     {
+      "basename": "🏠",
+      "path": "🏠.md"
+    },
+    {
+      "basename": "template",
+      "path": "SISTEMA/TEMPLATES/FORMAT/template.md"
+    },
+    {
+      "basename": "projeto nota",
+      "path": "SISTEMA/TEMPLATES/FORMAT/projeto nota.md"
+    },
+    {
+      "basename": "projeto",
+      "path": "SISTEMA/TEMPLATES/FORMAT/projeto.md"
+    },
+    {
+      "basename": "% MAPA DATAVIEW DE ATLAS",
+      "path": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md"
+    },
+    {
+      "basename": "mensal-template",
+      "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
+    },
+    {
+      "basename": "livro",
+      "path": "SISTEMA/TEMPLATES/FORMAT/livro.md"
+    },
+    {
+      "basename": "coleção",
+      "path": "SISTEMA/TEMPLATES/FORMAT/coleção.md"
+    },
+    {
+      "basename": "base",
+      "path": "SISTEMA/TEMPLATES/FORMAT/base.md"
+    },
+    {
+      "basename": "aula",
+      "path": "SISTEMA/TEMPLATES/FORMAT/aula.md"
+    },
+    {
+      "basename": "% metadados",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% metadados.md"
+    },
+    {
+      "basename": "nota diaria",
+      "path": "SISTEMA/TEMPLATES/FORMAT/nota diaria.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "colecoes",
+      "path": "+/colecoes.md"
+    },
+    {
+      "basename": "recent-",
+      "path": "+/recent-.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "Como Esforços funciona",
+      "path": "SISTEMA/SOBRE/LYT/Como Esforços funciona.md"
+    },
+    {
+      "basename": "% TODAS TAREFAS",
+      "path": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+    },
+    {
+      "basename": "nmew",
+      "path": "+/nmew.md"
+    },
+    {
       "basename": "Boas Vindas 🎉",
       "path": "SISTEMA/SOBRE/Boas Vindas 🎉.md"
     },
@@ -35,10 +111,6 @@
     {
       "basename": "Dashboard++",
       "path": "SISTEMA/SOBRE/Dashboard++.md"
-    },
-    {
-      "basename": "🏠",
-      "path": "🏠.md"
     },
     {
       "basename": "2_PROJETOS",
@@ -77,32 +149,12 @@
       "path": "ATLAS/FONTES/Cursos/Aula 1.md"
     },
     {
-      "basename": "exemplo",
-      "path": "SISTEMA/TEMPLATES/FORMAT/exemplo.md"
-    },
-    {
       "basename": "% Linha de Ultima data de alteração",
       "path": "SISTEMA/TEMPLATES/SNIPPET/% Linha de Ultima data de alteração.md"
     },
     {
       "basename": "Templates",
       "path": "SISTEMA/SOBRE/Templates.md"
-    },
-    {
-      "basename": "livro",
-      "path": "SISTEMA/TEMPLATES/FORMAT/livro.md"
-    },
-    {
-      "basename": "nota diaria",
-      "path": "SISTEMA/TEMPLATES/FORMAT/nota diaria.md"
-    },
-    {
-      "basename": "projeto nota",
-      "path": "SISTEMA/TEMPLATES/FORMAT/projeto nota.md"
-    },
-    {
-      "basename": "projeto",
-      "path": "SISTEMA/TEMPLATES/FORMAT/projeto.md"
     },
     {
       "basename": "area nota",
@@ -117,44 +169,16 @@
       "path": "SISTEMA/TEMPLATES/SNIPPET/% METABIND BOTÃO COM COMANDO.md"
     },
     {
-      "basename": "aula",
-      "path": "SISTEMA/TEMPLATES/FORMAT/aula.md"
-    },
-    {
-      "basename": "snippet",
-      "path": "SISTEMA/TEMPLATES/FORMAT/snippet.md"
-    },
-    {
-      "basename": "template",
-      "path": "SISTEMA/TEMPLATES/FORMAT/template.md"
-    },
-    {
-      "basename": "coleção",
-      "path": "SISTEMA/TEMPLATES/FORMAT/coleção.md"
-    },
-    {
       "basename": "artigo",
       "path": "SISTEMA/TEMPLATES/FORMAT/artigo.md"
-    },
-    {
-      "basename": "base",
-      "path": "SISTEMA/TEMPLATES/FORMAT/base.md"
     },
     {
       "basename": "_COLEÇÕES",
       "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
     },
     {
-      "basename": "mensal-template",
-      "path": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md"
-    },
-    {
       "basename": "DIAS",
       "path": "CALENDÁRIO/REVISÕES/DIAS.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Cursos",

@@ -272,7 +272,7 @@
               "name": "SNIPPET",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/snippet.md",
+              "templatePath": "SISTEMA/TEMPLATES/FORMAT/template.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
