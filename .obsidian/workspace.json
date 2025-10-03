@@ -8,133 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0612d245cdeb8a60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendário/Dias/2025-10-03.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-10-03"
-            }
-          },
-          {
-            "id": "b6beed82856cdc8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Fontes/Aulas/aula 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "aula 1"
-            }
-          },
-          {
-            "id": "a394123a9b55cf99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Esforços/Areas/Area 1/Area 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Area 1"
-            }
-          },
-          {
-            "id": "295717c4a2c3553c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Esforços/Areas/Area 1/nota area 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "nota area 1"
-            }
-          },
-          {
-            "id": "16f6531dded9b324",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Esforços/Projetos/projeto 1/projeto 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "projeto 1"
-            }
-          },
-          {
             "id": "ce242b318991e514",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "🏠.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -148,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "🏠"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -407,6 +286,7 @@
   },
   "active": "ce242b318991e514",
   "lastOpenFiles": [
+    "README.md",
     "Atlas/Fontes/Aulas/aula 1.md",
     "home.md",
     "Esforços/Projetos/projeto 1/nota projeto 1.md",
@@ -442,7 +322,6 @@
     "Esforços/Areas/aa",
     "ESFORÇOS/AREAS/aa",
     "Sistema/Sobre/Guias Práticos.md",
-    "Sistema/Sobre/homepage-help.md",
     "Sistema/Media/Pasted image 20250910044512.png",
     "Sistema/Media/Images/lyt-crafting-mocs-2.jpg",
     "Sistema/Media/Images/flight-school-checklist.jpg",
