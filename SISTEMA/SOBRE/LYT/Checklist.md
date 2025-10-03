@@ -23,7 +23,7 @@ cssclasses:
 
 - [ ] **Praticar até a automatização:**
 	- [ ] [[Coleções|Criar uma Coleção]]
-	- [ ] [[SISTEMA/SOBRE/LYT/Nota|Criando notas]] (`Ctrl/Cmd + N`)
+	- [ ] [[Nota|Criando notas]] (`Ctrl/Cmd + N`)
 	- [ ] [[Obsidian e PKM|Digitando para criar, abrir & vincular notas]] (`[[ ]]`)
 	- [ ] Conhecendo Paleta de Comandos e Fixando Comandos (`Ctrl/Cmd + P`)
 	- [ ] Dividindo & vinculando notas

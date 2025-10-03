@@ -17,7 +17,7 @@ type: clock
 
 <br>
 
-> [!globe]+ **[[Atlas]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** [^3] [^4]
+> [!globe]+ **[[ATLAS]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** [^3] [^4]
 >  >  `BUTTON[dash, nav]`   `BUTTON[col]`  `BUTTON[last]`
 
 --- start-multi-column: ExampleRegion3
@@ -213,7 +213,7 @@ tab: 📂 Totais Coleções
 
 ```dataview
 TABLE without id file.link as Coleção, length(file.inlinks) as Notas 
-FROM "SISTEMA/COLEÇÕES"
+FROM "Sistema/Coleções"
 SORT length(file.inlinks) desc
 
 
@@ -225,7 +225,7 @@ tab: 📂 Coleções  (Links)
 
 ```dataview
 TABLE length(file.inlinks) as Total, file.inlinks as Backlinks  
-FROM "SISTEMA/COLEÇÕES"
+FROM "Sistema/Coleções"
 SORT length(file.inlinks) desc
 
 

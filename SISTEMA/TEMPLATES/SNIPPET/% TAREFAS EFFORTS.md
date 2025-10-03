@@ -3,7 +3,7 @@ tab: AREAS
 
 ```dataview
 TASK
-FROM "ESFORÇOS/AREAS" 
+FROM "Esforços/AREAS" 
 WHERE !completed AND !checked and type != "area_utils" 
 GROUP BY file.name 
 SORT file.name DESC
@@ -12,7 +12,7 @@ tab: PROJETOS
 
 ```dataview
 TASK
-FROM "ESFORÇOS/PROJETOS" 
+FROM "Esforços/PROJETOS" 
 WHERE !completed AND !checked and type != "area_utils" 
 GROUP BY file.name 
 SORT file.name DESC
@@ -21,7 +21,7 @@ tab: ARQUIVADOS
 
 ```dataview
 TASK
-FROM "ESFORÇOS/ARQUIVADOS" 
+FROM "Esforços/ARQUIVADOS" 
 WHERE !completed AND !checked and type != "area_utils" 
 GROUP BY file.name 
 SORT file.name DESC

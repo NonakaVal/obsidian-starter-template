@@ -7,17 +7,17 @@
         {
           "type": "file",
           "ctime": 1755663266556,
-          "path": "SISTEMA/SOBRE/Boas Vindas 🎉.md"
+          "path": "Sistema/Sobre/Boas Vindas 🎉.md"
         },
         {
           "type": "file",
           "ctime": 1755663266556,
-          "path": "SISTEMA/SOBRE/Guias Práticos.md"
+          "path": "Sistema/Sobre/Guias Práticos.md"
         },
         {
           "type": "file",
           "ctime": 1755663266556,
-          "path": "SISTEMA/SOBRE/Templates.md"
+          "path": "Sistema/Sobre/Templates.md"
         }
       ],
       "title": "Boas Vindas"
@@ -25,12 +25,12 @@
     {
       "type": "folder",
       "ctime": 1757690828803,
-      "path": "SISTEMA"
+      "path": "Sistema"
     },
     {
       "type": "folder",
       "ctime": 1757690839031,
-      "path": "SISTEMA/TEMPLATES"
+      "path": "Sistema/Templates"
     }
   ]
 }

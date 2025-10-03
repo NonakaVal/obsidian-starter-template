@@ -1,7 +1,7 @@
 ---
 up:
   - "[[Efforts]]"
-  - "[[../../../ESFORÇOS/1_AREAS|1_AREAS]]"
+  - "[[1_AREAS|1_AREAS]]"
 area: "[[<% tp.file.folder() %>]]"
 tags:
 type: area_family
@@ -10,7 +10,7 @@ cssclasses:
   - hide-properties_editing
   - hide-properties_reading
 ---
- `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
+ `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
 # [[<%tp.file.folder() %>]] 
@@ -36,7 +36,7 @@ actions:
 
 ```dataview
 table created AS "Created", resumo AS "Resumo"
-from "ESFORÇOS/AREAS/<% tp.file.folder() %>"
+from "Esforços/AREAS/<% tp.file.folder() %>"
 where type != "area"
 where type = "area_note"
 where type != "area_note_sub"

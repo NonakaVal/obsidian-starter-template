@@ -16,7 +16,7 @@ cssclasses:
 tab: Resumo Notas criadas
 ```dataview
 TABLE WITHOUT ID file.link AS Nota, file.ctime as Criada
-FROM "ATLAS" OR "+" OR "ESFORÇOS"
+FROM "Atlas" OR "+" OR "Esforços"
 WHERE contains(file.outlinks, [[<% tp.date.now("YYYY-MM-DD") %>]])
 SORT file.name DESC
 

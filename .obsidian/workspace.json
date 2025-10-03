@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏠.md",
-                "mode": "preview",
+                "file": "Calendário/Dias/2025-10-03.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,10 +28,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "🏠"
+              "title": "2025-10-03"
+            }
+          },
+          {
+            "id": "b6beed82856cdc8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Fontes/Aulas/aula 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "aula 1"
+            }
+          },
+          {
+            "id": "a394123a9b55cf99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Esforços/Areas/Area 1/Area 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Area 1"
+            }
+          },
+          {
+            "id": "295717c4a2c3553c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Esforços/Areas/Area 1/nota area 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "nota area 1"
+            }
+          },
+          {
+            "id": "16f6531dded9b324",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Esforços/Projetos/projeto 1/projeto 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "projeto 1"
+            }
+          },
+          {
+            "id": "ce242b318991e514",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -83,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
+                "file": "Sistema/Sobre/Guias Práticos ❓.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -129,10 +250,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "🏠.md"
+                "file": "+/recent-.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 🏠"
+              "title": "File properties for recent-"
             }
           },
           {
@@ -186,7 +307,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SISTEMA/SOBRE/LYT/Atalhos.md",
+                "file": "Sistema/Sobre/LYT/Atalhos.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
@@ -207,7 +328,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SISTEMA/SOBRE/homepage-help.md",
+                "file": "Sistema/Sobre/homepage-help.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +347,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🏠.md",
+                "file": "+/recent-.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -254,7 +375,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 🏠"
+              "title": "Graph of recent-"
             }
           }
         ],
@@ -262,7 +383,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336
+    "width": 336,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -283,54 +405,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "26bda3c9cb740625",
+  "active": "ce242b318991e514",
   "lastOpenFiles": [
-    "🏠.md",
-    "SISTEMA/SOBRE/Guias Práticos.md",
-    "SISTEMA/SOBRE/homepage-help.md",
-    "SISTEMA/SOBRE/Boas Vindas 🎉.md",
+    "Atlas/Fontes/Aulas/aula 1.md",
     "home.md",
-    "SISTEMA/SOBRE/LYT/ARC Framework.md",
-    "CALENDÁRIO/REVISÕES/Dias.md",
-    "SISTEMA/COLEÇÕES/Desenvolvimento pessoal.md",
-    "SISTEMA/TEMPLATES/FORMAT/template.md",
-    "SISTEMA/TEMPLATES/FORMAT/snippet.md",
-    "SISTEMA/TEMPLATES/FORMAT/projeto nota.md",
-    "SISTEMA/TEMPLATES/FORMAT/projeto.md",
-    "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
-    "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
-    "SISTEMA/TEMPLATES/FORMAT/exemplo.md",
-    "SISTEMA/TEMPLATES/FORMAT/livro.md",
-    "SISTEMA/TEMPLATES/FORMAT/coleção.md",
-    "SISTEMA/TEMPLATES/FORMAT/base.md",
-    "SISTEMA/TEMPLATES/FORMAT/aula.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% metadados.md",
-    "SISTEMA/TEMPLATES/FORMAT/nota diaria.md",
-    "README.md",
-    "🏠 1.md",
-    "+/colecoes.md",
+    "Esforços/Projetos/projeto 1/nota projeto 1.md",
+    "Esforços/Projetos/projeto 1/projeto 1.md",
+    "Esforços/Areas/Area 1/nota area 1.md",
+    "Esforços/Projetos/projeto 1",
+    "Esforços/Areas/Area 1/Area 1.md",
+    "Esforços/Areas/Area 1",
+    "Sistema/Coleções/areas.md",
+    "SISTEMA/COLEÇÕES/areas.md",
+    "Sistema/Coleções/projetos.md",
+    "SISTEMA/COLEÇÕES/projetos.md",
+    "Sistema/Coleções/coleção 2.md",
+    "Sistema/Coleções/COLEÇÃO 1.md",
+    "Sistema/Coleções/Aulas.md",
+    "SISTEMA/COLEÇÕES/Aulas.md",
+    "Calendário/Dias/2025-10-03.md",
+    "Atlas/Fontes/Aulas",
+    "🏠.md",
+    "SISTEMA/COLEÇÕES/coleção 2.md",
+    "Esforços/Projetos/PROJETO 12/PROJETO 12.md",
+    "SISTEMA/COLEÇÕES/COLEÇÃO 1.md",
+    "Esforços/Areas/AREA 1/NOTA AREA 1.md",
+    "Esforços/Projetos/PROJETO 12",
+    "Esforços/Areas/AREA 1/AREA 1.md",
+    "Esforços/Areas/AREA 1",
+    "Sistema/Sobre/_COLEÇÕES.md",
+    "Esforços/Areas/A/A.md",
+    "Esforços/Areas/A",
+    "Areas/aa",
+    "Areas",
     "+/recent-.md",
-    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
-    "SISTEMA/TEMPLATES/FORMAT/desktop.ini",
-    "desktop.ini",
-    "obsidian-ACE-ARC.zip",
-    "+/Sem título.base",
-    "ESFORÇOS/PROJETOS/projeto 1/desktop.ini",
-    "ESFORÇOS/AREAS/Saúde",
-    "ESFORÇOS/PROJETOS/projeto 1",
-    "ESFORÇOS/AREAS/Finanças",
-    "ESFORÇOS/PROJETOS/Projeto",
-    "Não confirmado 140638.crdownload",
-    "SISTEMA/MEDIA/Pasted image 20250910044512.png",
-    "SISTEMA/MEDIA/Images/lyt-crafting-mocs-2.jpg",
-    "SISTEMA/MEDIA/Images/flight-school-checklist.jpg",
-    "SISTEMA/MEDIA/Images/lyt-crafting-mocs-0.jpg",
-    "SISTEMA/MEDIA/Images/flow-map.png",
-    "SISTEMA/MEDIA/Images/sensemaking-archetypes-clean.png",
-    "SISTEMA/MEDIA/Images/LYT Ideaverse Wallpaper - Purple.jpg",
-    "SISTEMA/MEDIA/Images/lyt-crafting-mocs-5.jpg",
-    "SISTEMA/MEDIA/Images/flight-school-interfacing-excellence-award.jpg",
-    "SISTEMA/MEDIA/Images/robert-mccall-space-ship-launch-narrow.jpg",
+    "Esforços/Areas/aa",
+    "ESFORÇOS/AREAS/aa",
+    "Sistema/Sobre/Guias Práticos.md",
+    "Sistema/Sobre/homepage-help.md",
+    "Sistema/Media/Pasted image 20250910044512.png",
+    "Sistema/Media/Images/lyt-crafting-mocs-2.jpg",
+    "Sistema/Media/Images/flight-school-checklist.jpg",
+    "Sistema/Media/Images/lyt-crafting-mocs-0.jpg",
+    "Sistema/Media/Images/flow-map.png",
+    "Sistema/Media/Images/sensemaking-archetypes-clean.png",
+    "Sistema/Media/Images/LYT Ideaverse Wallpaper - Purple.jpg",
+    "Sistema/Media/Images/lyt-crafting-mocs-5.jpg",
+    "Sistema/Media/Images/flight-school-interfacing-excellence-award.jpg",
+    "Sistema/Media/Images/robert-mccall-space-ship-launch-narrow.jpg",
     "ATLAS/FONTES/Sem título.canvas",
     "Sem título.canvas"
   ]

@@ -25,7 +25,7 @@ Esta visão mostra as 10 notas mais novas na sua pasta `+`. Ao processar cada no
 TABLE WITHOUT ID
   file.link as "Notas adicionadas mais recentes",
   (date(today) - file.cday).day as "Dias de vida"
-FROM "" AND !"ATLAS/+"
+FROM "" AND !"Atlas/+"
 WHERE regexmatch(".*\\+.*", file.folder)
 SORT file.cday desc
 LIMIT 33

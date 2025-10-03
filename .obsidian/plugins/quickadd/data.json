@@ -11,7 +11,7 @@
           "name": "➕ NOTA BASE",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/base.md",
+          "templatePath": "Sistema/Templates/Format/base.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -53,7 +53,7 @@
               "name": "➕ NOVA AREA",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/area.md",
+              "templatePath": "Sistema/Templates/Format/area.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -61,7 +61,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "ESFORÇOS/AREAS/{{VALUE}}"
+                  "Esforços/Areas/{{VALUE}}"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -89,7 +89,7 @@
               "name": "➕ NOVO PROJETO",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/projeto.md",
+              "templatePath": "Sistema/Templates/Format/projeto.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -97,7 +97,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "ESFORÇOS/PROJETOS/{{VALUE}}"
+                  "Esforços/Projetos/{{VALUE}}"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -128,7 +128,7 @@
           "name": "📝 AULA",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/aula.md",
+          "templatePath": "Sistema/Templates/Format/aula.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -164,7 +164,7 @@
           "name": "📖 LIVRO",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/livro.md",
+          "templatePath": "Sistema/Templates/Format/livro.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -200,7 +200,7 @@
           "name": "🗂️ NOVA COLEÇÃO",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/coleção.md",
+          "templatePath": "Sistema/Templates/Format/coleção.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -230,7 +230,7 @@
           "name": "🖼️ MAPA ATLAS DATAVIEW",
           "type": "Template",
           "command": true,
-          "templatePath": "SISTEMA/TEMPLATES/FORMAT/% MAPA DATAVIEW DE ATLAS.md",
+          "templatePath": "Sistema/Templates/Format/% MAPA DATAVIEW DE ATLAS.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -272,7 +272,7 @@
               "name": "SNIPPET",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/template.md",
+              "templatePath": "Sistema/Templates/Format/template.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
@@ -280,7 +280,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "SISTEMA/TEMPLATES/SNIPPET"
+                  "/Snippet"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -302,7 +302,7 @@
               "name": "TEMPLATE DE FORMATAÇÃO",
               "type": "Template",
               "command": true,
-              "templatePath": "SISTEMA/TEMPLATES/FORMAT/template.md",
+              "templatePath": "Sistema/Templates/Format/template.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
@@ -310,7 +310,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "SISTEMA/TEMPLATES/FORMAT"
+                  "/Format"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -337,7 +337,7 @@
       "name": "📝 NOTA DE PROJETO",
       "type": "Template",
       "command": true,
-      "templatePath": "SISTEMA/TEMPLATES/FORMAT/projeto nota.md",
+      "templatePath": "Sistema/Templates/Format/projeto nota.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"
@@ -371,7 +371,7 @@
       "name": "📝 NOTA DE AREA",
       "type": "Template",
       "command": true,
-      "templatePath": "SISTEMA/TEMPLATES/FORMAT/area nota.md",
+      "templatePath": "Sistema/Templates/Format/area nota.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE}}"
@@ -411,7 +411,7 @@
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "SISTEMA/TEMPLATES/FORMAT/NOTA-DIARIA-TEMPLATE.md"
+        "template": "/Format/NOTA-DIARIA-TEMPLATE.md"
       },
       "format": {
         "enabled": true,
@@ -477,7 +477,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "SISTEMA/TEMPLATES/FORMAT",
+  "templateFolderPath": "Sistema/Templates/Format",
   "announceUpdates": false,
   "version": "2.4.0",
   "globalVariables": {},

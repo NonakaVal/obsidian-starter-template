@@ -4,15 +4,15 @@
   "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "SISTEMA/TEMPLATES",
+      "folder": "Sistema/Templates",
       "viewMode": "obsidianEditingMode: source"
     },
     {
-      "folder": "ATLAS/MAPAS",
+      "folder": "Atlas/Mapas",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "SISTEMA/SOBRE",
+      "folder": "Sistema/Sobre",
       "viewMode": "obsidianUIMode: preview"
     }
   ],

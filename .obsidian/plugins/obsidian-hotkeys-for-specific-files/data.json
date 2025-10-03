@@ -2,43 +2,43 @@
   "files": [
     {
       "useMoment": false,
-      "file": "ESFORÇOS/1_AREAS.md"
+      "file": "Esforços/1_AREAS.md"
     },
     {
       "useMoment": false,
-      "file": "ESFORÇOS/2_PROJETOS.md"
+      "file": "Esforços/2_PROJETOS.md"
     },
     {
       "useMoment": false,
-      "file": "SISTEMA/SOBRE/_COLEÇÕES.md"
+      "file": "Sistema/Sobre/_COLEÇÕES.md"
     },
     {
       "useMoment": false,
-      "file": "CALENDÁRIO/REVISÕES/Dias.md"
+      "file": "Calendário/Revisões/Dias.md"
     },
     {
       "useMoment": false,
-      "file": "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md"
+      "file": "Sistema/Templates/Snippet/% TODAS TAREFAS.md"
     },
     {
       "useMoment": false,
-      "file": "SISTEMA/SOBRE/Notas Recentemente Modificadas.md"
+      "file": "Sistema/Sobre/Notas Recentemente Modificadas.md"
     },
     {
       "useMoment": false,
-      "file": "SISTEMA/SOBRE/Guias Práticos.md"
+      "file": "Sistema/Sobre/Guias Práticos.md"
     },
     {
       "useMoment": false,
-      "file": "SISTEMA/SOBRE/homepage-help.md"
+      "file": "Sistema/Sobre/homepage-help.md"
     },
     {
       "useMoment": false,
-      "file": "SISTEMA/SOBRE/Dashboard++.md"
+      "file": "Sistema/Sobre/Dashboard++.md"
     },
     {
       "useMoment": false,
-      "file": "SISTEMA/SOBRE/LYT/Checklist.md"
+      "file": "Sistema/Sobre/LYT/Checklist.md"
     }
   ],
   "useExistingPane": true,

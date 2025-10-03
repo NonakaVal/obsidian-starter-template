@@ -24,7 +24,7 @@ Sistema integrado de **gestão do conhecimento** baseado no [[Sistema ACE|ACE fo
 
 
 # [[Sistema ACE|Sistema de organização ACE]] 
-O framework **ACE** (Atlas, Calendar, Efforts) é um sistema universal para organizar conhecimento, tempo e ação, complementado por:
+O framework **ACE** (Atlas, Calendar, Efforts) é um Sistema universal para organizar conhecimento, tempo e ação, complementado por:
 
 
 
@@ -59,7 +59,7 @@ largest column:
 ```
 📂 + Pasta de captura inicial
 │
-📂 ATLAS — Notas e mapas de conteúdo em todos os níveis
+📂 Atlas — Notas e mapas de conteúdo em todos os níveis
 │
 ├── 🧭 MAPAS — Conjunto organizado de várias notas
 │
@@ -69,7 +69,7 @@ largest column:
 │   ├── 📙 LIVROS — Notas sobre livros
 │   └── ...
 │
-📂 🚀 ESFORÇOS — Notas de planejamento e revisão de trabalho
+📂 🚀 Esforços — Notas de planejamento e revisão de trabalho
 │
 ├── 📂 ÁREAS — Gestão e planejamento de áreas contínuas
 ├── 📂 PROJETOS — Objetivos com metas definidas
@@ -80,7 +80,7 @@ largest column:
 ├── 📂 DIA
 └── 📂 REVISÃO
 │
-📂 ⚙️ SISTEMA — Notas e pastas de uso do sistema
+📂 ⚙️ Sistema — Notas e pastas de uso do Sistema
 │
 ├── 🗂️ COLEÇÕES - Notas de segmentação
 ├── 🖼️ MÍDIAS
@@ -132,7 +132,7 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 - Revisão Regular: Reserve um tempo semanalmente para revisar e atualizar notas, garantindo que as informações permaneçam relevantes e corretas.
 - Limpeza de Tags e Pastas: Periodicamente, revise tags e a estrutura de pastas para evitar redundâncias ou categorias desatualizadas.
 - Backup: Faça backups regulares de sua vault para evitar perda de dados.
-- Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o sistema.
+- Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o Sistema.
 ---
  `BUTTON[help]`     
 
@@ -145,6 +145,6 @@ id: help
 style: primary
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/Guias Práticos.md-new-tab
+    command: obsidian-hotkeys-for-specific-files:Sistema/SOBRE/Guias Práticos.md-new-tab
 ```
 

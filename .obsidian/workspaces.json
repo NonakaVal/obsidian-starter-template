@@ -16,7 +16,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Boas Vindas 🎉.md",
+                    "file": "Sistema/Sobre/Boas Vindas 🎉.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": true,
@@ -42,7 +42,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
+                    "file": "Sistema/Sobre/Guias Práticos ❓.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
@@ -84,7 +84,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SISTEMA/SOBRE/LYT/Markdown.md",
+                    "file": "Sistema/Sobre/LYT/Markdown.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -155,7 +155,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Guias Práticos.md",
+                    "file": "Sistema/Sobre/Guias Práticos.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -201,7 +201,7 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Guias Práticos ❓.md"
+                    "file": "Sistema/Sobre/Guias Práticos ❓.md"
                   },
                   "icon": "lucide-info",
                   "title": "Propriedades do arquivo Guias Práticos ❓"
@@ -259,7 +259,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
+                    "file": "Sistema/Sobre/Guias Práticos ❓.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -296,7 +296,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
+                    "file": "Sistema/Sobre/Guias Práticos ❓.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -315,7 +315,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "SISTEMA/SOBRE/LYT/Atalhos.md",
+                    "file": "Sistema/Sobre/LYT/Atalhos.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false

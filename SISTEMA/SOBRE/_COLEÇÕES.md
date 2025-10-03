@@ -7,7 +7,7 @@ cssclasses:
 // Código DataviewJS melhorado para visualização de coleções
 
 // Obter coleções
-const colecoes = dv.pages('"SISTEMA/COLEÇÕES"').sort(p => p.file.ctime, 'desc').slice(0, 33);
+const colecoes = dv.pages('"Sistema/Coleções"').sort(p => p.file.ctime, 'desc').slice(0, 33);
 const totalColecoes = colecoes.length;
 
 // Calcular estatísticas

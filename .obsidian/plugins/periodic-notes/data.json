@@ -4,7 +4,7 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "SISTEMA/TEMPLATES/FORMAT/nota diaria.md",
+    "template": "Sistema/Templates/Format/nota diaria.md",
     "folder": "CALENDÁRIO/DIAS",
     "enabled": true
   },
@@ -15,7 +15,7 @@
   },
   "monthly": {
     "format": "",
-    "template": "SISTEMA/TEMPLATES/FORMAT/mensal-template.md",
+    "template": "Sistema/Templates/Format/mensal-template.md",
     "folder": "CALENDÁRIO/REVISÕES",
     "enabled": true
   },

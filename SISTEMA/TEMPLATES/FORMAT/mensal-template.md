@@ -1,6 +1,6 @@
 ```dataviewjs
 // ==================== Configurações ====================
-const pastas = ["CALENDÁRIO", "ATLAS", "ESFORÇOS"];
+const pastas = ["CALENDÁRIO", "Atlas", "Esforços"];
 let mesSelecionado = "2025-09";  
 
 // ==================== Coleta as notas ====================

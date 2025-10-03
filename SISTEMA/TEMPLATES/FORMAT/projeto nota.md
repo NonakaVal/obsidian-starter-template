@@ -9,12 +9,12 @@ cssclasses:
 created:
   - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 up:
-  - "[[../../../ESFORÇOS/2_PROJETOS|2_PROJETOS]]"
+  - "[[2_PROJETOS|2_PROJETOS]]"
 ---
 
 ~ [[<%tp.file.folder() %>]] 
 
-| `Coleção` | `INPUT[suggester(optionQuery("SISTEMA/COLEÇÕES")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
+| `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
 # [[<% tp.file.title %>]] 

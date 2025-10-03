@@ -29,7 +29,7 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
-    "ATLAS": {
+    "Atlas": {
       "icon": "lucide-notebook-pen",
       "unsynced": [
         "62aa804a619c5bdd",
@@ -49,7 +49,8 @@
         "f2c9f9d54f693b5d",
         "6cb2e57d014bbdb9",
         "20d1cf2ee6071a00",
-        "a276fd27d89ca356"
+        "a276fd27d89ca356",
+        "46fd94296bcfb1e1"
       ]
     },
     "CALENDAR": {
@@ -72,10 +73,11 @@
         "f2c9f9d54f693b5d",
         "6cb2e57d014bbdb9",
         "20d1cf2ee6071a00",
-        "a276fd27d89ca356"
+        "a276fd27d89ca356",
+        "46fd94296bcfb1e1"
       ]
     },
-    "CALENDÁRIO": {
+    "Calendário": {
       "icon": "lucide-calendar",
       "unsynced": [
         "7c7b71a060ea143a",
@@ -85,10 +87,11 @@
         "f2c9f9d54f693b5d",
         "6cb2e57d014bbdb9",
         "20d1cf2ee6071a00",
-        "a276fd27d89ca356"
+        "a276fd27d89ca356",
+        "46fd94296bcfb1e1"
       ]
     },
-    "ESFORÇOS": {
+    "Esforços": {
       "icon": "lucide-workflow",
       "unsynced": [
         "7c7b71a060ea143a",
@@ -98,10 +101,11 @@
         "f2c9f9d54f693b5d",
         "6cb2e57d014bbdb9",
         "20d1cf2ee6071a00",
-        "a276fd27d89ca356"
+        "a276fd27d89ca356",
+        "46fd94296bcfb1e1"
       ]
     },
-    "SISTEMA": {
+    "Sistema": {
       "icon": "lucide-settings",
       "unsynced": [
         "d1468d6092e56ec9",
@@ -117,22 +121,23 @@
         "f2c9f9d54f693b5d",
         "6cb2e57d014bbdb9",
         "20d1cf2ee6071a00",
-        "a276fd27d89ca356"
+        "a276fd27d89ca356",
+        "46fd94296bcfb1e1"
       ]
     },
-    "SISTEMA/SOBRE/Boas Vindas 🎉.md": {
+    "Sistema/Sobre/Boas Vindas 🎉.md": {
       "icon": "lucide-party-popper"
     },
-    "SISTEMA/SOBRE/Guias Práticos.md": {
+    "Sistema/Sobre/Guias Práticos.md": {
       "icon": "help"
     },
-    "SISTEMA/SOBRE/LYT/Atalhos.md": {
+    "Sistema/Sobre/LYT/Atalhos.md": {
       "icon": "lucide-keyboard"
     },
-    "SISTEMA/SOBRE/Notas Recentemente Modificadas.md": {
+    "Sistema/Sobre/Notas Recentemente Modificadas.md": {
       "icon": "lucide-clock"
     },
-    "SISTEMA/SOBRE/Templates.md": {
+    "Sistema/Sobre/Templates.md": {
       "icon": "lucide-square-dashed-bottom-code"
     }
   },
