@@ -2,8 +2,6 @@
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
-banner: "https://w.wallhaven.cc/full/1k/wallhaven-1kzydv.jpg"
-banner_y: 0.65403
 ---
 
 # Resumo 

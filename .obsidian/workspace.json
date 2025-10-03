@@ -4,37 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c9c6e591aed0dda5",
+        "id": "be07e6b8d3d550c3",
         "type": "tabs",
         "children": [
           {
-            "id": "00b04ee400e048e9",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SISTEMA/SOBRE/Boas Vindas 🎉.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Boas Vindas 🎉"
-            }
-          },
-          {
-            "id": "63c737fde508d1dd",
+            "id": "0612d245cdeb8a60",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,81 +30,8 @@
               "icon": "lucide-file",
               "title": "🏠"
             }
-          },
-          {
-            "id": "b08ee9d37d00ba35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/colecoes.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "colecoes"
-            }
-          },
-          {
-            "id": "78c648a47b7c1414",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/recent-.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "recent-"
-            }
-          },
-          {
-            "id": "b9d6f285c0e77afb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/nmew.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "nmew"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -173,7 +74,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           },
           {
@@ -197,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"banner\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,14 +106,14 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Search"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 335
+    "width": 286
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -231,7 +132,7 @@
                 "file": "🏠.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo 🏠"
+              "title": "File properties for 🏠"
             }
           },
           {
@@ -260,7 +161,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Todas as propriedades"
+              "title": "All properties"
             }
           }
         ]
@@ -270,12 +171,62 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d2d39fc8f1f5262c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4f85097de9cdee3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SISTEMA/SOBRE/LYT/Atalhos.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Atalhos"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f91744510372f1ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "402202eb84be83d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SISTEMA/SOBRE/homepage-help.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for homepage-help"
+            }
+          },
+          {
             "id": "f1767b69ffcf88ce",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
+                "file": "🏠.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -298,56 +249,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6372987463299539,
+                  "scale": 0.4061496816036883,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Guias Práticos ❓"
-            }
-          },
-          {
-            "id": "d2d39fc8f1f5262c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "402202eb84be83d7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "SISTEMA/SOBRE/Guias Práticos ❓.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Links inversos para Guias Práticos ❓"
-            }
-          },
-          {
-            "id": "4f85097de9cdee3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SISTEMA/SOBRE/LYT/Atalhos.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Atalhos"
+              "title": "Graph of 🏠"
             }
           }
         ],
@@ -359,25 +266,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "workspaces:Gerenciar leiautes da área de trabalho": false,
-      "bases:Criar nova base": false,
-      "callout-manager:Insert Callout": false,
-      "iconic:Open rulebook": false,
-      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
       "widgets:Add widget": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
+      "callout-manager:Insert Callout": false,
+      "iconic:Open rulebook": false,
+      "templater-obsidian:Templater": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "63c737fde508d1dd",
+  "active": "26bda3c9cb740625",
   "lastOpenFiles": [
+    "🏠.md",
+    "SISTEMA/SOBRE/Guias Práticos.md",
+    "SISTEMA/SOBRE/homepage-help.md",
+    "SISTEMA/SOBRE/Boas Vindas 🎉.md",
+    "home.md",
+    "SISTEMA/SOBRE/LYT/ARC Framework.md",
+    "CALENDÁRIO/REVISÕES/Dias.md",
+    "SISTEMA/COLEÇÕES/Desenvolvimento pessoal.md",
     "SISTEMA/TEMPLATES/FORMAT/template.md",
     "SISTEMA/TEMPLATES/FORMAT/snippet.md",
     "SISTEMA/TEMPLATES/FORMAT/projeto nota.md",
@@ -393,20 +308,12 @@
     "SISTEMA/TEMPLATES/FORMAT/nota diaria.md",
     "README.md",
     "🏠 1.md",
-    "🏠.md",
     "+/colecoes.md",
     "+/recent-.md",
     "SISTEMA/SOBRE/Notas Recentemente Modificadas.md",
-    "SISTEMA/SOBRE/LYT/Como Esforços funciona.md",
-    "SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md",
-    "+/nmew.md",
     "SISTEMA/TEMPLATES/FORMAT/desktop.ini",
     "desktop.ini",
-    "SISTEMA/SOBRE/Boas Vindas 🎉.md",
     "obsidian-ACE-ARC.zip",
-    "SISTEMA/SOBRE/homepage-help.md",
-    "SISTEMA/SOBRE/Guias Práticos.md",
-    "SISTEMA/TEMPLATES/FORMAT/area.md",
     "+/Sem título.base",
     "ESFORÇOS/PROJETOS/projeto 1/desktop.ini",
     "ESFORÇOS/AREAS/Saúde",

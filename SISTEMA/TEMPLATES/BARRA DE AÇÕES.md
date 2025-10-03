@@ -12,7 +12,7 @@
 
 --- start-multi-column: ExampleRegion3
 
-> [!calendar]- **[[Como Calendário funciona|Calendar]]**  »» [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] 
+> [!calendar]- **[[Como Calendário funciona|Calendar]]**  »» [[Dias|Dias]] | [[Como Calendário funciona|Reviews]] 
 > `BUTTON[today]`[^4]  `BUTTON[mes]` [^5]
 >  
 >  `BUTTON[task]`    

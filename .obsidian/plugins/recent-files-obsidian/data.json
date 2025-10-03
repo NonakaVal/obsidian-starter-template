@@ -5,6 +5,34 @@
       "path": "🏠.md"
     },
     {
+      "basename": "Guias Práticos",
+      "path": "SISTEMA/SOBRE/Guias Práticos.md"
+    },
+    {
+      "basename": "homepage-help",
+      "path": "SISTEMA/SOBRE/homepage-help.md"
+    },
+    {
+      "basename": "Boas Vindas 🎉",
+      "path": "SISTEMA/SOBRE/Boas Vindas 🎉.md"
+    },
+    {
+      "basename": "home",
+      "path": "home.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "SISTEMA/SOBRE/LYT/ARC Framework.md"
+    },
+    {
+      "basename": "Dias",
+      "path": "CALENDÁRIO/REVISÕES/Dias.md"
+    },
+    {
+      "basename": "Desenvolvimento pessoal",
+      "path": "SISTEMA/COLEÇÕES/Desenvolvimento pessoal.md"
+    },
+    {
       "basename": "template",
       "path": "SISTEMA/TEMPLATES/FORMAT/template.md"
     },
@@ -75,18 +103,6 @@
     {
       "basename": "nmew",
       "path": "+/nmew.md"
-    },
-    {
-      "basename": "Boas Vindas 🎉",
-      "path": "SISTEMA/SOBRE/Boas Vindas 🎉.md"
-    },
-    {
-      "basename": "homepage-help",
-      "path": "SISTEMA/SOBRE/homepage-help.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "SISTEMA/SOBRE/Guias Práticos.md"
     },
     {
       "basename": "area",
@@ -177,20 +193,12 @@
       "path": "SISTEMA/SOBRE/_COLEÇÕES.md"
     },
     {
-      "basename": "DIAS",
-      "path": "CALENDÁRIO/REVISÕES/DIAS.md"
-    },
-    {
       "basename": "Cursos",
       "path": "ATLAS/FONTES/Cursos/Cursos.md"
     },
     {
       "basename": "Mapa do cofre",
       "path": "ATLAS/MAPAS/Mapa do cofre.md"
-    },
-    {
-      "basename": "Livro 1",
-      "path": "ATLAS/FONTES/Livros/Livro 1.md"
     }
   ],
   "omittedPaths": [

@@ -3,11 +3,10 @@ created: "[[2025-07-20]]"
 cssclasses:
   - hide-properties_reading
   - hide-properties_editing
-banner: "https://w.wallhaven.cc/full/1k/wallhaven-1kzydv.jpg"
-banner_y: 0.75
 ---
 # Primeiros passos
 
+> [!waypoints]  » [[Boas Vindas 🎉]] | [[Guias Práticos]] | [[Checklist]]
 
 > [!VIDEO]+ [[Markdown|Formatação Markdown]]
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1MUXAJNB2pC_2cJndcC77p69uib_cfIbl/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>

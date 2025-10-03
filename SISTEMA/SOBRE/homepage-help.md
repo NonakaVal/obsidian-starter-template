@@ -1,9 +1,7 @@
 ---
-banner: "https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
-banner_y: 0.74913
 ---
 ```widgets
 type: clock
@@ -24,7 +22,7 @@ type: clock
 
 --- start-multi-column: ExampleRegion3
 
-> [!calendar]- **[[Como Calendário funciona|Calendar]]**  »» [[DIAS|Dias]] | [[Como Calendário funciona|Reviews]] [^3]
+> [!calendar]- **[[Como Calendário funciona|Calendar]]**  »» [[Dias|Dias]] | [[Como Calendário funciona|Reviews]] [^3]
 > `BUTTON[today]`   `BUTTON[task]`    
 
 \--- end-column ---
