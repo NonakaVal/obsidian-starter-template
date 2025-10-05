@@ -1,0 +1,1 @@
+| `Up` | `INPUT[suggester(optionQuery("")):up]`    | `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]` 

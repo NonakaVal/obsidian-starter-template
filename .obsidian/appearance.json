@@ -1,6 +1,6 @@
 {
   "cssTheme": "AnuPpuccin",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "dashboarPlusPlus",
     "imageGallery",
@@ -11,7 +11,10 @@
     "Nick Milo - Anuppuchin - Soft Folders",
     "Nick Milo - Aligned Callout Header Titles",
     "Nick Milo - Custom Callouts - Pro",
-    "Nick Milo - Prism"
+    "Nick Milo - Prism",
+    "hidePropertiesBase",
+    "MCL - Wide Views",
+    "MCL Wide Views"
   ],
   "baseFontSize": 15,
   "baseFontSizeAction": true

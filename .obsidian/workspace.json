@@ -4,16 +4,49 @@
     "type": "split",
     "children": [
       {
+        "id": "c6a56c1968dc42cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "257cf65b4dbfcdee",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Conceitos/LYT/Cultive.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Cultive"
+            }
+          }
+        ]
+      },
+      {
         "id": "f942ed9ede8b1730",
         "type": "tabs",
         "children": [
           {
-            "id": "c0c074d098baec05",
+            "id": "66f4c09eed31b3aa",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "🏠 Home Pro.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -27,11 +60,37 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "README"
+              "title": "🏠 Home Pro"
+            }
+          },
+          {
+            "id": "4cb9847416b60b24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Conceitos/LYT/Construir.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Construir"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#project/projeto_2  ",
+                "query": "line:(repot)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 264
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -129,10 +188,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "_index_notas.md"
+                "file": "Atlas/Conceitos/LYT/Cultive.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for _index_notas"
+              "title": "File properties for Cultive"
             }
           },
           {
@@ -243,7 +302,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Atalhos.md",
+                "file": "Sistema/Controle/Atalhos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -265,7 +324,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338
+    "width": 406
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -288,43 +347,42 @@
   },
   "active": "26bda3c9cb740625",
   "lastOpenFiles": [
-    "README.md",
-    "Boas Vindas 🎉.md",
-    "🏠.md",
-    "+/Atalhos.md",
+    "Atlas/Conceitos/LYT/Construir.md",
+    "Esforços/Untitled",
+    "Atlas/Fontes/a.md",
+    "Atlas/Conceitos",
+    "Atlas/Conceitos/LYT/Arquiteto.md",
+    "Atlas/Conceitos/LYT/Replantar.md",
+    "Atlas/Conceitos/LYT/Renovar.md",
+    "Atlas/Conceitos/LYT/Relacionar.md",
+    "Atlas/Conceitos/LYT/Questione.md",
+    "Atlas/Conceitos/LYT/Projetos Ativos.md",
+    "Atlas/Conceitos/LYT/Plante.md",
+    "Sistema/Recursos/Pro Custom Callouts.md",
+    "Atlas/Conceitos/LYT/Padrões de Classificação.md",
+    "Atlas/Conceitos/LYT/Obsidian e PKM.md",
+    "Atlas/Conceitos/LYT/Nova Coleção.md",
+    "Atlas/Conceitos/LYT/Notas não Criadas.md",
+    "Atlas/Conceitos/LYT/Nota.md",
+    "Atlas/Conceitos/LYT/MOC definição.md",
+    "Atlas/Conceitos/LYT/Metadados.md",
+    "Atlas/Conceitos/LYT/Markdown.md",
+    "Atlas/Conceitos/LYT/Mapas.md",
+    "Sistema/Recursos/Custom Callouts.md",
+    "Sistema/Recursos",
+    "Atlas/Conceitos/LYT/Areas  e Projetos.md",
+    "Atlas/Conceitos/LYT/Revitalizar.md",
+    "Atlas/Conceitos/LYT/Cultive.md",
+    "Atlas/Conceitos/LYT/Revisitar.md",
+    "+/Jardineiro.md",
+    "Esforços/Areas/a",
+    "Esforços/Areas",
+    "Esforços",
+    "Sistema/Sobre",
     "Sistema/Controle",
-    "Sistema/Controle/Templates.md",
-    "Sistema/Templates/BARRA DE AÇÕES.md",
     "Sistema/Media/Pasted image 20250815104904.png",
-    "_index_notas.md",
-    "Atlas/Fontes/Conceitos LYT/Metadados.md",
-    "Sistema/Controle/Notas Recentemente Modificadas.md",
-    "+/Guias Práticos.md",
-    "Sistema/Sobre/LYT/Guias Práticos ❓.md",
-    "Atlas/Fontes/Conceitos LYT/Adicionar.md",
-    "Atlas/Fontes/Conceitos LYT/Comunicar.md",
-    "Atlas/Fontes/Conceitos LYT/Areas.md",
-    "Atlas/Fontes/Conceitos LYT/Mapas.md",
-    "+/Revisitar.md",
-    "Atlas/Fontes/Conceitos LYT/Renovar.md",
-    "+/replantar.md",
-    "Atlas/Fontes/Conceitos LYT/Relacionar.md",
-    "Atlas/Fontes/Conceitos LYT/Plante.md",
-    "Atlas/Fontes/Conceitos LYT/Notas não Criadas.md",
-    "Atlas/Fontes/Conceitos LYT/Cultive.md",
-    "Sistema/Sobre/_COLEÇÕES.md",
-    "Atlas/Fontes/Conceitos LYT/Coleções.md",
-    "Atlas/Fontes/Aulas/aula 1.md",
-    "+/note.md",
     "]",
     "Esforços/Projetos/projeto 1",
-    "Esforços/Areas/Area 1",
-    "Atlas/Fontes/Aulas",
-    "Esforços/Projetos/PROJETO 12",
-    "Esforços/Areas/AREA 1",
-    "Esforços/Areas/A",
-    "Areas/aa",
-    "Areas",
     "Sistema/Media/Pasted image 20250910044512.png",
     "Sistema/Media/Images/lyt-crafting-mocs-2.jpg",
     "Sistema/Media/Images/flight-school-checklist.jpg",

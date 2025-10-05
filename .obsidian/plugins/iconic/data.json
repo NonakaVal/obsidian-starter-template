@@ -29,9 +29,6 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
-    "+/Atalhos.md": {
-      "icon": "lucide-keyboard"
-    },
     "+/Guias Práticos.md": {
       "icon": "help"
     },
@@ -101,16 +98,8 @@
       ]
     },
     "Esforços": {
-      "icon": "lucide-workflow",
+      "icon": "lucide-briefcase-business",
       "unsynced": [
-        "7c7b71a060ea143a",
-        "1e72bba6ed9414f3",
-        "cc75ea778b901110",
-        "ce38ba73d23851c6",
-        "f2c9f9d54f693b5d",
-        "6cb2e57d014bbdb9",
-        "20d1cf2ee6071a00",
-        "a276fd27d89ca356",
         "46fd94296bcfb1e1"
       ]
     },
@@ -133,6 +122,12 @@
         "a276fd27d89ca356",
         "46fd94296bcfb1e1"
       ]
+    },
+    "Sistema/Controle/Atalhos.md": {
+      "icon": "lucide-keyboard"
+    },
+    "Sistema/Controle/Coleções.md": {
+      "icon": "lucide-box"
     },
     "Sistema/Controle/Notas Recentemente Modificadas.md": {
       "icon": "lucide-clock"

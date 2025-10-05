@@ -2,11 +2,7 @@
   "files": [
     {
       "useMoment": false,
-      "file": "Esforços/2_PROJETOS.md"
-    },
-    {
-      "useMoment": false,
-      "file": "Atlas/Fontes/Conceitos LYT/Dias.md"
+      "file": "Atlas/Conceitos/LYT/Dias.md"
     },
     {
       "useMoment": false,
@@ -22,15 +18,15 @@
     },
     {
       "useMoment": false,
-      "file": "Atlas/Fontes/Conceitos LYT/homepage-help.md"
+      "file": "Atlas/Conceitos/LYT/homepage-help.md"
     },
     {
       "useMoment": false,
-      "file": "Atlas/Fontes/Conceitos LYT/Dashboard++.md"
+      "file": "Atlas/Conceitos/LYT/Dashboard++.md"
     },
     {
       "useMoment": false,
-      "file": "Atlas/Fontes/Conceitos LYT/Checklist.md"
+      "file": "Atlas/Conceitos/LYT/Checklist.md"
     }
   ],
   "useExistingPane": true,

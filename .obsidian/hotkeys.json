@@ -25,14 +25,7 @@
       "key": "N"
     }
   ],
-  "file-explorer:new-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
+  "file-explorer:new-file": [],
   "quickadd:choice:a2828339-cd6f-4405-a42f-12ce397ef27f": [
     {
       "modifiers": [
@@ -602,6 +595,14 @@
         "Alt"
       ],
       "key": "H"
+    }
+  ],
+  "quickadd:choice:9dd5d65e-dae6-4ada-8590-069c6fedb6c2": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
     }
   ]
 }

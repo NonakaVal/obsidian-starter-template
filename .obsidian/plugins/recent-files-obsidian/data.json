@@ -1,20 +1,188 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Cultive",
+      "path": "Atlas/Conceitos/LYT/Cultive.md"
+    },
+    {
+      "basename": "Construir",
+      "path": "Atlas/Conceitos/LYT/Construir.md"
+    },
+    {
+      "basename": "Arquiteto",
+      "path": "Atlas/Conceitos/LYT/Arquiteto.md"
+    },
+    {
+      "basename": "Replantar",
+      "path": "Atlas/Conceitos/LYT/Replantar.md"
+    },
+    {
+      "basename": "Renovar",
+      "path": "Atlas/Conceitos/LYT/Renovar.md"
+    },
+    {
+      "basename": "Relacionar",
+      "path": "Atlas/Conceitos/LYT/Relacionar.md"
+    },
+    {
+      "basename": "Questione",
+      "path": "Atlas/Conceitos/LYT/Questione.md"
+    },
+    {
+      "basename": "Projetos Ativos",
+      "path": "Atlas/Conceitos/LYT/Projetos Ativos.md"
+    },
+    {
+      "basename": "Plante",
+      "path": "Atlas/Conceitos/LYT/Plante.md"
+    },
+    {
+      "basename": "Pro Custom Callouts",
+      "path": "Sistema/Recursos/Pro Custom Callouts.md"
+    },
+    {
+      "basename": "Padrões de Classificação",
+      "path": "Atlas/Conceitos/LYT/Padrões de Classificação.md"
+    },
+    {
+      "basename": "Obsidian e PKM",
+      "path": "Atlas/Conceitos/LYT/Obsidian e PKM.md"
+    },
+    {
+      "basename": "Nova Coleção",
+      "path": "Atlas/Conceitos/LYT/Nova Coleção.md"
+    },
+    {
+      "basename": "Notas não Criadas",
+      "path": "Atlas/Conceitos/LYT/Notas não Criadas.md"
+    },
+    {
+      "basename": "Nota",
+      "path": "Atlas/Conceitos/LYT/Nota.md"
+    },
+    {
+      "basename": "MOC definição",
+      "path": "Atlas/Conceitos/LYT/MOC definição.md"
+    },
+    {
+      "basename": "Metadados",
+      "path": "Atlas/Conceitos/LYT/Metadados.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Atlas/Conceitos/LYT/Markdown.md"
+    },
+    {
+      "basename": "Mapas",
+      "path": "Atlas/Conceitos/LYT/Mapas.md"
+    },
+    {
+      "basename": "Custom Callouts",
+      "path": "Sistema/Recursos/Custom Callouts.md"
+    },
+    {
+      "basename": "Areas  e Projetos",
+      "path": "Atlas/Conceitos/LYT/Areas  e Projetos.md"
+    },
+    {
+      "basename": "Revitalizar",
+      "path": "Atlas/Conceitos/LYT/Revitalizar.md"
+    },
+    {
+      "basename": "Revisitar",
+      "path": "Atlas/Conceitos/LYT/Revisitar.md"
+    },
+    {
+      "basename": "🏠 Home Pro",
+      "path": "🏠 Home Pro.md"
+    },
+    {
+      "basename": "Conceitos",
+      "path": "Atlas/Conceitos/LYT/Conceitos.md"
+    },
+    {
+      "basename": "Jardineiro",
+      "path": "Atlas/Conceitos/LYT/Jardineiro.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Atlas/Conceitos/LYT/Areas.md"
+    },
+    {
+      "basename": "Como Calendário funciona",
+      "path": "Atlas/Conceitos/LYT/Como Calendário funciona.md"
+    },
+    {
+      "basename": "Como Atlas funciona",
+      "path": "Atlas/Conceitos/LYT/Como Atlas funciona.md"
+    },
+    {
+      "basename": "como + funciona",
+      "path": "Atlas/Conceitos/LYT/como + funciona.md"
+    },
+    {
+      "basename": "Guias Práticos",
+      "path": "+/Guias Práticos.md"
+    },
+    {
+      "basename": "Comunicar",
+      "path": "Atlas/Conceitos/LYT/Comunicar.md"
+    },
+    {
+      "basename": "Como usar Templater",
+      "path": "Atlas/Conceitos/LYT/Como usar Templater.md"
+    },
+    {
+      "basename": "Como Esforços funciona",
+      "path": "Atlas/Conceitos/LYT/Como Esforços funciona.md"
+    },
+    {
+      "basename": "Checklist",
+      "path": "Atlas/Conceitos/LYT/Checklist.md"
+    },
+    {
+      "basename": "Buscar Notas",
+      "path": "Sistema/Controle/Buscar Notas.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "Atlas/Conceitos/LYT/ARC Framework.md"
+    },
+    {
+      "basename": "Adicionar",
+      "path": "Atlas/Conceitos/LYT/Adicionar.md"
+    },
+    {
+      "basename": "Mapa Linking Your Thinking",
+      "path": "Atlas/Mapas/Mapa Linking Your Thinking.md"
     },
     {
       "basename": "Boas Vindas 🎉",
       "path": "Boas Vindas 🎉.md"
     },
     {
-      "basename": "🏠",
-      "path": "🏠.md"
+      "basename": "Coleções",
+      "path": "Sistema/Controle/Coleções.md"
+    },
+    {
+      "basename": "_  metadados",
+      "path": "Sistema/Templates/Snippet/_  metadados.md"
+    },
+    {
+      "basename": "Sistema de Classificação para Gestão de Conhecimento Pessoal",
+      "path": "Atlas/Conceitos/LYT/Sistema de Classificação para Gestão de Conhecimento Pessoal.md"
+    },
+    {
+      "basename": "homepage-help",
+      "path": "Atlas/Conceitos/LYT/homepage-help.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Atalhos",
-      "path": "+/Atalhos.md"
+      "path": "Sistema/Controle/Atalhos.md"
     },
     {
       "basename": "Templates",
@@ -27,174 +195,6 @@
     {
       "basename": "Pasted image 20250815104904",
       "path": "Sistema/Media/Pasted image 20250815104904.png"
-    },
-    {
-      "basename": "Metadados",
-      "path": "Atlas/Fontes/Conceitos LYT/Metadados.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "Sistema/Controle/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "+/Guias Práticos.md"
-    },
-    {
-      "basename": "Adicionar",
-      "path": "Atlas/Fontes/Conceitos LYT/Adicionar.md"
-    },
-    {
-      "basename": "Comunicar",
-      "path": "Atlas/Fontes/Conceitos LYT/Comunicar.md"
-    },
-    {
-      "basename": "Areas",
-      "path": "Atlas/Fontes/Conceitos LYT/Areas.md"
-    },
-    {
-      "basename": "Mapas",
-      "path": "Atlas/Fontes/Conceitos LYT/Mapas.md"
-    },
-    {
-      "basename": "Revisitar",
-      "path": "+/Revisitar.md"
-    },
-    {
-      "basename": "Renovar",
-      "path": "Atlas/Fontes/Conceitos LYT/Renovar.md"
-    },
-    {
-      "basename": "replantar",
-      "path": "+/replantar.md"
-    },
-    {
-      "basename": "Relacionar",
-      "path": "Atlas/Fontes/Conceitos LYT/Relacionar.md"
-    },
-    {
-      "basename": "Plante",
-      "path": "Atlas/Fontes/Conceitos LYT/Plante.md"
-    },
-    {
-      "basename": "Notas não Criadas",
-      "path": "Atlas/Fontes/Conceitos LYT/Notas não Criadas.md"
-    },
-    {
-      "basename": "Cultive",
-      "path": "Atlas/Fontes/Conceitos LYT/Cultive.md"
-    },
-    {
-      "basename": "Coleções",
-      "path": "Atlas/Fontes/Conceitos LYT/Coleções.md"
-    },
-    {
-      "basename": "aula 1",
-      "path": "Atlas/Fontes/Aulas/aula 1.md"
-    },
-    {
-      "basename": "note",
-      "path": "+/note.md"
-    },
-    {
-      "basename": "area nota",
-      "path": "Sistema/Templates/Format/area nota.md"
-    },
-    {
-      "basename": "Dias",
-      "path": "Sistema/Sobre/Dias.md"
-    },
-    {
-      "basename": "Jardineiro",
-      "path": "Sistema/Sobre/Jardineiro.md"
-    },
-    {
-      "basename": "Conceitos",
-      "path": "Atlas/Fontes/Conceitos LYT/Conceitos.md"
-    },
-    {
-      "basename": "Como Calendário funciona",
-      "path": "Atlas/Fontes/Conceitos LYT/Como Calendário funciona.md"
-    },
-    {
-      "basename": "Construir",
-      "path": "Atlas/Fontes/Conceitos LYT/Construir.md"
-    },
-    {
-      "basename": "Arquiteto",
-      "path": "Atlas/Fontes/Conceitos LYT/Arquiteto.md"
-    },
-    {
-      "basename": "2025-10-05",
-      "path": "Calendário/Dias/2025-10-05.md"
-    },
-    {
-      "basename": "Projetos Ativos",
-      "path": "Atlas/Fontes/Conceitos LYT/Projetos Ativos.md"
-    },
-    {
-      "basename": "2_PROJETOS",
-      "path": "Esforços/2_PROJETOS.md"
-    },
-    {
-      "basename": "Pro Custom Callouts",
-      "path": "Atlas/Fontes/Conceitos LYT/Pro Custom Callouts.md"
-    },
-    {
-      "basename": "Padrões de Classificação",
-      "path": "Atlas/Fontes/Conceitos LYT/Padrões de Classificação.md"
-    },
-    {
-      "basename": "Sistema de Classificação para Gestão de Conhecimento Pessoal",
-      "path": "Atlas/Fontes/Conceitos LYT/Sistema de Classificação para Gestão de Conhecimento Pessoal.md"
-    },
-    {
-      "basename": "nota projeto 1",
-      "path": "Esforços/Projetos/projeto 1/nota projeto 1.md"
-    },
-    {
-      "basename": "projeto 1",
-      "path": "Esforços/Projetos/projeto 1/projeto 1.md"
-    },
-    {
-      "basename": "nota area 1",
-      "path": "Esforços/Areas/Area 1/nota area 1.md"
-    },
-    {
-      "basename": "Area 1",
-      "path": "Esforços/Areas/Area 1/Area 1.md"
-    },
-    {
-      "basename": "2025-10-03",
-      "path": "Calendário/Dias/2025-10-03.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "Sistema/Sobre/Guias Práticos.md"
-    },
-    {
-      "basename": "homepage-help",
-      "path": "Sistema/Sobre/homepage-help.md"
-    },
-    {
-      "basename": "ARC Framework",
-      "path": "Atlas/Fontes/Conceitos LYT/ARC Framework.md"
-    },
-    {
-      "basename": "template",
-      "path": "Sistema/Templates/Format/template.md"
-    },
-    {
-      "basename": "projeto nota",
-      "path": "Sistema/Templates/Format/projeto nota.md"
-    },
-    {
-      "basename": "projeto",
-      "path": "Sistema/Templates/Format/projeto.md"
-    },
-    {
-      "basename": "% MAPA DATAVIEW DE ATLAS",
-      "path": "Sistema/Templates/Format/% MAPA DATAVIEW DE ATLAS.md"
     }
   ],
   "omittedPaths": [

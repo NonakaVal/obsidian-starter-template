@@ -1,1 +1,0 @@
-Atalho para inserir um template:  `Alt + E`
