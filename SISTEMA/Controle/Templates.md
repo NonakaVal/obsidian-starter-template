@@ -3,12 +3,9 @@ up:
   - "[[Home Pro]]"
 collection:
   - "[[Mapas]]"
-related: 
+related:
 created:
   - 2023-10-15
-cssclasses:
-  - hide-properties_editing
-  - hide-properties_reading
 ---
 ```dataviewjs
 // =============================

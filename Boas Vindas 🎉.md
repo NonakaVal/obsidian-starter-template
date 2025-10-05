@@ -1,8 +1,3 @@
----
-cssclasses:
-  - hide-properties_editing
-  - hide-properties_reading
----
 
 # Resumo 
 
@@ -134,10 +129,11 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 - Backup: Faça backups regulares de sua vault para evitar perda de dados.
 - Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o Sistema.
 ---
+
  `BUTTON[help]`     
 
 ```meta-bind-button
-label: Guias Prático
+label: Guias Práticos
 hidden: true
 icon: help
 class: ""
@@ -145,6 +141,7 @@ id: help
 style: primary
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:Sistema/SOBRE/Guias Práticos.md-new-tab
+    command: obsidian-hotkeys-for-specific-files:+/Guias Práticos.md
 ```
+
 

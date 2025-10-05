@@ -1,8 +1,5 @@
 ---
 created: "[[2025-07-20]]"
-cssclasses:
-  - hide-properties_reading
-  - hide-properties_editing
 ---
 # Primeiros passos
 
@@ -20,20 +17,18 @@ cssclasses:
 > [!VIDEO]- 🏠 Homepage
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1y-93iC85x6ADoUblwMolIzOMSCZtNEUU/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
- `BUTTON[help-home]`     
+ `BUTTON[home-help]`     
 
 ```meta-bind-button
-label: Acessar 🏠 de Ajuda
+label: Acessar 🏠 help
 hidden: true
-icon: help
 class: ""
-id: help-home
+id: home-help
 style: primary
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/homepage-help.md-new-tab
+    command: obsidian-hotkeys-for-specific-files:Atlas/Conceitos/LYT/homepage-help.md-new-tab
 ```
-
 
 
 # Criando Notas 

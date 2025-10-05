@@ -4,7 +4,6 @@
   "obsidian-style-settings",
   "tabs",
   "dataview",
-  "obsidian-hotkeys-for-specific-files",
   "iconic",
   "js-engine",
   "obsidian-list-callouts",
@@ -26,5 +25,6 @@
   "dashboard-navigator",
   "homepage",
   "obsidian-view-mode-by-frontmatter",
-  "simple-banner"
+  "simple-banner",
+  "obsidian-hotkeys-for-specific-files"
 ]

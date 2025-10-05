@@ -10,8 +10,6 @@ created:
   - 2023-11-14
 cssclasses:
   - wide-page
-  - hide-properties_editing
-  - hide-properties_reading
 ---
  
 ### Últimas `50` notas modificadas

@@ -2,9 +2,6 @@
 project: "[[<% tp.file.folder() %>]]"
 tags:
 type: project
-cssclasses:
-  - hide-properties_reading
-  - hide-properties_editing
 created:
   - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 up: "[[2_PROJETOS|2_PROJETOS]]"

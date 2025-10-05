@@ -4,38 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "c6a56c1968dc42cd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "257cf65b4dbfcdee",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Conceitos/LYT/Cultive.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Cultive"
-            }
-          }
-        ]
-      },
-      {
         "id": "f942ed9ede8b1730",
         "type": "tabs",
         "children": [
@@ -66,12 +34,12 @@
             }
           },
           {
-            "id": "4cb9847416b60b24",
+            "id": "00729c11884824f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Conceitos/LYT/Construir.md",
+                "file": "Sistema/Templates/Format/nota diaria.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Construir"
+              "title": "nota diaria"
             }
           }
         ],
@@ -157,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(repot)",
+                "query": "[\"cssclasses\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,10 +156,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/Conceitos/LYT/Cultive.md"
+                "file": "Sistema/Templates/Format/nota diaria.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Cultive"
+              "title": "File properties for nota diaria"
             }
           },
           {
@@ -223,8 +191,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -347,34 +314,35 @@
   },
   "active": "26bda3c9cb740625",
   "lastOpenFiles": [
+    "Sistema/Templates/Format/livro.md",
+    "+/Guias Práticos.md",
+    "Boas Vindas 🎉.md",
+    "Sistema/Templates/Format/area nota.md",
+    "Sistema/Templates/Format/artigo.md",
+    "Calendário/Dias/2025-10-05.md",
+    "Sistema/Templates/Format/% MAPA DATAVIEW DE ATLAS.md",
+    "Sistema/Controle/Notas Recentemente Modificadas.md",
+    "Sistema/Templates/Format/projeto.md",
+    "Sistema/Templates/Format/projeto nota.md",
+    "Sistema/Controle/Templates.md",
+    "Sistema/Templates/Format/area.md",
+    "Sistema/Templates/Format/base.md",
+    "Calendário/Dias/2025-10-03.md",
+    "Calendário/Dias/2025-09-18.md",
+    "Calendário/Dias/2025-09-17.md",
+    "Calendário/Dias/2025-09-15.md",
+    "Calendário/Dias/2025-09-12.md",
+    "Calendário/Dias/2025-09-11.md",
+    "Calendário/Dias/2025-09-04.md",
+    "Calendário/Dias/2025-08-20.md",
+    "Calendário/Dias/2025-08-19.md",
+    "Calendário/Dias/2025-08-17.md",
+    "🏠 Home Pro.md",
     "Atlas/Conceitos/LYT/Construir.md",
-    "Esforços/Untitled",
-    "Atlas/Fontes/a.md",
-    "Atlas/Conceitos",
-    "Atlas/Conceitos/LYT/Arquiteto.md",
-    "Atlas/Conceitos/LYT/Replantar.md",
-    "Atlas/Conceitos/LYT/Renovar.md",
-    "Atlas/Conceitos/LYT/Relacionar.md",
-    "Atlas/Conceitos/LYT/Questione.md",
-    "Atlas/Conceitos/LYT/Projetos Ativos.md",
-    "Atlas/Conceitos/LYT/Plante.md",
-    "Sistema/Recursos/Pro Custom Callouts.md",
-    "Atlas/Conceitos/LYT/Padrões de Classificação.md",
-    "Atlas/Conceitos/LYT/Obsidian e PKM.md",
-    "Atlas/Conceitos/LYT/Nova Coleção.md",
-    "Atlas/Conceitos/LYT/Notas não Criadas.md",
-    "Atlas/Conceitos/LYT/Nota.md",
-    "Atlas/Conceitos/LYT/MOC definição.md",
-    "Atlas/Conceitos/LYT/Metadados.md",
-    "Atlas/Conceitos/LYT/Markdown.md",
-    "Atlas/Conceitos/LYT/Mapas.md",
-    "Sistema/Recursos/Custom Callouts.md",
-    "Sistema/Recursos",
-    "Atlas/Conceitos/LYT/Areas  e Projetos.md",
-    "Atlas/Conceitos/LYT/Revitalizar.md",
     "Atlas/Conceitos/LYT/Cultive.md",
-    "Atlas/Conceitos/LYT/Revisitar.md",
-    "+/Jardineiro.md",
+    "Esforços/Untitled",
+    "Atlas/Conceitos",
+    "Sistema/Recursos",
     "Esforços/Areas/a",
     "Esforços/Areas",
     "Esforços",

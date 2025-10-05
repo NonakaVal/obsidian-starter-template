@@ -2,9 +2,6 @@
 tags:
   - calendar/daily
 created: <% tp.file.creation_date() %>
-cssclasses:
-  - hide-properties_editing
-  - hide-properties_reading
 ---
 
 # Lembretes

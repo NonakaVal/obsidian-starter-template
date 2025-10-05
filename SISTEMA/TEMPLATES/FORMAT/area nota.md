@@ -3,9 +3,6 @@ area: "[[<% tp.file.folder() %>]]"
 resumo:
 tags:
 type: area_note
-cssclasses:
-  - hide-properties_reading
-  - hide-properties_editing
 created:
   - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
 up:
