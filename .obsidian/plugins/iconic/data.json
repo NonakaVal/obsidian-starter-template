@@ -29,6 +29,12 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "+/Atalhos.md": {
+      "icon": "lucide-keyboard"
+    },
+    "+/Guias Práticos.md": {
+      "icon": "help"
+    },
     "Atlas": {
       "icon": "lucide-notebook-pen",
       "unsynced": [
@@ -52,6 +58,9 @@
         "a276fd27d89ca356",
         "46fd94296bcfb1e1"
       ]
+    },
+    "Boas Vindas 🎉.md": {
+      "icon": "lucide-party-popper"
     },
     "CALENDAR": {
       "icon": "lucide-calendar-fold",
@@ -125,19 +134,10 @@
         "46fd94296bcfb1e1"
       ]
     },
-    "Sistema/Sobre/Boas Vindas 🎉.md": {
-      "icon": "lucide-party-popper"
-    },
-    "Sistema/Sobre/Guias Práticos.md": {
-      "icon": "help"
-    },
-    "Sistema/Sobre/LYT/Atalhos.md": {
-      "icon": "lucide-keyboard"
-    },
-    "Sistema/Sobre/Notas Recentemente Modificadas.md": {
+    "Sistema/Controle/Notas Recentemente Modificadas.md": {
       "icon": "lucide-clock"
     },
-    "Sistema/Sobre/Templates.md": {
+    "Sistema/Controle/Templates.md": {
       "icon": "lucide-square-dashed-bottom-code"
     }
   },

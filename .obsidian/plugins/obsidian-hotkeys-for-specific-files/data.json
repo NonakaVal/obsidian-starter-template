@@ -2,19 +2,11 @@
   "files": [
     {
       "useMoment": false,
-      "file": "Esforços/1_AREAS.md"
-    },
-    {
-      "useMoment": false,
       "file": "Esforços/2_PROJETOS.md"
     },
     {
       "useMoment": false,
-      "file": "Sistema/Sobre/_COLEÇÕES.md"
-    },
-    {
-      "useMoment": false,
-      "file": "Calendário/Revisões/Dias.md"
+      "file": "Atlas/Fontes/Conceitos LYT/Dias.md"
     },
     {
       "useMoment": false,
@@ -22,23 +14,23 @@
     },
     {
       "useMoment": false,
-      "file": "Sistema/Sobre/Notas Recentemente Modificadas.md"
+      "file": "Sistema/Controle/Notas Recentemente Modificadas.md"
     },
     {
       "useMoment": false,
-      "file": "Sistema/Sobre/Guias Práticos.md"
+      "file": "+/Guias Práticos.md"
     },
     {
       "useMoment": false,
-      "file": "Sistema/Sobre/homepage-help.md"
+      "file": "Atlas/Fontes/Conceitos LYT/homepage-help.md"
     },
     {
       "useMoment": false,
-      "file": "Sistema/Sobre/Dashboard++.md"
+      "file": "Atlas/Fontes/Conceitos LYT/Dashboard++.md"
     },
     {
       "useMoment": false,
-      "file": "Sistema/Sobre/LYT/Checklist.md"
+      "file": "Atlas/Fontes/Conceitos LYT/Checklist.md"
     }
   ],
   "useExistingPane": true,

@@ -8,7 +8,7 @@ cssclasses:
 created:
   - "[[2025-10-03]]"
 up: "[[2_PROJETOS|2_PROJETOS]]"
-collection: "[[SISTEMA/COLEÇÕES/projetos.md|projetos]]"
+collection: "[[projetos|projetos]]"
 ---
 
  `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |

@@ -1,16 +1,152 @@
 {
   "recentFiles": [
     {
-      "basename": "🏠",
-      "path": "🏠.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
+      "basename": "Boas Vindas 🎉",
+      "path": "Boas Vindas 🎉.md"
+    },
+    {
+      "basename": "🏠",
+      "path": "🏠.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "+/Atalhos.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "Sistema/Controle/Templates.md"
+    },
+    {
+      "basename": "BARRA DE AÇÕES",
+      "path": "Sistema/Templates/BARRA DE AÇÕES.md"
+    },
+    {
+      "basename": "Pasted image 20250815104904",
+      "path": "Sistema/Media/Pasted image 20250815104904.png"
+    },
+    {
+      "basename": "Metadados",
+      "path": "Atlas/Fontes/Conceitos LYT/Metadados.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "Sistema/Controle/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "Guias Práticos",
+      "path": "+/Guias Práticos.md"
+    },
+    {
+      "basename": "Adicionar",
+      "path": "Atlas/Fontes/Conceitos LYT/Adicionar.md"
+    },
+    {
+      "basename": "Comunicar",
+      "path": "Atlas/Fontes/Conceitos LYT/Comunicar.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Atlas/Fontes/Conceitos LYT/Areas.md"
+    },
+    {
+      "basename": "Mapas",
+      "path": "Atlas/Fontes/Conceitos LYT/Mapas.md"
+    },
+    {
+      "basename": "Revisitar",
+      "path": "+/Revisitar.md"
+    },
+    {
+      "basename": "Renovar",
+      "path": "Atlas/Fontes/Conceitos LYT/Renovar.md"
+    },
+    {
+      "basename": "replantar",
+      "path": "+/replantar.md"
+    },
+    {
+      "basename": "Relacionar",
+      "path": "Atlas/Fontes/Conceitos LYT/Relacionar.md"
+    },
+    {
+      "basename": "Plante",
+      "path": "Atlas/Fontes/Conceitos LYT/Plante.md"
+    },
+    {
+      "basename": "Notas não Criadas",
+      "path": "Atlas/Fontes/Conceitos LYT/Notas não Criadas.md"
+    },
+    {
+      "basename": "Cultive",
+      "path": "Atlas/Fontes/Conceitos LYT/Cultive.md"
+    },
+    {
+      "basename": "Coleções",
+      "path": "Atlas/Fontes/Conceitos LYT/Coleções.md"
+    },
+    {
       "basename": "aula 1",
       "path": "Atlas/Fontes/Aulas/aula 1.md"
+    },
+    {
+      "basename": "note",
+      "path": "+/note.md"
+    },
+    {
+      "basename": "area nota",
+      "path": "Sistema/Templates/Format/area nota.md"
+    },
+    {
+      "basename": "Dias",
+      "path": "Sistema/Sobre/Dias.md"
+    },
+    {
+      "basename": "Jardineiro",
+      "path": "Sistema/Sobre/Jardineiro.md"
+    },
+    {
+      "basename": "Conceitos",
+      "path": "Atlas/Fontes/Conceitos LYT/Conceitos.md"
+    },
+    {
+      "basename": "Como Calendário funciona",
+      "path": "Atlas/Fontes/Conceitos LYT/Como Calendário funciona.md"
+    },
+    {
+      "basename": "Construir",
+      "path": "Atlas/Fontes/Conceitos LYT/Construir.md"
+    },
+    {
+      "basename": "Arquiteto",
+      "path": "Atlas/Fontes/Conceitos LYT/Arquiteto.md"
+    },
+    {
+      "basename": "2025-10-05",
+      "path": "Calendário/Dias/2025-10-05.md"
+    },
+    {
+      "basename": "Projetos Ativos",
+      "path": "Atlas/Fontes/Conceitos LYT/Projetos Ativos.md"
+    },
+    {
+      "basename": "2_PROJETOS",
+      "path": "Esforços/2_PROJETOS.md"
+    },
+    {
+      "basename": "Pro Custom Callouts",
+      "path": "Atlas/Fontes/Conceitos LYT/Pro Custom Callouts.md"
+    },
+    {
+      "basename": "Padrões de Classificação",
+      "path": "Atlas/Fontes/Conceitos LYT/Padrões de Classificação.md"
+    },
+    {
+      "basename": "Sistema de Classificação para Gestão de Conhecimento Pessoal",
+      "path": "Atlas/Fontes/Conceitos LYT/Sistema de Classificação para Gestão de Conhecimento Pessoal.md"
     },
     {
       "basename": "nota projeto 1",
@@ -33,10 +169,6 @@
       "path": "Calendário/Dias/2025-10-03.md"
     },
     {
-      "basename": "_COLEÇÕES",
-      "path": "Sistema/Sobre/_COLEÇÕES.md"
-    },
-    {
       "basename": "Guias Práticos",
       "path": "Sistema/Sobre/Guias Práticos.md"
     },
@@ -45,16 +177,8 @@
       "path": "Sistema/Sobre/homepage-help.md"
     },
     {
-      "basename": "Boas Vindas 🎉",
-      "path": "Sistema/Sobre/Boas Vindas 🎉.md"
-    },
-    {
       "basename": "ARC Framework",
-      "path": "Sistema/Sobre/LYT/ARC Framework.md"
-    },
-    {
-      "basename": "Dias",
-      "path": "Calendário/Revisões/Dias.md"
+      "path": "Atlas/Fontes/Conceitos LYT/ARC Framework.md"
     },
     {
       "basename": "template",
@@ -71,118 +195,6 @@
     {
       "basename": "% MAPA DATAVIEW DE ATLAS",
       "path": "Sistema/Templates/Format/% MAPA DATAVIEW DE ATLAS.md"
-    },
-    {
-      "basename": "mensal-template",
-      "path": "Sistema/Templates/Format/mensal-template.md"
-    },
-    {
-      "basename": "livro",
-      "path": "Sistema/Templates/Format/livro.md"
-    },
-    {
-      "basename": "coleção",
-      "path": "Sistema/Templates/Format/coleção.md"
-    },
-    {
-      "basename": "base",
-      "path": "Sistema/Templates/Format/base.md"
-    },
-    {
-      "basename": "aula",
-      "path": "Sistema/Templates/Format/aula.md"
-    },
-    {
-      "basename": "% metadados",
-      "path": "Sistema/Templates/Snippet/% metadados.md"
-    },
-    {
-      "basename": "nota diaria",
-      "path": "Sistema/Templates/Format/nota diaria.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "Sistema/Sobre/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "Como Esforços funciona",
-      "path": "Sistema/Sobre/LYT/Como Esforços funciona.md"
-    },
-    {
-      "basename": "% TODAS TAREFAS",
-      "path": "Sistema/Templates/Snippet/% TODAS TAREFAS.md"
-    },
-    {
-      "basename": "area",
-      "path": "Sistema/Templates/Format/area.md"
-    },
-    {
-      "basename": "Guias Práticos ❓",
-      "path": "Sistema/Sobre/Guias Práticos ❓.md"
-    },
-    {
-      "basename": "Checklist",
-      "path": "Sistema/Sobre/LYT/Checklist.md"
-    },
-    {
-      "basename": "Dashboard++",
-      "path": "Sistema/Sobre/Dashboard++.md"
-    },
-    {
-      "basename": "2_PROJETOS",
-      "path": "Esforços/2_PROJETOS.md"
-    },
-    {
-      "basename": "1_AREAS",
-      "path": "Esforços/1_AREAS.md"
-    },
-    {
-      "basename": "2025-09",
-      "path": "Calendário/Revisões/2025-09.md"
-    },
-    {
-      "basename": "2025-09-18",
-      "path": "Calendário/Dias/2025-09-18.md"
-    },
-    {
-      "basename": "2025-09-15",
-      "path": "Calendário/Dias/2025-09-15.md"
-    },
-    {
-      "basename": "2025-09-17",
-      "path": "Calendário/Dias/2025-09-17.md"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "Sistema/Sobre/LYT/Atalhos.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Sistema/Sobre/LYT/Markdown.md"
-    },
-    {
-      "basename": "% Linha de Ultima data de alteração",
-      "path": "Sistema/Templates/Snippet/% Linha de Ultima data de alteração.md"
-    },
-    {
-      "basename": "Templates",
-      "path": "Sistema/Sobre/Templates.md"
-    },
-    {
-      "basename": "area nota",
-      "path": "Sistema/Templates/Format/area nota.md"
-    },
-    {
-      "basename": "iframe",
-      "path": "Sistema/Templates/Snippet/iframe.md"
-    },
-    {
-      "basename": "% METABIND BOTÃO COM COMANDO",
-      "path": "Sistema/Templates/Snippet/% METABIND BOTÃO COM COMANDO.md"
-    },
-    {
-      "basename": "artigo",
-      "path": "Sistema/Templates/Format/artigo.md"
     }
   ],
   "omittedPaths": [

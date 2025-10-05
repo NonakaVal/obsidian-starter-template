@@ -17,7 +17,7 @@ type: clock
 
 <br>
 
-> [!globe]+ **[[ATLAS]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** [^3] [^4]
+> [!globe]+ **[[Atlas]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** [^3] [^4]
 >  >  `BUTTON[dash, nav]`   `BUTTON[col]`  `BUTTON[last]`
 
 --- start-multi-column: ExampleRegion3

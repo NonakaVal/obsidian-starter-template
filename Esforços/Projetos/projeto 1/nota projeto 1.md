@@ -10,7 +10,7 @@ created:
   - "[[2025-10-03]]"
 up:
   - "[[2_PROJETOS|2_PROJETOS]]"
-collection: "[[SISTEMA/COLEÇÕES/projetos.md|projetos]]"
+collection: "[[projetos|projetos]]"
 related:
   - "[[Esforços/Areas/Area 1/Area 1.md|Area 1]]"
 ---
