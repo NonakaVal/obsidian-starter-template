@@ -34,13 +34,13 @@
             }
           },
           {
-            "id": "00729c11884824f3",
+            "id": "e3bb9c6ddd5aff9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistema/Templates/Format/nota diaria.md",
-                "mode": "source",
+                "file": "+/Guias Práticos.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "nota diaria"
+              "title": "Guias Práticos"
             }
           }
         ],
@@ -110,13 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistema/Sobre/Guias Práticos.md",
+                "file": "+/Guias Práticos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Guias Práticos"
+              "title": "Outline of Guias Práticos"
             }
           },
           {
@@ -140,7 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264
+    "width": 386
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -156,10 +156,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Sistema/Templates/Format/nota diaria.md"
+                "file": "+/Guias Práticos.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for nota diaria"
+              "title": "File properties for Guias Práticos"
             }
           },
           {
@@ -312,11 +312,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "26bda3c9cb740625",
+  "active": "e3bb9c6ddd5aff9a",
   "lastOpenFiles": [
-    "Sistema/Templates/Format/livro.md",
+    "Atlas/Conceitos/LYT/Markdown.md",
     "+/Guias Práticos.md",
+    "Atlas/Conceitos/LYT/homepage-help.md",
+    "Atlas/Conceitos/LYT/Notas não Criadas.md",
+    "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
+    "Atlas/Conceitos/LYT/Metadados.md",
+    "Atlas/Conceitos/LYT/Nota.md",
+    "🏠 Home Pro.md",
     "Boas Vindas 🎉.md",
+    "Atlas/Conceitos/LYT/ARC Framework.md",
+    "Atlas/Conceitos/LYT/Checklist.md",
+    "Sistema/Templates/Format/nota diaria.md",
+    "Sistema/Templates/Format/livro.md",
     "Sistema/Templates/Format/area nota.md",
     "Sistema/Templates/Format/artigo.md",
     "Calendário/Dias/2025-10-05.md",
@@ -330,16 +340,6 @@
     "Calendário/Dias/2025-10-03.md",
     "Calendário/Dias/2025-09-18.md",
     "Calendário/Dias/2025-09-17.md",
-    "Calendário/Dias/2025-09-15.md",
-    "Calendário/Dias/2025-09-12.md",
-    "Calendário/Dias/2025-09-11.md",
-    "Calendário/Dias/2025-09-04.md",
-    "Calendário/Dias/2025-08-20.md",
-    "Calendário/Dias/2025-08-19.md",
-    "Calendário/Dias/2025-08-17.md",
-    "🏠 Home Pro.md",
-    "Atlas/Conceitos/LYT/Construir.md",
-    "Atlas/Conceitos/LYT/Cultive.md",
     "Esforços/Untitled",
     "Atlas/Conceitos",
     "Sistema/Recursos",

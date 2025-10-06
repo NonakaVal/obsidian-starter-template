@@ -1,5 +1,5 @@
 ---
-up: "[[Atlas/Mapas/Mapa Linking Your Thinking.md|Mapa Linking Your Thinking]]"
+up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
 Embora eu encoraje você a **personalizar totalmente sua nota inicial (home)**, recomendo que comece a construir sua **nota de biblioteca** usando o **Sistema de Classificação LYT**.  

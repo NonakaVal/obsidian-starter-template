@@ -1,5 +1,5 @@
 ---
-up: "[[Atlas/Mapas/Mapa Linking Your Thinking.md|Mapa Linking Your Thinking]]"
+up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
 O **Efforts** ajuda a manter suas prioridades em foco, ajustar seu ritmo conforme necessário e reunir os **trabalhos concluídos** que você compartilhou pelo caminho.

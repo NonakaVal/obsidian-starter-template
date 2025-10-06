@@ -1,5 +1,5 @@
 ---
-up: "[[Atlas/Mapas/Mapa Linking Your Thinking.md|Mapa Linking Your Thinking]]"
+up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
 Quando um **flash de inspiração** surge, você consegue capturar a faísca? É para isso que serve a pasta `+`. Sempre que você cria uma nova nota, ela é adicionada lá. Você não precisa se preocupar em organizá-la de imediato.

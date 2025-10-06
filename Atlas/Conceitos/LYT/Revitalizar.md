@@ -1,5 +1,5 @@
 ---
-up: "[[Atlas/Mapas/Mapa Linking Your Thinking.md|Mapa Linking Your Thinking]]"
+up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
 > [!trees] [[Plant]] | [[Cultivate]] | [[Question]] | [[Repot]] | **[[Revitalize]]** | [[Revisit]] — [[Architect]] ⤴️

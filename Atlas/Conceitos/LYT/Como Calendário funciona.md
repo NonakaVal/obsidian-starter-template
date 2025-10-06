@@ -1,5 +1,5 @@
 ---
-up: "[[Atlas/Mapas/Mapa Linking Your Thinking.md|Mapa Linking Your Thinking]]"
+up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
 O **Calendário** organiza tudo o que é guiado pelo tempo: notas diárias, registros de momentos importantes e revisões da vida e do trabalho.

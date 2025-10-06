@@ -82,7 +82,7 @@ Nenhum hub encontrado nos frontmatters.
 - 📄 [[homepage-help]]
 ## 📂 Mapas
 
-- 📄 [[Mapa Linking Your Thinking]]
+- 📄 [[Mapa de Gestão de Conhecimento]]
 # 📁 Calendário
 
 ## 📂 Dias

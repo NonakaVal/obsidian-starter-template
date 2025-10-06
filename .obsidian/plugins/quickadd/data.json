@@ -8,7 +8,7 @@
       "choices": [
         {
           "id": "c0b14d43-c5b3-4ea6-b6e4-a05a638f2b1a",
-          "name": "➕ NOTA BASE",
+          "name": "📝 Nota",
           "type": "Template",
           "command": true,
           "templatePath": "Sistema/Templates/Format/base.md",
@@ -44,13 +44,13 @@
         },
         {
           "id": "ebc3941c-ed51-4da4-abb4-bf15c72eb683",
-          "name": "➕ AREA -  PROJETO",
+          "name": "💼 Esforços",
           "type": "Multi",
           "command": true,
           "choices": [
             {
               "id": "eba61b27-bfb6-40ac-b0f0-18d4053593cb",
-              "name": "➕ NOVA AREA",
+              "name": "➕ Area",
               "type": "Template",
               "command": true,
               "templatePath": "Sistema/Templates/Format/area.md",
@@ -86,7 +86,7 @@
             },
             {
               "id": "060c8a74-21bd-48d2-b8d7-095bac09a983",
-              "name": "➕ NOVO PROJETO",
+              "name": "➕ Projeto",
               "type": "Template",
               "command": true,
               "templatePath": "Sistema/Templates/Format/projeto.md",
@@ -125,7 +125,7 @@
         },
         {
           "id": "ee5e8119-1aa0-4823-9994-df9eaec24752",
-          "name": "📝 AULA",
+          "name": "📐 Aula",
           "type": "Template",
           "command": true,
           "templatePath": "Sistema/Templates/Format/aula.md",
@@ -161,7 +161,7 @@
         },
         {
           "id": "21d35060-e46c-4b6c-879d-b660ab65263a",
-          "name": "📖 LIVRO",
+          "name": "📖 Livro",
           "type": "Template",
           "command": true,
           "templatePath": "Sistema/Templates/Format/livro.md",
@@ -196,80 +196,44 @@
           }
         },
         {
-          "id": "d223214e-cf0c-4a6a-9d27-bfe62d8542aa",
-          "name": "🗂️ NOVA COLEÇÃO",
-          "type": "Template",
-          "command": true,
-          "templatePath": "Sistema/Templates/Format/coleção.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "SISTEMA/COLEÇÕES"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFile": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "mode": "default",
-            "focus": true
-          },
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
-        },
-        {
-          "id": "c23b977e-5e03-4656-9037-672bfb29f740",
-          "name": "🖼️ MAPA ATLAS DATAVIEW",
-          "type": "Template",
-          "command": true,
-          "templatePath": "Sistema/Templates/Format/% MAPA DATAVIEW DE ATLAS.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "ATLAS/MAPAS/+"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "focus": true,
-            "mode": "default"
-          }
-        },
-        {
           "id": "e353c38f-5c1c-474f-b9af-9001b3bb3753",
-          "name": "⚙️ TEMPLATE ",
+          "name": "⚙️ Notas de Sistema",
           "type": "Multi",
           "command": true,
           "choices": [
             {
+              "id": "094bcc94-8839-4f2c-aa0f-a67f232b3822",
+              "name": "📑 Template de Formatação",
+              "type": "Template",
+              "command": true,
+              "templatePath": "Sistema/Templates/Format/template.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "/Format"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            },
+            {
               "id": "34b099b1-b547-4462-a6ee-93677eeec177",
-              "name": "SNIPPET",
+              "name": "📜 Template Snippet",
               "type": "Template",
               "command": true,
               "templatePath": "Sistema/Templates/Format/template.md",
@@ -298,11 +262,11 @@
               "setFileExistsBehavior": false
             },
             {
-              "id": "094bcc94-8839-4f2c-aa0f-a67f232b3822",
-              "name": "TEMPLATE DE FORMATAÇÃO",
+              "id": "d223214e-cf0c-4a6a-9d27-bfe62d8542aa",
+              "name": "🗂️ Nova Coleção",
               "type": "Template",
               "command": true,
-              "templatePath": "Sistema/Templates/Format/template.md",
+              "templatePath": "Sistema/Templates/Format/coleção.md",
               "fileNameFormat": {
                 "enabled": false,
                 "format": ""
@@ -310,14 +274,14 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "/Format"
+                  "SISTEMA/COLEÇÕES"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
                 "chooseFromSubfolders": false
               },
               "appendLink": false,
-              "openFile": true,
+              "openFile": false,
               "fileOpening": {
                 "location": "tab",
                 "direction": "vertical",
@@ -327,7 +291,8 @@
               "fileExistsMode": "Increment the file name",
               "setFileExistsBehavior": false
             }
-          ]
+          ],
+          "collapsed": false
         }
       ],
       "collapsed": false

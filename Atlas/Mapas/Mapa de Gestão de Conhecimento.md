@@ -4,8 +4,6 @@ up:
 collection:
   - "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
-### 📘 Mapa de Conteúdo: Conceitos LYT
-
 #### I. Fundamentos do PKM e LYT
 
 - **Visão Geral**

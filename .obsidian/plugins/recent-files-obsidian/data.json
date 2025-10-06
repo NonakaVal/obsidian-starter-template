@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Guias Práticos",
+      "path": "+/Guias Práticos.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Atlas/Conceitos/LYT/Markdown.md"
+    },
+    {
+      "basename": "homepage-help",
+      "path": "Atlas/Conceitos/LYT/homepage-help.md"
+    },
+    {
+      "basename": "Notas não Criadas",
+      "path": "Atlas/Conceitos/LYT/Notas não Criadas.md"
+    },
+    {
+      "basename": "Mapa de Gestão de Conhecimento",
+      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "Metadados",
+      "path": "Atlas/Conceitos/LYT/Metadados.md"
+    },
+    {
+      "basename": "Nota",
+      "path": "Atlas/Conceitos/LYT/Nota.md"
+    },
+    {
+      "basename": "🏠 Home Pro",
+      "path": "🏠 Home Pro.md"
+    },
+    {
+      "basename": "Boas Vindas 🎉",
+      "path": "Boas Vindas 🎉.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "Atlas/Conceitos/LYT/ARC Framework.md"
+    },
+    {
+      "basename": "Checklist",
+      "path": "Atlas/Conceitos/LYT/Checklist.md"
+    },
+    {
       "basename": "nota diaria",
       "path": "Sistema/Templates/Format/nota diaria.md"
     },
     {
       "basename": "livro",
       "path": "Sistema/Templates/Format/livro.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "+/Guias Práticos.md"
-    },
-    {
-      "basename": "Boas Vindas 🎉",
-      "path": "Boas Vindas 🎉.md"
     },
     {
       "basename": "area nota",
@@ -97,10 +133,6 @@
       "path": "Calendário/Dias/2025-08-17.md"
     },
     {
-      "basename": "🏠 Home Pro",
-      "path": "🏠 Home Pro.md"
-    },
-    {
       "basename": "Construir",
       "path": "Atlas/Conceitos/LYT/Construir.md"
     },
@@ -153,24 +185,8 @@
       "path": "Atlas/Conceitos/LYT/Nova Coleção.md"
     },
     {
-      "basename": "Notas não Criadas",
-      "path": "Atlas/Conceitos/LYT/Notas não Criadas.md"
-    },
-    {
-      "basename": "Nota",
-      "path": "Atlas/Conceitos/LYT/Nota.md"
-    },
-    {
       "basename": "MOC definição",
       "path": "Atlas/Conceitos/LYT/MOC definição.md"
-    },
-    {
-      "basename": "Metadados",
-      "path": "Atlas/Conceitos/LYT/Metadados.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Atlas/Conceitos/LYT/Markdown.md"
     },
     {
       "basename": "Mapas",
@@ -183,22 +199,6 @@
     {
       "basename": "Areas  e Projetos",
       "path": "Atlas/Conceitos/LYT/Areas  e Projetos.md"
-    },
-    {
-      "basename": "Revitalizar",
-      "path": "Atlas/Conceitos/LYT/Revitalizar.md"
-    },
-    {
-      "basename": "Revisitar",
-      "path": "Atlas/Conceitos/LYT/Revisitar.md"
-    },
-    {
-      "basename": "Conceitos",
-      "path": "Atlas/Conceitos/LYT/Conceitos.md"
-    },
-    {
-      "basename": "Jardineiro",
-      "path": "Atlas/Conceitos/LYT/Jardineiro.md"
     }
   ],
   "omittedPaths": [

@@ -1,5 +1,5 @@
 ---
-up: "[[Atlas/Mapas/Mapa Linking Your Thinking.md|Mapa Linking Your Thinking]]"
+up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
 O **Atlas** é a pasta que reúne mapas de conteúdo (MOCs), ideias, fontes e outros fragmentos de conhecimento. Ele serve tanto para **desenvolver ideias**, com o Framework ARC.
