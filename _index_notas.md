@@ -1,12 +1,12 @@
 
 
-*Atualizado em 2025/10/06 07:39*
+*Atualizado em 2025/10/07 17:25*
 
  ## 🗒️ Informações Gerais
 
-- **Total de Notas:** 61
-- **Número de Pastas:** 8
-- **Pasta com mais notas:** `Atlas\Conceitos\LYT` (39 notas)
+- **Total de Notas:** 52
+- **Número de Pastas:** 7
+- **Pasta com mais notas:** `Atlas\Conceitos\Gestão de conhecimento` (41 notas)
 
 ---
 
@@ -20,13 +20,13 @@ Nenhum hub encontrado nos frontmatters.
 
 | Propriedade | Arquivos | Cobertura |
 |--------------|----------|-----------|
-| `up` | 46 | 71.9% |
-| `collection` | 46 | 71.9% |
-| `created` | 14 | 21.9% |
-| `tags` | 11 | 17.2% |
-| `cssclasses` | 2 | 3.1% |
-| `related` | 2 | 3.1% |
-| `banner` | 1 | 1.6% |
+| `up` | 48 | 87.3% |
+| `collection` | 48 | 87.3% |
+| `created` | 3 | 5.5% |
+| `tags` | 3 | 5.5% |
+| `cssclasses` | 2 | 3.6% |
+| `related` | 2 | 3.6% |
+| `banner` | 1 | 1.8% |
 
 ---
 
@@ -34,12 +34,12 @@ Nenhum hub encontrado nos frontmatters.
 
 # 📁 +
 
-- 📄 [[Guias Práticos]]
+- 📄 [[Guias Práticos ❓]]
 # 📁 Atlas
 
 ## 📂 Conceitos
 
-### 📘 LYT
+### 📘 Gestão de conhecimento
 
 - 📄 [[.md]]
 - 📄 [[ARC Framework]]
@@ -47,9 +47,11 @@ Nenhum hub encontrado nos frontmatters.
 - 📄 [[Areas]]
 - 📄 [[Areas  e Projetos]]
 - 📄 [[Arquiteto]]
+- 📄 [[Boas Práticas de Classificação]]
 - 📄 [[Checklist]]
 - 📄 [[Como Atlas funciona]]
 - 📄 [[Como Calendário funciona]]
+- 📄 [[Como Coleções funciona]]
 - 📄 [[Como Esforços funciona]]
 - 📄 [[Como usar Templater]]
 - 📄 [[Comunicar]]
@@ -62,14 +64,13 @@ Nenhum hub encontrado nos frontmatters.
 - 📄 [[MOC definição]]
 - 📄 [[Mapas]]
 - 📄 [[Markdown]]
-- 📄 [[Metadados]]
 - 📄 [[Nota]]
 - 📄 [[Notas não Criadas]]
 - 📄 [[Nova Coleção]]
 - 📄 [[Obsidian e PKM]]
-- 📄 [[Padrões de Classificação]]
 - 📄 [[Plante]]
 - 📄 [[Projetos Ativos]]
+- 📄 [[Propriedades]]
 - 📄 [[Questione]]
 - 📄 [[Relacionar]]
 - 📄 [[Renovar]]
@@ -78,6 +79,7 @@ Nenhum hub encontrado nos frontmatters.
 - 📄 [[Revitalizar]]
 - 📄 [[Sistema ACE]]
 - 📄 [[Sistema de Classificação para Gestão de Conhecimento Pessoal]]
+- 📄 [[Sugestões de Padrões de Classificações]]
 - 📄 [[como + funciona]]
 - 📄 [[homepage-help]]
 ## 📂 Mapas
@@ -85,19 +87,6 @@ Nenhum hub encontrado nos frontmatters.
 - 📄 [[Mapa de Gestão de Conhecimento]]
 # 📁 Calendário
 
-## 📂 Dias
-
-- 📄 [[2025-08-17]]
-- 📄 [[2025-08-19]]
-- 📄 [[2025-08-20]]
-- 📄 [[2025-09-04]]
-- 📄 [[2025-09-11]]
-- 📄 [[2025-09-12]]
-- 📄 [[2025-09-15]]
-- 📄 [[2025-09-17]]
-- 📄 [[2025-09-18]]
-- 📄 [[2025-10-03]]
-- 📄 [[2025-10-05]]
 ## 📂 Revisões
 
 - 📄 [[2025-09]]

@@ -2,7 +2,8 @@
   "callouts": {
     "custom": [
       "meta",
-      "box"
+      "box",
+      "gear"
     ],
     "settings": {
       "meta": [
@@ -16,6 +17,21 @@
         {
           "changes": {
             "color": "208, 103, 140"
+          }
+        }
+      ],
+      "gear": [
+        {
+          "changes": {
+            "icon": "lucide-settings",
+            "color": "0, 151, 117"
+          }
+        }
+      ],
+      "rainbow": [
+        {
+          "changes": {
+            "icon": "lucide-settings"
           }
         }
       ]

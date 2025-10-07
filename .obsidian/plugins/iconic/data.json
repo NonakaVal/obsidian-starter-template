@@ -29,7 +29,10 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
-    "+/Guias Práticos.md": {
+    "+/Boas Vindas 🎉.md": {
+      "icon": "lucide-party-popper"
+    },
+    "+/Guias Práticos ❓.md": {
       "icon": "help"
     },
     "Atlas": {
@@ -55,9 +58,6 @@
         "a276fd27d89ca356",
         "46fd94296bcfb1e1"
       ]
-    },
-    "Boas Vindas 🎉.md": {
-      "icon": "lucide-party-popper"
     },
     "CALENDAR": {
       "icon": "lucide-calendar-fold",

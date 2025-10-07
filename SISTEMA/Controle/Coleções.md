@@ -4,12 +4,9 @@ collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecim
 ---
 As "notas de coleção" exibem notas que fazem referência a elas usando a propriedade `collection`.  
 
-> [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Metadados]]  | **[[Coleções]]** | [[Atalhos]]   
-
+> [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Propriedades]]  | **[[Coleções]]** | [[Atalhos]]   
 
 ``` dataviewjs
-// Código DataviewJS melhorado para visualização de coleções
-
 // Obter coleções
 const colecoes = dv.pages('"Sistema/Coleções"').sort(p => p.file.ctime, 'desc').slice(0, 33);
 const totalColecoes = colecoes.length;
@@ -34,38 +31,6 @@ for (let p of colecoes) {
         totalOutlinks += outlinksCount;
     }
 }
-
-
-
-// Criar container para os cartões
-const container = dv.el("div", "", {
-    attr: { 
-        style: "display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 5px; margin-bottom: 8px;" 
-    }
-});
-
-// Função para criar cartão
-function criarCartao(titulo, valor, corFundo, corTexto, icone) {
-    const card = dv.el("div", "", {
-        attr: { 
-            style: `background: ${corFundo}; padding: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);` 
-        }
-    });
-    card.innerHTML = `
-        <div style="font-size: 14px; color: ${corTexto}; margin-bottom: 5px; display: flex; align-items: center; gap: 5px;">
-            <span>${icone}</span>
-            <span>${titulo}</span>
-        </div>
-        <div style="font-size: 24px; font-weight: bold; color: ${corTexto};">${valor}</div>
-    `;
-    return card;
-}
-
-// Adicionar cartões
-container.appendChild(criarCartao("Total de Coleções", totalColecoes, "#e3f2fd", "#0b5394", "📂"));
-container.appendChild(criarCartao("Coleções com Notas", colecoesComNotas, "#e8f5e9", "#2e7d32", "📝"));
-container.appendChild(criarCartao("Total de Notas", totalNotas, "#fff3e0", "#ef6c00", "📑"));
-container.appendChild(criarCartao("Coleções com Links", colecoesComOutlinks, "#e8eaf6", "#283593", "🔗"));
 
 // Tabela melhorada
 const tableData = colecoes.map(p => {
@@ -117,4 +82,35 @@ legenda.innerHTML = `
         <span>📁 Sem notas</span>
     </div>
 `;
+
+// Criar container para os cartões (abaixo da tabela)
+const container = dv.el("div", "", {
+    attr: { 
+        style: "display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 5px; margin-top: 15px;" 
+    }
+});
+
+// Função para criar cartão
+function criarCartao(titulo, valor, corFundo, corTexto, icone) {
+    const card = dv.el("div", "", {
+        attr: { 
+            style: `background: ${corFundo}; padding: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);` 
+        }
+    });
+    card.innerHTML = `
+        <div style="font-size: 14px; color: ${corTexto}; margin-bottom: 5px; display: flex; align-items: center; gap: 5px;">
+            <span>${icone}</span>
+            <span>${titulo}</span>
+        </div>
+        <div style="font-size: 24px; font-weight: bold; color: ${corTexto};">${valor}</div>
+    `;
+    return card;
+}
+
+// Adicionar cartões
+container.appendChild(criarCartao("Total de Coleções", totalColecoes, "#e3f2fd", "#0b5394", "📂"));
+container.appendChild(criarCartao("Coleções com Notas", colecoesComNotas, "#e8f5e9", "#2e7d32", "📝"));
+container.appendChild(criarCartao("Total de Notas", totalNotas, "#fff3e0", "#ef6c00", "📑"));
+container.appendChild(criarCartao("Coleções com Links", colecoesComOutlinks, "#e8eaf6", "#283593", "🔗"));
+
 ```

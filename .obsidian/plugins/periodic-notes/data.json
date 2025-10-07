@@ -5,7 +5,7 @@
   "daily": {
     "format": "",
     "template": "Sistema/Templates/Format/nota diaria.md",
-    "folder": "CALENDÁRIO/DIAS",
+    "folder": "Calendário/Dias",
     "enabled": true
   },
   "weekly": {
@@ -16,7 +16,7 @@
   "monthly": {
     "format": "",
     "template": "Sistema/Templates/Format/mensal-template.md",
-    "folder": "CALENDÁRIO/REVISÕES",
+    "folder": "Calendário/Revisões",
     "enabled": true
   },
   "quarterly": {

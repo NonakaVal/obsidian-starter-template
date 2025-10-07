@@ -3,6 +3,9 @@ up:
   - "[[Mapas]]"
 collection:
   - "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+tags:
+  - architect
+  - garden/revitalize
 ---
 #### I. Fundamentos do PKM e LYT
 
@@ -12,36 +15,33 @@ collection:
     - 📄 [[Nota]] (Qualquer recipiente de pensamento que tenha significado para a pessoa que o criou)
     - 📄 [[MOC definição|Moc's]] (Mapas de Conteúdo, notas que ajudam a agrupar, desenvolver e navegar ideias)
 - **Estruturas e Classificação**
-    
-    - 📄 [[Padrões de Classificação]] (Sugestões de melhores práticas e padrões para tipos específicos de notas, como coleções e ranqueamento)
-    - 📄 [[Sistema de Classificação para Gestão de Conhecimento Pessoal]] (Baseado em sistemas de bibliotecas como Dewey, fornece uma fundação para estruturar o _ideaverse_)
-    - 📄 [[Metadados]] (Propriedades, informações no topo de uma nota usadas para classificação)
+    - 📄 [[Propriedades]] (Propriedades, informações no topo de uma nota usadas para classificação)
+    - 📄 [[Boas Práticas de Classificação]] (Sugestões de melhores práticas e padrões para tipos específicos de notas, como coleções e ranqueamento)
+    - 📄 [[Sugestões de Padrões de Classificações]] (Baseado em sistemas de bibliotecas como Dewey, fornece uma fundação para estruturar o _ideaverse_)
 
 #### II. O Sistema ACE (Atlas, Calendar, Efforts)
 
 O ACE (Atlas, Calendar, Efforts) é a estrutura de pastas e mentalidades, intercalada pelas pastas de captura (`+`) e extras (`x`).
 
 - **Estrutura Central**
-    
     - 📄 [[Sistema ACE]] (Baseado em Atlas, Calendar e Efforts, que correspondem a Conhecimento, Tempo e Ação)
     - 📄 [[como + funciona]] (A pasta de captura imediata para novas notas, adiando a organização)
 - **1. Atlas (Conhecimento / Espaço)**
-    
     - 📄 [[Como Atlas funciona]] (Contém mapas de conteúdo, ideias, fontes e outros fragmentos de conhecimento)
     - 📄 [[Mapas]] (Mapas de conteúdo que ajudam a reunir, desenvolver e navegar ideias)
     - 📄 [[Conceitos]] (Um tipo de _Dot_ ou fragmento de conhecimento)
     - 📄 [[Coleções]] (Notas de _views_ dinâmicas que exibem notas vinculadas através da propriedade `collection`)
     - 📄 [[Nova Coleção]] (Relacionado à criação de novos agrupamentos dinâmicos)
 - **2. Calendar (Tempo)**
-    
     - 📄 [[Como Calendário funciona]] (Para coisas orientadas pelo tempo, como notas diárias e registros)
     - 📄 [[Dias]] (Onde ficam as notas diárias)
 - **3. Efforts (Ação / Importância)**
-    
     - 📄 [[Como Esforços funciona]] (Para manter as prioridades em mente e gerenciar ações e empreendimentos)
     - 📄 [[Areas]] (Para áreas de esforço que são grandes o suficiente para justificar uma nota dedicada)
     - 📄 [[Projetos Ativos]] (Projetos em andamento com a maior parte da atenção)
     - 📄 [[Areas  e Projetos]] (Exemplo de uma área de esforço específica)
+- **4. Sistema** 
+	- 📄 [[Como a pasta Sistema funciona]]
 
 #### III. O Ciclo de Ideação ARC
 
