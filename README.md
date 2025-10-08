@@ -14,6 +14,7 @@ The **ACE** (Atlas, Calendar, Efforts) framework is a universal system for organ
 
 > How it works → Atlas · Calendar · Efforts  
 
+![img](https://imgur.com/I3qZKux.png)
 ### Components
 - **A – Atlas** → Stores references and general knowledge. It’s the *map* of your ideas, concepts, and topics.  
 - **C – Calendar** → Holds everything linked to dates: events, deadlines, chronological records.  
