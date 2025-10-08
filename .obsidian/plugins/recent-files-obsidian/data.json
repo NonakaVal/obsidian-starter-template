@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "Boas Vindas 🎉",
       "path": "+/Boas Vindas 🎉.md"
     },
@@ -13,40 +9,16 @@
       "path": "🏠Home Pro.md"
     },
     {
+      "basename": "nota 1",
+      "path": "+/nota 1.md"
+    },
+    {
       "basename": "🏠Home",
       "path": "🏠Home.md"
     },
     {
-      "basename": "Pasted image 20250815104904",
-      "path": "Sistema/Media/Pasted image 20250815104904.png"
-    },
-    {
-      "basename": "Pasted image 20250816180551",
-      "path": "Sistema/Media/Pasted image 20250816180551.png"
-    },
-    {
       "basename": "Mapa de Gestão de Conhecimento",
       "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "Guias Práticos ❓",
-      "path": "+/Guias Práticos ❓.md"
-    },
-    {
-      "basename": "Checklist Obsidian",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
-    },
-    {
-      "basename": "Obsidian e PKM",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md"
-    },
-    {
-      "basename": "Propriedades",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
-    },
-    {
-      "basename": "Notas não Criadas",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Notas não Criadas.md"
     },
     {
       "basename": "quick-actions",
@@ -125,6 +97,14 @@
       "path": "Sistema/Templates/Format/% MAPA DATAVIEW DE ATLAS.md"
     },
     {
+      "basename": "Checklist Obsidian",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
+    },
+    {
+      "basename": "Guias Práticos ❓",
+      "path": "+/Guias Práticos ❓.md"
+    },
+    {
       "basename": "Boas Práticas de Classificação",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Boas Práticas de Classificação.md"
     },
@@ -189,6 +169,10 @@
       "path": "Sistema/Templates/Snippet/iframe.md"
     },
     {
+      "basename": "Propriedades",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
+    },
+    {
       "basename": "Coleções",
       "path": "Sistema/Controle/Coleções.md"
     },
@@ -197,8 +181,20 @@
       "path": "Atlas/Conceitos/Gestão de conhecimento/Sistema ACE.md"
     },
     {
+      "basename": "Obsidian e Gestão de Conhecimento",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e Gestão de Conhecimento.md"
+    },
+    {
       "basename": "Jardineiro",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md"
+    },
+    {
+      "basename": "Plante",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Plante.md"
+    },
+    {
+      "basename": "Recentemente Modificado",
+      "path": "Sistema/Controle/Recentemente Modificado.md"
     }
   ],
   "omittedPaths": [

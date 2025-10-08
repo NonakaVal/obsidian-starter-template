@@ -21,7 +21,7 @@ collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecim
 - [ ] **Praticar até a automatização:**
 	- [ ] [[Coleções|Criar uma Coleção]]
 	- [ ] [[Nota|Criando notas]] (`Ctrl/Cmd + N`)
-	- [ ] [[Obsidian e PKM|Digitando para criar, abrir & vincular notas]] (`[[ ]]`)
+	- [ ] [[Obsidian e Gestão de Conhecimento|Digitando para criar, abrir & vincular notas]] (`[[ ]]`)
 	- [ ] Conhecendo Paleta de Comandos e Fixando Comandos (`Ctrl/Cmd + P`)
 	- [ ] Dividindo & vinculando notas
 	- [ ] Refatorando texto adicionando a uma nota existente

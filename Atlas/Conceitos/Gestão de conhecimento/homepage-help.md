@@ -456,7 +456,7 @@ actions:
 
 [^5]: Metadados
 	
-	> [!waypoints] [[Boas Vindas 🎉]] | [[Obsidian e PKM]]  | **[[Propriedades]]**  | [[Coleções]]
+	> [!waypoints] [[Boas Vindas 🎉]] | [[Obsidian e Gestão de Conhecimento]]  | **[[Propriedades]]**  | [[Coleções]]
 	
 	### Principais metadados:
 	

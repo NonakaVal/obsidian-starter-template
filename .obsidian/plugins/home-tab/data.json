@@ -12,51 +12,67 @@
   "fontSize": "4em",
   "fontColorType": "default",
   "fontWeight": 600,
-  "maxResults": 10,
+  "maxResults": 5,
   "showbookmarkedFiles": true,
   "showRecentFiles": true,
-  "maxRecentFiles": 10,
+  "maxRecentFiles": 13,
   "storeRecentFile": true,
   "showPath": true,
   "selectionHighlight": "default",
   "showShortcuts": true,
-  "markdownOnly": true,
+  "markdownOnly": false,
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "README.md",
-      "timestamp": 1759926484774
+      "filepath": "HOMEPAGE.md",
+      "timestamp": 1757596488005
     },
     {
-      "filepath": "+/Boas Vindas 🎉.md",
-      "timestamp": 1759926454634
+      "filepath": "+/SCRIPTS JS.md",
+      "timestamp": 1757596418937
     },
     {
-      "filepath": "🏠Home Pro.md",
-      "timestamp": 1759926453654
+      "filepath": "Calendário/Dias/2025-09-11.md",
+      "timestamp": 1757595981825
     },
     {
-      "filepath": "🏠Home.md",
-      "timestamp": 1759926452138
+      "filepath": "Sistema/Templates/Snippet/% TODAS TAREFAS.md",
+      "timestamp": 1757595775768
     },
     {
-      "filepath": "Sistema/Media/Pasted image 20250815104904.png",
-      "timestamp": 1759926364067
+      "filepath": "Sistema/Templates/Snippet/% TAREFAS EFFORTS.md",
+      "timestamp": 1757595559883
     },
     {
-      "filepath": "Sistema/Media/Pasted image 20250816180551.png",
-      "timestamp": 1759926363653
+      "filepath": "Sistema/Templates/Snippet/% TAREFAS DO CALENDÁRIO.md",
+      "timestamp": 1757595549448
+    },
+    {
+      "filepath": "Sistema/Sobre/Notas Recentemente Modificadas.md",
+      "timestamp": 1757595024340
+    },
+    {
+      "filepath": "Sistema/Sobre/Boas Vindas.md",
+      "timestamp": 1757595013199
+    },
+    {
+      "filepath": "Sistema/Sobre/Guias Práticos.md",
+      "timestamp": 1757594794528
+    },
+    {
+      "filepath": "Sistema/Sobre/Templates.md",
+      "timestamp": 1757594658050
     }
   ],
   "bookmarkedFileStore": [
     {
-      "filepath": "+/Boas Vindas 🎉.md"
+      "filepath": "Sistema/Sobre/Boas Vindas.md"
     },
     {
-      "filepath": "+/Guias Práticos ❓.md"
+      "filepath": "Sistema/Sobre/Guias Práticos.md"
     },
     {
-      "filepath": "Sistema/Controle/Templates.md"
+      "filepath": "Sistema/Sobre/Templates.md"
     }
   ],
   "searchDelay": 0,
