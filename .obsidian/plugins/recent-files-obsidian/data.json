@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Boas Vindas 🎉",
-      "path": "+/Boas Vindas 🎉.md"
-    },
-    {
-      "basename": "Guias Práticos ❓",
-      "path": "+/Guias Práticos ❓.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "🏠Home",
       "path": "🏠Home.md"
     },
     {
+      "basename": "Boas Vindas 🎉",
+      "path": "+/Boas Vindas 🎉.md"
+    },
+    {
       "basename": "🏠Home Pro",
       "path": "🏠Home Pro.md"
+    },
+    {
+      "basename": "Mapa de Gestão de Conhecimento",
+      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "Guias Práticos ❓",
+      "path": "+/Guias Práticos ❓.md"
     },
     {
       "basename": "Checklist Obsidian",
@@ -31,10 +39,6 @@
     {
       "basename": "Notas não Criadas",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Notas não Criadas.md"
-    },
-    {
-      "basename": "Mapa de Gestão de Conhecimento",
-      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
     },
     {
       "basename": "quick-actions",

@@ -1,115 +1,59 @@
-# Summary
+# 📖 Summary
 
-An integrated **knowledge management system** based on the \[\[ACE System|ACE folder system]] and the \[\[ARC Framework]], designed to organize ideas, time, and actions into a cohesive flow. Notes are connected through **direct links** (`[[Note]]`), strengthening the knowledge network, and through **backlinks**, which reveal implicit connections. For better control, **\[\[Metadata]]** is used, such as: `created` (creation date), `up` (hierarchy), `collection` (belonging collection), and `related` (associated notes).
+An integrated **knowledge management system** based on the ACE System and the ARC Framework, designed to organize **ideas, time, and actions** into a cohesive flow.  
 
 ---
 
 💾 [Download .zip](https://github.com/NonakaVal/obsidian-ACE-ARC/raw/refs/heads/main/obsidian-ACE-ARC.zip)
 
-# \[\[ACE System|ACE Organization System]]
+---
 
-The **ACE** (Atlas, Calendar, Efforts) framework is a universal system for organizing knowledge, time, and action, complemented by:
+# 🗂 ACE Organization System
 
-> \[!box] \[\[how + it works|+]] – **\[\[How Atlas Works|Atlas]] – \[\[How Calendar Works|Calendar]] – \[\[How Efforts Work|Efforts]]**
+The **ACE** (Atlas, Calendar, Efforts) framework is a universal system for organizing **knowledge, time, and action**, complemented by:
+
+> How it works → Atlas · Calendar · Efforts  
+
+### Components
+- **A – Atlas** → Stores references and general knowledge. It’s the *map* of your ideas, concepts, and topics.  
+- **C – Calendar** → Holds everything linked to dates: events, deadlines, chronological records.  
+- **E – Efforts** → Contains your projects, tasks, and initiatives that require action.  
+
+
+---
+
+# 🌈 ARC Framework
+
+The **ARC Framework** defines the flow of your ideas through time and space, enhancing your creative process.  
+
+**Cycle:** New ideas → Natural organization → Concrete application = **Self-sustaining learning system**  
+
+> ARC = Add · Relate · Communicate  
+
+![ARC Framework](Pasted%20image%2020250815104904.png)
+
+---
+
+# 🏷 Metadata
+
+### Main Metadata Fields
+For better control, **Metadata** is used, such as:  
+
+- `created` → creation date  
+- `up` → hierarchy  
+- `collection` → belonging collection  
+- `related` → associated notes  
+
 
 ---
 
 
-* **A – Atlas** → Stores references and general knowledge. It’s the “map” of your ideas, concepts, and topics.
-* **C – Calendar** → Holds everything linked to dates: events, deadlines, chronological records.
-* **E – Efforts** → Contains your projects, tasks, and initiatives that require action.
-
-
-``
-
-## Current Folder Structure
-
-```
-📂 + Initial Capture Folder
-│
-📂 ATLAS — Notes and content maps at all levels
-│
-├── 🧭 MAPS — Organized sets of various notes
-│
-├── 📚 SOURCES — Content notes sorted by source
-│   ├── 📄 ARTICLES — Article study notes
-│   ├── ▶️ VIDEOS — Video notes
-│   ├── 📙 BOOKS — Book notes
-│   └── ...
-│
-📂 🚀 EFFORTS — Work planning and review notes
-│
-├── 📂 AREAS — Management of ongoing areas
-├── 📂 PROJECTS — Goals with defined outcomes
-└── 📂 ARCHIVE — Finished or dropped projects
-│
-📂 📅 CALENDAR — Daily, periodic, or review notes
-│
-├── 📂 DAY
-└── 📂 REVIEW
-│
-📂 ⚙️ SYSTEM — System-related notes and folders
-│
-├── 🗂️ COLLECTIONS — Segmentation notes
-├── 🖼️ MEDIA
-└── 📋 TEMPLATES — Pre-formatted models
-    ├── 📂 FORMATTING
-    └── 📂 SNIPPETS
-
-```
 
 ---
 
-# \[\[ARC Framework]]
+# 🔌 Recommended Plugins
 
-ARC defines the flow of your ideas through time and space—more than that, it's a framework that enhances your creative process.
-
-**Cycle**: New ideas → Natural organization → Concrete application = Self-sustaining learning system.
-
-> \[!rainbow] ARC » \[\[Add]] | \[\[Relate]] | \[\[Communicate]]
-
-!\[\[Pasted image 20250815104904.png]]
-
----
-
-# \[\[Metadata]]
-
-> \[!waypoints] \[\[Welcome]] | \[\[Obsidian and PKM]] | **\[\[Metadata]]** | \[\[Collections]]
-
-### Main Metadata Fields:
-
-* **`created` (creation date):**
-  Helps track your notes over time, enabling historical views or monthly/annual reviews.
-
-* **`up` (hierarchy):**
-  Defines the **parent** or higher-level context of the note.
-
-  > E.g.: a chapter note would have `up: [[Book X]]`.
-
-* **`collection` (collection):**
-  Groups notes by theme or area.
-
-  > E.g.: `collection: [[CLASSES]], [[COURSES]]`
-
-* **`related` (related notes):**
-  Lists manual connections that enrich the **graph view**.
-
-  > E.g.: `related: [[Concept Y]], [[Topic Z]]`
-
----
-
-# 🛠 Best Practices
-
-* **Regular Reviews**: Set aside weekly time to review and update your notes to keep them relevant and accurate.
-* **Tag & Folder Cleanup**: Periodically clean up tags and folder structures to avoid clutter or outdated categories.
-* **Backups**: Regularly back up your vault to prevent data loss.
-* **Plugins**: Use plugins that enhance your workflow, but aim for simplicity to avoid overcomplication.
-
----
-
-# 🔌 Plugins
-
-| Plugin                                                                                         | Brief Description                                                     |
+| Plugin                                                                                         | Description                                                           |
 | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [Advanced URI](https://github.com/Vinzent03/obsidian-advanced-uri)                             | Vault control via URLs                                                |
 | [BRAT](https://github.com/TfTHacker/obsidian42-brat)                                           | Beta plugin management with auto-updates                              |
@@ -142,13 +86,19 @@ ARC defines the flow of your ideas through time and space—more than that, it's
 | [Tabs](https://github.com/git-yustasse/obsidian-tabs)                                          | Tabbed file navigation                                                |
 | [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)                                | Tasks with dates, priorities, and filters                             |
 
-# Resources
-# 📚 Inspirações e Recursos
+---
 
-- [Linking Your Thinking - Nick Milo](https://www.linkingyourthinking.com/)
-- [Dusk Vault](https://github.com/DuskWasHere/dusk-obsidian-vault)
-- [PARA - Fortelabs](https://fortelabs.com/blog/para/)
-- [Snippets Customizados](https://github.com/NonakaVal/Obsidian-CSS-Snippets)
-- [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)
-- [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)
-- [Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout)
+# 📚 Resources & Inspirations
+
+- [Linking Your Thinking - Nick Milo](https://www.linkingyourthinking.com/)  
+- [Dusk Vault](https://github.com/DuskWasHere/dusk-obsidian-vault)  
+- [PARA - Fortelabs](https://fortelabs.com/blog/para/)  
+- [Snippets Customizados](https://github.com/NonakaVal/Obsidian-CSS-Snippets)  
+- [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)  
+- [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)  
+- [Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout)  
+```
+
+---
+
+👉 Sugestão de evolução: agora que o README está limpo e sem links internos, você pode criar uma **versão em português simplificada** para leitores que não dominam o inglês, mantendo esse documento como a versão principal. Quer que eu prepare essa versão traduzida e resumida também?
