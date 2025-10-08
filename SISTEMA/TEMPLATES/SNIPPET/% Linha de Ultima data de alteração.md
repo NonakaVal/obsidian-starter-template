@@ -1,1 +1,0 @@
-Última modificação :   `="[[" + dateformat(date(today), "yyyy-MM-dd") + "]]"` - `$= dv.current().file.mtime`
