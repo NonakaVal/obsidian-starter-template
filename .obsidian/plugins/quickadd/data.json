@@ -214,7 +214,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "/Format"
+                  "Sistema/Templates/Format"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -244,7 +244,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "/Snippet"
+                  "Sistema/Templates/Snippet"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
@@ -274,7 +274,7 @@
               "folder": {
                 "enabled": true,
                 "folders": [
-                  "SISTEMA/COLEÇÕES"
+                  "Sistema/Coleções"
                 ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,

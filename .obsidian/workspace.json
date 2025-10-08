@@ -8,6 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "3f2c465ec1ac7fde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Boas Vindas 🎉.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Boas Vindas 🎉"
+            }
+          },
+          {
             "id": "41e7cb7defd71eca",
             "type": "leaf",
             "pinned": true,
@@ -34,14 +58,14 @@
             }
           },
           {
-            "id": "5e7a89322a15116a",
+            "id": "1fc80c9291eb1a74",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "🏠Home Pro.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -59,8 +83,7 @@
               "title": "🏠Home Pro"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +150,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"cssclasses\"]",
+                "query": "[\"created\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +158,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           }
         ]
@@ -158,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "🏠Home Pro.md"
+                "file": "+/Boas Vindas 🎉.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo 🏠Home Pro"
+              "title": "Propriedades do arquivo Boas Vindas 🎉"
             }
           },
           {
@@ -193,8 +216,7 @@
               "title": "Todas as propriedades"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -315,40 +337,40 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5e7a89322a15116a",
+  "active": "3f2c465ec1ac7fde",
   "lastOpenFiles": [
+    "🏠Home Pro.md",
+    "+/Boas Vindas 🎉.md",
+    "+/nota 1.md",
+    "Sistema/Templates/Snippet/sm.md",
+    "Sistema/Templates/Format/format.md",
+    "+/----.md",
     "🏠Home.md",
     "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
-    "🏠Home Pro.md",
-    "+/Guias Práticos ❓.md",
-    "+/Boas Vindas 🎉.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Boas Práticas de Classificação.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Como a pasta Sistema funciona.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Como Atlas funciona.md",
-    "Sistema/Controle/Todas Tarefas.md",
-    "Sistema/Controle/Tarefas Esforços.md",
-    "Sistema/Controle/Tarefas Calendário.md",
-    "Untitled.md",
-    "Sistema/Controle/Tarefas Projetos.md",
-    "Sistema/Controle/Tarefas Areas.md",
-    "Esforços/Areas/area 1/nota area 1.md",
-    "Calendário/Dias/2025-10-07.md",
-    "+/% TAREFAS DO CALENDÁRIO.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Projetos Ativos.md",
-    "Esforços/Projetos/projeto 1/projeto 1.md",
-    "Esforços/Areas/area 1/area 1.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Areas.md",
+    "Sistema/Templates/quick-actions.md",
+    "Sistema/Templates/Snippet/tabs-2.md",
+    "Sistema/Templates/Snippet/tabs.md",
+    "Sistema/Templates/Snippet/multicollum 2 colluns.md",
+    "Sistema/Templates/Snippet/metabind command button - command in clipboard.md",
+    "Sistema/Templates/Snippet/% metabind 3 options.md",
+    "Sistema/Templates/Snippet/% METABIND BOTÃO ABRIR NOTA.md",
+    "Sistema/Templates/Snippet/% Linha de Ultima data de alteração.md",
+    "Sistema/Templates/Snippet/_  metabind de metadados.md",
+    "Sistema/Templates/Format/projeto.md",
+    "Sistema/Templates/Format/template.md",
+    "Sistema/Templates/Format/projeto nota.md",
+    "Sistema/Templates/Format/nota diaria.md",
+    "Sistema/Templates/Format/mensal-template.md",
+    "Sistema/Templates/Format/coleção.md",
+    "Sistema/Templates/Format/livro.md",
+    "Sistema/Templates/Format/base.md",
+    "Sistema/Templates/Format/aula.md",
     "Esforços/Areas/area 1",
     "Esforços/Areas",
-    "Esforços/Projetos/projeto 1/nota projeto 1.md",
     "Esforços/Projetos/projeto 1",
     "Esforços/Projetos",
-    "Sistema/Templates/Snippet/iframe.md",
     "Sistema/Media/Pasted image 20251007195624.png",
     "Sistema/Media/Pasted image 20251007195459.png",
-    "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md",
-    "Sistema/Controle/Coleções.md",
     "Esforços/Untitled",
     "Atlas/Conceitos",
     "Sistema/Recursos",

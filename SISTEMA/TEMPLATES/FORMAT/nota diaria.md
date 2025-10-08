@@ -32,4 +32,4 @@ tab: Tarefas
 # Ações rápidas
 
 
-![[BARRA DE AÇÕES]]
+![[quick-actions]]

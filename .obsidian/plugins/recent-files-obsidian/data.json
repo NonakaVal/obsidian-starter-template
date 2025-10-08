@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Boas Vindas 🎉",
+      "path": "+/Boas Vindas 🎉.md"
+    },
+    {
       "basename": "🏠Home Pro",
       "path": "🏠Home Pro.md"
+    },
+    {
+      "basename": "nota 1",
+      "path": "+/nota 1.md"
     },
     {
       "basename": "🏠Home",
@@ -13,16 +21,88 @@
       "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
     },
     {
+      "basename": "quick-actions",
+      "path": "Sistema/Templates/quick-actions.md"
+    },
+    {
+      "basename": "tabs-2",
+      "path": "Sistema/Templates/Snippet/tabs-2.md"
+    },
+    {
+      "basename": "tabs",
+      "path": "Sistema/Templates/Snippet/tabs.md"
+    },
+    {
+      "basename": "multicollum 2 colluns",
+      "path": "Sistema/Templates/Snippet/multicollum 2 colluns.md"
+    },
+    {
+      "basename": "metabind command button - command in clipboard",
+      "path": "Sistema/Templates/Snippet/metabind command button - command in clipboard.md"
+    },
+    {
+      "basename": "% metabind 3 options",
+      "path": "Sistema/Templates/Snippet/% metabind 3 options.md"
+    },
+    {
+      "basename": "% Linha de Ultima data de alteração",
+      "path": "Sistema/Templates/Snippet/% Linha de Ultima data de alteração.md"
+    },
+    {
+      "basename": "_  metabind de metadados",
+      "path": "Sistema/Templates/Snippet/_  metabind de metadados.md"
+    },
+    {
+      "basename": "projeto",
+      "path": "Sistema/Templates/Format/projeto.md"
+    },
+    {
+      "basename": "template",
+      "path": "Sistema/Templates/Format/template.md"
+    },
+    {
+      "basename": "projeto nota",
+      "path": "Sistema/Templates/Format/projeto nota.md"
+    },
+    {
+      "basename": "nota diaria",
+      "path": "Sistema/Templates/Format/nota diaria.md"
+    },
+    {
+      "basename": "mensal-template",
+      "path": "Sistema/Templates/Format/mensal-template.md"
+    },
+    {
+      "basename": "coleção",
+      "path": "Sistema/Templates/Format/coleção.md"
+    },
+    {
+      "basename": "base",
+      "path": "Sistema/Templates/Format/base.md"
+    },
+    {
+      "basename": "aula",
+      "path": "Sistema/Templates/Format/aula.md"
+    },
+    {
+      "basename": "area nota",
+      "path": "Sistema/Templates/Format/area nota.md"
+    },
+    {
+      "basename": "area",
+      "path": "Sistema/Templates/Format/area.md"
+    },
+    {
+      "basename": "% MAPA DATAVIEW DE ATLAS",
+      "path": "Sistema/Templates/Format/% MAPA DATAVIEW DE ATLAS.md"
+    },
+    {
       "basename": "Checklist Obsidian",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
     },
     {
       "basename": "Guias Práticos ❓",
       "path": "+/Guias Práticos ❓.md"
-    },
-    {
-      "basename": "Boas Vindas 🎉",
-      "path": "+/Boas Vindas 🎉.md"
     },
     {
       "basename": "Boas Práticas de Classificação",
@@ -115,86 +195,6 @@
     {
       "basename": "Recentemente Modificado",
       "path": "Sistema/Controle/Recentemente Modificado.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "ARC Framework",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/ARC Framework.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "Sistema/Controle/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "Custom Callouts",
-      "path": "Sistema/Recursos/Custom Callouts.md"
-    },
-    {
-      "basename": "Arquiteto",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md"
-    },
-    {
-      "basename": "Revitalizar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Revitalizar.md"
-    },
-    {
-      "basename": "Renovar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Renovar.md"
-    },
-    {
-      "basename": "Construir",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Construir.md"
-    },
-    {
-      "basename": "Revisitar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Revisitar.md"
-    },
-    {
-      "basename": "Como Esforços funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Esforços funciona.md"
-    },
-    {
-      "basename": "Replantar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Replantar.md"
-    },
-    {
-      "basename": "Questione",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Questione.md"
-    },
-    {
-      "basename": "Cultive",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Cultive.md"
-    },
-    {
-      "basename": "Areas  e Projetos",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Areas  e Projetos.md"
-    },
-    {
-      "basename": "Comunicar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Comunicar.md"
-    },
-    {
-      "basename": "Relacionar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Relacionar.md"
-    },
-    {
-      "basename": "Conceitos",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Conceitos.md"
-    },
-    {
-      "basename": "Mapas",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Mapas.md"
-    },
-    {
-      "basename": "como + funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/como + funciona.md"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "Sistema/Controle/Atalhos.md"
     }
   ],
   "omittedPaths": [

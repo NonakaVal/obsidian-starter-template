@@ -7,7 +7,7 @@ banner: "https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png"
 ```widgets
 type: clock
 ```
-
+''
 
 > [!home] [[🏠Home| 🏠 Home]] | **[[🏠Home Pro]]** | [[Boas Vindas 🎉]] | [[Guias Práticos ❓]]
 

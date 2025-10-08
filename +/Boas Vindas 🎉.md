@@ -58,7 +58,7 @@ largest column:
 │
 ├── 🧭 MAPAS — Conjunto organizado de várias notas
 │
-├── 📚 FONTES — Notas de conteúdo separadas por fonte
+├── 📚 Conceitos — Notas de conteúdo separadas por fonte
 │   ├── 📄 ARTIGO — Notas de estudo de artigos
 │   ├── ▶️ VÍDEOS — Notas sobre vídeos
 │   ├── 📙 LIVROS — Notas sobre livros
