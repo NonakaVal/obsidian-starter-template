@@ -30,7 +30,7 @@ The **ARC Framework** defines the flow of your ideas through time and space, enh
 
 > ARC = Add · Relate · Communicate  
 
-![ARC Framework](Pasted%20image%2020250815104904.png)
+![ARC Framework](https://imgur.com/KXLDI6g.png)
 
 ---
 

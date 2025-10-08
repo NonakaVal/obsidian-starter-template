@@ -5,6 +5,14 @@
       "path": "README.md"
     },
     {
+      "basename": "Pasted image 20250815104904",
+      "path": "Sistema/Media/Pasted image 20250815104904.png"
+    },
+    {
+      "basename": "Pasted image 20250816180551",
+      "path": "Sistema/Media/Pasted image 20250816180551.png"
+    },
+    {
       "basename": "🏠Home",
       "path": "🏠Home.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Jardineiro",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md"
-    },
-    {
-      "basename": "Plante",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Plante.md"
-    },
-    {
-      "basename": "Recentemente Modificado",
-      "path": "Sistema/Controle/Recentemente Modificado.md"
     }
   ],
   "omittedPaths": [
