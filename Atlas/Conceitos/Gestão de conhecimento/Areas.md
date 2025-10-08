@@ -7,9 +7,7 @@ collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecim
 // CONFIGURAÇÃO
 //-----------------------------------------------------
 const ICONES = {
-    "AULAS": "📚",
-    "PROJETOS": "🛠️",
-    "EFFORTS": "⚡",
+    "Aulas": "📚",
     "NOTAS": "📝",
     "ATLAS": "🌍",
     "DEFAULT": "📄"
@@ -41,7 +39,7 @@ function estilizarLink(p) {
 //-----------------------------------------------------
 // COLETA E FILTRO
 //-----------------------------------------------------
-const pages = dv.pages('"Esforços/AREAS"')
+const pages = dv.pages('"Esforços/Areas"')
     .where(p => p.type && p.type == "area_family")
     .sort(p => p.file.mtime, 'desc')
     .limit(20);

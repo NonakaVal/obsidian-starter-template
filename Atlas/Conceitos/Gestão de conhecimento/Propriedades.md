@@ -2,9 +2,10 @@
 up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
-> [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| **[[Propriedades]]**  | [[Coleções]] | [[Atalhos]]   
 
-No **Obsidian** (e em sistemas de PKM em geral), **metadados** são informações adicionais registradas no início de cada nota, normalmente no formato **YAML frontmatter**:
+> [!waypoints] **Básico** » [[Obsidian e Gestão de Conhecimento]] | [[Markdown]] | **[[Propriedades]]** | [[Coleções]] | [[Atalhos]]
+
+No **Obsidian** (e em sistemas de PKM em geral), **metadados** são informações adicionais registradas no início de cada nota, geralmente no formato **YAML frontmatter**:
 
 ```yaml
 ---
@@ -13,28 +14,33 @@ up: [[Projeto X]]
 collection: [[Estudos]]
 related: [[Ideia A]], [[Pessoa B]]
 ---
-```
+````
 
-Eles funcionam como **camadas de contexto**, facilitando a organização, a navegação e a automação de consultas com **Dataview** ou **DataviewJS**.
+Esses metadados funcionam como **camadas de contexto**, ajudando a:
+- Organizar e estruturar suas notas
+- Navegar entre hierarquias e conexões
+- Automatizar consultas com **Dataview** ou **DataviewJS**
+---
 
-### Principais metadados:
+### 🔑 Principais Metadados
 
-* **`created` (data de criação):**
-  Permite acompanhar a linha do tempo de suas anotações, gerar históricos ou revisões mensais/anuais.
+- **`created` → Data de criação**  
+    Acompanha a linha do tempo das anotações e permite gerar históricos, revisões mensais ou anuais.
+    > Ex.: `created: [[2025-08-19]]`
+- **`up` → Hierarquia**  
+    Define a **nota superior** ou o contexto maior em que a nota se insere.
+    > Ex.: um capítulo teria `up: [[Livro X]]`.
+- **`collection` → Coleções**  
+    Agrupa notas em **temas ou áreas específicas**.
+    > Ex.: `collection: [[AULAS]], [[CURSOS]]`
+- **`related` → Conexões manuais**  
+    Lista notas relacionadas, ampliando o **Graph View** com links explícitos.
+    > Ex.: `related: [[Conceito Y]], [[Questão Z]]`
 
-* **`up` (hierarquia):**
-  Define a nota **superior** ou contexto maior em que essa nota se encaixa.
+---
 
-  > Ex.: um capítulo tem `up: [[Livro X]]`.
+### 🛠️ Dicas de Uso
 
-* **`collection` (coleção):**
-  Agrupa notas por temas ou áreas.
-
-  > Ex.: `collection: [[AULAS]], [[CURSOS]]`
-
-
-* **`related` (notas associadas):**
-  Lista conexões manuais que complementam o **graph view**.
-
-  > Ex.: `related: [[Conceito Y]], [[Questão Z]]`.
-
+- Combine `collection` + `related` para criar **mapas de estudo personalizados**.
+- Use `up` em conjunto com MOCs para estruturar **hierarquias claras**.
+- Explore consultas com Dataview (ex.: `TABLE created, up, collection FROM "Estudos"`).

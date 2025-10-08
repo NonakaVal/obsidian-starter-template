@@ -3,7 +3,7 @@ created: "[[2025-07-20]]"
 ---
 # Primeiros passos
 
-> [!waypoints]  » [[Boas Vindas 🎉]] | [[Guias Práticos ❓]] | [[Checklist]]
+> [!waypoints]  » [[Boas Vindas 🎉]] | [[Guias Práticos ❓]] | [[Checklist Obsidian]]
 
 > [!VIDEO]+ [[Markdown|Formatação Markdown]]
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1MUXAJNB2pC_2cJndcC77p69uib_cfIbl/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
@@ -72,7 +72,7 @@ actions:
 
 # Recursos complementares
 
-> [!waypoints] **Básico** »  [[Obsidian e PKM]]  - [[Markdown]] - [[Propriedades]]  - [[Coleções]] - [[Atalhos]]   
+> [!waypoints] **Básico** »  [[Obsidian e Gestão de Conhecimento]]  - [[Markdown]] - [[Propriedades]]  - [[Coleções]] - [[Atalhos]]   
 
 > [!box] [[Sistema ACE]] »  [[como + funciona|+]] - [[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]] 
 

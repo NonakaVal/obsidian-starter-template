@@ -371,12 +371,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "CALENDÁRIO/DIAS/{{date}}",
+      "captureTo": "Calendário/Dias/{{date}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "/Format/NOTA-DIARIA-TEMPLATE.md"
+        "template": "Sistema/Templates/Format/nota diaria.md"
       },
       "format": {
         "enabled": true,

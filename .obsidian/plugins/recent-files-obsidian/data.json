@@ -5,18 +5,6 @@
       "path": "🏠Home Pro.md"
     },
     {
-      "basename": "Recentemente Modificado",
-      "path": "Sistema/Controle/Recentemente Modificado.md"
-    },
-    {
-      "basename": "_index_notas",
-      "path": "_index_notas.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "🏠Home",
       "path": "🏠Home.md"
     },
@@ -25,64 +13,132 @@
       "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
     },
     {
-      "basename": "ARC Framework",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/ARC Framework.md"
-    },
-    {
-      "basename": "Sistema ACE",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Sistema ACE.md"
-    },
-    {
-      "basename": "Boas Vindas 🎉",
-      "path": "+/Boas Vindas 🎉.md"
+      "basename": "Checklist Obsidian",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
     },
     {
       "basename": "Guias Práticos ❓",
       "path": "+/Guias Práticos ❓.md"
     },
     {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "Sistema/Controle/Notas Recentemente Modificadas.md"
+      "basename": "Boas Vindas 🎉",
+      "path": "+/Boas Vindas 🎉.md"
     },
     {
-      "basename": "Coleções",
-      "path": "Sistema/Controle/Coleções.md"
-    },
-    {
-      "basename": "Areas",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Areas.md"
-    },
-    {
-      "basename": "Custom Callouts",
-      "path": "Sistema/Recursos/Custom Callouts.md"
+      "basename": "Boas Práticas de Classificação",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Boas Práticas de Classificação.md"
     },
     {
       "basename": "Como a pasta Sistema funciona",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Como a pasta Sistema funciona.md"
     },
     {
-      "basename": "Arquiteto",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md"
+      "basename": "Como Atlas funciona",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Atlas funciona.md"
     },
     {
-      "basename": "Jardineiro",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md"
+      "basename": "Todas Tarefas",
+      "path": "Sistema/Controle/Todas Tarefas.md"
     },
     {
-      "basename": "% TODAS TAREFAS",
-      "path": "Sistema/Templates/Snippet/% TODAS TAREFAS.md"
+      "basename": "Tarefas Esforços",
+      "path": "Sistema/Controle/Tarefas Esforços.md"
+    },
+    {
+      "basename": "Tarefas Calendário",
+      "path": "Sistema/Controle/Tarefas Calendário.md"
+    },
+    {
+      "basename": "Tarefas Projetos",
+      "path": "Sistema/Controle/Tarefas Projetos.md"
+    },
+    {
+      "basename": "Tarefas Areas",
+      "path": "Sistema/Controle/Tarefas Areas.md"
+    },
+    {
+      "basename": "nota area 1",
+      "path": "Esforços/Areas/area 1/nota area 1.md"
     },
     {
       "basename": "2025-10-07",
       "path": "Calendário/Dias/2025-10-07.md"
     },
     {
-      "basename": "Revitalizar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Revitalizar.md"
+      "basename": "Projetos Ativos",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Projetos Ativos.md"
     },
     {
-      "basename": "Boas Práticas de Classificação",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Boas Práticas de Classificação.md"
+      "basename": "projeto 1",
+      "path": "Esforços/Projetos/projeto 1/projeto 1.md"
+    },
+    {
+      "basename": "area 1",
+      "path": "Esforços/Areas/area 1/area 1.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Areas.md"
+    },
+    {
+      "basename": "nota projeto 1",
+      "path": "Esforços/Projetos/projeto 1/nota projeto 1.md"
+    },
+    {
+      "basename": "iframe",
+      "path": "Sistema/Templates/Snippet/iframe.md"
+    },
+    {
+      "basename": "Propriedades",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
+    },
+    {
+      "basename": "Coleções",
+      "path": "Sistema/Controle/Coleções.md"
+    },
+    {
+      "basename": "Sistema ACE",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Sistema ACE.md"
+    },
+    {
+      "basename": "Obsidian e Gestão de Conhecimento",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "Jardineiro",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md"
+    },
+    {
+      "basename": "Plante",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Plante.md"
+    },
+    {
+      "basename": "Recentemente Modificado",
+      "path": "Sistema/Controle/Recentemente Modificado.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/ARC Framework.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "Sistema/Controle/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "Custom Callouts",
+      "path": "Sistema/Recursos/Custom Callouts.md"
+    },
+    {
+      "basename": "Arquiteto",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md"
+    },
+    {
+      "basename": "Revitalizar",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Revitalizar.md"
     },
     {
       "basename": "Renovar",
@@ -113,10 +169,6 @@
       "path": "Atlas/Conceitos/Gestão de conhecimento/Cultive.md"
     },
     {
-      "basename": "Plante",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Plante.md"
-    },
-    {
       "basename": "Areas  e Projetos",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Areas  e Projetos.md"
     },
@@ -129,10 +181,6 @@
       "path": "Atlas/Conceitos/Gestão de conhecimento/Relacionar.md"
     },
     {
-      "basename": "Projetos Ativos",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Projetos Ativos.md"
-    },
-    {
       "basename": "Conceitos",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Conceitos.md"
     },
@@ -141,64 +189,12 @@
       "path": "Atlas/Conceitos/Gestão de conhecimento/Mapas.md"
     },
     {
-      "basename": "Como Atlas funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Atlas funciona.md"
-    },
-    {
       "basename": "como + funciona",
       "path": "Atlas/Conceitos/Gestão de conhecimento/como + funciona.md"
     },
     {
       "basename": "Atalhos",
       "path": "Sistema/Controle/Atalhos.md"
-    },
-    {
-      "basename": "Propriedades",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Markdown.md"
-    },
-    {
-      "basename": "Obsidian e PKM",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md"
-    },
-    {
-      "basename": "Sugestões de Padrões de Classificações",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Sugestões de Padrões de Classificações.md"
-    },
-    {
-      "basename": "Sistema de Classificação para Gestão de Conhecimento Pessoal",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Sistema de Classificação para Gestão de Conhecimento Pessoal.md"
-    },
-    {
-      "basename": "Como Coleções funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md"
-    },
-    {
-      "basename": "base",
-      "path": "Sistema/Templates/Format/base.md"
-    },
-    {
-      "basename": "Como Calendário funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Calendário funciona.md"
-    },
-    {
-      "basename": "template",
-      "path": "Sistema/Templates/Format/template.md"
-    },
-    {
-      "basename": "homepage-help",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/homepage-help.md"
-    },
-    {
-      "basename": "Notas não Criadas",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Notas não Criadas.md"
-    },
-    {
-      "basename": "Nota",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Nota.md"
     }
   ],
   "omittedPaths": [

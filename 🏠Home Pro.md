@@ -9,13 +9,15 @@ type: clock
 ```
 
 
-
+> [!home] [[🏠Home| 🏠 Home]] | **[[🏠Home Pro]]** | [[Boas Vindas 🎉]] | [[Guias Práticos ❓]]
 
 <br>
 
 `BUTTON[new]`[^1]  `BUTTON[collection]`    `BUTTON[lembrete]`  [^2] 
 
 <br>
+
+> [!waypoints] Gestão de conhecimento » [[Checklist Obsidian]] ✅ | [[Mapa de Gestão de Conhecimento]] 🧠  
 
 > [!multi-column]
 > 
@@ -40,10 +42,10 @@ type: clock
 
 > [!multi-column]
 >
->> [!todo|wide-3]+  Tarefas
->>  ![[% TODAS TAREFAS]]
+>> [!todo|wide-2]+  Tarefas
+>>  ![[Todas Tarefas]]
 >
->> [!Blocks|wide-2]+ Areas e Projetos
+>> [!Blocks|wide-3]+ Areas e Projetos
 >> ![[Areas]]
 >> ![[Projetos Ativos]]
 

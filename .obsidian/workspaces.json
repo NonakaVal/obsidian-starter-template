@@ -714,13 +714,13 @@
                 }
               },
               {
-                "id": "e3bb9c6ddd5aff9a",
+                "id": "9a256fdbf93bcd58",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
+                    "file": "🏠Home Pro.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": true,
@@ -736,10 +736,11 @@
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Mapa de Gestão de Conhecimento"
+                  "title": "🏠Home Pro"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -994,8 +995,8 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "8aef6a56130d24cf",
-      "mtime": "2025-10-07T18:00:00-03:00"
+      "active": "9a256fdbf93bcd58",
+      "mtime": "2025-10-07T20:16:06-03:00"
     }
   },
   "active": "home"

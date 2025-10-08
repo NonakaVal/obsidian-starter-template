@@ -97,7 +97,7 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 
 # [[Propriedades]]
 
-> [!waypoints] [[Boas Vindas 🎉]] | [[Obsidian e PKM]]  | **[[Propriedades]]**  | [[Coleções]]
+> [!waypoints] [[Boas Vindas 🎉]] | [[Obsidian e Gestão de Conhecimento]]  | **[[Propriedades]]**  | [[Coleções]]
 
 ### Principais metadados:
 

@@ -2,7 +2,6 @@
 up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
-
 ```dataviewjs
 //-----------------------------------------------------
 // CONFIGURAÇÃO
@@ -29,18 +28,18 @@ function formatDate(date) {
     return date ? `\`${dv.date(date).toFormat("yyyy-MM-dd")}\`` : "-";
 }
 
-function diasRestantes(inicio, entrega) {
-    if (!inicio || !entrega) return "-";
-    const d1 = dv.date(inicio);
-    const d2 = dv.date(entrega);
-    const diff = d2.diff(d1, "days").days; // diferença em dias
-    return diff >= 0 ? `${diff} d` : `${diff} d (atrasado)`;
+function diasRestantes(entrega) {
+    if (!entrega) return "-";
+    const hoje = dv.luxon.DateTime.now();          // Data atual
+    const dEntrega = dv.date(entrega);             // Data da entrega
+    const diff = dEntrega.diff(hoje, "days").days; // Diferença em dias
+    return diff >= 0 ? `${Math.floor(diff)} d` : `${Math.ceil(diff)} d (atrasado)`;
 }
 
 //-----------------------------------------------------
 // COLETA E FILTRO
 //-----------------------------------------------------
-const pages = dv.pages('"Esforços/PROJETOS"')
+const pages = dv.pages('"Esforços/Projetos"')
     .where(p => p.type && p.type == "project")
     .sort(p => p.file.mtime, 'desc');
 
@@ -55,10 +54,8 @@ dv.table(
         formatDate(p.inicio),
         formatDate(p.entrega),
         p.status ?? "-",
-        diasRestantes(p.inicio, p.entrega)
+        diasRestantes(p.entrega) // agora calcula da data de hoje até a entrega
     ])
 );
 
-
 ```
-

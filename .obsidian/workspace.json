@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f942ed9ede8b1730",
+        "id": "c12cb67693d2c0f8",
         "type": "tabs",
         "children": [
           {
-            "id": "8aef6a56130d24cf",
+            "id": "41e7cb7defd71eca",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -34,14 +34,14 @@
             }
           },
           {
-            "id": "e3bb9c6ddd5aff9a",
+            "id": "5e7a89322a15116a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
-                "mode": "preview",
+                "file": "🏠Home Pro.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -56,35 +56,11 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Mapa de Gestão de Conhecimento"
-            }
-          },
-          {
-            "id": "97b9cef6ee24eb9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏠Home Pro.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
               "title": "🏠Home Pro"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +83,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -166,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386
+    "width": 330
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -182,10 +158,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
+                "file": "🏠Home Pro.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Mapa de Gestão de Conhecimento"
+              "title": "Propriedades do arquivo 🏠Home Pro"
             }
           },
           {
@@ -214,10 +190,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Todas as propriedades"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -317,19 +294,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406,
-    "collapsed": true
+    "width": 406
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
+      "bases:Criar nova base": false,
       "callout-manager:Insert Callout": false,
       "iconic:Open rulebook": false,
       "templater-obsidian:Templater": false,
@@ -339,45 +315,47 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "97b9cef6ee24eb9c",
+  "active": "5e7a89322a15116a",
   "lastOpenFiles": [
-    "Sistema/Controle/Recentemente Modificado.md",
-    "_index_notas.md",
-    "README.md",
-    "🏠Home Pro.md",
     "🏠Home.md",
     "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
-    "Atlas/Conceitos/Gestão de conhecimento/ARC Framework.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Sistema ACE.md",
-    "+/Boas Vindas 🎉.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
+    "🏠Home Pro.md",
     "+/Guias Práticos ❓.md",
-    "Sistema/Controle/Notas Recentemente Modificadas.md",
-    "Sistema/Controle/Coleções.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Areas.md",
-    "Sistema/Recursos/Custom Callouts.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Como a pasta Sistema funciona.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md",
-    "Sistema/Templates/Snippet/% TODAS TAREFAS.md",
-    "Calendário/Dias/2025-10-07.md",
-    "Calendário/Dias/2025-10-05.md",
-    "Calendário/Dias/2025-08-17.md",
-    "+/no.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Revitalizar.md",
+    "+/Boas Vindas 🎉.md",
     "Atlas/Conceitos/Gestão de conhecimento/Boas Práticas de Classificação.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Renovar.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Construir.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Como a pasta Sistema funciona.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Como Atlas funciona.md",
+    "Sistema/Controle/Todas Tarefas.md",
+    "Sistema/Controle/Tarefas Esforços.md",
+    "Sistema/Controle/Tarefas Calendário.md",
+    "Untitled.md",
+    "Sistema/Controle/Tarefas Projetos.md",
+    "Sistema/Controle/Tarefas Areas.md",
+    "Esforços/Areas/area 1/nota area 1.md",
+    "Calendário/Dias/2025-10-07.md",
+    "+/% TAREFAS DO CALENDÁRIO.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Projetos Ativos.md",
+    "Esforços/Projetos/projeto 1/projeto 1.md",
+    "Esforços/Areas/area 1/area 1.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Areas.md",
+    "Esforços/Areas/area 1",
+    "Esforços/Areas",
+    "Esforços/Projetos/projeto 1/nota projeto 1.md",
+    "Esforços/Projetos/projeto 1",
+    "Esforços/Projetos",
+    "Sistema/Templates/Snippet/iframe.md",
+    "Sistema/Media/Pasted image 20251007195624.png",
+    "Sistema/Media/Pasted image 20251007195459.png",
+    "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md",
+    "Sistema/Controle/Coleções.md",
     "Esforços/Untitled",
     "Atlas/Conceitos",
     "Sistema/Recursos",
     "Esforços/Areas/a",
-    "Esforços/Areas",
     "Esforços",
     "Sistema/Sobre",
-    "Sistema/Controle",
     "Sistema/Media/Pasted image 20250815104904.png",
-    "]",
-    "Esforços/Projetos/projeto 1",
     "Sistema/Media/Pasted image 20250910044512.png",
     "Sistema/Media/Images/lyt-crafting-mocs-2.jpg",
     "Sistema/Media/Images/flight-school-checklist.jpg",
@@ -385,8 +363,6 @@
     "Sistema/Media/Images/flow-map.png",
     "Sistema/Media/Images/sensemaking-archetypes-clean.png",
     "Sistema/Media/Images/LYT Ideaverse Wallpaper - Purple.jpg",
-    "Sistema/Media/Images/lyt-crafting-mocs-5.jpg",
-    "Sistema/Media/Images/flight-school-interfacing-excellence-award.jpg",
     "ATLAS/FONTES/Sem título.canvas",
     "Sem título.canvas"
   ]
