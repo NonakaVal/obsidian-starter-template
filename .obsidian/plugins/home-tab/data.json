@@ -12,67 +12,55 @@
   "fontSize": "4em",
   "fontColorType": "default",
   "fontWeight": 600,
-  "maxResults": 5,
+  "maxResults": 10,
   "showbookmarkedFiles": true,
   "showRecentFiles": true,
-  "maxRecentFiles": 13,
+  "maxRecentFiles": 10,
   "storeRecentFile": true,
   "showPath": true,
   "selectionHighlight": "default",
   "showShortcuts": true,
-  "markdownOnly": false,
+  "markdownOnly": true,
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "HOMEPAGE.md",
-      "timestamp": 1757596488005
+      "filepath": "+/Boas Vindas 🎉.md",
+      "timestamp": 1759919921577
     },
     {
-      "filepath": "+/SCRIPTS JS.md",
-      "timestamp": 1757596418937
+      "filepath": "+/Guias Práticos ❓.md",
+      "timestamp": 1759919918200
     },
     {
-      "filepath": "Calendário/Dias/2025-09-11.md",
-      "timestamp": 1757595981825
+      "filepath": "🏠Home.md",
+      "timestamp": 1759919908411
     },
     {
-      "filepath": "Sistema/Templates/Snippet/% TODAS TAREFAS.md",
-      "timestamp": 1757595775768
+      "filepath": "🏠Home Pro.md",
+      "timestamp": 1759919907738
     },
     {
-      "filepath": "Sistema/Templates/Snippet/% TAREFAS EFFORTS.md",
-      "timestamp": 1757595559883
+      "filepath": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
+      "timestamp": 1759919821122
     },
     {
-      "filepath": "Sistema/Templates/Snippet/% TAREFAS DO CALENDÁRIO.md",
-      "timestamp": 1757595549448
+      "filepath": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md",
+      "timestamp": 1759919752943
     },
     {
-      "filepath": "Sistema/Sobre/Notas Recentemente Modificadas.md",
-      "timestamp": 1757595024340
-    },
-    {
-      "filepath": "Sistema/Sobre/Boas Vindas.md",
-      "timestamp": 1757595013199
-    },
-    {
-      "filepath": "Sistema/Sobre/Guias Práticos.md",
-      "timestamp": 1757594794528
-    },
-    {
-      "filepath": "Sistema/Sobre/Templates.md",
-      "timestamp": 1757594658050
+      "filepath": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md",
+      "timestamp": 1759919605189
     }
   ],
   "bookmarkedFileStore": [
     {
-      "filepath": "Sistema/Sobre/Boas Vindas.md"
+      "filepath": "+/Boas Vindas 🎉.md"
     },
     {
-      "filepath": "Sistema/Sobre/Guias Práticos.md"
+      "filepath": "+/Guias Práticos ❓.md"
     },
     {
-      "filepath": "Sistema/Sobre/Templates.md"
+      "filepath": "Sistema/Controle/Templates.md"
     }
   ],
   "searchDelay": 0,

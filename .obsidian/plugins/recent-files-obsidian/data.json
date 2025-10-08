@@ -5,16 +5,32 @@
       "path": "+/Boas Vindas 🎉.md"
     },
     {
-      "basename": "🏠Home Pro",
-      "path": "🏠Home Pro.md"
-    },
-    {
-      "basename": "nota 1",
-      "path": "+/nota 1.md"
+      "basename": "Guias Práticos ❓",
+      "path": "+/Guias Práticos ❓.md"
     },
     {
       "basename": "🏠Home",
       "path": "🏠Home.md"
+    },
+    {
+      "basename": "🏠Home Pro",
+      "path": "🏠Home Pro.md"
+    },
+    {
+      "basename": "Checklist Obsidian",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
+    },
+    {
+      "basename": "Obsidian e PKM",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md"
+    },
+    {
+      "basename": "Propriedades",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
+    },
+    {
+      "basename": "Notas não Criadas",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Notas não Criadas.md"
     },
     {
       "basename": "Mapa de Gestão de Conhecimento",
@@ -97,14 +113,6 @@
       "path": "Sistema/Templates/Format/% MAPA DATAVIEW DE ATLAS.md"
     },
     {
-      "basename": "Checklist Obsidian",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
-    },
-    {
-      "basename": "Guias Práticos ❓",
-      "path": "+/Guias Práticos ❓.md"
-    },
-    {
       "basename": "Boas Práticas de Classificação",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Boas Práticas de Classificação.md"
     },
@@ -169,20 +177,12 @@
       "path": "Sistema/Templates/Snippet/iframe.md"
     },
     {
-      "basename": "Propriedades",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
-    },
-    {
       "basename": "Coleções",
       "path": "Sistema/Controle/Coleções.md"
     },
     {
       "basename": "Sistema ACE",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Sistema ACE.md"
-    },
-    {
-      "basename": "Obsidian e Gestão de Conhecimento",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e Gestão de Conhecimento.md"
     },
     {
       "basename": "Jardineiro",

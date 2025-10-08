@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3f2c465ec1ac7fde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Boas Vindas 🎉.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Boas Vindas 🎉"
-            }
-          },
-          {
             "id": "41e7cb7defd71eca",
             "type": "leaf",
             "pinned": true,
@@ -82,8 +58,33 @@
               "icon": "lucide-file",
               "title": "🏠Home Pro"
             }
+          },
+          {
+            "id": "9a2d408081d38d5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Boas Vindas 🎉.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Boas Vindas 🎉"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -337,16 +338,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3f2c465ec1ac7fde",
+  "active": "9a2d408081d38d5c",
   "lastOpenFiles": [
-    "🏠Home Pro.md",
+    "+/Guias Práticos ❓.md",
     "+/Boas Vindas 🎉.md",
+    "🏠Home.md",
+    "🏠Home Pro.md",
     "+/nota 1.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Notas não Criadas.md",
+    "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
     "Sistema/Templates/Snippet/sm.md",
     "Sistema/Templates/Format/format.md",
     "+/----.md",
-    "🏠Home.md",
-    "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
     "Sistema/Templates/quick-actions.md",
     "Sistema/Templates/Snippet/tabs-2.md",
     "Sistema/Templates/Snippet/tabs.md",
@@ -360,11 +366,6 @@
     "Sistema/Templates/Format/template.md",
     "Sistema/Templates/Format/projeto nota.md",
     "Sistema/Templates/Format/nota diaria.md",
-    "Sistema/Templates/Format/mensal-template.md",
-    "Sistema/Templates/Format/coleção.md",
-    "Sistema/Templates/Format/livro.md",
-    "Sistema/Templates/Format/base.md",
-    "Sistema/Templates/Format/aula.md",
     "Esforços/Areas/area 1",
     "Esforços/Areas",
     "Esforços/Projetos/projeto 1",

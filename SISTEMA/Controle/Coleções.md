@@ -4,7 +4,7 @@ collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecim
 ---
 As "notas de coleção" exibem notas que fazem referência a elas usando a propriedade `collection`.  
 
-> [!waypoints] **Básico** »  [[Obsidian e Gestão de Conhecimento]]  |[[Markdown]]| [[Propriedades]]  | **[[Coleções]]** | [[Atalhos]]   
+> [!waypoints] **Básico** »  [[Obsidian e PKM]]  |[[Markdown]]| [[Propriedades]]  | **[[Coleções]]** | [[Atalhos]]   
 
 ``` dataviewjs
 // Obter coleções

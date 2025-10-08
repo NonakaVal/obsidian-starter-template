@@ -10,7 +10,7 @@ tags:
 ### 📘 Gestão de Conhecimento
 
 #### I. Fundamentos do PKM e LYT
-- 📄 [[Obsidian e Gestão de Conhecimento]]
+- 📄 [[Obsidian e PKM]]
 - 📄 [[Nota]] (Recipiente de pensamento significativo para quem cria)
 - 📄 [[MOC definição]] (Mapas de Conteúdo para agrupar e navegar ideias)
 - 📄 [[Propriedades]] (Metadados usados para classificação)
