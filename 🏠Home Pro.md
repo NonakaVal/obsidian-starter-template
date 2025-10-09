@@ -9,7 +9,9 @@ type: clock
 ```
 ''
 
-> [!home] [[🏠Home| 🏠 Home]] | **[[🏠Home Pro]]** | [[Boas Vindas 🎉]] | [[Guias Práticos ❓]]
+> [!home] [[🏠Home| 🏠 Home]] | **[[🏠Home Pro]]** | [[Boas Vindas 🎉]] | [[Guias Práticos]]
+
+> [!waypoints] Básico PKM » [[Checklist Obsidian]] ✅ | [[Mapa de Gestão de Conhecimento]] 🧠  
 
 <br>
 
@@ -17,7 +19,7 @@ type: clock
 
 <br>
 
-> [!waypoints] Gestão de conhecimento » [[Checklist Obsidian]] ✅ | [[Mapa de Gestão de Conhecimento]] 🧠  
+
 
 > [!multi-column]
 > 
@@ -70,7 +72,7 @@ type: clock
 
 
 - ! [[Boas Vindas 🎉]]
-- help [[Guias Práticos ❓]]
+- help [[Guias Práticos]]
 - & [[Templates]]
 - clock [[Notas Recentemente Modificadas]]
 - ? [[Custom Callouts]]
@@ -123,7 +125,7 @@ id: last
 style: destructive
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/Notas Recentemente Modificadas.md
+    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Notas Recentemente Modificadas.md-new-tab
 ```
 
 
@@ -136,7 +138,7 @@ id: task
 style: primary
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:SISTEMA/TEMPLATES/SNIPPET/% TODAS TAREFAS.md
+    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Todas Tarefas.md-new-tab
 ```
 
 
@@ -149,7 +151,7 @@ id: col
 style: primary
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/_COLEÇÕES.md
+    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Coleções.md-new-tab
 ```
 
 ```meta-bind-button
@@ -186,7 +188,7 @@ id: project
 style: destructive
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:ESFORÇOS/2_PROJETOS.md
+    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Projetos Ativos.md-new-tab
 ```
 
 
@@ -201,7 +203,7 @@ id: areas
 style: destructive
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:ESFORÇOS/1_AREAS.md
+    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Areas.md-new-tab
 ```
 
 ```meta-bind-button
@@ -213,7 +215,7 @@ id: dias
 style: destructive
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:CALENDÁRIO/REVISÕES/DIAS.md
+    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Dias.md-new-tab
 ```
 
 ```meta-bind-button
@@ -262,7 +264,7 @@ actions:
 
 [^5]: `Ctrl + Shift + M`
 
-[^6]: **[[Atlas]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** 
+[^6]: **[[Atlas]] »» [[Como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** 
 
 [^7]: 
 

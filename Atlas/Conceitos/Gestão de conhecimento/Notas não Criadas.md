@@ -9,6 +9,7 @@ Nunca comece com uma página em branco. Surpreenda-se com o trabalho que você j
 Esta visualização avançada mostra **notas de espaço reservado que estão se acumulando** com pelo menos `3` links apontando para elas.  
 Se você sentir o estalo, transforme a nota de espaço reservado em uma nota real.  
 
+
 ```dataviewjs
 const count = 3;
 let d = {};

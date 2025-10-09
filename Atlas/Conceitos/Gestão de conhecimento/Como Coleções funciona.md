@@ -3,11 +3,8 @@ up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
 
-**Coleções** se referem a notas especiais que possuem "buscas salvas" (queries) que permanecem sempre atualizadas (alguns dizem "automágicas"). Elas também podem ser chamadas de "dashboards dinâmicos". Exemplos comuns incluem:
+As **coleções** são um sistema de **agrupamento temático** que funciona através de **referências bidirecionais** no Obsidian. Uma coleção é uma **nota central no [[Como a pasta Sistema funciona|sistema]]**, vazia **ou** não, que automaticamente exibe todas as notas que fazem referência a ela através da propriedade `collection:`.
 
-- Mapas
-- Coisas, Conceitos, Pessoas
-- Declarações, Perguntas, Citações
-- Livros, Filmes, Séries
-- Reuniões, Entidades
-- Esforços
+Ficam em `Sistema/Coleções/` e servem como "etiquetas inteligentes":
+
+![[Coleções]]

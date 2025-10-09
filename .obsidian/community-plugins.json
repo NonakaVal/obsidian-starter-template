@@ -4,7 +4,6 @@
   "obsidian-style-settings",
   "tabs",
   "dataview",
-  "iconic",
   "js-engine",
   "obsidian-list-callouts",
   "obsidian-meta-bind-plugin",
@@ -27,5 +26,6 @@
   "obsidian-view-mode-by-frontmatter",
   "simple-banner",
   "obsidian-hotkeys-for-specific-files",
-  "obsidian-advanced-uri"
+  "obsidian-advanced-uri",
+  "obsidian-icon-folder"
 ]

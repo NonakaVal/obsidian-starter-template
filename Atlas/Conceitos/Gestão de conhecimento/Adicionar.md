@@ -4,9 +4,7 @@ collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecim
 ---
 | `Up` | `INPUT[suggester(optionQuery("")):up]`    | `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]` 
 
-Mapas~ [[ARC Framework]] 
-
-> [!rainbow] ARC » [[Adicionar]] | **[[Relacionar]]** | [[Comunicar]] 
+> [!tldr] [[ARC Framework]] » **[[Adicionar]]** | [[Relacionar]] | [[Comunicar]] 
 
 Esta nota não é apenas uma caixa de entrada. É uma base de resfriamento 🧊. Os pensamentos chegam quentes. Mas depois de alguns dias, eles esfriam. Quando pensamentos mais frios prevalecem, você pode priorizar melhor. Legal? 
 

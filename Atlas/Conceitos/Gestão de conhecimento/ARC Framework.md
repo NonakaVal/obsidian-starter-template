@@ -5,7 +5,7 @@ collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecim
 | `Up` | `INPUT[suggester(optionQuery("")):up]`    | `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]` 
 
 
-> [!rainbow] ARC » [[Adicionar]] | **[[Relacionar]]** | [[Comunicar]] 
+> [!tldr] **[[ARC Framework]]** » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
 
 ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse é um framework que amplia seu processo criativo
 

@@ -12,12 +12,12 @@
         {
           "type": "file",
           "ctime": 1755663266556,
-          "path": "+/Guias Práticos ❓.md"
+          "path": "+/Guias Práticos.md"
         },
         {
           "type": "file",
           "ctime": 1755663266556,
-          "path": "Sistema/Controle/Templates.md"
+          "path": "Sistema/Notas de Controle/Templates.md"
         }
       ],
       "title": "Boas Vindas"
@@ -31,6 +31,11 @@
       "type": "folder",
       "ctime": 1757690839031,
       "path": "Sistema/Templates"
+    },
+    {
+      "type": "file",
+      "ctime": 1760044221348,
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Notas não Criadas.md"
     }
   ]
 }

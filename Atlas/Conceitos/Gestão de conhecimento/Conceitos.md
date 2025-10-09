@@ -2,10 +2,18 @@
 up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
-Esta nota coleta todas as notas onde a propriedade `collection` diz **Concepts**.  
-Observe a propriedade **"Says"**.  
+A pasta **Conceitos** é reservada para **ideias fundamentais** e **definições** que estruturam seu sistema de conhecimento.
 
-Uma das práticas mais subestimadas e semelhantes ao método LYT que você pode adotar é **personificar qualquer conceito** que encontrar.  
-Se ele pudesse pronunciar uma única frase, o que diria?  
+- Coloque aqui:
+	- **Metodologias** que você usa (ex: Zettelkasten, PARA, GTD)
+	- **Definições** de termos importantes do seu sistema
+	- **Frameworks** e modelos mentais (ex: Sistema ACE, ARC Framework)
+	- **Princípios** que guiam sua organização
+	- **Explicações** sobre como partes do sistema funcionam
+	- **Metáforas** úteis para entender processos (ex: Jardineiro vs Arquiteto)
 
-Os conceitos a seguir estão ordenados por classificação (**rank**).  
+- ❌ NÃO coloque aqui:
+	- Notas sobre projetos específicos → vão em `Esforços/PROJETOS`
+	- Conteúdo do dia a dia → vai em `Calendário/DIAS`
+	- Templates → vão em `Sistema/Templates`
+

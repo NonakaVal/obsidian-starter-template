@@ -7,7 +7,7 @@
 
 <br>
 
-> [!globe]+ **[[Atlas]] »» [[como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** 
+> [!globe]+ **[[Atlas]] »» [[Como + funciona|+]] » [[MOC definição|Mapas]] » [[Coleções]]** 
 >  >  `BUTTON[dash, nav]`   `BUTTON[col]`  `BUTTON[last]` [^3]
 
 --- start-multi-column: ExampleRegion3

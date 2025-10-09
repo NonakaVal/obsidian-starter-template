@@ -2,15 +2,35 @@
   "files": [
     {
       "useMoment": false,
-      "file": "+/Guias Práticos ❓.md"
-    },
-    {
-      "useMoment": false,
-      "file": "Atlas/Conceitos/Gestão de conhecimento/homepage-help.md"
+      "file": "+/Guias Práticos.md"
     },
     {
       "useMoment": false,
       "file": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Sistema/Notas de Controle/Notas Recentemente Modificadas.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Sistema/Notas de Controle/Todas Tarefas.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Sistema/Notas de Controle/Projetos Ativos.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Sistema/Notas de Controle/Coleções.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Sistema/Notas de Controle/Areas.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Sistema/Notas de Controle/Dias.md"
     }
   ],
   "useExistingPane": true,

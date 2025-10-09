@@ -3,7 +3,7 @@ created: "[[2025-07-20]]"
 ---
 # Primeiros passos
 
-> [!waypoints]  » [[Boas Vindas 🎉]] | [[Guias Práticos ❓]] | [[Checklist Obsidian]]
+> [!home] [[🏠Home| 🏠 Home]] | **[[🏠Home Pro]]** | [[Boas Vindas 🎉]] | [[Guias Práticos]]
 
 > [!VIDEO]+ [[Markdown|Formatação Markdown]]
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1MUXAJNB2pC_2cJndcC77p69uib_cfIbl/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
@@ -11,11 +11,10 @@ created: "[[2025-07-20]]"
 > [!VIDEO]- Básico das Configurações e Estilos
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1sRLN20ZQOny482V49Vi1CrxhuxNyaoLu/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
-> [!VIDEO]- Conhecendo a Área de trabalho
+> [!VIDEO]- Tour pelo Cofre
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1gLVrkVDkYgfK6HFQASG0xUWA_NZfv33r/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
-> [!VIDEO]- 🏠 Homepage
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1y-93iC85x6ADoUblwMolIzOMSCZtNEUU/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+
 
  `BUTTON[home-help]`     
 
@@ -74,7 +73,7 @@ actions:
 
 > [!waypoints] **Básico** »  [[Obsidian e Gestão de Conhecimento]]  - [[Markdown]] - [[Propriedades]]  - [[Coleções]] - [[Atalhos]]   
 
-> [!box] [[Sistema ACE]] »  [[como + funciona|+]] - [[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]] 
+> [!box] [[Sistema ACE]] »  [[Como + funciona|+]] - [[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]] 
 
 > [!rainbow] Framework ARC » [[Adicionar]] - [[Relacionar]] - [[Comunicar]] 
 

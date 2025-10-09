@@ -14,6 +14,14 @@
     {
       "folder": "Sistema/Sobre",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Calendário/Revisões",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Sistema/Notas de Controle",
+      "viewMode": "obsidianUIMode: preview"
     }
   ],
   "files": [

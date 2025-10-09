@@ -9,5 +9,5 @@
   "newFileFolderPath": "+",
   "readableLineLength": true,
   "defaultViewMode": "source",
-  "promptDelete": false
+  "promptDelete": true
 }

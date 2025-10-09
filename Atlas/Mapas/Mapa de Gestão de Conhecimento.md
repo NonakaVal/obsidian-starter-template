@@ -20,7 +20,7 @@ tags:
 
 #### II. O Sistema ACE (Atlas, Calendar, Efforts)
 - 📄 [[Sistema ACE]] (Atlas = Conhecimento, Calendar = Tempo, Efforts = Ação)
-- 📄 [[como + funciona]] (Captura imediata de notas)
+- 📄 [[Como + funciona]] (Captura imediata de notas)
 - 📄 [[Como a pasta Sistema funciona]]
 
 **1. Atlas (Conhecimento / Espaço)**

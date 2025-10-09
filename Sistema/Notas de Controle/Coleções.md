@@ -2,10 +2,6 @@
 up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
 ---
-As "notas de coleção" exibem notas que fazem referência a elas usando a propriedade `collection`.  
-
-> [!waypoints] **Básico** »  [[Obsidian e Gestão de Conhecimento]]  |[[Markdown]]| [[Propriedades]]  | **[[Coleções]]** | [[Atalhos]]   
-
 ``` dataviewjs
 // Obter coleções
 const colecoes = dv.pages('"Sistema/Coleções"').sort(p => p.file.ctime, 'desc').slice(0, 33);

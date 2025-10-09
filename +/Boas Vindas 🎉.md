@@ -21,12 +21,7 @@ Sistema integrado de **gestão do conhecimento** baseado no [[Sistema ACE|ACE fo
 # [[Sistema ACE|Sistema de organização ACE]] 
 O framework **ACE** (Atlas, Calendar, Efforts) é um Sistema universal para organizar conhecimento, tempo e ação, complementado por:
 
-
-
-
-
 ----
-
 
 --- start-multi-column: ExampleRegion1  
 ```column-settings  
@@ -49,41 +44,7 @@ largest column:
 </div>
 
 --- end-multi-column
-## Adaptação usada.
 
-```
-📂 + Pasta de captura inicial
-│
-📂 Atlas — Notas e mapas de conteúdo em todos os níveis
-│
-├── 🧭 MAPAS — Conjunto organizado de várias notas
-│
-├── 📚 Conceitos — Notas de conteúdo separadas por fonte
-│   ├── 📄 ARTIGO — Notas de estudo de artigos
-│   ├── ▶️ VÍDEOS — Notas sobre vídeos
-│   ├── 📙 LIVROS — Notas sobre livros
-│   └── ...
-│
-📂 🚀 Esforços — Notas de planejamento e revisão de trabalho
-│
-├── 📂 ÁREAS — Gestão e planejamento de áreas contínuas
-├── 📂 PROJETOS — Objetivos com metas definidas
-└── 📂 ARQUIVOS — Projetos concluídos ou abandonados
-│
-📂 📅 CALENDÁRIO — Notas diárias, periódicas ou de revisão
-│
-├── 📂 DIA
-└── 📂 REVISÃO
-│
-📂 ⚙️ Sistema — Notas e pastas de uso do Sistema
-│
-├── 🗂️ COLEÇÕES - Notas de segmentação
-├── 🖼️ MÍDIAS
-└── 📋 TEMPLATES — Modelos pré-formatados de uso
-    ├── 📂 FORMATAÇÃO
-    └── 📂 SNIPPET
-
-```
 ---
 
 # [[ARC Framework]]
@@ -120,15 +81,8 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 
   > Ex.: `related: [[Conceito Y]], [[Questão Z]]`.
 
-
-
-# 🛠 Boas Práticas
-
-- Revisão Regular: Reserve um tempo semanalmente para revisar e atualizar notas, garantindo que as informações permaneçam relevantes e corretas.
-- Limpeza de Tags e Pastas: Periodicamente, revise tags e a estrutura de pastas para evitar redundâncias ou categorias desatualizadas.
-- Backup: Faça backups regulares de sua vault para evitar perda de dados.
-- Plugins: Utilize plugins que complementam seu fluxo de trabalho, mas mantenha a simplicidade para não sobrecarregar o Sistema.
 ---
+
 
  `BUTTON[help]`     
 
@@ -141,7 +95,7 @@ id: help
 style: primary
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:+/Guias Práticos.md
+    command: obsidian-hotkeys-for-specific-files:+/Guias Práticos.md-new-tab
 ```
 
 
