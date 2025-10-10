@@ -1,7 +1,11 @@
 ---
 cssclasses:
   - wide-page
-banner: "https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png"
+banner: https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png
+created:
+  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+up:
+  - <% tp.file.folder() %>
 ---
 
 ```widgets

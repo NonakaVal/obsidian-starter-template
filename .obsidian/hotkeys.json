@@ -51,15 +51,6 @@
       "key": "N"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
   "app:delete-file": [
     {
       "modifiers": [
@@ -286,14 +277,6 @@
         "Shift"
       ],
       "key": "2"
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
     }
   ],
   "obsidian-hotkeys-for-specific-files:_index_notas.md": [
@@ -603,6 +586,14 @@
         "Mod"
       ],
       "key": "N"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
     }
   ]
 }

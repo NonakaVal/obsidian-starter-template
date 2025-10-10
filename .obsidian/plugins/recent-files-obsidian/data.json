@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "🏠Home Pro",
-      "path": "🏠Home Pro.md"
+      "basename": "wall2",
+      "path": "Sistema/Media/wall2.png"
+    },
+    {
+      "basename": "Guias Práticos",
+      "path": "+/Guias Práticos.md"
+    },
+    {
+      "basename": "Boas Vindas 🎉",
+      "path": "+/Boas Vindas 🎉.md"
+    },
+    {
+      "basename": "atlas-f",
+      "path": "Sistema/Media/atlas-f.png"
     },
     {
       "basename": "🏠Home",
       "path": "🏠Home.md"
+    },
+    {
+      "basename": "🏠Home Pro",
+      "path": "🏠Home Pro.md"
+    },
+    {
+      "basename": "Mapa de Gestão de Conhecimento",
+      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "Pro Custom Callouts",
+      "path": "Sistema/Recursos/Pro Custom Callouts.md"
     },
     {
       "basename": "Todas Tarefas",
@@ -85,10 +109,6 @@
       "path": "Sistema/Templates/Format/area.md"
     },
     {
-      "basename": "Pro Custom Callouts",
-      "path": "Sistema/Recursos/Pro Custom Callouts.md"
-    },
-    {
       "basename": "Custom Callouts",
       "path": "Sistema/Recursos/Custom Callouts.md"
     },
@@ -153,16 +173,8 @@
       "path": "Sistema/Media/wall.png"
     },
     {
-      "basename": "wall2",
-      "path": "Sistema/Media/wall2.png"
-    },
-    {
       "basename": "arc-maid",
       "path": "Sistema/Media/arc-maid.png"
-    },
-    {
-      "basename": "atlas-f",
-      "path": "Sistema/Media/atlas-f.png"
     },
     {
       "basename": "arc-flow",
@@ -187,18 +199,6 @@
     {
       "basename": "Como + funciona",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Como + funciona.md"
-    },
-    {
-      "basename": "Como Atlas funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Atlas funciona.md"
-    },
-    {
-      "basename": "Adicionar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Adicionar.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "+/Guias Práticos.md"
     }
   ],
   "omittedPaths": [

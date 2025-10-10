@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c12cb67693d2c0f8",
+        "id": "c9c6e591aed0dda5",
         "type": "tabs",
         "children": [
           {
-            "id": "4b8a8ea1c25d9d78",
+            "id": "d45ca5a55f3ac120",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -34,14 +34,14 @@
             }
           },
           {
-            "id": "6748f346b179a706",
+            "id": "f8f1c8bae8019827",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "🏠Home Pro.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -60,12 +60,38 @@
             }
           },
           {
-            "id": "5ca99c8e8462cb2b",
+            "id": "ee537b9c07495404",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Guias Práticos.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Guias Práticos"
+            }
+          },
+          {
+            "id": "b293815051bb90c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistema/Notas de Controle/Todas Tarefas.md",
+                "file": "+/Boas Vindas 🎉.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -80,11 +106,33 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Todas Tarefas"
+              "title": "Boas Vindas 🎉"
+            }
+          },
+          {
+            "id": "549e0a55e31f4879",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
+          },
+          {
+            "id": "d8d6956275cf6355",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Sistema/Media/wall2.png"
+              },
+              "icon": "lucide-image",
+              "title": "wall2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -111,6 +159,16 @@
             }
           },
           {
+            "id": "3a0fadd679d2e600",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
             "id": "ab37be2ef210afce",
             "type": "leaf",
             "state": {
@@ -126,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏠Home Pro.md",
+                "file": "Sistema/Sobre/Guias Práticos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 🏠Home Pro"
+              "title": "Sumário de Guias Práticos"
             }
           },
           {
@@ -141,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"created\"]",
+                "query": "tag:#project/projeto_2  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,30 +207,14 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Procurar"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0956ee77fcdb47bb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3a0fadd679d2e600",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "title": "Search"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 330
+    "width": 347.5
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -183,25 +225,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2d39fc8f1f5262c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "f873cb294b2c1c1b",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "🏠Home Pro.md"
+                "file": "Sistema/Media/wall2.png"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo 🏠Home Pro"
+              "title": "Propriedades do arquivo wall2"
             }
           },
           {
@@ -233,20 +265,29 @@
               "title": "Todas as propriedades"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "468b75df9b7ee1c6",
         "type": "tabs",
         "children": [
           {
+            "id": "d2d39fc8f1f5262c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
             "id": "f1767b69ffcf88ce",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🏠Home Pro.md",
+                "file": "Sistema/Sobre/Guias Práticos ❓.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -269,12 +310,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.20663348316686656,
+                  "scale": 0.3242333202184635,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de 🏠Home Pro"
+              "title": "Gráfico de Guias Práticos ❓"
             }
           },
           {
@@ -297,24 +338,15 @@
             }
           },
           {
-            "id": "4f4ef0971adf29bf",
+            "id": "4f85097de9cdee3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistema/Controle/Atalhos.md",
-                "mode": "source",
+                "file": "Sistema/Sobre/LYT/Atalhos.md",
+                "mode": "preview",
                 "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Atalhos"
@@ -324,8 +356,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408,
-    "collapsed": true
+    "width": 336
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -337,18 +368,23 @@
       "command-palette:Abrir paleta de comandos": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "bases:Criar nova base": false,
+      "callout-manager:Insert Callout": false,
+      "templater-obsidian:Templater": false,
       "widgets:Add widget": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
-      "callout-manager:Insert Callout": false,
-      "templater-obsidian:Templater": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "6748f346b179a706",
+  "active": "26bda3c9cb740625",
   "lastOpenFiles": [
+    "+/Guias Práticos.md",
+    "+/Boas Vindas 🎉.md",
+    "Sistema/Media/atlas-f.png",
     "🏠Home.md",
     "🏠Home Pro.md",
+    "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
+    "Sistema/Recursos/Pro Custom Callouts.md",
     "Sistema/Notas de Controle/Todas Tarefas.md",
     "Esforços/Projetos/Projeto 1/nota projeto 1.md",
     "Esforços/Projetos/Projeto 1/Projeto 1.md",
@@ -371,17 +407,11 @@
     "Sistema/Templates/Format/mapa dataview-metabind.md",
     "Sistema/Templates/Format/coleção.md",
     "Sistema/Templates/Format/area nota.md",
-    "Sistema/Templates/Format/area.md",
-    "Sistema/Recursos/Pro Custom Callouts.md",
-    "Sistema/Recursos/Custom Callouts.md",
-    "Sistema/Notas de Controle/Templates.md",
-    "Sistema/Notas de Controle/Tarefas Projetos.md",
     "Sistema/Media/Pasted image 20251009183257.png",
     "Sistema/Media/wall.png",
     "Sistema/Media/Pasted image 20251009183223.png",
     "Sistema/Media/wall2.png",
     "Sistema/Media/arc-maid.png",
-    "Sistema/Media/atlas-f.png",
     "Sistema/Media/arc-flow.png",
     "Sistema/Media/Images/ptolemy-model.png",
     "Sistema/Media/Images/pillars-of-ideaverse-8-bit-narrow3.png",

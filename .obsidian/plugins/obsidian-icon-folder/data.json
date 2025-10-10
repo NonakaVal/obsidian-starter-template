@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSettings",
+      "LiBackpack",
+      "LiCalendar",
       "LiLayoutTemplate",
-      "LiTemplaterIcon",
-      "LiBox",
-      "LiNotepadTextDashed",
-      "LiAppWindowMac"
+      "LiTemplaterIcon"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,8 @@
   "Sistema/Media": "LiAppWindowMac",
   "Sistema/Notas de Controle": "LiNotepadTextDashed",
   "Sistema/Recursos": "LiBox",
-  "Sistema/Templates": "LiLayoutTemplate"
+  "Sistema/Templates": "LiLayoutTemplate",
+  "Calendário": "LiCalendar",
+  "Esforços": "LiBackpack",
+  "Sistema": "LiSettings"
 }

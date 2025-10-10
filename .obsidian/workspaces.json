@@ -10,13 +10,13 @@
             "type": "tabs",
             "children": [
               {
-                "id": "00b04ee400e048e9",
+                "id": "d45ca5a55f3ac120",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Sistema/Sobre/Boas Vindas 🎉.md",
+                    "file": "🏠Home.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": true,
@@ -32,34 +32,17 @@
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Boas Vindas 🎉"
+                  "title": "🏠Home"
                 }
               },
               {
-                "id": "32741ed96db980b3",
+                "id": "f8f1c8bae8019827",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Sistema/Sobre/Guias Práticos ❓.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Guias Práticos ❓"
-                }
-              },
-              {
-                "id": "5b460192d8b24f51",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "🏠.md",
+                    "file": "🏠Home Pro.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": true,
@@ -75,17 +58,18 @@
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "🏠"
+                  "title": "🏠Home Pro"
                 }
               },
               {
-                "id": "fd78db74f7160e44",
+                "id": "ee537b9c07495404",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Sistema/Sobre/LYT/Markdown.md",
-                    "mode": "source",
+                    "file": "+/Guias Práticos.md",
+                    "mode": "preview",
                     "source": false,
                     "backlinks": true,
                     "backlinkOpts": {
@@ -98,12 +82,13 @@
                       "unlinkedCollapsed": true
                     }
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Markdown"
+                  "title": "Guias Práticos"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -341,7 +326,6 @@
           "workspaces:Gerenciar leiautes da área de trabalho": false,
           "bases:Criar nova base": false,
           "callout-manager:Insert Callout": false,
-          "iconic:Open rulebook": false,
           "templater-obsidian:Templater": false,
           "widgets:Add widget": false,
           "dashboard-navigator:Open dashboard navigator": false,
@@ -349,8 +333,8 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "32741ed96db980b3",
-      "mtime": "2025-09-18T14:06:05-03:00"
+      "active": "ee537b9c07495404",
+      "mtime": "2025-10-10T01:08:26-03:00"
     },
     "LYT": {
       "main": {
@@ -999,5 +983,5 @@
       "mtime": "2025-10-07T20:16:06-03:00"
     }
   },
-  "active": "home"
+  "active": "Videos guia"
 }

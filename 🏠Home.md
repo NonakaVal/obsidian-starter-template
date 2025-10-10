@@ -3,16 +3,15 @@ banner: https://w.wallhaven.cc/full/o5/wallhaven-o5k7kl.jpg
 ---
 <br>
 
->[!home] **[[🏠Home| 🏠 Home]]** | [[🏠Home Pro]] | [[Boas Vindas 🎉]] | [[Guias Práticos]]
+>[!Milestone] **[[🏠Home| 🏠 Home]]** | [[🏠Home Pro]] | [[Boas Vindas 🎉]] | [[Guias Práticos]]
+
+
+
+
+
 
 ---
-
 <br>
-
-> [!waypoints] Básico PKM » [[Checklist Obsidian]] ✅ | [[Mapa de Gestão de Conhecimento]] 🧠  
-
----
-<br><br>
 
 > [!combine] **[[Como Atlas funciona|Atlas]]** » [Dashboard de Notas](obsidian://adv-uri?vault=obsidian-ACE-ARC&commandid=dashboard-navigator%3Adashboard) | [[Coleções]]  | [[Notas Recentemente Modificadas]] 
 
@@ -30,8 +29,9 @@ banner: https://w.wallhaven.cc/full/o5/wallhaven-o5k7kl.jpg
 ![[Pasted image 20251009183318.png]]
 
 <br>
+---
 
-
+> [!waypoints] Básico PKM » [[Checklist Obsidian]] ✅ | [[Mapa de Gestão de Conhecimento]] 🧠  
 
 > [!connect] **[[Sistema ACE]]** » [[Como + funciona]]  | 📚 [[Como Atlas funciona|Atlas]] | 📆 [[Como Calendário funciona|Calendário]] | 💼[[Como Esforços funciona|Esforços]] | ⚙️ [[Como a pasta Sistema funciona|Sistema]]
 

@@ -6,13 +6,12 @@ created: "[[2025-07-20]]"
 > [!home] [[🏠Home| 🏠 Home]] | **[[🏠Home Pro]]** | [[Boas Vindas 🎉]] | [[Guias Práticos]]
 
 > [!VIDEO]+ [[Markdown|Formatação Markdown]]
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1MUXAJNB2pC_2cJndcC77p69uib_cfIbl/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1Bu4HbF8n8A3V1LTAiOpqBrY-toZV3WEK/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 > [!VIDEO]- Básico das Configurações e Estilos
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1sRLN20ZQOny482V49Vi1CrxhuxNyaoLu/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1pXzzdilB-v0hq96g3XuwrHcPzUjQfPG6/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
-> [!VIDEO]- Tour pelo Cofre
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1gLVrkVDkYgfK6HFQASG0xUWA_NZfv33r/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+
 
 
 

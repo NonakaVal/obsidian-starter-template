@@ -1,3 +1,7 @@
+---
+collection:
+  - "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+---
 
 # Resumo 
 
@@ -9,9 +13,9 @@ Sistema integrado de **gestão do conhecimento** baseado no [[Sistema ACE|ACE fo
 
 
 ---
-> [!VIDEO]+ Introdução
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1QGSu6xrdlwJLBCjEV11XLTz9Vd8kI2Mn/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
+> [!VIDEO]+ Introdução
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1gRq5rn8DeGaoibX5fEqXEuK9OUmy-VuF/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 
 
@@ -39,7 +43,7 @@ largest column:
 --- end-column ---
 
 <div style="position:relative; min-height:200px; border:1px dashed #ccc">
-  <img src="Pasted image 20250816180551.png" alt="Imagem" width="190"
+  <img src="atlas-f.png" alt="Imagem" width="190"
        style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
 </div>
 
