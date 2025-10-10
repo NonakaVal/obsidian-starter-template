@@ -58,9 +58,23 @@
               "icon": "lucide-file",
               "title": "🏠Home Pro"
             }
+          },
+          {
+            "id": "901a05708b56703b",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "🏠Home Pro.md",
+                "bFile": "🏠Home Pro.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 🏠Home Pro"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,8 +206,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "bd70950709d3e840",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -293,8 +318,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406,
-    "collapsed": true
+    "width": 406
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -311,13 +335,14 @@
       "widgets:Add widget": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a256fdbf93bcd58",
+  "active": "901a05708b56703b",
   "lastOpenFiles": [
-    "+/Guias Práticos.md",
     "🏠Home Pro.md",
+    "+/Guias Práticos.md",
     "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md",
     "Atlas/Mapas/Dashboard++.md",
     "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
