@@ -171,10 +171,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Esforços/Areas/Saude/Saude.md"
+                "file": "🏠Home.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Mapa de Gestão de Conhecimento"
+              "title": "Propriedades do arquivo 🏠Home"
             }
           },
           {
@@ -216,8 +216,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "468b75df9b7ee1c6",
@@ -338,7 +337,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8aef6a56130d24cf",
+  "active": "f873cb294b2c1c1b",
   "lastOpenFiles": [
     "🏠Home Pro.md",
     "+/Guias Práticos.md",
