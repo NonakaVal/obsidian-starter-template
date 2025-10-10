@@ -1,15 +1,15 @@
 ---
-project: "[[projeto 1]]"
+project: "[[Projeto 1]]"
 resumo:
 tags: project/projeto_1/nota_projeto_1
 type: project_note
 created:
-  - "[[2025-10-07]]"
+  - "[[2025-10-09]]"
 up:
   - "[[2_PROJETOS|2_PROJETOS]]"
 ---
 
-~ [[projeto 1]] 
+~ [[Projeto 1]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
@@ -17,10 +17,6 @@ up:
 # [[nota projeto 1]] 
 
 ---
-
-# Definir Resumo 
-`INPUT[textArea(showcase, class(meta-bind-full-width), class(meta-bind-high)):resumo]`
-
 
 
 # TAREFAS E PROCESSOS
@@ -50,6 +46,6 @@ actions:
 
 
 
-- [ ] task 1
-- [ ] task 2
-- [x] task 3
+- [x] task projeto 1
+- [x] task projeto 2
+- [ ] task projeto 2

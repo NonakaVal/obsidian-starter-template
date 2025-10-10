@@ -1,23 +1,21 @@
 ---
-project: "[[projeto 1]]"
+project: "[[Projeto 1]]"
 tags: project/projeto_1
 type: project
 created:
-  - "[[2025-10-07]]"
+  - "[[2025-10-09]]"
 up: "[[2_PROJETOS|2_PROJETOS]]"
-inicio: 2025-10-07
-entrega: 2025-10-17
-status: Finalizada
-resumo: |
-  resumo 1
+resumo: resumo do projeto
+inicio: 2025-10-09
+entrega: 2025-10-30
+status: Em andamento
+related:
+  - "[[Esforços/Areas/Area 1/Area 1.md|Area 1]]"
 ---
 
  `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[projeto 1]] 
-
-
 
 | Data Início                                              | Data Entrega                                              | Status                                                                                                                |
 | -------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -51,7 +49,7 @@ tab: Em Aberto
 
 ```dataview
 TASK
-FROM "Esforços/Projetos/projeto 1"
+FROM "Esforços/Projetos/Projeto 1"
 WHERE !completed AND !checked
 GROUP BY file.name
 
@@ -60,7 +58,7 @@ GROUP BY file.name
 tab: Concluídas 
 ```dataview
 TASK
-FROM "Esforços/Projetos/projeto 1"
+FROM "Esforços/Projetos/Projeto 1"
 WHERE completed AND checked
 GROUP BY file.name
 
@@ -75,7 +73,7 @@ GROUP BY file.name
 
 ```dataview
 table created AS "Created", resumo AS "Resumo"
-from "Esforços/PROJETOS/projeto 1"
+from "Esforços/PROJETOS/Projeto 1"
 where type != "project"
 where type = "project_note"
 sort created DESC

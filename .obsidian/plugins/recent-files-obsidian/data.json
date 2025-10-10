@@ -5,32 +5,176 @@
       "path": "🏠Home Pro.md"
     },
     {
-      "basename": "Areas",
-      "path": "Sistema/Notas de Controle/Areas.md"
-    },
-    {
-      "basename": "2025-10",
-      "path": "Calendário/Revisões/2025-10.md"
-    },
-    {
-      "basename": "Tarefas Calendário",
-      "path": "Sistema/Notas de Controle/Tarefas Calendário.md"
-    },
-    {
-      "basename": "Coleções",
-      "path": "Sistema/Notas de Controle/Coleções.md"
+      "basename": "🏠Home",
+      "path": "🏠Home.md"
     },
     {
       "basename": "Todas Tarefas",
       "path": "Sistema/Notas de Controle/Todas Tarefas.md"
     },
     {
-      "basename": "🏠Home",
-      "path": "🏠Home.md"
+      "basename": "nota projeto 1",
+      "path": "Esforços/Projetos/Projeto 1/nota projeto 1.md"
+    },
+    {
+      "basename": "Projeto 1",
+      "path": "Esforços/Projetos/Projeto 1/Projeto 1.md"
+    },
+    {
+      "basename": "Projeto 2",
+      "path": "Esforços/Projetos/Projeto 1/Projeto 2.md"
+    },
+    {
+      "basename": "nota area 1",
+      "path": "Esforços/Areas/Area 1/nota area 1.md"
+    },
+    {
+      "basename": "Area 1",
+      "path": "Esforços/Areas/Area 1/Area 1.md"
+    },
+    {
+      "basename": "Pasted image 20251009183318",
+      "path": "Sistema/Media/Pasted image 20251009183318.png"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "template",
+      "path": "Sistema/Templates/Format/template.md"
+    },
+    {
+      "basename": "projeto nota",
+      "path": "Sistema/Templates/Format/projeto nota.md"
+    },
+    {
+      "basename": "projeto",
+      "path": "Sistema/Templates/Format/projeto.md"
+    },
+    {
+      "basename": "nota diaria",
+      "path": "Sistema/Templates/Format/nota diaria.md"
+    },
+    {
+      "basename": "mensal-template",
+      "path": "Sistema/Templates/Format/mensal-template.md"
+    },
+    {
+      "basename": "aula",
+      "path": "Sistema/Templates/Format/aula.md"
+    },
+    {
+      "basename": "base",
+      "path": "Sistema/Templates/Format/base.md"
+    },
+    {
+      "basename": "mapa dataview-metabind",
+      "path": "Sistema/Templates/Format/mapa dataview-metabind.md"
+    },
+    {
+      "basename": "coleção",
+      "path": "Sistema/Templates/Format/coleção.md"
+    },
+    {
+      "basename": "area nota",
+      "path": "Sistema/Templates/Format/area nota.md"
+    },
+    {
+      "basename": "area",
+      "path": "Sistema/Templates/Format/area.md"
+    },
+    {
+      "basename": "Pro Custom Callouts",
+      "path": "Sistema/Recursos/Pro Custom Callouts.md"
+    },
+    {
+      "basename": "Custom Callouts",
+      "path": "Sistema/Recursos/Custom Callouts.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "Sistema/Notas de Controle/Templates.md"
+    },
+    {
+      "basename": "Tarefas Projetos",
+      "path": "Sistema/Notas de Controle/Tarefas Projetos.md"
+    },
+    {
+      "basename": "Tarefas Esforços",
+      "path": "Sistema/Notas de Controle/Tarefas Esforços.md"
+    },
+    {
+      "basename": "Tarefas Calendário",
+      "path": "Sistema/Notas de Controle/Tarefas Calendário.md"
+    },
+    {
+      "basename": "Tarefas Areas",
+      "path": "Sistema/Notas de Controle/Tarefas Areas.md"
+    },
+    {
+      "basename": "Recentemente Modificado table",
+      "path": "Sistema/Notas de Controle/Recentemente Modificado table.md"
     },
     {
       "basename": "Projetos Ativos",
       "path": "Sistema/Notas de Controle/Projetos Ativos.md"
+    },
+    {
+      "basename": "Notas Recentemente Modificadas",
+      "path": "Sistema/Notas de Controle/Notas Recentemente Modificadas.md"
+    },
+    {
+      "basename": "Mapas",
+      "path": "Sistema/Notas de Controle/Mapas.md"
+    },
+    {
+      "basename": "Dias",
+      "path": "Sistema/Notas de Controle/Dias.md"
+    },
+    {
+      "basename": "Coleções",
+      "path": "Sistema/Notas de Controle/Coleções.md"
+    },
+    {
+      "basename": "Buscar Notas",
+      "path": "Sistema/Notas de Controle/Buscar Notas.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "Sistema/Notas de Controle/Atalhos.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Sistema/Notas de Controle/Areas.md"
+    },
+    {
+      "basename": "wall",
+      "path": "Sistema/Media/wall.png"
+    },
+    {
+      "basename": "wall2",
+      "path": "Sistema/Media/wall2.png"
+    },
+    {
+      "basename": "arc-maid",
+      "path": "Sistema/Media/arc-maid.png"
+    },
+    {
+      "basename": "atlas-f",
+      "path": "Sistema/Media/atlas-f.png"
+    },
+    {
+      "basename": "arc-flow",
+      "path": "Sistema/Media/arc-flow.png"
+    },
+    {
+      "basename": "2025-10-07",
+      "path": "Calendário/Dias/2025-10-07.md"
+    },
+    {
+      "basename": "Como Calendário funciona",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Calendário funciona.md"
     },
     {
       "basename": "2025-10-09",
@@ -53,152 +197,8 @@
       "path": "Atlas/Conceitos/Gestão de conhecimento/Adicionar.md"
     },
     {
-      "basename": "Pro Custom Callouts",
-      "path": "Sistema/Recursos/Pro Custom Callouts.md"
-    },
-    {
       "basename": "Guias Práticos",
       "path": "+/Guias Práticos.md"
-    },
-    {
-      "basename": "Custom Callouts",
-      "path": "Sistema/Recursos/Custom Callouts.md"
-    },
-    {
-      "basename": "_index_notas",
-      "path": "_index_notas.md"
-    },
-    {
-      "basename": "Sugestões de Padrões de Classificações",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Sugestões de Padrões de Classificações.md"
-    },
-    {
-      "basename": "Sistema de Classificação para Gestão de Conhecimento Pessoal",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Sistema de Classificação para Gestão de Conhecimento Pessoal.md"
-    },
-    {
-      "basename": "Sistema ACE",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Sistema ACE.md"
-    },
-    {
-      "basename": "Revitalizar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Revitalizar.md"
-    },
-    {
-      "basename": "Revisitar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Revisitar.md"
-    },
-    {
-      "basename": "Replantar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Replantar.md"
-    },
-    {
-      "basename": "Renovar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Renovar.md"
-    },
-    {
-      "basename": "Relacionar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Relacionar.md"
-    },
-    {
-      "basename": "Questione",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Questione.md"
-    },
-    {
-      "basename": "Propriedades",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
-    },
-    {
-      "basename": "Obsidian e Gestão de Conhecimento",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "Nova Coleção",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Nova Coleção.md"
-    },
-    {
-      "basename": "Notas não Criadas",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Notas não Criadas.md"
-    },
-    {
-      "basename": "Nota",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Nota.md"
-    },
-    {
-      "basename": "MOC definição",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/MOC definição.md"
-    },
-    {
-      "basename": "Jardineiro",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md"
-    },
-    {
-      "basename": "Entendendo Areas",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Entendendo Areas.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "+/Markdown.md"
-    },
-    {
-      "basename": "Mapas",
-      "path": "Sistema/Notas de Controle/Mapas.md"
-    },
-    {
-      "basename": "Dias",
-      "path": "Sistema/Notas de Controle/Dias.md"
-    },
-    {
-      "basename": "Boas Vindas 🎉",
-      "path": "+/Boas Vindas 🎉.md"
-    },
-    {
-      "basename": "Dashboard++",
-      "path": "+/Dashboard++.md"
-    },
-    {
-      "basename": "Cultive",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Cultive.md"
-    },
-    {
-      "basename": "Construir",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Construir.md"
-    },
-    {
-      "basename": "Conceitos",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Conceitos.md"
-    },
-    {
-      "basename": "Comunicar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Comunicar.md"
-    },
-    {
-      "basename": "Como usar Templater",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como usar Templater.md"
-    },
-    {
-      "basename": "Como Esforços funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Esforços funciona.md"
-    },
-    {
-      "basename": "Como Coleções funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md"
-    },
-    {
-      "basename": "Mapa de Gestão de Conhecimento",
-      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "Como Calendário funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Calendário funciona.md"
-    },
-    {
-      "basename": "Como a pasta Sistema funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como a pasta Sistema funciona.md"
-    },
-    {
-      "basename": "Checklist Obsidian",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
     }
   ],
   "omittedPaths": [

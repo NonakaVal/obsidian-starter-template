@@ -1,26 +1,19 @@
 ---
-area: "[[area 1]]"
+area: "[[Area 1]]"
 resumo:
 tags: area/area_1/nota_area_1
 type: area_note
 created:
-  - "[[2025-10-07]]"
+  - "[[2025-10-09]]"
 up:
   - "[[1_AREAS|1_AREAS]]"
 ---
-~ [[area 1]] 
+~ [[Area 1]] 
 
 | `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[nota area 1]] 
 
-
-# Definir Resumo 
-`INPUT[textArea(showcase, class(meta-bind-full-width), class(meta-bind-high)):resumo]`
-
-
-# TAREFAS E PROCESSOS
 
  `BUTTON[NOTA-AREA-TEMPLATE]`     
 
@@ -39,13 +32,6 @@ actions:
 
 ## Tarefas
 
-
----
-
-
-
-
-
-
-- [ ] task area 1
+- [ ] task 1
 - [x] task 2
+- [x] task 3

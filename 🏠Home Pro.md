@@ -56,7 +56,7 @@ type: clock
 > [!multi-column]
 >
 >> [!tldr|wide-3]-  🕐
->> ![[Recentemente Modificado]]
+>> ![[Recentemente Modificado table]]
 >
 >> [!box|wide-2]- 📦
 >> ![[Coleções]]

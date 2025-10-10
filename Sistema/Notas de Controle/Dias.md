@@ -5,7 +5,7 @@ collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecim
 ```dataview
 TABLE WITHOUT ID
 file.link as Nota , file.inlinks AS inlins, length(file.inlinks) as Total 
-FROM "CALENDÁRIO/DIAS"
+FROM "Calendário/Dias"
 sort file.ctime desc
 ```
 

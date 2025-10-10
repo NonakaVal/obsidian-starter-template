@@ -54,7 +54,7 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 
 > [!rainbow] ARC » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
 
-![[Pasted image 20250815104904.png]]
+![[arc-flow.png]]
 
 # [[Propriedades]]
 

@@ -3,10 +3,9 @@ tags:
   - calendar/daily
 created: <% tp.file.creation_date() %>
 ---
-
 # Lembretes
 
-# Notas Criadas Hoje
+## Notas Criadas Hoje
 
 `````tabs
 
@@ -26,10 +25,3 @@ tab: Tarefas
 
 
 `````
-
-
-
-# Ações rápidas
-
-
-![[quick-actions]]

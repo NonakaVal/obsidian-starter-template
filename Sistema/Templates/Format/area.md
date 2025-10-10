@@ -10,12 +10,8 @@ created: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
  `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[<%tp.file.folder() %>]] 
 
-
----
-
-| `BUTTON[TEMPLATE-CRIAR-NOVA-AREA]` |
+`BUTTON[TEMPLATE-CRIAR-NOVA-AREA]` 
 
 ```meta-bind-button
 label: Criar Nota da Area
@@ -28,7 +24,6 @@ actions:
   - type: command
     command: quickadd:choice:33b02e5d-cbf0-4df9-b622-4648b3cfe405
 ```
-
 #  Notas
 
 ```dataview

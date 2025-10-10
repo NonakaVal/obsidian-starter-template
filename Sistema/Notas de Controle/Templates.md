@@ -12,8 +12,8 @@ created:
 // CONFIGURAÇÃO
 // =============================
 const pastas = [
-    "SISTEMA/TEMPLATES/FORMAT",
-    "SISTEMA/TEMPLATES/SNIPPET"
+    "Sistema/Templates/Format",
+    "Sistema/Templates/Snippet"
 ];
 
 // =============================

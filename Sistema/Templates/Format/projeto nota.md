@@ -18,10 +18,6 @@ up:
 
 ---
 
-# Definir Resumo 
-`INPUT[textArea(showcase, class(meta-bind-full-width), class(meta-bind-high)):resumo]`
-
-
 
 # TAREFAS E PROCESSOS
 

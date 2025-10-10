@@ -12,7 +12,7 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 **Ciclo**: Novas ideias → Organização natural → Aplicação concreta = Sistema autossustentável de aprendizado.
 
 
-![[Pasted image 20250815104904.png]]
+![[arc-flow.png]]
 
 - **[[Add]]**  
 	- Pasta `+` como "área de resfriamento" para ideias novas  

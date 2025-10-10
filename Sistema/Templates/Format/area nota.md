@@ -13,14 +13,7 @@ up:
 | `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
 
 ---
-# [[<% tp.file.title %>]] 
 
-
-# Definir Resumo 
-`INPUT[textArea(showcase, class(meta-bind-full-width), class(meta-bind-high)):resumo]`
-
-
-# TAREFAS E PROCESSOS
 
  `BUTTON[NOTA-AREA-TEMPLATE]`     
 

@@ -1,4 +1,3 @@
-> [!calendar] **[[Como Calendário funciona|Calendário]]** » [Nota Diária](obsidian://adv-uri?vault=obsidian-ACE-ARC&commandid=periodic-notes%3Aopen-daily-note) | [Mensal](obsidian://adv-uri?vault=obsidian-ACE-ARC&commandid=periodic-notes%3Aopen-monthly-note) | [[Todas Tarefas|Tarefas]] 
 
 ````tabs
 

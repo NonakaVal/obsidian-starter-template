@@ -1,4 +1,3 @@
-> [!mountain] **[[Como Esforços funciona|Esforços]]** » [[Areas]] | [[Projetos Ativos]]  
 ````tabs
 
 tab: Á fazer

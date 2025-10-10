@@ -1,7 +1,7 @@
 ```dataviewjs
 // ==================== Configurações ====================
-const pastas = ["CALENDÁRIO", "Atlas", "Esforços"];
-let mesSelecionado = "2025-09";  
+const pastas = ["Calendário", "Atlas", "Esforços"];
+let mesSelecionado = "<% tp.file.title %>";  
 
 // ==================== Coleta as notas ====================
 let notas = dv.pages(pastas.map(p => `"${p}"`).join(" OR "))

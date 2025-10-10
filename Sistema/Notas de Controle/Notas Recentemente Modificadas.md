@@ -5,7 +5,7 @@ collection:
   - "[[Mapas]]"
   - "[[Visualizações]]"
 related:
-  - "[[Recentemente Modificado]]"
+  - "[[Recentemente Modificado table]]"
 created:
   - 2023-11-14
 cssclasses:
