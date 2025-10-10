@@ -155,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386
+    "width": 330
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -333,11 +333,11 @@
       "widgets:Add widget": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
-      "periodic-notes:Open today": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "f873cb294b2c1c1b",
+  "active": "26bda3c9cb740625",
   "lastOpenFiles": [
     "🏠Home Pro.md",
     "+/Guias Práticos.md",
