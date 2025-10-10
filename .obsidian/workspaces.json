@@ -822,7 +822,7 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
+                    "file": "Esforços/Areas/Saude/Saude.md"
                   },
                   "icon": "lucide-info",
                   "title": "File properties for Mapa de Gestão de Conhecimento"
@@ -983,5 +983,5 @@
       "mtime": "2025-10-07T20:16:06-03:00"
     }
   },
-  "active": "Videos guia"
+  "active": "home"
 }

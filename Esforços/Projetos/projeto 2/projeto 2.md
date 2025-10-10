@@ -1,10 +1,15 @@
 ---
-project: "[[<% tp.file.folder() %>]]"
-tags:
+project: "[[projeto 2]]"
+tags: project/projeto_2
 type: project
 created:
-  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+  - "[[2025-10-10]]"
 up: "[[2_PROJETOS|2_PROJETOS]]"
+collection: "[[Sistema/Coleções/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+inicio: 2025-10-10
+entrega: 2025-10-31
+status: Finalizada
+resumo: resumo projeto 1
 ---
 
  `Coleção` | `INPUT[suggester(optionQuery("Sistema/Coleções")):collection]`   | `Relacionados` | `INPUT[inlineListSuggester(optionQuery(""), option(something, other),  useLinks(true), showcase):related]`  |
@@ -43,7 +48,7 @@ tab: Em Aberto
 
 ```dataview
 TASK
-FROM "<% tp.file.folder(true) %>"
+FROM "Esforços/Projetos/projeto 2"
 WHERE !completed AND !checked
 GROUP BY file.name
 
@@ -52,7 +57,7 @@ GROUP BY file.name
 tab: Concluídas 
 ```dataview
 TASK
-FROM "<% tp.file.folder(true) %>"
+FROM "Esforços/Projetos/projeto 2"
 WHERE completed AND checked
 GROUP BY file.name
 
@@ -61,23 +66,16 @@ GROUP BY file.name
 
 ````
 
-<%tp.file.cursor()%>
+
 
 #  Notas
 
 ```dataview
 table created AS "Created", resumo AS "Resumo"
-from "Esforços/Projetos/<% tp.file.folder() %>"
+from "Esforços/Projetos/projeto 2"
 where type != "project"
 where type = "project_note"
 sort created DESC
 ```
 
 
-<%* tp.hooks.on_all_templates_executed(async () => { 
-    const file = tp.file.find_tfile(tp.file.path(true)); 
-    const task_tag_value = tp.file.folder().toLowerCase().split(" ").join("_");
-    await app.fileManager.processFrontMatter(file, (frontmatter) => { 
-        frontmatter["tags"] = `project/${task_tag_value}`; 
-    }); 
-}); -%>

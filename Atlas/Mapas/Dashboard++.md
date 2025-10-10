@@ -1,7 +1,10 @@
 ---
 up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+cssclasses:
+  - dashboard
 ---
+*Este é um template exemplo*
 # Família
 
 - 🏈 Jogo de Domingo

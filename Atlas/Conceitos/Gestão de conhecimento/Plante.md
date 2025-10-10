@@ -1,6 +1,8 @@
 ---
 up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+tags:
+  - garden/revitalize
 ---
 ~ [[Jardineiro]]  
 

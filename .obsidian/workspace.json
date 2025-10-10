@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c9c6e591aed0dda5",
+        "id": "f942ed9ede8b1730",
         "type": "tabs",
         "children": [
           {
-            "id": "d45ca5a55f3ac120",
+            "id": "8aef6a56130d24cf",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "f8f1c8bae8019827",
+            "id": "9a256fdbf93bcd58",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -58,81 +58,9 @@
               "icon": "lucide-file",
               "title": "🏠Home Pro"
             }
-          },
-          {
-            "id": "ee537b9c07495404",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Guias Práticos.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Guias Práticos"
-            }
-          },
-          {
-            "id": "b293815051bb90c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Boas Vindas 🎉.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Boas Vindas 🎉"
-            }
-          },
-          {
-            "id": "549e0a55e31f4879",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
-            }
-          },
-          {
-            "id": "d8d6956275cf6355",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Sistema/Media/wall2.png"
-              },
-              "icon": "lucide-image",
-              "title": "wall2"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +103,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Marcadores"
+              "title": "Bookmarks"
             }
           },
           {
@@ -184,13 +112,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistema/Sobre/Guias Práticos.md",
+                "file": "+/Guias Práticos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Guias Práticos"
+              "title": "Outline of Guias Práticos"
             }
           },
           {
@@ -199,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#project/projeto_2  ",
+                "query": "[\"cssclasses\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 386
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -230,10 +158,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Sistema/Media/wall2.png"
+                "file": "Esforços/Areas/Saude/Saude.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo wall2"
+              "title": "File properties for Mapa de Gestão de Conhecimento"
             }
           },
           {
@@ -262,7 +190,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Todas as propriedades"
+              "title": "All properties"
             }
           }
         ]
@@ -338,15 +266,24 @@
             }
           },
           {
-            "id": "4f85097de9cdee3e",
+            "id": "4f4ef0971adf29bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistema/Sobre/LYT/Atalhos.md",
-                "mode": "preview",
+                "file": "Sistema/Controle/Atalhos.md",
+                "mode": "source",
                 "source": false,
-                "backlinks": false
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Atalhos"
@@ -356,7 +293,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336
+    "width": 406,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -376,41 +314,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "26bda3c9cb740625",
+  "active": "9a256fdbf93bcd58",
   "lastOpenFiles": [
     "+/Guias Práticos.md",
-    "+/Boas Vindas 🎉.md",
-    "Sistema/Media/atlas-f.png",
-    "🏠Home.md",
     "🏠Home Pro.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md",
+    "Atlas/Mapas/Dashboard++.md",
     "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
-    "Sistema/Recursos/Pro Custom Callouts.md",
-    "Sistema/Notas de Controle/Todas Tarefas.md",
-    "Esforços/Projetos/Projeto 1/nota projeto 1.md",
-    "Esforços/Projetos/Projeto 1/Projeto 1.md",
-    "Esforços/Projetos/Projeto 1/Projeto 2.md",
+    "Sistema/Notas de Controle/Coleções.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md",
+    "+/Markdown.md",
+    "+/Boas Vindas 🎉.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md",
+    "🏠Home.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Revisitar.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Plante.md",
+    "Sistema/Notas de Controle/Atalhos.md",
+    "+/Dashboard++.md",
+    "Esforços/Projetos/projeto 2/analise de requisisos.md",
+    "Esforços/Projetos/projeto 2/projeto 2.md",
+    "Esforços/Areas/saude 1/saude 1.md",
+    "Esforços/Projetos/projeto 2",
+    "Esforços/Areas/saude 1/nota de saude metas de treino.md",
+    "Esforços/Areas/Saude/Saude.md",
+    "Esforços/Areas/saude 1",
+    "Esforços/Areas/Saude/Nota saude 1.md",
+    "Sistema/Coleções/Areas de desenvolvimento pessoal.md",
+    "Esforços/Areas/Saude",
+    "Sistema/Templates/Format/area.md",
+    "Esforços/Areas/as",
+    "Sistema/Media/wall2.png",
+    "Sistema/Media/atlas-f.png",
     "Esforços/Projetos/Projeto 1",
-    "Esforços/Areas/Area 1/nota area 1.md",
-    "Esforços/Projetos/projeto 1/Projeto 2.md",
-    "Esforços/Areas/Area 1/Area 1.md",
     "Esforços/Areas/Area 1",
     "Sistema/Media/Pasted image 20251009183318.png",
-    "README.md",
-    "Sistema/Templates/Format/template.md",
-    "Sistema/Templates/Format/projeto nota.md",
-    "Sistema/Templates/Format/projeto.md",
-    "Sistema/Templates/Format/nota diaria.md",
-    "Sistema/Templates/Format/mensal-template.md",
-    "Calendário/Revisões/2025-10.md",
-    "Sistema/Templates/Format/aula.md",
-    "Sistema/Templates/Format/base.md",
-    "Sistema/Templates/Format/mapa dataview-metabind.md",
-    "Sistema/Templates/Format/coleção.md",
-    "Sistema/Templates/Format/area nota.md",
     "Sistema/Media/Pasted image 20251009183257.png",
     "Sistema/Media/wall.png",
     "Sistema/Media/Pasted image 20251009183223.png",
-    "Sistema/Media/wall2.png",
     "Sistema/Media/arc-maid.png",
     "Sistema/Media/arc-flow.png",
     "Sistema/Media/Images/ptolemy-model.png",
@@ -419,10 +362,6 @@
     "Esforços/Areas",
     "Esforços/Projetos/projeto 1",
     "Esforços/Projetos",
-    "Esforços/Untitled",
-    "Atlas/Conceitos",
-    "Sistema/Recursos",
-    "Esforços/Areas/a",
     "ATLAS/FONTES/Sem título.canvas",
     "Sem título.canvas"
   ]

@@ -60,11 +60,8 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 
 ![[arc-flow.png]]
 
-# [[Propriedades]]
+# [[Propriedades|Principais metadados:]]
 
-> [!waypoints] [[Boas Vindas 🎉]] | [[Obsidian e Gestão de Conhecimento]]  | **[[Propriedades]]**  | [[Coleções]]
-
-### Principais metadados:
 
 * **`created` (data de criação):**
   Permite acompanhar a linha do tempo de suas anotações, gerar históricos ou revisões mensais/anuais.

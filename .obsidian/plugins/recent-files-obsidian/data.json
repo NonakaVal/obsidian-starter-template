@@ -1,32 +1,128 @@
 {
   "recentFiles": [
     {
-      "basename": "wall2",
-      "path": "Sistema/Media/wall2.png"
+      "basename": "🏠Home Pro",
+      "path": "🏠Home Pro.md"
     },
     {
       "basename": "Guias Práticos",
       "path": "+/Guias Práticos.md"
     },
     {
+      "basename": "Jardineiro",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md"
+    },
+    {
+      "basename": "Dashboard++",
+      "path": "Atlas/Mapas/Dashboard++.md"
+    },
+    {
+      "basename": "Mapa de Gestão de Conhecimento",
+      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "Coleções",
+      "path": "Sistema/Notas de Controle/Coleções.md"
+    },
+    {
+      "basename": "Como Coleções funciona",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "+/Markdown.md"
+    },
+    {
       "basename": "Boas Vindas 🎉",
       "path": "+/Boas Vindas 🎉.md"
     },
     {
-      "basename": "atlas-f",
-      "path": "Sistema/Media/atlas-f.png"
+      "basename": "Obsidian e PKM",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md"
     },
     {
       "basename": "🏠Home",
       "path": "🏠Home.md"
     },
     {
-      "basename": "🏠Home Pro",
-      "path": "🏠Home Pro.md"
+      "basename": "Checklist Obsidian",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
     },
     {
-      "basename": "Mapa de Gestão de Conhecimento",
-      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
+      "basename": "Propriedades",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
+    },
+    {
+      "basename": "Arquiteto",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md"
+    },
+    {
+      "basename": "Revisitar",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Revisitar.md"
+    },
+    {
+      "basename": "Plante",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Plante.md"
+    },
+    {
+      "basename": "Atalhos",
+      "path": "Sistema/Notas de Controle/Atalhos.md"
+    },
+    {
+      "basename": "analise de requisisos",
+      "path": "Esforços/Projetos/projeto 2/analise de requisisos.md"
+    },
+    {
+      "basename": "projeto 2",
+      "path": "Esforços/Projetos/projeto 2/projeto 2.md"
+    },
+    {
+      "basename": "saude 1",
+      "path": "Esforços/Areas/saude 1/saude 1.md"
+    },
+    {
+      "basename": "nota de saude metas de treino",
+      "path": "Esforços/Areas/saude 1/nota de saude metas de treino.md"
+    },
+    {
+      "basename": "Areas de desenvolvimento pessoal",
+      "path": "Sistema/Coleções/Areas de desenvolvimento pessoal.md"
+    },
+    {
+      "basename": "area",
+      "path": "Sistema/Templates/Format/area.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "Sistema/Notas de Controle/Templates.md"
+    },
+    {
+      "basename": "projeto",
+      "path": "Sistema/Templates/Format/projeto.md"
+    },
+    {
+      "basename": "projeto nota",
+      "path": "Sistema/Templates/Format/projeto nota.md"
+    },
+    {
+      "basename": "template",
+      "path": "Sistema/Templates/Format/template.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Sistema/Notas de Controle/Areas.md"
+    },
+    {
+      "basename": "2025-10-10",
+      "path": "Calendário/Dias/2025-10-10.md"
+    },
+    {
+      "basename": "wall2",
+      "path": "Sistema/Media/wall2.png"
+    },
+    {
+      "basename": "atlas-f",
+      "path": "Sistema/Media/atlas-f.png"
     },
     {
       "basename": "Pro Custom Callouts",
@@ -65,18 +161,6 @@
       "path": "README.md"
     },
     {
-      "basename": "template",
-      "path": "Sistema/Templates/Format/template.md"
-    },
-    {
-      "basename": "projeto nota",
-      "path": "Sistema/Templates/Format/projeto nota.md"
-    },
-    {
-      "basename": "projeto",
-      "path": "Sistema/Templates/Format/projeto.md"
-    },
-    {
       "basename": "nota diaria",
       "path": "Sistema/Templates/Format/nota diaria.md"
     },
@@ -105,16 +189,8 @@
       "path": "Sistema/Templates/Format/area nota.md"
     },
     {
-      "basename": "area",
-      "path": "Sistema/Templates/Format/area.md"
-    },
-    {
       "basename": "Custom Callouts",
       "path": "Sistema/Recursos/Custom Callouts.md"
-    },
-    {
-      "basename": "Templates",
-      "path": "Sistema/Notas de Controle/Templates.md"
     },
     {
       "basename": "Tarefas Projetos",
@@ -123,82 +199,6 @@
     {
       "basename": "Tarefas Esforços",
       "path": "Sistema/Notas de Controle/Tarefas Esforços.md"
-    },
-    {
-      "basename": "Tarefas Calendário",
-      "path": "Sistema/Notas de Controle/Tarefas Calendário.md"
-    },
-    {
-      "basename": "Tarefas Areas",
-      "path": "Sistema/Notas de Controle/Tarefas Areas.md"
-    },
-    {
-      "basename": "Recentemente Modificado table",
-      "path": "Sistema/Notas de Controle/Recentemente Modificado table.md"
-    },
-    {
-      "basename": "Projetos Ativos",
-      "path": "Sistema/Notas de Controle/Projetos Ativos.md"
-    },
-    {
-      "basename": "Notas Recentemente Modificadas",
-      "path": "Sistema/Notas de Controle/Notas Recentemente Modificadas.md"
-    },
-    {
-      "basename": "Mapas",
-      "path": "Sistema/Notas de Controle/Mapas.md"
-    },
-    {
-      "basename": "Dias",
-      "path": "Sistema/Notas de Controle/Dias.md"
-    },
-    {
-      "basename": "Coleções",
-      "path": "Sistema/Notas de Controle/Coleções.md"
-    },
-    {
-      "basename": "Buscar Notas",
-      "path": "Sistema/Notas de Controle/Buscar Notas.md"
-    },
-    {
-      "basename": "Atalhos",
-      "path": "Sistema/Notas de Controle/Atalhos.md"
-    },
-    {
-      "basename": "Areas",
-      "path": "Sistema/Notas de Controle/Areas.md"
-    },
-    {
-      "basename": "wall",
-      "path": "Sistema/Media/wall.png"
-    },
-    {
-      "basename": "arc-maid",
-      "path": "Sistema/Media/arc-maid.png"
-    },
-    {
-      "basename": "arc-flow",
-      "path": "Sistema/Media/arc-flow.png"
-    },
-    {
-      "basename": "2025-10-07",
-      "path": "Calendário/Dias/2025-10-07.md"
-    },
-    {
-      "basename": "Como Calendário funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Calendário funciona.md"
-    },
-    {
-      "basename": "2025-10-09",
-      "path": "Calendário/Dias/2025-10-09.md"
-    },
-    {
-      "basename": "nota 3",
-      "path": "+/nota 3.md"
-    },
-    {
-      "basename": "Como + funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como + funciona.md"
     }
   ],
   "omittedPaths": [

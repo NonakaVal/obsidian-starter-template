@@ -3,7 +3,27 @@ created: "[[2025-07-20]]"
 ---
 # Primeiros passos
 
-> [!home] [[🏠Home| 🏠 Home]] | **[[🏠Home Pro]]** | [[Boas Vindas 🎉]] | [[Guias Práticos]]
+> [!home] [[🏠Home| 🏠 Home]] | [[🏠Home Pro]] | [[Boas Vindas 🎉]] | **[[Guias Práticos]]**
+
+<br>
+
+> [!connect] **Básico Obsidian** »  [[Obsidian e PKM]]  ▪️ [[Markdown]] ▪️ [[Propriedades]]  ▪️[[Como Coleções funciona|Coleções]] ▪️[[Atalhos]]
+> [[Checklist Obsidian]] ✅
+
+> [!waypoints] Básico PKM » ▪️ [[Mapa de Gestão de Conhecimento]] 🧠  ▪️[[Dashboard++]]
+
+<br>
+
+> [!connect] **[[Sistema ACE]]** » [[Como + funciona]]   📚 [[Como Atlas funciona|Atlas]]  📆 [[Como Calendário funciona|Calendário]]  💼[[Como Esforços funciona|Esforços]]  ⚙️ [[Como a pasta Sistema funciona|Sistema]]
+
+> [!tldr] **[[ARC Framework]]** » ➕ [[Adicionar]]  🔗 [[Relacionar]]  ⚡ [[Comunicar]] 
+
+> [!trees] **[[Jardineiro]]** » 🌱 [[Plante]] ☘️ [[Cultive]]  🍄 [[Questione]]  🪴 [[Replantar]]  💦 [[Revitalizar]] 🍁  [[Revisitar]] —
+>**🧱 🪜[[Arquiteto]] ⤴️**  
+
+<br>
+
+# Vídeos Guia
 
 > [!VIDEO]+ [[Markdown|Formatação Markdown]]
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1Bu4HbF8n8A3V1LTAiOpqBrY-toZV3WEK/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
@@ -11,70 +31,25 @@ created: "[[2025-07-20]]"
 > [!VIDEO]- Básico das Configurações e Estilos
 > <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1pXzzdilB-v0hq96g3XuwrHcPzUjQfPG6/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
-
-
-
-
- `BUTTON[home-help]`     
-
-```meta-bind-button
-label: Acessar 🏠 help
-hidden: true
-class: ""
-id: home-help
-style: primary
-actions:
-  - type: command
-    command: obsidian-hotkeys-for-specific-files:Atlas/Conceitos/LYT/homepage-help.md-new-tab
-```
-
-
-# Criando Notas 
-
 > [!VIDEO]- Entendendo Fluxo de criação de notas na estrutura ARC-ACE
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1gOAEAKT_2kHUHJFvZ39ZLpdtMHISn4_V/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1OKvkcSuA8t4ncujPUVZCfGWtLhdEoWn-/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 > [!VIDEO]- Templates e Quick Add
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1wVs59keZsXV7qUzVcZG2v6lwR3zcVf7K/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/142Xi5nwvT4wbpEIvVrDKgzoE57oqySgQ/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 > [!VIDEO]- Notas Diárias e Revisões 
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1uYk-YhbnOLKV6axj1aW7CbQOEdpM72GR/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1BTafr8Htza-Vta7mSm0kY-qE5xjFHYhW/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 > [!VIDEO]- Criando Notas para Areas e Projetos
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1cpyU7YMr7ndQGRynHTqMEGY7RAJky9VM/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
-
-# Acessando conhecimento
-
-> [!VIDEO]- Usando Dashboard Navigator e Nota de Busca
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://drive.google.com/file/d/1FFxjvKi-v2HlebF2bsjXFeFn0jrpP9He/preview" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
-
-> [!VIDEO]- Dashboard++ e outras propriedades 
-> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/HIqwsECT7vI?si=-pqdVq0Y8oZwLHk2" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
-
-
- `BUTTON[dashboard]`     
-
-```meta-bind-button
-label: Acessar Dashboard ++
-hidden: true
-icon: map
-class: ""
-id: dashboard
-style: destructive
-actions:
-  - type: command
-    command: obsidian-hotkeys-for-specific-files:SISTEMA/SOBRE/Dashboard++.md-new-tab
-```
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ideaverse Pro Hangar"></iframe></div>
 
 
 
-# Recursos complementares
 
-> [!waypoints] **Básico** »  [[Obsidian e Gestão de Conhecimento]]  - [[Markdown]] - [[Propriedades]]  - [[Coleções]] - [[Atalhos]]   
 
-> [!box] [[Sistema ACE]] »  [[Como + funciona|+]] - [[Como Atlas funciona|Atlas]] - [[Como Calendário funciona|Calendário]] - [[Como Esforços funciona|Esforços]] 
+# Outros Recursos
 
-> [!rainbow] Framework ARC » [[Adicionar]] - [[Relacionar]] - [[Comunicar]] 
+
 
 > [!video]-   **Youtube**
 > - [Um resumo sobre aprender com Anotações #1](https://www.youtube.com/watch?v=cQ22PERTCBI&t=3s)
@@ -91,10 +66,6 @@ actions:
 > - [Como eu uso dataview](https://www.youtube.com/watch?v=sN8n62w8fdo&t=57s)
 
 
----
-# Colocar em Prática
-
- `BUTTON[checklist]`     
 
 ```meta-bind-button
 label: Checklist  

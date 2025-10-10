@@ -31,6 +31,10 @@
     {
       "useMoment": false,
       "file": "Sistema/Notas de Controle/Dias.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Atlas/Mapas/Dashboard++.md"
     }
   ],
   "useExistingPane": true,

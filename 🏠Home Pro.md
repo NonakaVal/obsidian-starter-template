@@ -2,27 +2,27 @@
 cssclasses:
   - wide-page
 banner: https://w.wallhaven.cc/full/7j/wallhaven-7j3lve.png
-created:
-  - '[[<% tp.date.now("YYYY-MM-DD") %>]]'
-up:
-  - <% tp.file.folder() %>
 ---
 
 ```widgets
 type: clock
 ```
-''
 
-> [!home] [[🏠Home| 🏠 Home]] | **[[🏠Home Pro]]** | [[Boas Vindas 🎉]] | [[Guias Práticos]]
 
-> [!waypoints] Básico PKM » [[Checklist Obsidian]] ✅ | [[Mapa de Gestão de Conhecimento]] 🧠  
+
+
+> [!multi-column]
+>
+>> [!home] ▪️ [[🏠Home| 🏠 Home]] ▪️ **[[🏠Home Pro]]** ▪️ [[Boas Vindas 🎉]]  ▪️[[Guias Práticos]]
+>
+>> [!waypoints] Básico PKM »▪️[[Checklist Obsidian]] ✅ ▪️ [[Mapa de Gestão de Conhecimento|Mapa de PKM]] 🧠
+
 
 <br>
 
 `BUTTON[new]`[^1]  `BUTTON[collection]`    `BUTTON[lembrete]`  [^2] 
 
 <br>
-
 
 
 > [!multi-column]
