@@ -73,8 +73,7 @@
               "title": "Diff: 🏠Home Pro"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -339,7 +338,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "901a05708b56703b",
+  "active": "8aef6a56130d24cf",
   "lastOpenFiles": [
     "🏠Home Pro.md",
     "+/Guias Práticos.md",
