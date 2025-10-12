@@ -73,7 +73,8 @@
               "title": "Diff: 🏠Home Pro"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,10 +172,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "🏠Home.md"
+                "file": "🏠Home Pro.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo 🏠Home"
+              "title": "Propriedades do arquivo 🏠Home Pro"
             }
           },
           {
@@ -337,8 +338,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "26bda3c9cb740625",
+  "active": "9a256fdbf93bcd58",
   "lastOpenFiles": [
+    "🏠Home.md",
     "🏠Home Pro.md",
     "+/Guias Práticos.md",
     "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md",
@@ -349,7 +351,6 @@
     "+/Markdown.md",
     "+/Boas Vindas 🎉.md",
     "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md",
-    "🏠Home.md",
     "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
     "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md",
     "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md",
