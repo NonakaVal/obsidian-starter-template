@@ -27,7 +27,7 @@
   "files": [
     {
       "filePattern": "🏠",
-      "viewMode": "obsidianUIMode: preview"
+      "viewMode": "obsidianEditingMode: source"
     },
     {
       "filePattern": "Guias Práticos",
@@ -40,6 +40,10 @@
     {
       "filePattern": "homepage-help",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "🏠 Home Pro",
+      "viewMode": "obsidianEditingMode: source"
     }
   ]
 }

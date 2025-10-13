@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Dias",
+      "path": "Sistema/Notas de Controle/Dias.md"
+    },
+    {
       "basename": "🏠Home Pro",
       "path": "🏠Home Pro.md"
+    },
+    {
+      "basename": "Mapas",
+      "path": "Sistema/Notas de Controle/Mapas.md"
     },
     {
       "basename": "🏠Home",
@@ -191,14 +199,6 @@
     {
       "basename": "Custom Callouts",
       "path": "Sistema/Recursos/Custom Callouts.md"
-    },
-    {
-      "basename": "Tarefas Projetos",
-      "path": "Sistema/Notas de Controle/Tarefas Projetos.md"
-    },
-    {
-      "basename": "Tarefas Esforços",
-      "path": "Sistema/Notas de Controle/Tarefas Esforços.md"
     }
   ],
   "omittedPaths": [

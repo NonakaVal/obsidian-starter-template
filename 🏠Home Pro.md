@@ -42,6 +42,68 @@ type: clock
 >> 
 >>  `BUTTON[eff]`
 
+
+```meta-bind-button
+label: Dashboard
+hidden: true
+icon: book 
+class: ""
+id: dash
+style: primary
+actions:
+  - type: command
+    command: dashboard-navigator:dashboard
+```
+
+```meta-bind-button
+label: Navegador de Notas
+hidden: true
+icon: map
+class: ""
+id: nav
+style: primary
+actions:
+  - type: command
+    command: dashboard-navigator:navigator
+```
+
+```meta-bind-button
+label: Areas
+hidden: true
+icon: sword
+class: ""
+id: areas
+style: destructive
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Areas.md-new-tab
+```
+
+```meta-bind-button
+label: Projetos
+hidden: true
+icon: swords
+class: ""
+id: project
+style: destructive
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Projetos Ativos.md-new-tab
+```
+
+
+```meta-bind-button
+label: Area / Projeto
+hidden: true
+icon: plus
+class: ""
+id: eff
+style: primary
+actions:
+  - type: command
+    command: quickadd:choice:ebc3941c-ed51-4da4-abb4-bf15c72eb683
+```
+
 ---
 
 <br><br>
@@ -107,17 +169,7 @@ actions:
     command: quickadd:choice:9dd5d65e-dae6-4ada-8590-069c6fedb6c2
 ```
 
-```meta-bind-button
-label: Navegador de Notas
-hidden: true
-icon: map
-class: ""
-id: nav
-style: primary
-actions:
-  - type: command
-    command: dashboard-navigator:navigator
-```
+
 
 
 ```meta-bind-button
@@ -144,7 +196,6 @@ actions:
   - type: command
     command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Todas Tarefas.md-new-tab
 ```
-
 
 ```meta-bind-button
 label: Coleções 
@@ -183,17 +234,7 @@ actions:
 ```
 
 
-```meta-bind-button
-label: Projetos
-hidden: true
-icon: swords
-class: ""
-id: project
-style: destructive
-actions:
-  - type: command
-    command: obsidian-hotkeys-for-specific-files:Sistema/Notas de Controle/Projetos Ativos.md-new-tab
-```
+
 
 
 
@@ -234,17 +275,7 @@ actions:
     command: quickadd:choice:7ec7e9a0-be26-4424-9caf-5751f9865da3
 ```
 
-```meta-bind-button
-label: Dashboard
-hidden: true
-icon: book 
-class: ""
-id: dash
-style: primary
-actions:
-  - type: command
-    command: dashboard-navigator:dashboard
-```
+
 
 ```meta-bind-button
 label: Nota Diária

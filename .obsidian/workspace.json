@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f942ed9ede8b1730",
+        "id": "dc48efe267d9c85e",
         "type": "tabs",
         "children": [
           {
-            "id": "8aef6a56130d24cf",
+            "id": "e6fccf1f6f998d70",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏠Home.md",
-                "mode": "preview",
+                "file": "Sistema/Notas de Controle/Dias.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,53 +27,11 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "🏠Home"
-            }
-          },
-          {
-            "id": "9a256fdbf93bcd58",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏠Home Pro.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "🏠Home Pro"
-            }
-          },
-          {
-            "id": "901a05708b56703b",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "🏠Home Pro.md",
-                "bFile": "🏠Home Pro.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 🏠Home Pro"
+              "title": "Dias"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,10 +129,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "🏠Home Pro.md"
+                "file": "Sistema/Notas de Controle/Dias.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 🏠Home Pro"
+              "title": "File properties for Dias"
             }
           },
           {
@@ -317,7 +274,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406
+    "width": 406,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -338,10 +296,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9a256fdbf93bcd58",
+  "active": "e6fccf1f6f998d70",
   "lastOpenFiles": [
-    "🏠Home.md",
     "🏠Home Pro.md",
+    "Sistema/Notas de Controle/Mapas.md",
+    "🏠Home.md",
     "+/Guias Práticos.md",
     "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md",
     "Atlas/Mapas/Dashboard++.md",
@@ -368,7 +327,6 @@
     "Esforços/Areas/Saude/Nota saude 1.md",
     "Sistema/Coleções/Areas de desenvolvimento pessoal.md",
     "Esforços/Areas/Saude",
-    "Sistema/Templates/Format/area.md",
     "Esforços/Areas/as",
     "Sistema/Media/wall2.png",
     "Sistema/Media/atlas-f.png",
