@@ -59,7 +59,8 @@
               "title": "Guias Práticos"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,10 +158,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "+/Boas Vindas 🎉.md"
+                "file": "+/Guias Práticos.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Boas Vindas 🎉"
+              "title": "File properties for Guias Práticos"
             }
           },
           {
@@ -316,10 +317,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ecc32ea4bbcafcd2",
+  "active": "219eae6da6aac9ab",
   "lastOpenFiles": [
-    "+/Guias Práticos.md",
     "+/Boas Vindas 🎉.md",
+    "+/Guias Práticos.md",
     "+/Markdown.md",
     "Sistema/Notas de Controle/Buscar Notas.md",
     "Sistema/Notas de Controle/Areas.md",
