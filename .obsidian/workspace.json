@@ -4,18 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "dc48efe267d9c85e",
+        "id": "f942ed9ede8b1730",
         "type": "tabs",
         "children": [
           {
-            "id": "e6fccf1f6f998d70",
+            "id": "ecc32ea4bbcafcd2",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏠Home Pro.md",
-                "mode": "source",
-                "source": true,
+                "file": "+/Boas Vindas 🎉.md",
+                "mode": "preview",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -27,8 +28,35 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "🏠Home Pro"
+              "title": "Boas Vindas 🎉"
+            }
+          },
+          {
+            "id": "219eae6da6aac9ab",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Guias Práticos.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Guias Práticos"
             }
           }
         ]
@@ -113,7 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330
+    "width": 386
   },
   "right": {
     "id": "10862ba78f6a46ca",
@@ -129,10 +157,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "🏠Home Pro.md"
+                "file": "+/Boas Vindas 🎉.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 🏠Home Pro"
+              "title": "File properties for Boas Vindas 🎉"
             }
           },
           {
@@ -162,16 +190,6 @@
               },
               "icon": "lucide-archive",
               "title": "All properties"
-            }
-          },
-          {
-            "id": "bd70950709d3e840",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           }
         ]
@@ -279,6 +297,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -292,52 +313,51 @@
       "widgets:Add widget": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "e6fccf1f6f998d70",
+  "active": "ecc32ea4bbcafcd2",
   "lastOpenFiles": [
-    "+/Markdown.md",
-    "Sistema/Notas de Controle/Dias.md",
-    "🏠Home Pro.md",
-    "Sistema/Notas de Controle/Mapas.md",
-    "🏠Home.md",
     "+/Guias Práticos.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md",
-    "Atlas/Mapas/Dashboard++.md",
-    "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
-    "Sistema/Notas de Controle/Coleções.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md",
     "+/Boas Vindas 🎉.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Revisitar.md",
-    "Atlas/Conceitos/Gestão de conhecimento/Plante.md",
-    "Sistema/Notas de Controle/Atalhos.md",
-    "+/Dashboard++.md",
-    "Esforços/Projetos/projeto 2/analise de requisisos.md",
-    "Esforços/Projetos/projeto 2/projeto 2.md",
-    "Esforços/Areas/saude 1/saude 1.md",
-    "Esforços/Projetos/projeto 2",
-    "Esforços/Areas/saude 1/nota de saude metas de treino.md",
-    "Esforços/Areas/Saude/Saude.md",
-    "Esforços/Areas/saude 1",
-    "Esforços/Areas/Saude/Nota saude 1.md",
-    "Esforços/Areas/Saude",
-    "Esforços/Areas/as",
+    "+/Markdown.md",
+    "Sistema/Notas de Controle/Buscar Notas.md",
+    "Sistema/Notas de Controle/Areas.md",
     "Sistema/Media/wall2.png",
-    "Sistema/Media/atlas-f.png",
-    "Esforços/Projetos/Projeto 1",
-    "Esforços/Areas/Area 1",
-    "Sistema/Media/Pasted image 20251009183318.png",
-    "Sistema/Media/Pasted image 20251009183257.png",
     "Sistema/Media/wall.png",
-    "Sistema/Media/Pasted image 20251009183223.png",
+    "Sistema/Media/Pasted image 20251009183318.png",
+    "Sistema/Media/atlas-f.png",
     "Sistema/Media/arc-maid.png",
     "Sistema/Media/arc-flow.png",
+    "Sistema/Coleções/Areas de desenvolvimento pessoal.md",
+    "Sistema/Coleções/Gestão de Conhecimento.md",
+    "_index_notas.md",
+    "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
+    "🏠Home Pro.md",
+    "🏠Home.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md",
+    "Sistema/Templates/Format/base.md",
+    "Sistema/Templates/Format/template.md",
+    "+/nota.md",
+    "+/Boas Vindas.md",
+    "README.md",
+    "Sistema/Notas de Controle/Dias.md",
+    "Sistema/Notas de Controle/Mapas.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md",
+    "Atlas/Mapas/Dashboard++.md",
+    "Sistema/Notas de Controle/Coleções.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
+    "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md",
+    "Esforços/Projetos/projeto 2",
+    "Esforços/Areas/saude 1",
+    "Esforços/Areas/Saude",
+    "Esforços/Areas/as",
+    "Esforços/Projetos/Projeto 1",
+    "Esforços/Areas/Area 1",
+    "Sistema/Media/Pasted image 20251009183257.png",
+    "Sistema/Media/Pasted image 20251009183223.png",
     "Sistema/Media/Images/ptolemy-model.png",
     "Sistema/Media/Images/pillars-of-ideaverse-8-bit-narrow3.png",
     "Esforços/Areas/area 1",

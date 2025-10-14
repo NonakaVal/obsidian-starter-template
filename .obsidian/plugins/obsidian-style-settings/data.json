@@ -36,7 +36,7 @@
   "anuppuccin-theme-settings@@anp-speech-bubble": true,
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-macchiato",
   "anuppuccin-theme-settings@@anp-stacked-header-width": 30,
-  "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-safari-tab-toggle",
+  "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-depth-tab-toggle",
   "anuppuccin-theme-settings@@anp-alt-tab-custom-height": 40,
   "anuppuccin-theme-settings@@anp-disable-newtab-align": true,
   "anuppuccin-theme-settings@@anp-depth-tab-text-invert": false,
@@ -341,5 +341,7 @@
   "obsidian-prism-theme@@pt-colored-folders-files-match": false,
   "obsidian-prism-theme@@pt-focused-mode": false,
   "obsidian-prism-theme@@pt-titlebar-hide-text": false,
-  "obsidian-prism-theme@@file-line-width": 740
+  "obsidian-prism-theme@@file-line-width": 740,
+  "anuppuccin-theme-settings@@anp-h2-color-custom": "anp-h2-rosewater",
+  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-mauve"
 }

@@ -20,7 +20,6 @@
   "editing-toolbar",
   "obsidian-chartsview-plugin",
   "datacore",
-  "widgets",
   "dashboard-navigator",
   "homepage",
   "obsidian-view-mode-by-frontmatter",
@@ -28,5 +27,8 @@
   "obsidian-hotkeys-for-specific-files",
   "obsidian-advanced-uri",
   "obsidian-icon-folder",
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian",
+  "obsidian-tasks-plugin",
+  "widgets"
 ]

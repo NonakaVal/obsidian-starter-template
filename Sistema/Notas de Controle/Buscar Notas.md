@@ -1,6 +1,8 @@
 ---
 up: "[[Mapa de Gestão de Conhecimento|Mapa de Gestão de Conhecimento]]"
 collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+cssclasses:
+  - wide-page
 ---
 ```datacorejsx
 /// 📄 Configurações Iniciais

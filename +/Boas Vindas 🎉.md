@@ -85,18 +85,3 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 ---
 
 
- `BUTTON[help]`     
-
-```meta-bind-button
-label: Guias Práticos
-hidden: true
-icon: help
-class: ""
-id: help
-style: primary
-actions:
-  - type: command
-    command: obsidian-hotkeys-for-specific-files:+/Guias Práticos.md-new-tab
-```
-
-

@@ -6,69 +6,56 @@ collection:
 tags:
   - architect
   - garden/revitalize
+cssclasses:
+  - dashboard
 ---
 ### 📘 Gestão de Conhecimento
+### 🧭 **Gestão de Conhecimento**
 
-#### I. Fundamentos do PKM e LYT
-- 📄 [[Obsidian e PKM]]
-- 📄 [[Nota]] (Recipiente de pensamento significativo para quem cria)
-- 📄 [[MOC definição]] (Mapas de Conteúdo para agrupar e navegar ideias)
-- 📄 [[Propriedades]] (Metadados usados para classificação)
-- 📄 [[Boas Práticas de Classificação]] (Sugestões de padrões e boas práticas)
-- 📄 [[Sugestões de Padrões de Classificações]] (Base em sistemas como Dewey)
-- 📄 [[Sistema de Classificação para Gestão de Conhecimento Pessoal]]
+- 📚 **Fundamentos do PKM e LYT**  
+	- 🗂️ [[Obsidian e PKM]]  
+	- 📝 [[Nota]]  
+	- 🧩 [[MOC definição]]  
+	- 🪪 [[Propriedades]]  
+	- 🏷️ [[Boas Práticas de Classificação]]  
+		-  [[Sugestões de Padrões de Classificações]]  
+		-  [[Sistema de Classificação para Gestão de Conhecimento Pessoal]]  
 
-#### II. O Sistema ACE (Atlas, Calendar, Efforts)
-- 📄 [[Sistema ACE]] (Atlas = Conhecimento, Calendar = Tempo, Efforts = Ação)
-- 📄 [[Como + funciona]] (Captura imediata de notas)
-- 📄 [[Como a pasta Sistema funciona]]
+- 🪐 **O Sistema ACE (Atlas, Calendar, Efforts)**  
+	-  🌐[[Sistema ACE]]  
+		- 🧩 [[Como + funciona]]  
+		- 🗺️ [[Como Atlas funciona]]  
+			- 🧠 [[Conceitos]]  
+			- 🗃️ [[Mapas]]  
+		- 📅 [[Como Calendário funciona]]  
+			- 🕰️ [[Dias]]  
+		- 💪 [[Como Esforços funciona]]  
+			- 🚀 [[Projetos Ativos]]  
+			- 🏗️ [[Areas]]  
+		- ⚙️ [[Como a pasta Sistema funciona]]  
 
-**1. Atlas (Conhecimento / Espaço)**
-- 📄 [[Como Atlas funciona]]
-- 📄 [[Mapas]] (Mapas de conteúdo)
-- 📄 [[Conceitos]] (Fragmentos de conhecimento)
-- 📄 [[Coleções]] (Notas de visualização dinâmica)
-- 📄 [[Como Coleções funciona]]
-- 📄 [[Nova Coleção]]
+- 💡 **O Ciclo de Ideação ARC**  
+	- 🔁 [[ARC Framework]]  
+		- ➕ [[Adicionar]]  
+		- 🔗 [[Relacionar]]  
+		- 📣 [[Comunicar]]  
 
-**2. Calendar (Tempo)**
-- 📄 [[Como Calendário funciona]]
-- 📄 [[Dias]]
+- 🌿 **(Arquiteto e Jardineiro)**  
+	- 🌱 [[Jardineiro]]  
+		- 🫘 [[Plante]]  
+		- ☘️ [[Cultive]]  
+		- 🌾 [[Replantar]]  
+		- 🍄 [[Questione]]  
+		- 🌻 [[Revisitar]]  
+		- 🌼 [[Revitalizar]]  
+	- 🏛️ [[Arquiteto]]  
+		- 🧱 [[Construir]]  
+		- 🪜 [[Renovar]]  
 
-**3. Efforts (Ação / Importância)**
-- 📄 [[Como Esforços funciona]]
-- 📄 [[Areas]]
-- 📄 [[Areas  e Projetos]]
-- 📄 [[Projetos Ativos]]
-
-#### III. O Ciclo de Ideação ARC
-- 📄 [[ARC Framework]] (Fluxo de ideias: Add, Relate, Communicate)
-- 📄 [[Adicionar]] (Captura e priorização de notas)
-- 📄 [[Relacionar]] (Conectar e desenvolver ideias)
-- 📄 [[Comunicar]] (Compartilhar e transformar em _Works_)
-- 📄 [[Questione]] (Refinar e testar ideias)
-
-#### IV. Estilos de Manutenção (Arquiteto e Jardineiro)
-- 📄 [[Arquiteto]] (Ordem e estruturação de MOCs)
-- 📄 [[Jardineiro]] (Crescimento orgânico com tags `garden`)
-
-**Ações do Arquiteto**
-- 📄 [[Construir]] (Criar ou estruturar MOCs novos)
-- 📄 [[Renovar]] (Atualizar MOCs antigos)
-
-**Ações do Jardineiro**
-- 📄 [[Plante]] (Conectar notas rápidas ao ideaverse)
-- 📄 [[Cultive]] (Adicionar contexto e links)
-- 📄 [[Replantar]] (Reposicionar ideias em novos contextos)
-- 📄 [[Revisitar]] (Voltar a notas esquecidas)
-- 📄 [[Revitalizar]] (Dar nova vida a ideias estagnadas)
-
-#### V. Ferramentas e Utilidades
-- 📄 [[Markdown]] (Linguagem de formatação)
-- 📄 [[.md]] (Extensão dos arquivos de notas)
-- 📄 [[Checklist Obsidian]] (Tarefas e lições do ideaverse)
-- 📄 [[Como usar Templater]] (Automação e templates)
-- 📄 [[Dashboard++]] (Visualizações dinâmicas)
-- 📄 [[Buscar Notas]] / [[Notas não Criadas]] (Ferramentas de exploração)
-- 📄 [[homepage-help]]
+- 🧰 **Ferramentas e Utilidades**  
+	- ✍️ [[Markdown]]  
+	- ✅ [[Checklist Obsidian]]  
+	- 🧩 [[Como usar Templater]]  
+	- 📊 [[Dashboard++]]  
+	- 🕳️ [[Notas não Criadas]]  
 

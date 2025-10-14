@@ -1,12 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "🏠Home Pro",
-      "path": "🏠Home Pro.md"
+      "basename": "Boas Vindas 🎉",
+      "path": "+/Boas Vindas 🎉.md"
+    },
+    {
+      "basename": "Guias Práticos",
+      "path": "+/Guias Práticos.md"
     },
     {
       "basename": "Markdown",
       "path": "+/Markdown.md"
+    },
+    {
+      "basename": "Buscar Notas",
+      "path": "Sistema/Notas de Controle/Buscar Notas.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Sistema/Notas de Controle/Areas.md"
+    },
+    {
+      "basename": "wall2",
+      "path": "Sistema/Media/wall2.png"
+    },
+    {
+      "basename": "wall",
+      "path": "Sistema/Media/wall.png"
+    },
+    {
+      "basename": "Pasted image 20251009183318",
+      "path": "Sistema/Media/Pasted image 20251009183318.png"
+    },
+    {
+      "basename": "atlas-f",
+      "path": "Sistema/Media/atlas-f.png"
+    },
+    {
+      "basename": "arc-maid",
+      "path": "Sistema/Media/arc-maid.png"
+    },
+    {
+      "basename": "arc-flow",
+      "path": "Sistema/Media/arc-flow.png"
+    },
+    {
+      "basename": "Areas de desenvolvimento pessoal",
+      "path": "Sistema/Coleções/Areas de desenvolvimento pessoal.md"
+    },
+    {
+      "basename": "Gestão de Conhecimento",
+      "path": "Sistema/Coleções/Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "Mapa de Gestão de Conhecimento",
+      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "🏠Home Pro",
+      "path": "🏠Home Pro.md"
+    },
+    {
+      "basename": "🏠Home",
+      "path": "🏠Home.md"
+    },
+    {
+      "basename": "Propriedades",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
+    },
+    {
+      "basename": "Obsidian e PKM",
+      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md"
+    },
+    {
+      "basename": "base",
+      "path": "Sistema/Templates/Format/base.md"
+    },
+    {
+      "basename": "template",
+      "path": "Sistema/Templates/Format/template.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Dias",
@@ -17,24 +93,12 @@
       "path": "Sistema/Notas de Controle/Mapas.md"
     },
     {
-      "basename": "🏠Home",
-      "path": "🏠Home.md"
-    },
-    {
-      "basename": "Guias Práticos",
-      "path": "+/Guias Práticos.md"
-    },
-    {
       "basename": "Jardineiro",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md"
     },
     {
       "basename": "Dashboard++",
       "path": "Atlas/Mapas/Dashboard++.md"
-    },
-    {
-      "basename": "Mapa de Gestão de Conhecimento",
-      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
     },
     {
       "basename": "Coleções",
@@ -45,20 +109,8 @@
       "path": "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md"
     },
     {
-      "basename": "Boas Vindas 🎉",
-      "path": "+/Boas Vindas 🎉.md"
-    },
-    {
-      "basename": "Obsidian e PKM",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md"
-    },
-    {
       "basename": "Checklist Obsidian",
       "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
-    },
-    {
-      "basename": "Propriedades",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
     },
     {
       "basename": "Arquiteto",
@@ -93,10 +145,6 @@
       "path": "Esforços/Areas/saude 1/nota de saude metas de treino.md"
     },
     {
-      "basename": "Areas de desenvolvimento pessoal",
-      "path": "Sistema/Coleções/Areas de desenvolvimento pessoal.md"
-    },
-    {
       "basename": "area",
       "path": "Sistema/Templates/Format/area.md"
     },
@@ -113,24 +161,8 @@
       "path": "Sistema/Templates/Format/projeto nota.md"
     },
     {
-      "basename": "template",
-      "path": "Sistema/Templates/Format/template.md"
-    },
-    {
-      "basename": "Areas",
-      "path": "Sistema/Notas de Controle/Areas.md"
-    },
-    {
       "basename": "2025-10-10",
       "path": "Calendário/Dias/2025-10-10.md"
-    },
-    {
-      "basename": "wall2",
-      "path": "Sistema/Media/wall2.png"
-    },
-    {
-      "basename": "atlas-f",
-      "path": "Sistema/Media/atlas-f.png"
     },
     {
       "basename": "Pro Custom Callouts",
@@ -161,44 +193,12 @@
       "path": "Esforços/Areas/Area 1/Area 1.md"
     },
     {
-      "basename": "Pasted image 20251009183318",
-      "path": "Sistema/Media/Pasted image 20251009183318.png"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "nota diaria",
       "path": "Sistema/Templates/Format/nota diaria.md"
     },
     {
       "basename": "mensal-template",
       "path": "Sistema/Templates/Format/mensal-template.md"
-    },
-    {
-      "basename": "aula",
-      "path": "Sistema/Templates/Format/aula.md"
-    },
-    {
-      "basename": "base",
-      "path": "Sistema/Templates/Format/base.md"
-    },
-    {
-      "basename": "mapa dataview-metabind",
-      "path": "Sistema/Templates/Format/mapa dataview-metabind.md"
-    },
-    {
-      "basename": "coleção",
-      "path": "Sistema/Templates/Format/coleção.md"
-    },
-    {
-      "basename": "area nota",
-      "path": "Sistema/Templates/Format/area nota.md"
-    },
-    {
-      "basename": "Custom Callouts",
-      "path": "Sistema/Recursos/Custom Callouts.md"
     }
   ],
   "omittedPaths": [

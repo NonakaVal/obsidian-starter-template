@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Prism",
+  "cssTheme": "AnuPpuccin",
   "theme": "moonstone",
   "enabledCssSnippets": [
     "dashboarPlusPlus",
@@ -15,6 +15,6 @@
     "MCL - Wide Views",
     "MCL Wide Views"
   ],
-  "baseFontSize": 15,
+  "baseFontSize": 14,
   "baseFontSizeAction": true
 }

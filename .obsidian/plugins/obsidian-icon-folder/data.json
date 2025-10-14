@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiAppWindow",
-      "LiAsteriskSquare",
-      "LiSettings",
-      "LiBackpack",
-      "LiCalendar"
+      "LiCalendar",
+      "LiCalendarDay",
+      "LiBook",
+      "LiMapPin",
+      "LiAppWindow"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,7 @@
   "Esforços": "LiBackpack",
   "Sistema": "LiSettings",
   "Esforços/Areas": "LiAsteriskSquare",
-  "Esforços/Projetos": "LiAppWindow"
+  "Esforços/Projetos": "LiAppWindow",
+  "Atlas/Mapas": "LiMapPin",
+  "Atlas/Conceitos": "LiBook"
 }

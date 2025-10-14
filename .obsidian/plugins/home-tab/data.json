@@ -66,13 +66,16 @@
   ],
   "bookmarkedFileStore": [
     {
-      "filepath": "Sistema/Sobre/Boas Vindas.md"
+      "filepath": "+/Boas Vindas 🎉.md"
     },
     {
-      "filepath": "Sistema/Sobre/Guias Práticos.md"
+      "filepath": "+/Guias Práticos.md"
     },
     {
-      "filepath": "Sistema/Sobre/Templates.md"
+      "filepath": "Sistema/Notas de Controle/Templates.md"
+    },
+    {
+      "filepath": "Atlas/Conceitos/Gestão de conhecimento/Notas não Criadas.md"
     }
   ],
   "searchDelay": 0,
