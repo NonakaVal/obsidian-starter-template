@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistema/Notas de Controle/Dias.md",
+                "file": "🏠Home Pro.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dias"
+              "title": "🏠Home Pro"
             }
           }
         ]
@@ -129,10 +129,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Sistema/Notas de Controle/Dias.md"
+                "file": "🏠Home Pro.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Dias"
+              "title": "File properties for 🏠Home Pro"
             }
           },
           {
@@ -298,6 +298,8 @@
   },
   "active": "e6fccf1f6f998d70",
   "lastOpenFiles": [
+    "+/Markdown.md",
+    "Sistema/Notas de Controle/Dias.md",
     "🏠Home Pro.md",
     "Sistema/Notas de Controle/Mapas.md",
     "🏠Home.md",
@@ -307,7 +309,6 @@
     "Atlas/Mapas/Mapa de Gestão de Conhecimento.md",
     "Sistema/Notas de Controle/Coleções.md",
     "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md",
-    "+/Markdown.md",
     "+/Boas Vindas 🎉.md",
     "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md",
     "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md",
@@ -325,7 +326,6 @@
     "Esforços/Areas/Saude/Saude.md",
     "Esforços/Areas/saude 1",
     "Esforços/Areas/Saude/Nota saude 1.md",
-    "Sistema/Coleções/Areas de desenvolvimento pessoal.md",
     "Esforços/Areas/Saude",
     "Esforços/Areas/as",
     "Sistema/Media/wall2.png",
