@@ -99,7 +99,3 @@ For better control, **Metadata** is used, such as:
 - [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)  
 - [Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout)  
 ```
-
----
-
-👉 Sugestão de evolução: agora que o README está limpo e sem links internos, você pode criar uma **versão em português simplificada** para leitores que não dominam o inglês, mantendo esse documento como a versão principal. Quer que eu prepare essa versão traduzida e resumida também?
