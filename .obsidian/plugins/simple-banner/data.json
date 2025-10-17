@@ -1,7 +1,7 @@
 {
   "desktop": {
     "bannerEnabled": true,
-    "height": 230,
+    "height": 240,
     "viewOffset": 0,
     "noteOffset": -32,
     "bannerRadius": [
@@ -12,7 +12,7 @@
     ],
     "bannerPadding": 8,
     "bannerFade": true,
-    "iconEnabled": true,
+    "iconEnabled": false,
     "iconSize": 96,
     "iconRadius": 8,
     "iconBackground": true,
@@ -25,14 +25,14 @@
       0,
       -24
     ],
-    "datetimeEnabled": false,
+    "datetimeEnabled": true,
     "datetimeOnPropOnly": false,
     "datetimeAlignment": [
-      "flex-end",
-      "flex-start"
+      "center",
+      "center"
     ],
     "datetimeOffset": [
-      0,
+      -30,
       0
     ],
     "datetimeTimeFormat": "HH:mm",

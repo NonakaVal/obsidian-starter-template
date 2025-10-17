@@ -1,22 +1,22 @@
 {
   "showGettingStartedBanner": true,
-  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "",
-    "template": "Sistema/Templates/Format/nota diaria.md",
-    "folder": "Calendário/Dias",
+    "folder": "Calendar & Review/Daily Notes",
+    "template": "System/Templates/Format/daily-note-template.md",
     "enabled": true
   },
   "weekly": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "SYSTEM/TEMPLATE/FORMAT/template_weekly_note.md",
+    "folder": "Calendar/WEEKLY",
+    "enabled": false
   },
   "monthly": {
     "format": "",
-    "template": "Sistema/Templates/Format/mensal-template.md",
-    "folder": "Calendário/Revisões",
+    "template": "System/Templates/Format/Monthly-note-template.md",
+    "folder": "Calendar & Review/Monthly Notes",
     "enabled": true
   },
   "quarterly": {
@@ -27,6 +27,7 @@
   "yearly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "CALENDAR/YEARLY",
+    "enabled": true
   }
 }

@@ -4,7 +4,7 @@ An integrated **knowledge management system** based on the ACE System and the AR
 
 ---
 
-💾 [Download .zip](https://github.com/NonakaVal/obsidian-ACE-ARC/raw/refs/heads/main/obsidian-ACE-ARC.zip)
+💾 [Download .zip](https://github.com/NonakaVal/obsidian-ACE-ARC/raw/refs/heads/main/obsidian-base-setup.zip)
 
 ---
 
@@ -46,7 +46,7 @@ For better control, **Metadata** is used, such as:
 - `related` → associated notes  
 
 
----
+
 
 
 
@@ -85,7 +85,7 @@ For better control, **Metadata** is used, such as:
 | [Status Bar Organizer](https://github.com/L7Cy/obsidian-customizable-statusbar)                | Customizable status bar                                               |
 | [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)                          | GUI for theme & plugin customization                                  |
 | [Tabs](https://github.com/git-yustasse/obsidian-tabs)                                          | Tabbed file navigation                                                |
-| [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)                                | Tasks with dates, priorities, and filters                             |
+| [TasksNotes](https://github.com/callumalpass/tasknotes)                                        | Tasks with dates, priorities, and filters                             |
 
 ---
 

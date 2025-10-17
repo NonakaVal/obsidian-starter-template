@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "Guias Práticos",
-      "path": "+/Guias Práticos.md"
-    },
-    {
-      "basename": "Boas Vindas 🎉",
-      "path": "+/Boas Vindas 🎉.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "+/Markdown.md"
-    },
-    {
-      "basename": "Buscar Notas",
-      "path": "Sistema/Notas de Controle/Buscar Notas.md"
-    },
-    {
-      "basename": "Areas",
-      "path": "Sistema/Notas de Controle/Areas.md"
-    },
-    {
-      "basename": "wall2",
-      "path": "Sistema/Media/wall2.png"
-    },
-    {
-      "basename": "wall",
-      "path": "Sistema/Media/wall.png"
-    },
-    {
-      "basename": "Pasted image 20251009183318",
-      "path": "Sistema/Media/Pasted image 20251009183318.png"
-    },
-    {
-      "basename": "atlas-f",
-      "path": "Sistema/Media/atlas-f.png"
-    },
-    {
-      "basename": "arc-maid",
-      "path": "Sistema/Media/arc-maid.png"
-    },
-    {
-      "basename": "arc-flow",
-      "path": "Sistema/Media/arc-flow.png"
-    },
-    {
-      "basename": "Areas de desenvolvimento pessoal",
-      "path": "Sistema/Coleções/Areas de desenvolvimento pessoal.md"
-    },
-    {
-      "basename": "Gestão de Conhecimento",
-      "path": "Sistema/Coleções/Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "Mapa de Gestão de Conhecimento",
-      "path": "Atlas/Mapas/Mapa de Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "🏠Home Pro",
-      "path": "🏠Home Pro.md"
-    },
-    {
-      "basename": "🏠Home",
-      "path": "🏠Home.md"
-    },
-    {
-      "basename": "Propriedades",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Propriedades.md"
-    },
-    {
-      "basename": "Obsidian e PKM",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Obsidian e PKM.md"
-    },
-    {
-      "basename": "base",
-      "path": "Sistema/Templates/Format/base.md"
-    },
-    {
-      "basename": "template",
-      "path": "Sistema/Templates/Format/template.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "Dias",
-      "path": "Sistema/Notas de Controle/Dias.md"
+      "basename": "🏠",
+      "path": "🏠.md"
     },
     {
-      "basename": "Mapas",
-      "path": "Sistema/Notas de Controle/Mapas.md"
+      "basename": "Boas Vindas 🎉",
+      "path": "Boas Vindas 🎉.md"
     },
     {
-      "basename": "Jardineiro",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Jardineiro.md"
+      "basename": "2025-10-15-new note",
+      "path": "+/2025-10-15-new note.md"
     },
     {
-      "basename": "Dashboard++",
-      "path": "Atlas/Mapas/Dashboard++.md"
+      "basename": "Mapa de Gestão de Conhecimento",
+      "path": "Atlas/Maps/Mapa de Gestão de Conhecimento.md"
     },
     {
-      "basename": "Coleções",
-      "path": "Sistema/Notas de Controle/Coleções.md"
+      "basename": "Como + funciona",
+      "path": "Atlas/Concept/Gestão de conhecimento/Como + funciona.md"
     },
     {
-      "basename": "Como Coleções funciona",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Como Coleções funciona.md"
+      "basename": "Como a pasta Sistema funciona",
+      "path": "Atlas/Concept/Gestão de conhecimento/Como a pasta Sistema funciona.md"
     },
     {
-      "basename": "Checklist Obsidian",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
-    },
-    {
-      "basename": "Arquiteto",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Arquiteto.md"
-    },
-    {
-      "basename": "Revisitar",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Revisitar.md"
-    },
-    {
-      "basename": "Plante",
-      "path": "Atlas/Conceitos/Gestão de conhecimento/Plante.md"
+      "basename": "Propriedades",
+      "path": "Atlas/Concept/Gestão de conhecimento/Propriedades.md"
     },
     {
       "basename": "Atalhos",
-      "path": "Sistema/Notas de Controle/Atalhos.md"
+      "path": "System/Assets/Atalhos.md"
     },
     {
-      "basename": "analise de requisisos",
-      "path": "Esforços/Projetos/projeto 2/analise de requisisos.md"
+      "basename": "Checklist Obsidian",
+      "path": "Atlas/Concept/Gestão de conhecimento/Checklist Obsidian.md"
     },
     {
-      "basename": "projeto 2",
-      "path": "Esforços/Projetos/projeto 2/projeto 2.md"
+      "basename": "Ace 3 Espaços mentais",
+      "path": "Atlas/Concept/Gestão de conhecimento/Ace 3 Espaços mentais.md"
     },
     {
-      "basename": "saude 1",
-      "path": "Esforços/Areas/saude 1/saude 1.md"
+      "basename": "Boas Práticas de Classificação",
+      "path": "Atlas/Concept/Gestão de conhecimento/Boas Práticas de Classificação.md"
     },
     {
-      "basename": "nota de saude metas de treino",
-      "path": "Esforços/Areas/saude 1/nota de saude metas de treino.md"
+      "basename": "Arquiteto",
+      "path": "Atlas/Concept/Gestão de conhecimento/Arquiteto.md"
+    },
+    {
+      "basename": "ARC Framework",
+      "path": "Atlas/Concept/Gestão de conhecimento/ARC Framework.md"
+    },
+    {
+      "basename": "Adicionar",
+      "path": "Atlas/Concept/Gestão de conhecimento/Adicionar.md"
+    },
+    {
+      "basename": "Desenvolvimento Pessoal",
+      "path": "Projects & Areas/Areas/Desenvolvimento Pessoal/Desenvolvimento Pessoal.md"
+    },
+    {
+      "basename": "Projeto modelo",
+      "path": "Projects & Areas/Projects/Projeto modelo/Projeto modelo.md"
+    },
+    {
+      "basename": "Habits Map",
+      "path": "Atlas/Maps/Habits Map.md"
+    },
+    {
+      "basename": "Data Science (Modelo)",
+      "path": "Atlas/Maps/Data Science (Modelo).md"
+    },
+    {
+      "basename": "Dashboard++ (Modelo)",
+      "path": "Atlas/Maps/Dashboard++ (Modelo).md"
+    },
+    {
+      "basename": "_Garden_Architect_tags",
+      "path": "System/Assets/_Garden_Architect_tags.md"
+    },
+    {
+      "basename": "Jardineiro",
+      "path": "Atlas/Concept/Gestão de conhecimento/Jardineiro.md"
+    },
+    {
+      "basename": "new task",
+      "path": "Calendar & Review/TaskNotes/Tasks/new task.md"
+    },
+    {
+      "basename": "archived task",
+      "path": "Calendar & Review/TaskNotes/Archive/archived task.md"
+    },
+    {
+      "basename": "Como Atlas funciona",
+      "path": "Atlas/Concept/Gestão de conhecimento/Como Atlas funciona.md"
+    },
+    {
+      "basename": "Comunicar",
+      "path": "Atlas/Concept/Gestão de conhecimento/Comunicar.md"
+    },
+    {
+      "basename": "2025-10-06",
+      "path": "Calendar & Review/Daily Notes/2025-10-06.md"
+    },
+    {
+      "basename": "@_Efforts",
+      "path": "System/Assets/Dataview/@_Efforts.md"
+    },
+    {
+      "basename": "_-asdasd",
+      "path": "System/Templates/Snippet/_-asdasd.md"
+    },
+    {
+      "basename": "2025-10-15",
+      "path": "Calendar & Review/Daily Notes/2025-10-15.md"
+    },
+    {
+      "basename": "@_areas",
+      "path": "System/Assets/Dataview/@_areas.md"
+    },
+    {
+      "basename": "@_projects",
+      "path": "System/Assets/Dataview/@_projects.md"
+    },
+    {
+      "basename": "2025-10",
+      "path": "Calendar & Review/Monthly Notes/2025-10.md"
+    },
+    {
+      "basename": "2025-10-09",
+      "path": "Calendar & Review/Daily Notes/2025-10-09.md"
+    },
+    {
+      "basename": "2025-10-08",
+      "path": "Calendar & Review/Daily Notes/2025-10-08.md"
+    },
+    {
+      "basename": "2025-10-07",
+      "path": "Calendar & Review/Daily Notes/2025-10-07.md"
+    },
+    {
+      "basename": "daily-note-template",
+      "path": "System/Templates/Format/daily-note-template.md"
+    },
+    {
+      "basename": "2025-10-12",
+      "path": "Calendar & Review/Daily Notes/2025-10-12.md"
+    },
+    {
+      "basename": "2025-10-11",
+      "path": "Calendar & Review/Daily Notes/2025-10-11.md"
+    },
+    {
+      "basename": "@-mood-and-work-tracker",
+      "path": "System/Assets/Dataview/@-mood-and-work-tracker.md"
+    },
+    {
+      "basename": "area note",
+      "path": "System/Templates/Format/area note.md"
+    },
+    {
+      "basename": "@-templates",
+      "path": "System/Assets/Dataview/@-templates.md"
+    },
+    {
+      "basename": "project note",
+      "path": "System/Templates/Format/project note.md"
     },
     {
       "basename": "area",
-      "path": "Sistema/Templates/Format/area.md"
+      "path": "System/Templates/Format/area.md"
     },
     {
-      "basename": "Templates",
-      "path": "Sistema/Notas de Controle/Templates.md"
+      "basename": "project",
+      "path": "System/Templates/Format/project.md"
     },
     {
-      "basename": "projeto",
-      "path": "Sistema/Templates/Format/projeto.md"
+      "basename": "& Summary",
+      "path": "System/Templates/Snippet/& Summary.md"
     },
     {
-      "basename": "projeto nota",
-      "path": "Sistema/Templates/Format/projeto nota.md"
+      "basename": "& Daily Logs",
+      "path": "System/Templates/Snippet/& Daily Logs.md"
     },
     {
-      "basename": "2025-10-10",
-      "path": "Calendário/Dias/2025-10-10.md"
+      "basename": "& Mood tracker",
+      "path": "System/Templates/Snippet/& Mood tracker.md"
     },
     {
-      "basename": "Pro Custom Callouts",
-      "path": "Sistema/Recursos/Pro Custom Callouts.md"
-    },
-    {
-      "basename": "Todas Tarefas",
-      "path": "Sistema/Notas de Controle/Todas Tarefas.md"
-    },
-    {
-      "basename": "nota projeto 1",
-      "path": "Esforços/Projetos/Projeto 1/nota projeto 1.md"
-    },
-    {
-      "basename": "Projeto 1",
-      "path": "Esforços/Projetos/Projeto 1/Projeto 1.md"
-    },
-    {
-      "basename": "Projeto 2",
-      "path": "Esforços/Projetos/Projeto 1/Projeto 2.md"
-    },
-    {
-      "basename": "nota area 1",
-      "path": "Esforços/Areas/Area 1/nota area 1.md"
-    },
-    {
-      "basename": "Area 1",
-      "path": "Esforços/Areas/Area 1/Area 1.md"
-    },
-    {
-      "basename": "nota diaria",
-      "path": "Sistema/Templates/Format/nota diaria.md"
-    },
-    {
-      "basename": "mensal-template",
-      "path": "Sistema/Templates/Format/mensal-template.md"
+      "basename": "-LINK-TODAY",
+      "path": "System/Templates/-LINK-TODAY.md"
     }
   ],
   "omittedPaths": [
@@ -208,5 +204,5 @@
     ""
   ],
   "updateOn": "file-open",
-  "omitBookmarks": false
+  "omitBookmarks": true
 }

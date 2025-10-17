@@ -4,23 +4,11 @@
   "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "Sistema/Templates",
-      "viewMode": "default"
-    },
-    {
-      "folder": "Atlas/Mapas",
+      "folder": "Calendar & Review/Monthly Notes",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "Sistema/Sobre",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "Calendário/Revisões",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "Sistema/Notas de Controle",
+      "folder": "Atlas/Maps",
       "viewMode": "obsidianUIMode: preview"
     }
   ],
@@ -30,20 +18,8 @@
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "Guias Práticos",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
       "filePattern": "Boas Vindas 🎉",
       "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "homepage-help",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "🏠 Home Pro",
-      "viewMode": "obsidianEditingMode: source"
     }
   ]
 }

@@ -1,20 +1,21 @@
 {
-  "cssTheme": "AnuPpuccin",
-  "theme": "moonstone",
+  "baseFontSizeAction": true,
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "dashboarPlusPlus",
+    "datacore-classes",
+    "Easy multi-column notes",
+    "hidePropertiesBase",
     "imageGallery",
-    "MCL - Gallery Cards",
-    "MCL - Multi Column",
-    "Nick Milo - Tighter Bottom Properties Margin for Border",
-    "Nick Milo - Anuppuchin - Soft Paper",
-    "Nick Milo - Anuppuchin - Soft Folders",
-    "Nick Milo - Aligned Callout Header Titles",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "minorAdds",
+    "minorFixes",
     "Nick Milo - Custom Callouts - Pro",
-    "Nick Milo - Prism",
-    "MCL - Wide Views",
-    "MCL Wide Views"
+    "StyleCallouts",
+    "table-view",
+    "Folder-description"
   ],
   "baseFontSize": 14,
-  "baseFontSizeAction": true
+  "cssTheme": "Things"
 }

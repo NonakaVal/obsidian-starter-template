@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Sistema/Templates",
+  "templates_folder": "System/Templates",
   "templates_pairs": [
     [
       "",
@@ -13,12 +13,7 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "",
-      "template": ""
-    }
-  ],
+  "folder_templates": [],
   "enable_file_templates": false,
   "file_templates": [
     {
@@ -29,8 +24,10 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "SYSTEM/TEMPLATE/CODE/toggle_todo.md"
+    ""
   ],
-  "startup_templates": [],
+  "startup_templates": [
+    ""
+  ],
   "intellisense_render": 1
 }

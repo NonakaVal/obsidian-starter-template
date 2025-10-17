@@ -1,4 +1,6 @@
 .vscode/
 .stfolder/
 .trash/
-README.md
+
+/SELF/.gitattributes
+/SYSTEM/MEDIA/TCG-POCKET-cards

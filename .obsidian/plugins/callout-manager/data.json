@@ -1,37 +1,20 @@
 {
   "callouts": {
     "custom": [
-      "meta",
-      "box",
-      "gear"
+      "testcallout"
     ],
     "settings": {
-      "meta": [
+      "testcallout": [
         {
           "changes": {
-            "icon": "lucide-table"
+            "color": "217, 161, 221"
           }
         }
       ],
-      "box": [
+      "connect": [
         {
           "changes": {
-            "color": "208, 103, 140"
-          }
-        }
-      ],
-      "gear": [
-        {
-          "changes": {
-            "icon": "lucide-settings",
-            "color": "0, 151, 117"
-          }
-        }
-      ],
-      "rainbow": [
-        {
-          "changes": {
-            "icon": "lucide-settings"
+            "color": "192, 233, 242"
           }
         }
       ]

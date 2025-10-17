@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBrainCircuit",
+      "LiFolderKanban",
+      "LiText",
       "LiCalendar",
-      "LiCalendarDay",
-      "LiBook",
-      "LiMapPin",
-      "LiAppWindow"
+      "LiTemplaterIcon"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,17 +34,18 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Atlas": "LiNotebookPen",
-  "Sistema/Coleções": "LiBoxes",
-  "Sistema/Media": "LiAppWindowMac",
-  "Sistema/Notas de Controle": "LiNotepadTextDashed",
-  "Sistema/Recursos": "LiBox",
-  "Sistema/Templates": "LiLayoutTemplate",
-  "Calendário": "LiCalendar",
-  "Esforços": "LiBackpack",
-  "Sistema": "LiSettings",
-  "Esforços/Areas": "LiAsteriskSquare",
-  "Esforços/Projetos": "LiAppWindow",
-  "Atlas/Mapas": "LiMapPin",
-  "Atlas/Conceitos": "LiBook"
+  "10 Life Domains": "LiStar",
+  "30 Knowlegde": "LiBrain",
+  "50 Projects & Outputs": "LiAtom",
+  "System": "LiSettings",
+  "Projects & Areas": "LiFolderPen",
+  "Projects & Areas/Projects": "LiFolder",
+  "Projects & Areas/Archived": "LiArchive",
+  "Projects & Areas/Areas": "LiTrees",
+  "Calendar & Review/Daily Notes": "LiAlarmClockPlus",
+  "Calendar & Review/Monthly Notes": "LiFolderPen",
+  "Calendar & Review/TaskNotes": "LiCopyCheck",
+  "System/Templates": "LiTemplaterIcon",
+  "Calendar & Review": "LiCalendar",
+  "Atlas": "LiBrainCircuit"
 }

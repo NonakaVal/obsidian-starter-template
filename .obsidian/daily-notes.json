@@ -1,4 +1,6 @@
 {
-  "folder": "Calendário/Dias",
-  "template": "Sistema/Templates/Format/nota diaria"
+  "format": "",
+  "template": "System/Templates/Format/daily-note-template",
+  "folder": "Calendar & Review/Daily Notes",
+  "autorun": false
 }

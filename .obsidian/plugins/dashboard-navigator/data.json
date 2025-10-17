@@ -20,23 +20,40 @@
   "hide_ext": true,
   "hide_path": true,
   "hide_size": true,
-  "hide_date": false,
+  "hide_date": true,
   "hide_tags": true,
   "hide_frontmatter": false,
   "hide_backlinks": false,
   "hide_outgoing": false,
   "hide_columns": [
     "tags",
+    "date",
+    "size",
     "path",
-    "ext",
-    "size"
+    "ext"
   ],
   "show_dashboard_piechart": true,
   "image_thumbnail": true,
   "thumbnail_size": 82,
   "primary_tags_results_visible": true,
   "tags_sidebar": true,
-  "tags_sidebar_sorted_by_frequency": false,
+  "tags_sidebar_sorted_by_frequency": true,
   "onclose_search": "",
-  "saved_searches": []
+  "saved_searches": [
+    {
+      "id": 1760429029185,
+      "query": "🔸 daily-mood: 😄 – Happy",
+      "description": ""
+    },
+    {
+      "id": 1760429067236,
+      "query": "🔸 daily-mood: 😞 – Sad",
+      "description": ""
+    },
+    {
+      "id": 1760429074158,
+      "query": "🔸 daily-mood: 😠 – Frustrated",
+      "description": ""
+    }
+  ]
 }

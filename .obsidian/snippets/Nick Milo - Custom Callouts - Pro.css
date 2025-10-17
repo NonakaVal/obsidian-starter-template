@@ -2060,7 +2060,7 @@ RED: Award, Cone, Fingerprint, Watch
 
 .callout[data-callout="calendar"] {
     --callout-icon: calendar-days;
-    --callout-color: 151, 117, 250;
+    --callout-color: 172, 199, 255;
 
 }
 
@@ -2350,7 +2350,7 @@ RED: Award, Cone, Fingerprint, Watch
 /* globe */
 
 .callout[data-callout="globe"] {
-    --callout-color: 151, 117, 250;
+    --callout-color: 172, 199, 255;
     --callout-icon: globe;
 }
 

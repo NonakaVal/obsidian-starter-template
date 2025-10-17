@@ -2,39 +2,19 @@
   "files": [
     {
       "useMoment": false,
-      "file": "+/Guias Práticos.md"
+      "file": "System/Assets/Dataview/@-templates.md"
     },
     {
       "useMoment": false,
-      "file": "Atlas/Conceitos/Gestão de conhecimento/Checklist Obsidian.md"
+      "file": "🏠.md"
     },
     {
       "useMoment": false,
-      "file": "Sistema/Notas de Controle/Notas Recentemente Modificadas.md"
+      "file": "System/Assets/Dataview/@_projects.md"
     },
     {
       "useMoment": false,
-      "file": "Sistema/Notas de Controle/Todas Tarefas.md"
-    },
-    {
-      "useMoment": false,
-      "file": "Sistema/Notas de Controle/Projetos Ativos.md"
-    },
-    {
-      "useMoment": false,
-      "file": "Sistema/Notas de Controle/Coleções.md"
-    },
-    {
-      "useMoment": false,
-      "file": "Sistema/Notas de Controle/Areas.md"
-    },
-    {
-      "useMoment": false,
-      "file": "Sistema/Notas de Controle/Dias.md"
-    },
-    {
-      "useMoment": false,
-      "file": "Atlas/Mapas/Dashboard++.md"
+      "file": "System/Assets/Dataview/@_areas.md"
     }
   ],
   "useExistingPane": true,
