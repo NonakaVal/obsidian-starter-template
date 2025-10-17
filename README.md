@@ -4,7 +4,7 @@ An integrated **knowledge management system** based on the ACE System and the AR
 
 ---
 
-💾 [Download .zip](https://github.com/NonakaVal/obsidian-ACE-ARC/raw/refs/heads/main/obsidian-base-setup.zip)
+💾 [Download .zip](https://github.com/NonakaVal/obsidian-ACE-ARC/raw/refs/heads/main/obsidian-starter-kit.zip)
 
 ---
 
