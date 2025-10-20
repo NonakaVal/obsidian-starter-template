@@ -98,4 +98,8 @@ For better control, **Metadata** is used, such as:
 - [Dashboard ++](https://github.com/TfTHacker/DashboardPlusPlus)  
 - [Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown)  
 - [Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout)  
-```
+
+
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](buymeacoffee.com/nonakaval)
+
