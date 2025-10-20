@@ -13,7 +13,16 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "Calendar & Review/Daily Notes",
+      "template": "System/Templates/Format/Daily Note Template.md"
+    },
+    {
+      "folder": "Calendar & Review/Weekly Notes",
+      "template": "System/Templates/Format/Weekly Note Template.md"
+    }
+  ],
   "enable_file_templates": false,
   "file_templates": [
     {
@@ -23,9 +32,7 @@
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    ""
-  ],
+  "enabled_templates_hotkeys": [],
   "startup_templates": [
     ""
   ],

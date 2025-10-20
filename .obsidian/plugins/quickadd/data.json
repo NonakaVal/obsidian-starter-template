@@ -17,7 +17,7 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "System/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
@@ -56,11 +56,50 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "System/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
-            "format": "- 🗓️ {{value}} - {{time}}"
+            "format": "- ⭐ {{value}} - {{time}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "# Logs",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "newLineCapture": {
+            "enabled": false,
+            "direction": "below"
+          },
+          "prepend": false,
+          "task": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          }
+        },
+        {
+          "id": "867eb981-1c2e-4f7a-8637-e410d12aba7d",
+          "name": "💾 Memo",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Calendar & Review/Daily Notes/{{date}}",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "System/Templates/Format/Daily Note Template.md"
+          },
+          "format": {
+            "enabled": true,
+            "format": "- 💾 {{value}} -  {{time}}"
           },
           "insertAfter": {
             "enabled": true,
@@ -90,12 +129,12 @@
           "type": "Capture",
           "command": true,
           "appendLink": false,
-          "captureTo": "Calendar & Review/Daily Notes/{date}}",
+          "captureTo": "Calendar & Review/Daily Notes/{{date}}",
           "captureToActiveFile": false,
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "System/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
@@ -134,7 +173,7 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "System/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
@@ -173,7 +212,7 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "Sistema/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
@@ -212,7 +251,7 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "System/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
@@ -251,7 +290,7 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "System/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
@@ -290,7 +329,7 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "System/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
@@ -324,12 +363,12 @@
           "type": "Capture",
           "command": true,
           "appendLink": false,
-          "captureTo": "Calendar & Review/Daily Notes//{{date}}",
+          "captureTo": "Calendar & Review/Daily Notes/{{date}}",
           "captureToActiveFile": false,
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "System/Templates/Format/daily-note-template.md"
+            "template": "System/Templates/Format/Daily Note Template.md"
           },
           "format": {
             "enabled": true,
@@ -371,10 +410,10 @@
           "name": "📝 new note",
           "type": "Template",
           "command": true,
-          "templatePath": "System/Templates/Format/base template.md",
+          "templatePath": "System/Templates/Format/new note.md",
           "fileNameFormat": {
-            "enabled": true,
-            "format": "{{date}}-{{value}}"
+            "enabled": false,
+            "format": ""
           },
           "folder": {
             "enabled": true,
@@ -403,26 +442,26 @@
           }
         },
         {
-          "id": "f7b4c6cf-3257-47c5-944b-bcde8fbd1cf6",
-          "name": "💾 Memo",
+          "id": "4e686104-a366-447c-91db-8e924383de51",
+          "name": "📁 New Collection ",
           "type": "Template",
           "command": true,
-          "templatePath": "System/Templates/Format/memo.md",
+          "templatePath": "System/Templates/Format/base template.md",
           "fileNameFormat": {
-            "enabled": true,
-            "format": "memo-{{value}}"
+            "enabled": false,
+            "format": ""
           },
           "folder": {
             "enabled": true,
             "folders": [
-              "+"
+              "System/Collections"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
             "chooseFromSubfolders": false
           },
           "appendLink": false,
-          "openFile": true,
+          "openFile": false,
           "fileOpening": {
             "location": "tab",
             "direction": "vertical",
@@ -589,7 +628,7 @@
               "setFileExistsBehavior": false
             }
           ],
-          "collapsed": false
+          "collapsed": true
         },
         {
           "id": "56f7b2bb-3b01-40a6-9a31-83719f02ff75",
@@ -670,7 +709,7 @@
               }
             }
           ],
-          "collapsed": false
+          "collapsed": true
         }
       ],
       "collapsed": false
@@ -796,8 +835,8 @@
           "command": true,
           "templatePath": "System/Templates/Format/project note.md",
           "fileNameFormat": {
-            "enabled": true,
-            "format": "{{date}}-{{VALUE}}"
+            "enabled": false,
+            "format": ""
           },
           "folder": {
             "enabled": true,
@@ -826,55 +865,20 @@
           }
         }
       ],
-      "collapsed": false
-    },
-    {
-      "id": "b765fb22-a346-446d-922e-5a58d5059945",
-      "name": "📒 New Area (copy)",
-      "type": "Template",
-      "command": true,
-      "templatePath": "System/Templates/Format/area.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{VALUE}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Projects & Areas/Areas/{{VALUES}}"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "focus": true,
-        "mode": "default"
-      },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFileInMode": "default"
+      "collapsed": true
     }
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "System/Templates",
+  "templateFolderPath": "System/Templates/Format",
   "announceUpdates": true,
-  "version": "2.5.0",
+  "version": "2.6.0",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "showCaptureNotification": true,
+  "showInputCancellationNotification": false,
   "enableTemplatePropertyTypes": false,
   "ai": {
     "defaultModel": "Ask me",

@@ -15,6 +15,10 @@
     {
       "useMoment": false,
       "file": "System/Assets/Dataview/@_areas.md"
+    },
+    {
+      "useMoment": false,
+      "file": "System/Assets/Dataview/@_collections.md"
     }
   ],
   "useExistingPane": true,

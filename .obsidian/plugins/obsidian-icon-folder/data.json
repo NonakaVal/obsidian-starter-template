@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBrainCircuit",
-      "LiFolderKanban",
-      "LiText",
-      "LiCalendar",
-      "LiTemplaterIcon"
+      "LiLibrarySquare",
+      "LiBookMarked",
+      "LiVideotape",
+      "LiFolders",
+      "LiStar"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,10 +42,21 @@
   "Projects & Areas/Projects": "LiFolder",
   "Projects & Areas/Archived": "LiArchive",
   "Projects & Areas/Areas": "LiTrees",
-  "Calendar & Review/Daily Notes": "LiAlarmClockPlus",
-  "Calendar & Review/Monthly Notes": "LiFolderPen",
+  "Calendar & Review/Daily Notes": "LiCalendarRange",
+  "Calendar & Review/Monthly Notes": "LiCalendarPlus",
   "Calendar & Review/TaskNotes": "LiCopyCheck",
-  "System/Templates": "LiTemplaterIcon",
   "Calendar & Review": "LiCalendar",
-  "Atlas": "LiBrainCircuit"
+  "Atlas": "LiBrainCircuit",
+  "Calendar & Review/Weekly Notes": "LiCalendarCheck2",
+  "System/Templates": "LiLayoutTemplate",
+  "System/Media": "LiFolderHeart",
+  "System/Assets": "LiFolderCode",
+  "System/Collections": "LiFolders",
+  "System/Assets/_Atalhos.md": "LiVideotape",
+  "Atlas/Conceitos": "LiBookMarked",
+  "Atlas/Conceitos/+ Entendendo o básico": "LiStar",
+  "Atlas/Conceitos/ACE & ARC Frameworks": "LiFolderTree",
+  "Atlas/Conceitos/Arquiteto & Jardineiro": "LiTrees",
+  "Atlas/Conceitos/Mapas e Modelos": "LiListCollapse",
+  "Atlas/Mapas": "LiLibrarySquare"
 }

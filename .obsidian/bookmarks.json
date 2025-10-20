@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "type": "group",
+      "ctime": 1760936570862,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1760936421642,
+          "path": "Atlas/Conceitos/+ Entendendo o básico"
+        },
+        {
+          "type": "folder",
+          "ctime": 1760936447454,
+          "path": "Atlas/Conceitos/ACE & ARC Frameworks"
+        },
+        {
+          "type": "folder",
+          "ctime": 1760936455146,
+          "path": "Atlas/Conceitos/Arquiteto & Jardineiro"
+        }
+      ],
+      "title": "PKM Introduction"
+    },
+    {
       "type": "file",
       "ctime": 1750803722729,
       "path": "SYSTEM/ASSETS/regra-nomenclatura-code-snippets.md"
@@ -37,96 +59,26 @@
     },
     {
       "type": "group",
-      "ctime": 1759915384053,
+      "ctime": 1760936464955,
       "items": [
         {
-          "type": "file",
-          "ctime": 1759915377258,
-          "path": "System/Assets/Dataview/@-templates.md"
+          "type": "folder",
+          "ctime": 1760936484392,
+          "path": "Atlas/Conceitos/Mapas e Modelos"
         },
         {
-          "type": "file",
-          "ctime": 1759915377258,
-          "path": "System/Assets/Dataview/@_tasks.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1759915377258,
-          "path": "System/Templates/Format/daily-note-template.md"
+          "type": "folder",
+          "ctime": 1760936513926,
+          "path": "System/Templates"
         }
       ],
-      "title": "Templates"
-    },
-    {
-      "type": "file",
-      "ctime": 1759915707489,
-      "path": "System/Assets/Dataview/@_Architect.md"
-    },
-    {
-      "type": "file",
-      "ctime": 1759915730423,
-      "path": "System/Assets/Dataview/@_Garden.md"
+      "title": "Templates e Modelos"
     },
     {
       "type": "group",
-      "ctime": 1760577043481,
-      "items": [
-        {
-          "type": "group",
-          "ctime": 1760577064775,
-          "items": [],
-          "title": "Projects & Areas"
-        },
-        {
-          "type": "group",
-          "ctime": 1760577589283,
-          "items": [],
-          "title": "+"
-        },
-        {
-          "type": "group",
-          "ctime": 1760577589283,
-          "items": [],
-          "title": "Calendar & Review"
-        },
-        {
-          "type": "group",
-          "ctime": 1760577589283,
-          "items": [],
-          "title": "Knowlegde"
-        },
-        {
-          "type": "group",
-          "ctime": 1760577589283,
-          "items": [],
-          "title": "System"
-        },
-        {
-          "type": "file",
-          "ctime": 1760577589283,
-          "path": "_folder_index_obsidian-base-setup.md",
-          "subpath": "#^-"
-        },
-        {
-          "type": "file",
-          "ctime": 1760577589283,
-          "path": "🏠.md",
-          "subpath": "#^-"
-        },
-        {
-          "type": "file",
-          "ctime": 1760577589283,
-          "path": "Obsdian Base Setup .zip.zip",
-          "subpath": "#^-"
-        },
-        {
-          "type": "file",
-          "ctime": 1760577589283,
-          "path": "README.md",
-          "subpath": "#^-"
-        }
-      ],
-      "title": "sortspec"
+      "ctime": 1760936607082,
+      "items": [],
+      "title": "Folders"
     }
   ]
 }

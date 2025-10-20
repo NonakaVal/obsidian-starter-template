@@ -60,7 +60,7 @@
   "pomodoroNotifications": true,
   "pomodoroSoundEnabled": true,
   "pomodoroSoundVolume": 50,
-  "pomodoroStorageLocation": "plugin",
+  "pomodoroStorageLocation": "daily-notes",
   "enableTaskLinkOverlay": true,
   "enableInstantTaskConvert": true,
   "useDefaultsOnInstantConvert": true,
@@ -223,5 +223,10 @@
   "enableBases": true,
   "maintainDueDateOffsetInRecurring": false,
   "useFrontmatterMarkdownLinks": false,
-  "lastSeenVersion": "3.25.3"
+  "lastSeenVersion": "3.25.3",
+  "pomodoroState": {
+    "isRunning": false,
+    "timeRemaining": 1500
+  },
+  "lastPomodoroDate": "2025-10-20"
 }

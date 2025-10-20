@@ -1,17 +1,12 @@
 ```dataviewjs
 // =============================
-// 🔹 Pomodoros + TimeEntries minimalista (ícones e sem coluna Fonte)
+// 🔹 Pomodoros + TimeEntries detalhado com filtros e agrupamento
 // =============================
 const root = dv.el("div", "");
 
 // Intervalo de datas
-// const startDate = new Date("2025-10-01T00:00:00");
-// const endDate   = new Date("2025-10-14T23:59:59");
-
-// → Substituir por:
-const startDate = moment('<% tp.system.prompt("StartDate (YYYY-MM-DD)") %>', 'YYYY-MM-DD');
-const endDate = moment(); // hoje
-
+const startDate = moment('<% tp.date.now("YYYY-MM-DD", -30) %>', 'YYYY-MM-DD');
+const endDate = moment('<% tp.date.now("YYYY-MM-DD") %>', 'YYYY-MM-DD');
 
 // -----------------------------
 // 🔹 Captura Pomodoros (#calendar/daily)
@@ -25,6 +20,8 @@ for (let page of dv.pages("#calendar/daily").where(p => Array.isArray(p.pomodoro
         let duration = typeof p.plannedDuration === "number" ? p.plannedDuration : (!isNaN(end) ? (end - start) / 60000 : 0);
 
         pomodoros.push({
+            start: start,
+            end: end,
             duration: duration,
             type: p.type ?? "—",
             done: p.completed ? "✅" : "❌",
@@ -45,6 +42,8 @@ for (let page of dv.pages("#task").where(p => Array.isArray(p.timeEntries))) {
 
         let duration = (end - start) / 60000; // minutos
         timeEntries.push({
+            start: start,
+            end: end,
             duration: duration,
             type: te.description ?? "—",
             done: "—",
@@ -55,8 +54,8 @@ for (let page of dv.pages("#task").where(p => Array.isArray(p.timeEntries))) {
 }
 
 // -----------------------------
-// 🔹 Combina e ordena
-const combined = [...pomodoros, ...timeEntries];
+// 🔹 Combina e ordena por horário
+let combined = [...pomodoros, ...timeEntries].sort((a,b) => a.start - b.start);
 
 // -----------------------------
 // 🔹 Resumo
@@ -65,76 +64,156 @@ const totalPom = combined.filter(e => e.source === "Pomodoro").length;
 const totalTE  = combined.filter(e => e.source === "TimeEntry").length;
 
 root.appendChild(dv.el("div", `
-##### 🧩 Sessões (${startDate.toISOString().split("T")[0]} → ${endDate.toISOString().split("T")[0]})
+##### 🧩 Sessões (${startDate.format("YYYY-MM-DD")} → ${endDate.format("YYYY-MM-DD")})
 - ⏱️ Total: **${Math.ceil(totalMin)} min**
 - 🍅 Pomodoros: **${totalPom}**
-- ⏳ TimeEntries (#task): **${totalTE}**
+- 📝 TimeEntries: **${totalTE}**
 `));
 
 // -----------------------------
-// 🔹 Tabela minimalista com ícones
-const table = document.createElement("table");
-table.style.width = "100%";
-table.style.borderCollapse = "collapse";
+// 🔹 Seletores de agrupamento/ordenar
+const controls = document.createElement("div");
+controls.style.marginBottom = "8px";
 
-const headers = ["⏱️ Duração", "🎯 Tipo / Descrição", "✅ Feito", "🔗 Nota"];
-const thead = document.createElement("thead");
-const trHead = document.createElement("tr");
+// Criando o select via DOM
+const sortSelect = document.createElement("select");
+const options = [
+    {value: "start", text: "Horário"},
+    {value: "type", text: "Tipo/Descrição"},
+    {value: "done", text: "Feito"},
+    {value: "note", text: "Nota/Arquivo"}
+];
 
-for (let h of headers) {
-    const th = document.createElement("th");
-    th.textContent = h;
-    th.style.textAlign = "left";
-    th.style.padding = "4px 8px";
-    th.style.borderBottom = "1px solid #ccc";
-    trHead.appendChild(th);
-}
-thead.appendChild(trHead);
-table.appendChild(thead);
+options.forEach(opt => {
+    const option = document.createElement("option");
+    option.value = opt.value;
+    option.textContent = opt.text;
+    sortSelect.appendChild(option);
+});
 
-const tbody = document.createElement("tbody");
+controls.appendChild(document.createTextNode("Agrupar/Ordenar por: "));
+controls.appendChild(sortSelect);
+root.appendChild(controls);
 
-// Função para definir ícone
-function getIcon(entry) {
-    if(entry.source === "Pomodoro") {
-        if(entry.type === "break") return "🛌";
-        if(entry.type === "long-break") return "☕";
-        if(entry.type === "work") return "🍅";
-        return "🍅"; // default para pomodoro
-    } else if(entry.source === "TimeEntry") {
-        return "📝";
+// -----------------------------
+// 🔹 Renderizar tabela com agrupamento
+function renderTable(data, groupBy = "start") {
+    const oldTable = root.querySelector("table");
+    if(oldTable) oldTable.remove();
+
+    const table = document.createElement("table");
+    table.style.width = "100%";
+    table.style.borderCollapse = "collapse";
+
+    const headers = ["⏰ Horário", "⏱️ Duração", "🎯 Tipo / Descrição", "✅ Feito", "🔗 Nota"];
+    const thead = document.createElement("thead");
+    const trHead = document.createElement("tr");
+
+    for (let h of headers) {
+        const th = document.createElement("th");
+        th.textContent = h;
+        th.style.textAlign = "left";
+        th.style.padding = "4px 8px";
+        th.style.borderBottom = "1px solid #ccc";
+        trHead.appendChild(th);
     }
-    return "—";
+    thead.appendChild(trHead);
+    table.appendChild(thead);
+
+    const tbody = document.createElement("tbody");
+
+    function getIcon(entry) {
+        if(entry.source === "Pomodoro") {
+            if(entry.type === "short-break") return "🛌";
+            if(entry.type === "long-break") return "☕";
+            if(entry.type === "work") return "🍅";
+            return "🍅";
+        } else if(entry.source === "TimeEntry") {
+            return "📝";
+        }
+        return "—";
+    }
+
+    // Agrupa
+    let grouped = {};
+    data.forEach(e => {
+        let key;
+        if(groupBy === "type") key = e.type || "—";
+        else if(groupBy === "done") key = e.done || "—";
+        else if(groupBy === "note") key = e.file?.path || "—";
+        else key = "Todos"; // start ou sem agrupamento
+
+        if(!grouped[key]) grouped[key] = [];
+        grouped[key].push(e);
+    });
+
+    for (let group in grouped) {
+        // Linha de título do grupo
+        if(groupBy !== "start") {
+            const trGroup = document.createElement("tr");
+            const tdGroup = document.createElement("td");
+            tdGroup.colSpan = headers.length;
+            tdGroup.textContent = group;
+            tdGroup.style.fontWeight = "bold";
+            tdGroup.style.backgroundColor = "#262626";
+            tdGroup.style.padding = "6px 8px";
+            trGroup.appendChild(tdGroup);
+            tbody.appendChild(trGroup);
+        }
+
+        // Entradas do grupo
+        grouped[group].forEach(entry => {
+            const tr = document.createElement("tr");
+
+            const tdTime = document.createElement("td");
+            tdTime.textContent = `${moment(entry.start).format("HH:mm")} → ${moment(entry.end).format("HH:mm")}`;
+            tdTime.style.padding = "4px 8px";
+            tdTime.style.fontFamily = "monospace";
+            tr.appendChild(tdTime);
+
+            const tdDur = document.createElement("td");
+            tdDur.textContent = `${getIcon(entry)} ${Math.ceil(entry.duration)} min`;
+            tdDur.style.padding = "4px 8px";
+            tr.appendChild(tdDur);
+
+            const tdType = document.createElement("td");
+            tdType.textContent = entry.type ?? "—";
+            tdType.style.padding = "4px 8px";
+            tr.appendChild(tdType);
+
+            const tdDone = document.createElement("td");
+            tdDone.textContent = entry.done ?? "—";
+            tdDone.style.padding = "4px 8px";
+            tr.appendChild(tdDone);
+
+            const tdLink = document.createElement("td");
+            tdLink.style.padding = "4px 8px";
+            if(entry.file) tdLink.appendChild(dv.el("span", entry.file.link));
+            else tdLink.textContent = "—";
+            tr.appendChild(tdLink);
+
+            tbody.appendChild(tr);
+        });
+    }
+
+    table.appendChild(tbody);
+    root.appendChild(table);
 }
 
-for (let entry of combined) {
-    const tr = document.createElement("tr");
+// Render inicial
+renderTable(combined);
 
-    const tdDur = document.createElement("td");
-    tdDur.textContent = `${getIcon(entry)} ${Math.ceil(entry.duration)} min`;
-    tdDur.style.padding = "4px 8px";
-    tr.appendChild(tdDur);
+// -----------------------------
+// 🔹 Lógica de seleção
+sortSelect.addEventListener("change", (e) => {
+    const val = e.target.value;
+    let sorted = [...combined];
+    if(val === "type") sorted.sort((a,b) => (a.type||"").localeCompare(b.type||""));
+    else if(val === "done") sorted.sort((a,b) => (a.done||"").localeCompare(b.done||""));
+    else if(val === "note") sorted.sort((a,b) => ((a.file?.path)||"").localeCompare((b.file?.path)||""));
+    else sorted.sort((a,b) => a.start - b.start);
 
-    const tdType = document.createElement("td");
-    tdType.textContent = entry.type ?? "—";
-    tdType.style.padding = "4px 8px";
-    tr.appendChild(tdType);
-
-    const tdDone = document.createElement("td");
-    tdDone.textContent = entry.done ?? "—";
-    tdDone.style.padding = "4px 8px";
-    tr.appendChild(tdDone);
-
-    const tdLink = document.createElement("td");
-    tdLink.style.padding = "4px 8px";
-    if (entry.file) tdLink.appendChild(dv.el("span", entry.file.link));
-    else tdLink.textContent = "—";
-    tr.appendChild(tdLink);
-
-    tbody.appendChild(tr);
-}
-
-table.appendChild(tbody);
-root.appendChild(table);
+    renderTable(sorted, val);
+});
 
 ```

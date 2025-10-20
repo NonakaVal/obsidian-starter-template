@@ -12,6 +12,7 @@
               {
                 "id": "e857f13f3b3f005e",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -29,88 +30,9 @@
                       "unlinkedCollapsed": true
                     }
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "🏠"
-                }
-              },
-              {
-                "id": "c0426f176514debb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "System/Assets/61.1 Dataview/@_Garden.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "@_Garden"
-                }
-              },
-              {
-                "id": "6204db7ad6c1b5e8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "System/Assets/61.1 Dataview/@_Efforts.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "@_Efforts"
-                }
-              },
-              {
-                "id": "6f87e89701eb4b52",
-                "type": "leaf",
-                "state": {
-                  "type": "grid-view",
-                  "state": {
-                    "type": "grid-view",
-                    "state": {
-                      "sourceMode": "folder",
-                      "sourcePath": "/",
-                      "baseSortType": "mtime-desc",
-                      "sortType": "mtime-desc",
-                      "searchQuery": "#garden/seed",
-                      "searchCurrentLocationOnly": false,
-                      "searchFilesNameOnly": false,
-                      "searchMediaFiles": false,
-                      "includeMedia": false,
-                      "minMode": false,
-                      "showIgnoredFolders": false,
-                      "baseCardLayout": "horizontal",
-                      "cardLayout": "horizontal",
-                      "hideHeaderElements": false,
-                      "showDateDividers": false,
-                      "showNoteTags": false,
-                      "recentSources": [],
-                      "futureSources": []
-                    }
-                  },
-                  "icon": "lucide-ghost",
-                  "title": "grid-view"
                 }
               }
             ]
@@ -136,7 +58,7 @@
                     "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Explorador de arquivos"
+                  "title": "Files"
                 }
               },
               {
@@ -193,7 +115,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "🏠.md",
+                    "file": "System/Assets/_Atalhos.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -221,14 +143,14 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Gráfico de 🏠"
+                  "title": "Graph of _Atalhos"
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 423.5124969482422
+        "width": 244.5
       },
       "right": {
         "id": "3703f7d8eaeb01fd",
@@ -297,7 +219,7 @@
                     "file": "🏠.md"
                   },
                   "icon": "lucide-info",
-                  "title": "Propriedades do arquivo 🏠"
+                  "title": "File properties for 🏠"
                 }
               }
             ]
@@ -332,52 +254,75 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "🏠.md",
+                    "file": "System/Assets/_Atalhos.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Links de saída para 🏠"
+                  "title": "Outgoing links from _Atalhos"
+                }
+              },
+              {
+                "id": "143b5daa1b1727ea",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "System/Assets/_Atalhos.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "_Atalhos"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
-        "width": 355.5
+        "width": 354.5
       },
       "left-ribbon": {
         "hiddenItems": {
-          "daily-notes:Abrir a nota de hoje": false,
-          "graph:Abrir visualização em gráfico": false,
-          "command-palette:Abrir paleta de comandos": false,
-          "switcher:Abrir a troca rápida": true,
-          "canvas:Criar novo canvas": true,
-          "templates:Inserir modelo": true,
-          "random-note:Abrir nota aleatória": true,
-          "workspaces:Gerenciar leiautes da área de trabalho": true,
-          "bases:Criar nova base": true,
-          "callout-manager:Insert Callout": false,
-          "obsidian-kanban:Criar um novo quadro": false,
-          "periodic-notes:Open today": false,
-          "templater-obsidian:Templater": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": true,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": false,
+          "random-note:Open random note": true,
+          "workspaces:Manage workspace layouts": false,
+          "bases:Create new base": true,
+          "obsidian-kanban:Create new board": true,
+          "callout-manager:Insert Callout": true,
+          "periodic-notes:Open today": true,
+          "templater-obsidian:Templater": true,
+          "dashboard-navigator:Open dashboard navigator": false,
           "gridexplorer:Open grid view": false,
-          "tasknotes:Open mini calendar": false,
+          "tasknotes:Open mini calendar": true,
           "tasknotes:Open advanced calendar": false,
           "tasknotes:Open task list": false,
-          "tasknotes:Open notes": false,
-          "tasknotes:Open agenda": false,
-          "tasknotes:Open kanban board": false,
+          "tasknotes:Open notes": true,
+          "tasknotes:Open agenda": true,
+          "tasknotes:Open kanban board": true,
           "tasknotes:Open pomodoro": false,
-          "tasknotes:Open pomodoro stats": false,
-          "tasknotes:Create new task": false,
-          "dashboard-navigator:Open dashboard navigator": false,
-          "widgets:Add widget": false
+          "tasknotes:Open pomodoro stats": true,
+          "tasknotes:Create new task": true
         }
       },
       "active": "72f1b9cde49a80fb",
-      "mtime": "2025-10-15T21:37:19-03:00"
+      "mtime": "2025-10-20T04:08:18-03:00"
     }
   },
   "active": "home"

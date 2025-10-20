@@ -3,7 +3,7 @@
 //-----------------------------------------------------
 // ⚙️ CONFIGURAÇÃO DE INTERVALO
 //-----------------------------------------------------
-const startDate = moment('<% tp.system.prompt("StartDate (YYYY-MM-DD)")%>', 'YYYY-MM-DD');
+const startDate = moment('<% tp.date.now("YYYY-MM-DD", -7) %>', 'YYYY-MM-DD');
 const endDate = moment('<% tp.date.now("YYYY-MM-DD") %>', 'YYYY-MM-DD');
 
 //-----------------------------------------------------
@@ -51,37 +51,22 @@ for (const page of dv.pages("#calendar/daily")) {
   }
 }
 
-
-
 //-----------------------------------------------------
-// 📊 PREPARAÇÃO DO GRÁFICO
+// 🖌️ RENDERIZAÇÃO HORIZONTAL EM UMA LINHA
 //-----------------------------------------------------
-const maxCount = Math.max(...Object.values(totals), 1);
-const sortedCategories = categories
-  .map(cat => ({ ...cat, count: totals[cat.icon] }))
-  .sort((a, b) => b.count - a.count);
+let html = `<h5>📊 Logs (${startDate.format("DD/MM")} → ${endDate.format("DD/MM")})</h5>
+<div style="display:flex; gap:16px; align-items:center;">`;
 
-//-----------------------------------------------------
-// 🖌️ RENDERIZAÇÃO DO GRÁFICO HORIZONTAL
-//-----------------------------------------------------
-let chartHTML1 = `<h5>📊 Logs (${startDate.format("DD/MM")} → ${endDate.format("DD/MM")})</h5>
-<div style="display:flex; flex-direction:column; gap:4px; max-width:500px;">`;
-
-for (const cat of sortedCategories) {
-  const widthPercent = (cat.count / maxCount) * 100;
-  chartHTML1 += `
-  <div style="display:flex; justify-content:space-between; align-items:center; gap:6px;">
-    <span style="width:150px;">${cat.icon} ${cat.name}</span>
-    <div style="flex-grow:1; background:#ddd; border-radius:6px; height:16px;">
-      <div style="width:${widthPercent}%; background:#5b7aaa; height:100%; border-radius:6px;"></div>
-    </div>
-    <span>${cat.count}</span>
+for (const cat of categories) {
+  html += `<div style="display:flex; flex-direction:column; align-items:center;">
+    <span>${cat.icon}</span>
+    <span>${totals[cat.icon]}</span>
   </div>`;
 }
 
-chartHTML1 += `</div>
+html += `</div>
 <p>🧮 Total de logs: <strong>${totalLogs}</strong></p>`;
 
-dv.paragraph(chartHTML1);
+dv.paragraph(html);
 
 ```

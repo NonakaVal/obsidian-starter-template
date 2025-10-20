@@ -699,5 +699,23 @@
       ],
       "key": "G"
     }
+  ],
+  "obsidian-hotkeys-for-specific-files:System/Assets/61.1 Dataview/@-templates.md-new-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "periodic-notes:open-weekly-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
   ]
 }

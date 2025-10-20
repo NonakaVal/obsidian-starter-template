@@ -109,7 +109,7 @@ function renderTable() {
 limitInput.onchange = renderTable;
 orderBtn.onclick = () => {
     ascending = !ascending;
-    orderBtn.textContent = ascending ? "⬆️ Mais antigos" : "⬇️ Mais recentes";
+    orderBtn.textContent = ascending ? "⬆️" : "⬇️";
     renderTable();
 };
 

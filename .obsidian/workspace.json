@@ -8,40 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6204db7ad6c1b5e8",
+            "id": "e857f13f3b3f005e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠"
+            }
+          },
+          {
+            "id": "0f02070ca14523e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "🏠.md",
+                "mode": "preview",
                 "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "388fc5a97d783810",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-advanced-calendar-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-advanced-calendar-view"
+              "title": "🏠"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,7 +63,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -108,16 +107,6 @@
               "icon": "lucide-list",
               "title": "Sumário de 🏠"
             }
-          },
-          {
-            "id": "b8dfe6ab158d7f15",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
-            }
           }
         ]
       },
@@ -131,7 +120,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "🏠.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -154,19 +143,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.2896966020398281,
+                  "scale": 0.45456955811720023,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de README"
+              "title": "Graph of 🏠"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 516.5
+    "width": 485.5
   },
   "right": {
     "id": "3703f7d8eaeb01fd",
@@ -183,8 +172,18 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "d559413d9238a91f",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Pomodoro"
             }
           },
           {
@@ -222,10 +221,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "🏠.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo README"
+              "title": "File properties for 🏠"
             }
           }
         ]
@@ -236,36 +235,32 @@
         "dimension": 46.846846846846844,
         "children": [
           {
-            "id": "c133cbfbc6b00289",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "+/2025-10-15-new note.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Links inversos para 2025-10-15-new note"
-            }
-          },
-          {
             "id": "7a2141420f060740",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Boas Vindas 🎉.md",
+                "file": "System/Assets/_Atalhos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Boas Vindas 🎉"
+              "title": "Outgoing links from _Atalhos"
+            }
+          },
+          {
+            "id": "143b5daa1b1727ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System/Assets/_Atalhos.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "_Atalhos"
             }
           }
         ],
@@ -273,87 +268,87 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
+    "width": 354.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Abrir a nota de hoje": false,
-      "graph:Abrir visualização em gráfico": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "switcher:Abrir a troca rápida": true,
-      "canvas:Criar novo canvas": true,
-      "templates:Inserir modelo": true,
-      "random-note:Abrir nota aleatória": true,
-      "workspaces:Gerenciar leiautes da área de trabalho": true,
-      "bases:Criar nova base": true,
-      "callout-manager:Insert Callout": false,
-      "obsidian-kanban:Criar um novo quadro": false,
-      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": true,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": true,
+      "obsidian-kanban:Create new board": true,
+      "callout-manager:Insert Callout": true,
+      "periodic-notes:Open today": true,
+      "templater-obsidian:Templater": true,
+      "dashboard-navigator:Open dashboard navigator": false,
       "gridexplorer:Open grid view": false,
-      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open mini calendar": true,
       "tasknotes:Open advanced calendar": false,
       "tasknotes:Open task list": false,
-      "tasknotes:Open notes": false,
-      "tasknotes:Open agenda": false,
-      "tasknotes:Open kanban board": false,
+      "tasknotes:Open notes": true,
+      "tasknotes:Open agenda": true,
+      "tasknotes:Open kanban board": true,
       "tasknotes:Open pomodoro": false,
-      "tasknotes:Open pomodoro stats": false,
-      "tasknotes:Create new task": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "periodic-notes:Open today": false
+      "tasknotes:Open pomodoro stats": true,
+      "tasknotes:Create new task": true
     }
   },
-  "active": "6204db7ad6c1b5e8",
+  "active": "0f02070ca14523e9",
   "lastOpenFiles": [
-    "🏠.md",
-    "Boas Vindas 🎉.md",
+    "Comece Aqui 🎉.md",
+    "System/Assets/Dataview/@_collections.md",
     "README.md",
-    "+/2025-10-15-new note.md",
-    "Markdown.md",
-    "Atlas/Maps/Mapa de Gestão de Conhecimento.md",
-    "Atlas/Concept/Gestão de conhecimento/Como + funciona.md",
-    "Atlas/Concept/Gestão de conhecimento/Como a pasta Sistema funciona.md",
-    "Atlas/Concept/Gestão de conhecimento/Propriedades.md",
-    "+/Guias Práticos.md",
-    "System/Assets/Atalhos.md",
-    "Atlas/Concept/Gestão de conhecimento/Checklist Obsidian.md",
-    "Atlas/Concept/Gestão de conhecimento/Ace 3 Espaços mentais.md",
+    "Atlas/Mapas/+ Gestão de Conhecimento.md",
+    "Atlas/Conceitos/+ Entendendo o básico/markdown.md",
+    "Atlas/Conceitos/+ Entendendo o básico/Entendendo Coleções.md",
+    "Atlas/Conceitos/+ Entendendo o básico/Boas Práticas de Classificação.md",
+    "Atlas/Conceitos/+ Entendendo o básico/+ Obsidian e PKM.md",
+    "Atlas/Mapas",
+    "Atlas/Mapas/++ Gestão de Conhecimento.md",
+    "Atlas/Conceitos",
+    "+/das.md",
+    "Calendar & Review/Weekly Notes/2025-W43.md",
+    "System/Assets/_Atalhos.md",
+    "Calendar & Review/Monthly Notes/2025-10.md",
+    "🏠.md",
+    "Calendar & Review/Daily Notes/2025-10-20.md",
+    "System/Assets/_Garden_Architect_tags.md",
+    "System/Assets/Dataview/@-templates.md",
+    "System/Assets/Dataview/@_projects.md",
+    "System/Assets/Dataview/@-mood-and-work-tracker.md",
+    "System/Assets/Dataview/@_vault-snippets-dates.md",
+    "System/Assets/Dataview/@_tasks.md",
+    "System/Assets/Dataview/@_recent-created.md",
+    "System/Assets/Dataview/@_modified.md",
+    "System/Assets/Dataview/@_js_Charts.md",
+    "System/Assets/Dataview/@_Garden.md",
+    "System/Assets/Dataview/@_Efforts.md",
+    "System/Media/Media/banners/navigation-7320887_1920.jpg",
+    "System/Media/Media/banners/hands-1373363_1920.jpg",
+    "System/Media/Media/banners/computer-820281.jpg",
+    "System/Media/Media/banners/sunrise-8290940_1920.jpg",
+    "System/Media/Media/banners/smile-5128742_1920.jpg",
+    "System/Media/banner pos.png",
+    "System/Media/bb.png",
+    "System/Collections",
+    "System/Templates/Untitled",
+    "Calendar & Review/Weekly Notes",
     "System/Media/wall2.png",
     "System/Media/wall.png",
     "System/Media/Pasted image 20251009183318.png",
-    "System/Media/atlas-f.png",
-    "System/Media/arc-maid.png",
-    "System/Media/arc-flow.png",
-    "Atlas/Concept/Gestão de conhecimento/Boas Práticas de Classificação.md",
-    "Atlas/Concept/Gestão de conhecimento/Arquiteto.md",
-    "Atlas/Concept/Gestão de conhecimento/ARC Framework.md",
-    "Atlas/Concept/Gestão de conhecimento/Adicionar.md",
-    "Projects & Areas/Areas/Desenvolvimento Pessoal/Desenvolvimento Pessoal.md",
-    "Projects & Areas/Projects/Projeto modelo/Projeto modelo.md",
-    "Atlas/Maps/Habits Map.md",
-    "Atlas/Maps/Data Science (Modelo).md",
-    "Atlas/Maps/Dashboard++ (Modelo).md",
-    "System/Assets/Dataview/@_Architect.md",
-    "System/Assets/_Garden_Architect_tags.md",
-    "Atlas/Concept/Gestão de conhecimento/Jardineiro.md",
     "Atlas",
-    "Calendar & Review/TaskNotes/Tasks/new task.md",
     "Atlas/Concept/Gestão de conhecimento",
     "Atlas/Concept",
     "Atlas/Knowlegde",
     "Obsdian Base Setup .zip.zip",
-    "Knowlegde.zip",
-    "60 System/62 Templates/62.1 FORMAT",
-    "60 System/62 Templates",
-    "60 System",
-    "60 System/62 Templates/62.2 SNIPPET",
     "Sem título.canvas",
     "30 Knowlegde/34 Maps &  Index/34.2 Maps/+_CANVAS_AOC.canvas",
-    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/wolverine-tethered.jpg",
-    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/whelan-the-wave-1994.jpg",
-    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/whelan-space-station-1978-narrow.jpg",
-    "30 Knowlegde/35 Recources/Ideaverse Pro 2/x/Visuals/Images/whelan-space-station-1978-mod.jpg",
     "30 Knowlegde/34 Maps &  Index/34.2 Maps/mapa-pkm.canvas",
     "30 Knowlegde/34 Maps &  Index/34.2 Maps/+_CANVAS_AOC 1.canvas",
     "30 Knowlegde/34 Maps &  Index/34.2 Maps/+_CANVAS-MENTORIA.CARLOS.canvas",

@@ -14,8 +14,12 @@
     "Nick Milo - Custom Callouts - Pro",
     "StyleCallouts",
     "table-view",
-    "Folder-description"
+    "Folder-description",
+    "prismCalloutStyling",
+    "banner-image",
+    "banner-image-big-image"
   ],
-  "baseFontSize": 14,
-  "cssTheme": "Things"
+  "baseFontSize": 16,
+  "cssTheme": "Things",
+  "showRibbon": true
 }

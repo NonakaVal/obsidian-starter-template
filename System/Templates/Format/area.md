@@ -18,6 +18,7 @@ actions:
   - type: command
     command: quickadd:choice:6430f0b6-4d07-44f9-9b1a-45e79f6bee19
 ```
+
 <%tp.file.cursor()%>
 
 

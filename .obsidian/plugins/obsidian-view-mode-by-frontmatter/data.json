@@ -8,7 +8,19 @@
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "Atlas/Maps",
+      "folder": "Calendar & Review/Weekly Notes",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Atlas/Mapas e Modelos",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "System/Assets",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Atlas",
       "viewMode": "obsidianUIMode: preview"
     }
   ],
@@ -18,7 +30,7 @@
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "Boas Vindas 🎉",
+      "filePattern": "Comece Aqui 🎉",
       "viewMode": "obsidianUIMode: preview"
     }
   ]
