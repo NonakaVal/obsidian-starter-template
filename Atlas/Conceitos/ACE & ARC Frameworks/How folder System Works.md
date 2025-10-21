@@ -1,3 +1,10 @@
+---
+up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
+---
 Ela é uma forma simples de guardar aqueles tipos de notas de controle e outros arquivos.
 
 - Notas sobre notas: anotações relacionadas ao próprio vault  

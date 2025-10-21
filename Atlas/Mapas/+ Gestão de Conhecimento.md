@@ -19,7 +19,7 @@
 **1. Atlas (Conhecimento / Espaço)**
 - 📄 [[How Atlas works|Como Atlas funciona]]
 - 📄 [[Conceitos]] (Fragmentos de conhecimento)
-- 📄 [[Coleções]] (Notas de visualização dinâmica)
+- 📄 [[Entendendo Coleções|Coleções]] (Notas de visualização dinâmica)
 
 **2. Calendar (Tempo)**
 - 📄 [[How Calendar works|Como Calendário funciona]]

@@ -1,8 +1,10 @@
 ---
 up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
-collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
-
 > [!tldr] **[[+ ARC Framework]]** » [[Adicionar]] | [[Relacionar]] | [[Comunicar]] 
 
 ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse é um framework que amplia seu processo criativo

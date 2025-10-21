@@ -1,9 +1,9 @@
 ---
-up:
-  - "[[Atlas/Dots/Things/ACE Folders]]"
-related:
-  - "[[ACE honrando seus 3 espaços mentais]]"
-created: 2023-08-21
+up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
 É difícil mudar de contexto. Também é difícil saber quando você deve fazê-lo. O ACE ajuda com isso.
 

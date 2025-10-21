@@ -1,3 +1,10 @@
+---
+up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
+---
 No método LYT[^1], existem duas mentalidades ou estilos de pensar que complementam o framework ARC: o **Arquiteto** e o **Jardineiro**.
 
 

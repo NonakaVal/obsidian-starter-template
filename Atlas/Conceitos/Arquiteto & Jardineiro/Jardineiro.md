@@ -1,8 +1,10 @@
 ---
 up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
-collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
-
 > [!trees] [[Plante]] | **[[Cultive]]** | [[Questione]] | [[Replantar]] | [[Revitalizar]] | [[Revisitar]] — [[Arquiteto]] ⤴️  
 
 Quando você estiver em uma nota e sentir que quer voltar a ela, basta adicionar a tag `garden` nessa nota.  

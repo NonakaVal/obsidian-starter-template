@@ -1,6 +1,9 @@
 ---
 up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
-collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
 Embora eu encoraje você a **personalizar totalmente sua nota inicial (home)**, recomendo que comece a construir sua **nota de biblioteca** usando o **Sistema de Classificação LYT**.  
 

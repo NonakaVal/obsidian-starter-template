@@ -1,12 +1,11 @@
 ---
 up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
-collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
 ---
 >[!banner-image] ![[Pasted image 20251009183318.png]]
-
 
 Com o surgimento das [[Propriedades]] (basicamente uma forma adequada de gerenciar metadados), é mais importante do que nunca oferecer uma coleção sugerida de boas práticas e padrões para tipos específicos de notas. Alguns nerds podem chamar isso de "ontologias", mas aqui usaremos o termo "padrões". Lembre-se de que estes não estão gravados em pedra. São uma lista curada de boas práticas. Algumas surgiram através de uso intenso; outras são pequenos testes que ainda precisam ser validados. A contribuição da comunidade global continuará moldando os **Padrões de Classificação LYT** em futuras iterações.
 

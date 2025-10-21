@@ -11,15 +11,15 @@
     "MCL Wide Views",
     "minorAdds",
     "minorFixes",
-    "Nick Milo - Custom Callouts - Pro",
     "StyleCallouts",
     "table-view",
     "Folder-description",
     "prismCalloutStyling",
     "banner-image",
+    "Nick Milo - Custom Callouts - Pro",
     "banner-image-big-image"
   ],
-  "baseFontSize": 16,
+  "baseFontSize": 13,
   "cssTheme": "Things",
   "showRibbon": true
 }

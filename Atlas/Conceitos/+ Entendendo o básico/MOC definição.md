@@ -1,6 +1,6 @@
 ---
 up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
-collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
@@ -24,4 +24,10 @@ Um MOC oferece **suporte cognitivo**, armazenando de forma confiável qualquer i
 - O mural de um detetive com suspeitos, com linhas ligando pessoas e objetos de interesse.
 
 
-    
+# Modelos e exemplos da vault
+
+- [[+ Gestão de Conhecimento]]
+- [[++ Gestão de Conhecimento]]
+- [[Dashboard++ (Modelo)]]
+- [[Data Science (Modelo)]]
+- [[Habits Map (Modelo)]]

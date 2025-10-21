@@ -1,9 +1,9 @@
 ---
-up:
-  - "[[Atlas/Dots/Things/ACE Folders]]"
-related:
-  - "[[ACE ajuda você a mudar de contexto]]"
-created: 2023-08-21
+up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
 No PKM, existem três principais espaços de pensamento (ou "orientações de pensamento") entre os quais você pode transitar.
 

@@ -1,7 +1,8 @@
 {
   "callouts": {
     "custom": [
-      "testcallout"
+      "testcallout",
+      "connect"
     ],
     "settings": {
       "testcallout": [

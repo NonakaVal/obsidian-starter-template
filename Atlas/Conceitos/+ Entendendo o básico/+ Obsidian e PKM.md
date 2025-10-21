@@ -1,6 +1,6 @@
 ---
 up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
-collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
@@ -32,7 +32,8 @@ Sistema integrado de **gestão do conhecimento** baseado no [[+ ACE Pack|ACE fol
 ---
 
 
-# [[Sistema ACE|Sistema de organização ACE]] 
+# [[+ ACE Pack|Sistema ACE|Sistema de organização ACE]] 
+
 O framework **ACE** (Atlas, Calendar, Efforts) é um Sistema universal para organizar conhecimento, tempo e ação, complementado por:
 
 ![[3 headspaces ACE]]
@@ -66,7 +67,6 @@ Este pacote está licenciado sob a licença **Creative Commons Attribution-NonCo
 Você é livre para:
 
 - **Compartilhar** — Copiar e redistribuir o material em qualquer meio ou formato para **fins não comerciais apenas**.
-    
 Sob os seguintes termos:
 
 - **Atribuição** — Você deve dar o devido crédito, fornecer um link para a licença e indicar se mudanças foram feitas.

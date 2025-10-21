@@ -1,8 +1,11 @@
 ---
 up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
-collection: "[[SISTEMA/COLEÇÕES/Gestão de Conhecimento.md|Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
-> [!questionss] **Básico** » [[+ Obsidian e PKM]] | [[markdown]] | **[[Propriedades]]** | [[Como Coleções funciona|Coleções]] | [[_Atalhos]]
+> [!waypoints] Básico »  [[+ Obsidian e PKM|Obsidian e Gestão de Conhecimento]]  |**[[Markdown]]**| [[Propriedades]]  | [[Coleções]] | [[_Atalhos|Atalhos]]   
 
 No **Obsidian** (e em sistemas de PKM em geral), **metadados** são informações adicionais registradas no início de cada nota, geralmente no formato **YAML frontmatter**:
 

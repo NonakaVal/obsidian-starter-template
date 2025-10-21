@@ -1,14 +1,6 @@
 ---
-up:
-collection:
-  - "[[Atlas/Maps/Packs]]"
-related:
-created: 2025-04-07
-tags:
-  - jardim/cultivar
-aliases:
-  - Pacote ACE
-about: Aprenda os detalhes sobre as Pastas ACE
+up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
 cssclasses:
   - hide-properties_editing
   - hide-properties_reading
@@ -47,9 +39,9 @@ O **framework ACE** (Atlas, Calendar, Efforts) é um sistema universal para orga
 
 **3. Efforts (Ação / Importância)**
 - 📄 [[How Efforts work|Como Esforços funciona]]
-- 📄 [[Entendendo Areas|Areas]]
-- 📄 [[How the Areas folder works|Areas  e Projetos]]
-- 📄 [[How the Projects folder works|Projetos Ativos]]
+	- 📄 [[Entendendo Areas|Areas]]
+	- 📄 [[How the Areas folder works|Areas  e Projetos]]
+	- 📄 [[How the Projects folder works|Projetos Ativos]]
 
 ---
 

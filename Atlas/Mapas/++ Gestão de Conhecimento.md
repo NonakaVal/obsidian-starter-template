@@ -29,7 +29,7 @@ cssclasses:
 			- 🗃️ [[++ Gestão de Conhecimento]]
 		- 📅 [[How Calendar works|Como Calendário funciona]]    
 		- 💪 [[How Efforts work|Como Esforços funciona]]  
-			- 🚀 [[How the Projects folder works|@_projects]]  
+			- 🚀 [[@_projects]]  
 			- 🏗️ [[Entendendo Areas|@_areas]]  
 		- ⚙️ [[How folder System Works]]  
 - 💡 **O Ciclo de Ideação ARC**  

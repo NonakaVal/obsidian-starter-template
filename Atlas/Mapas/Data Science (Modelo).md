@@ -17,7 +17,6 @@ cssclasses:
   - hide-properties_editing
   - hide-properties_reading
 ---
->[!banner-image] ![[[sunrise-8290940_1920](computer-820281.jpg)]]
 # 📚 Data Science Knowledge Base
 
 ## 🧮 Matemática

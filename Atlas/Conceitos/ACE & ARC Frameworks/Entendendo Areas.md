@@ -1,3 +1,10 @@
+---
+up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
+---
 
 Áreas são esferas de responsabilidade contínuas na sua vida que exigem manutenção constante, mas nunca são "concluídas".
 

@@ -1,8 +1,9 @@
 ---
-up: 
-related: 
-created: 2025-04-07
-lesson: false
+up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
+collection: "[[Gestão de Conhecimento]]"
+cssclasses:
+  - hide-properties_editing
+  - hide-properties_reading
 ---
 O **Calendário** organiza tudo o que é guiado pelo tempo: notas diárias, registros de momentos importantes e revisões da vida e do trabalho.
 

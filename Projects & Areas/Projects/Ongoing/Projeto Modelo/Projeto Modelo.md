@@ -1,24 +1,20 @@
 ---
-project: "[[Projeto modelo]]"
+project: "[[Projeto Modelo]]"
 tags: project/projeto_modelo
 type: project
-created: "[[2025-10-15]]"
-inicio: 2025-10-15
-entrega: 2025-10-20
+created: "[[2025-10-21]]"
+inicio: 2025-10-21
+entrega: 2025-10-31
 status: to start
 ---
 
 | Data Início                                              | Data Entrega                                              | Status                                                                                                         |
 | -------------------------------------------------------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | `INPUT[datePicker(showcase, defaultValue(null)):inicio]` | `INPUT[datePicker(showcase, defaultValue(null)):entrega]` | `INPUT[inlineSelect(option('In Progress'), option('Finished'), option('waiting'), option('to start')):status]` |
-
----
-
- `BUTTON[TEMPLATE-CRIAR-NOVA-NOTA-PROJETO]`
 ```meta-bind-button
 label: Criar Nota de Projeto
 icon: plus
-hidden: true
+hidden: false
 class: ""
 id: TEMPLATE-CRIAR-NOVA-NOTA-PROJETO
 style: default
@@ -27,5 +23,30 @@ actions:
     command: quickadd:choice:e7c0cfff-583f-4da9-a201-79b4d5a12de4
 ```
 
+## 🎯 Objetivo
+
+1. 🟢 Resultado ideal do projeto  
+	1.  
+2. 🟠 Resultado aceitável  
+	1. 
+
+## ❓ Expectativas
+1. 🟢 O que pode ajudar o projeto  
+	1. Entender melhor as demandar e estruturar uma estrutura e venda
+2. 🟠 Obstáculos potenciais  
+	1. 
+3. 👶 Inexperiências / Suposições  
+	1. 
+4. 👨‍💻 Insights e aprendizados  
+	1. 
+
+## ✅ Tarefas  
+- 
+
+## 📦 Recursos  
+- 
+
+## 📂 Registros do Projeto  
+- 
 
 
