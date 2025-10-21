@@ -36,16 +36,18 @@
           {
             "id": "6cb800b274955341",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Mapas/Habits Map (Modelo).md",
+                "file": "Comece Aqui 🎉.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Habits Map (Modelo)"
+              "title": "Comece Aqui 🎉"
             }
           }
         ],
@@ -129,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Mapas/Habits Map (Modelo).md",
+                "file": "Comece Aqui 🎉.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -157,7 +159,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Habits Map (Modelo)"
+              "title": "Graph of Comece Aqui 🎉"
             }
           }
         ]
@@ -230,10 +232,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/Mapas/Habits Map (Modelo).md"
+                "file": "Comece Aqui 🎉.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Habits Map (Modelo)"
+              "title": "File properties for Comece Aqui 🎉"
             }
           }
         ],
@@ -338,12 +340,14 @@
   },
   "active": "6cb800b274955341",
   "lastOpenFiles": [
+    "+ Obsidian e PKM.md",
+    "Comece Aqui 🎉.md",
+    "Atlas/Mapas/Habits Map (Modelo).md",
     "Atlas/Mapas/Data Science (Modelo).md",
     "Atlas/Mapas/Dashboard++ (Modelo).md",
     "Atlas/Mapas/++ Gestão de Conhecimento.md",
     "Atlas/Mapas/+ Gestão de Conhecimento.md",
     "Atlas/Conceitos/+ Entendendo o básico/Entendendo Coleções.md",
-    "Atlas/Conceitos/+ Entendendo o básico/+ Obsidian e PKM.md",
     "Atlas/Conceitos/Arquiteto & Jardineiro/Revitalizar.md",
     "Atlas/Conceitos/Arquiteto & Jardineiro/Revisitar.md",
     "Atlas/Conceitos/Arquiteto & Jardineiro/Replantar.md",
@@ -362,8 +366,6 @@
     "Atlas/Conceitos/ACE & ARC Frameworks/How the Dots folder works.md",
     "Atlas/Conceitos/ACE & ARC Frameworks/How the Areas folder works.md",
     "Atlas/Conceitos/ACE & ARC Frameworks/How the Days folder works.md",
-    "Atlas/Conceitos/ACE & ARC Frameworks/How folder System Works.md",
-    "Atlas/Conceitos/ACE & ARC Frameworks/How Efforts work.md",
     "Projects & Areas/Projects/Ongoing/Projeto Modelo",
     "Projects & Areas/Projects/Ongoing",
     "Projects & Areas/Projects/Ongoing/Projeto modelo",
