@@ -7,8 +7,6 @@ cssclasses:
 ---
 
 
-> [!waypoints] Básico »  [[+ Obsidian e PKM|Obsidian e Gestão de Conhecimento]]  |**[[Markdown]]**| [[Propriedades]]  | [[Coleções]] | [[_Atalhos|Atalhos]]   
-
 ### Cabeçalhos
 
 Use `#` no início da linha. O número de `#` define o nível (1 a 6).

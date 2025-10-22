@@ -5,8 +5,6 @@ cssclasses:
   - hide-properties_editing
   - hide-properties_reading
 ---
-> [!waypoints] Básico »  [[+ Obsidian e PKM|Obsidian e Gestão de Conhecimento]]  |**[[Markdown]]**| [[Propriedades]]  | [[Coleções]] | [[_Atalhos|Atalhos]]   
-
 No **Obsidian** (e em sistemas de PKM em geral), **metadados** são informações adicionais registradas no início de cada nota, geralmente no formato **YAML frontmatter**:
 
 ```yaml

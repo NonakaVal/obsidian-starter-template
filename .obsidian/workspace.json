@@ -56,17 +56,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comece Aqui 🎉.md",
-                "mode": "preview",
+                "file": "Projects & Areas/Areas/Desenvolvimento Pessoal/Desenvolvimento Pessoal.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Comece Aqui 🎉"
+              "title": "Desenvolvimento Pessoal"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,8 +208,8 @@
             "state": {
               "type": "tasknotes-pomodoro-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "tasknotes-pomodoro-view"
+              "icon": "clock",
+              "title": "Pomodoro"
             }
           },
           {
@@ -253,8 +253,7 @@
               "title": "File properties for Comece Aqui 🎉"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "3954ea8e597c4a31",
@@ -323,8 +322,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,17 +352,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d971749e8b446a1c",
+  "active": "6cb800b274955341",
   "lastOpenFiles": [
-    "README.md",
-    "Comece Aqui 🎉.md",
-    "+/Guias Práticos.md",
     "obsidian-starter-kit.zip",
+    "Calendar & Review.zip",
+    "Projects & Areas/Areas/Desenvolvimento Pessoal/Desenvolvimento Pessoal.md",
+    "Calendar & Review/Daily Notes/2025-10-21.md",
+    "🏠.md",
+    "Projects & Areas/Projects/Ongoing/Projeto modelo/Projeto modelo.md",
+    "Projects & Areas/Projects/Ongoing/Projeto modelo",
+    "Projects & Areas/Projects/Ongoing",
+    "Projects & Areas/Projects/Ongoing/Projeto Modelo/Projeto Modelo.md",
+    "Atlas/Conceitos/+ Entendendo o básico/Propriedades.md",
+    "Comece Aqui 🎉.md",
+    "Atlas/Conceitos/+ Entendendo o básico/Sistema de Classificação para Gestão de Conhecimento Pessoal.md",
+    "Atlas/Conceitos/+ Entendendo o básico/Nota.md",
+    "Atlas/Conceitos/+ Entendendo o básico/MOC definição.md",
+    "Atlas/Conceitos/+ Entendendo o básico/markdown.md",
+    "Atlas/Conceitos/+ Entendendo o básico/Entendendo Coleções.md",
+    "Atlas/Conceitos/+ Entendendo o básico/Boas Práticas de Classificação.md",
+    "README.md",
+    "+/Guias Práticos.md",
     "Projects & Areas.zip",
     "System/Templates/Snippet/@ dataview basic TABLE FROM WHERE.md",
     "System/Templates/_-TODAY.md",
     "System/Templates/Snippet/HEADERS-JS-TABLE.md",
-    "🏠.md",
     "System/Assets/Dataview/@_collections.md",
     "System/Templates/Format/base template.md",
     "System/Templates/Format/new note.md",
@@ -372,22 +384,7 @@
     "System/Templates/Format/T Project.md",
     "System/Templates/Format/Dot.md",
     "System/Templates/Format/T Area.md",
-    "System/Templates/Format/Weekly Note Template.md",
-    "System/Templates/Format/T Projetos.md",
-    "+ Obsidian e PKM.md",
-    "Atlas/Mapas/Habits Map (Modelo).md",
-    "Atlas/Mapas/Data Science (Modelo).md",
-    "Atlas/Mapas/Dashboard++ (Modelo).md",
-    "Atlas/Mapas/++ Gestão de Conhecimento.md",
-    "Atlas/Mapas/+ Gestão de Conhecimento.md",
-    "Atlas/Conceitos/+ Entendendo o básico/Entendendo Coleções.md",
-    "Atlas/Conceitos/Arquiteto & Jardineiro/Revitalizar.md",
-    "Atlas/Conceitos/Arquiteto & Jardineiro/Revisitar.md",
-    "Atlas/Conceitos/Arquiteto & Jardineiro/Replantar.md",
     "Projects & Areas/Projects/Ongoing/Projeto Modelo",
-    "Projects & Areas/Projects/Ongoing",
-    "Projects & Areas/Projects/Ongoing/Projeto modelo",
-    "Calendar & Review.zip",
     "Atlas/Mapas",
     "Atlas/Conceitos",
     "System/Media/Media/banners/navigation-7320887_1920.jpg",
