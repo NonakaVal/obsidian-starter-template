@@ -1,28 +1,6 @@
 {
   "items": [
     {
-      "type": "group",
-      "ctime": 1760936570862,
-      "items": [
-        {
-          "type": "folder",
-          "ctime": 1760936421642,
-          "path": "Atlas/Conceitos/+ Entendendo o básico"
-        },
-        {
-          "type": "folder",
-          "ctime": 1760936447454,
-          "path": "Atlas/Conceitos/ACE & ARC Frameworks"
-        },
-        {
-          "type": "folder",
-          "ctime": 1760936455146,
-          "path": "Atlas/Conceitos/Arquiteto & Jardineiro"
-        }
-      ],
-      "title": "PKM Introduction"
-    },
-    {
       "type": "file",
       "ctime": 1750803722729,
       "path": "SYSTEM/ASSETS/regra-nomenclatura-code-snippets.md"
@@ -58,27 +36,30 @@
       "path": "50 Projects & Outputs/51 Ongoing/PKM pro system/PKM pro system.md"
     },
     {
-      "type": "group",
-      "ctime": 1760936464955,
-      "items": [
-        {
-          "type": "folder",
-          "ctime": 1760936484392,
-          "path": "Atlas/Conceitos/Mapas e Modelos"
-        },
-        {
-          "type": "folder",
-          "ctime": 1760936513926,
-          "path": "System/Templates"
-        }
-      ],
-      "title": "Templates e Modelos"
+      "type": "file",
+      "ctime": 1761097041207,
+      "path": "Comece Aqui 🎉.md"
     },
     {
-      "type": "group",
-      "ctime": 1760936607082,
-      "items": [],
-      "title": "Folders"
+      "type": "folder",
+      "ctime": 1761096600633,
+      "path": "Atlas/Conceitos/+ Entendendo o básico",
+      "title": "Entendendo o Básico"
+    },
+    {
+      "type": "folder",
+      "ctime": 1761096608403,
+      "path": "Atlas/Conceitos/ACE & ARC Frameworks"
+    },
+    {
+      "type": "folder",
+      "ctime": 1761096611995,
+      "path": "Atlas/Conceitos/Arquiteto & Jardineiro"
+    },
+    {
+      "type": "file",
+      "ctime": 1761097048069,
+      "path": "🏠.md"
     }
   ]
 }
