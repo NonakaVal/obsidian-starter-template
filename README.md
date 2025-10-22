@@ -50,6 +50,23 @@ For better control, **Metadata** is used, such as:
 
 <a href="https://www.buymeacoffee.com/nonakaval" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
+# Prints ⭐
+
+![img](https://imgur.com/EGAX79f.png)
+
+![img](https://imgur.com/L7gAZr0.png)
+
+![img](https://imgur.com/D78rYpU.png)
+
+
+
+
+![img](https://imgur.com/lcx0E3b.png)
+
+![img](https://imgur.com/tGmxTR3.png)
+
+![img](https://imgur.com/7zcr00X.png)
+
 ---
 
 # 🔌 Recommended Plugins

@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Comece Aqui 🎉",
       "path": "Comece Aqui 🎉.md"
+    },
+    {
+      "basename": "Dashboard++ (Modelo)",
+      "path": "Atlas/Mapas/Dashboard++ (Modelo).md"
+    },
+    {
+      "basename": "Habits Map (Modelo)",
+      "path": "Atlas/Mapas/Habits Map (Modelo).md"
+    },
+    {
+      "basename": "Data Science (Modelo)",
+      "path": "Atlas/Mapas/Data Science (Modelo).md"
+    },
+    {
+      "basename": "++ Gestão de Conhecimento",
+      "path": "Atlas/Mapas/++ Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "+ Gestão de Conhecimento",
+      "path": "Atlas/Mapas/+ Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "Propriedades",
+      "path": "Atlas/Conceitos/+ Entendendo o básico/Propriedades.md"
+    },
+    {
+      "basename": "🏠",
+      "path": "🏠.md"
     },
     {
       "basename": "Desenvolvimento Pessoal",
@@ -13,16 +45,8 @@
       "path": "Calendar & Review/Daily Notes/2025-10-21.md"
     },
     {
-      "basename": "🏠",
-      "path": "🏠.md"
-    },
-    {
       "basename": "Projeto modelo",
       "path": "Projects & Areas/Projects/Ongoing/Projeto modelo/Projeto modelo.md"
-    },
-    {
-      "basename": "Propriedades",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/Propriedades.md"
     },
     {
       "basename": "Sistema de Classificação para Gestão de Conhecimento Pessoal",
@@ -47,10 +71,6 @@
     {
       "basename": "Boas Práticas de Classificação",
       "path": "Atlas/Conceitos/+ Entendendo o básico/Boas Práticas de Classificação.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "@ dataview basic TABLE FROM WHERE",
