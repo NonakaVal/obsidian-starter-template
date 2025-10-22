@@ -20,16 +20,31 @@ actions:
     command: quickadd:choice:e7c0cfff-583f-4da9-a201-79b4d5a12de4
 ```
 
+## 🧾 Descrição do Projeto
+- 
+
+---
+## 📢 Informações do Projeto
+Criado em:: {{date: DD-MM-YYYY}} {{time}}  
+Prazo Final::  
+Em Hibernação::  
+Data de Conclusão Prevista::  
+Concluído em::  
+Tipo::  
+Etiquetas::  
+Plataforma::  
+
+___
 ## 🎯 Objetivo
 
 1. 🟢 Resultado ideal do projeto  
-	1.  <%tp.file.cursor()%>
+	1. 
 2. 🟠 Resultado aceitável  
 	1. 
 
 ## ❓ Expectativas
 1. 🟢 O que pode ajudar o projeto  
-	1. Entender melhor as demandar e estruturar uma estrutura e venda
+	1. 
 2. 🟠 Obstáculos potenciais  
 	1. 
 3. 👶 Inexperiências / Suposições  
@@ -45,7 +60,6 @@ actions:
 
 ## 📂 Registros do Projeto  
 - 
-
 
 <%* tp.hooks.on_all_templates_executed(async () => { 
     const file = tp.file.find_tfile(tp.file.path(true)); 

@@ -16,6 +16,7 @@ O **[Obsidian](https://obsidian.md/)** é uma ferramenta ideal para isso, pois f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cQ22PERTCBI?si=mC9sd-_LdiuxoOpe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+
 # Conceitos abordados
 
 Sistema integrado de **gestão do conhecimento** baseado no [[+ ACE Pack|ACE folder system]] e no [[+ ARC Framework|ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[Propriedades]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
@@ -93,3 +94,7 @@ Exemplo de formato de atribuição:
 
 *Versão 1.0*  
 *Última atualização: 2025-04-16*
+
+# Considere Apoiar meu projeto
+
+<a href="https://www.buymeacoffee.com/nonakaval" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>

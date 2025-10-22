@@ -1,208 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Comece Aqui 🎉",
-      "path": "Comece Aqui 🎉.md"
-    },
-    {
-      "basename": "Habits Map (Modelo)",
-      "path": "Atlas/Mapas/Habits Map (Modelo).md"
-    },
-    {
-      "basename": "Data Science (Modelo)",
-      "path": "Atlas/Mapas/Data Science (Modelo).md"
-    },
-    {
-      "basename": "Dashboard++ (Modelo)",
-      "path": "Atlas/Mapas/Dashboard++ (Modelo).md"
-    },
-    {
-      "basename": "++ Gestão de Conhecimento",
-      "path": "Atlas/Mapas/++ Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "+ Gestão de Conhecimento",
-      "path": "Atlas/Mapas/+ Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "Entendendo Coleções",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/Entendendo Coleções.md"
-    },
-    {
-      "basename": "Revitalizar",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Revitalizar.md"
-    },
-    {
-      "basename": "Revisitar",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Revisitar.md"
-    },
-    {
-      "basename": "Replantar",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Replantar.md"
-    },
-    {
-      "basename": "Renovar",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Renovar.md"
-    },
-    {
-      "basename": "Questione",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Questione.md"
-    },
-    {
-      "basename": "Relacionar",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Relacionar.md"
-    },
-    {
-      "basename": "Plante",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Plante.md"
-    },
-    {
-      "basename": "Jardineiro",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Jardineiro.md"
-    },
-    {
-      "basename": "Cultive",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Cultive.md"
-    },
-    {
-      "basename": "Construir",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Construir.md"
-    },
-    {
-      "basename": "Arquiteto",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/Arquiteto.md"
-    },
-    {
-      "basename": "+ Arquiteto & Jardineiro",
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro/+ Arquiteto & Jardineiro.md"
-    },
-    {
-      "basename": "How the Maps folder works",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/How the Maps folder works.md"
-    },
-    {
-      "basename": "How the Dots folder works",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/How the Dots folder works.md"
-    },
-    {
-      "basename": "How the Areas folder works",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/How the Areas folder works.md"
-    },
-    {
-      "basename": "How folder System Works",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/How folder System Works.md"
-    },
-    {
-      "basename": "How Efforts work",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/How Efforts work.md"
-    },
-    {
-      "basename": "How Calendar works",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/How Calendar works.md"
-    },
-    {
-      "basename": "How Atlas works",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/How Atlas works.md"
-    },
-    {
-      "basename": "How + works",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/How + works.md"
-    },
-    {
-      "basename": "Entendendo Areas",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/Entendendo Areas.md"
-    },
-    {
-      "basename": "Comunicar",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/Comunicar.md"
-    },
-    {
-      "basename": "Adicionar",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/Adicionar.md"
-    },
-    {
-      "basename": "ACE honors your 3 headspaces",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/ACE honors your 3 headspaces.md"
-    },
-    {
-      "basename": "ACE helps you switch context",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/ACE helps you switch context.md"
-    },
-    {
-      "basename": "3 headspaces ACE",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/3 headspaces ACE.md"
-    },
-    {
-      "basename": "+ ARC Framework",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/+ ARC Framework.md"
-    },
-    {
-      "basename": "+ ACE Pack",
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks/+ ACE Pack.md"
-    },
-    {
-      "basename": "Sugestões de Padrões de Classificações",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/Sugestões de Padrões de Classificações.md"
-    },
-    {
-      "basename": "Sistema de Classificação para Gestão de Conhecimento Pessoal",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/Sistema de Classificação para Gestão de Conhecimento Pessoal.md"
-    },
-    {
-      "basename": "Propriedades",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/Propriedades.md"
-    },
-    {
-      "basename": "Nota",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/Nota.md"
-    },
-    {
-      "basename": "MOC definição",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/MOC definição.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/markdown.md"
-    },
-    {
-      "basename": "Boas Práticas de Classificação",
-      "path": "Atlas/Conceitos/+ Entendendo o básico/Boas Práticas de Classificação.md"
-    },
-    {
-      "basename": "🏠",
-      "path": "🏠.md"
-    },
-    {
-      "basename": "2025-W43",
-      "path": "Calendar & Review/Weekly Notes/2025-W43.md"
-    },
-    {
-      "basename": "Projeto Modelo",
-      "path": "Projects & Areas/Projects/Ongoing/Projeto Modelo/Projeto Modelo.md"
-    },
-    {
-      "basename": "project",
-      "path": "System/Templates/Format/project.md"
-    },
-    {
-      "basename": "@-templates",
-      "path": "System/Assets/Dataview/@-templates.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "@_collections",
-      "path": "System/Assets/Dataview/@_collections.md"
+      "basename": "Comece Aqui 🎉",
+      "path": "Comece Aqui 🎉.md"
+    },
+    {
+      "basename": "@ dataview basic TABLE FROM WHERE",
+      "path": "System/Templates/Snippet/@ dataview basic TABLE FROM WHERE.md"
+    },
+    {
+      "basename": "_-TODAY",
+      "path": "System/Templates/_-TODAY.md"
     }
   ],
-  "omittedPaths": [
-    ""
-  ],
-  "omittedTags": [
-    ""
-  ],
+  "omittedPaths": [],
+  "omittedTags": [],
   "updateOn": "file-open",
-  "omitBookmarks": true
+  "omitBookmarks": false
 }

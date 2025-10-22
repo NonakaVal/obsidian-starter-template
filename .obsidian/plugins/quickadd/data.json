@@ -641,10 +641,10 @@
               "name": "📒 New Area",
               "type": "Template",
               "command": true,
-              "templatePath": "System/Templates/Format/area.md",
+              "templatePath": "System/Templates/Format/T Area.md",
               "fileNameFormat": {
                 "enabled": true,
-                "format": "{{VALUE}}"
+                "format": "_{{VALUE}}"
               },
               "folder": {
                 "enabled": true,
@@ -677,7 +677,7 @@
               "name": "⚛️ New Project",
               "type": "Template",
               "command": true,
-              "templatePath": "System/Templates/Format/project.md",
+              "templatePath": "System/Templates/Format/T Project.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE}}"
@@ -709,7 +709,7 @@
               }
             }
           ],
-          "collapsed": true
+          "collapsed": false
         }
       ],
       "collapsed": false
