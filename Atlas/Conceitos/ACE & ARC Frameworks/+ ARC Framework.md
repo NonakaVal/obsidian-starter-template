@@ -22,3 +22,4 @@ ARC define o fluxo das suas ideias pelo tempo e espaço, muito além disso. esse
 - **[[Comunicar]]**  
 	- Compartilhe (trabalho, redes, e-mail próprio) para dar propósito ao conhecimento  
 
+Seguir para ➡️ [[+ Gestão de Conhecimento]]

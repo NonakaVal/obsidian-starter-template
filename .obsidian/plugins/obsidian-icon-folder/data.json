@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFolderDot",
       "LiLibrarySquare",
       "LiBookMarked",
       "LiVideotape",
-      "LiFolders",
-      "LiStar"
+      "LiFolders"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -57,5 +57,5 @@
   "Atlas/Conceitos/+ Entendendo o básico": "LiStar",
   "Atlas/Conceitos/ACE & ARC Frameworks": "LiFolderTree",
   "Atlas/Conceitos/Arquiteto & Jardineiro": "LiTrees",
-  "Atlas/Mapas": "LiLibrarySquare"
+  "Atlas/Maps": "LiLibrarySquare"
 }

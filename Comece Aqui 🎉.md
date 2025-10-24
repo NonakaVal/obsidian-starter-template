@@ -19,7 +19,7 @@ O **[Obsidian](https://obsidian.md/)** é uma ferramenta ideal para isso, pois f
 
 # Conceitos abordados
 
-Sistema integrado de **gestão do conhecimento** baseado no [[+ ACE Pack|ACE folder system]] e no [[+ ARC Framework|ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[Propriedades]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
+Sistema integrado de **gestão do conhecimento** baseado no [[+ ACE Pack|ACE folder system]] e no [[+ ARC Framework|ARC Framework]], que organiza ideias, tempo e ações em um fluxo coeso. As notas se conectam por **links diretos** (`[[Nota]]`), fortalecendo a rede de conhecimento, e por **backlinks**, que revelam conexões implícitas. Para maior controle, utilizam-se **[[03 Propriedades]]** como: `created` (data de criação), `up` (hierarquia), `collection` (coleção de pertencimento) e `related` 
 (notas associadas).
 
 
