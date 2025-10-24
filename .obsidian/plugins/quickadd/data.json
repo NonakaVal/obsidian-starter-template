@@ -85,45 +85,6 @@
           }
         },
         {
-          "id": "867eb981-1c2e-4f7a-8637-e410d12aba7d",
-          "name": "💾 Memo",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Calendar & Review/Daily Notes/{{date}}",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": true,
-            "createWithTemplate": true,
-            "template": "System/Templates/Format/Daily Note Template.md"
-          },
-          "format": {
-            "enabled": true,
-            "format": "- 💾 {{value}} -  {{time}}"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "# Logs",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "newLineCapture": {
-            "enabled": false,
-            "direction": "below"
-          },
-          "prepend": false,
-          "task": false,
-          "openFile": false,
-          "fileOpening": {
-            "location": "tab",
-            "direction": "vertical",
-            "mode": "default",
-            "focus": true
-          }
-        },
-        {
           "id": "0d051dda-519b-4622-a49e-b92c4c431187",
           "name": "😞 Frustração / Erros",
           "type": "Capture",
