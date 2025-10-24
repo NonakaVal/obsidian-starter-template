@@ -115,7 +115,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "System/Assets/_Atalhos.md",
+                    "file": "🏠.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -143,7 +143,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of _Atalhos"
+                  "title": "Graph of 🏠"
                 }
               }
             ]
@@ -230,36 +230,17 @@
             "dimension": 46.846846846846844,
             "children": [
               {
-                "id": "c133cbfbc6b00289",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "+/2025-10-15-new note.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Links inversos para 2025-10-15-new note"
-                }
-              },
-              {
                 "id": "7a2141420f060740",
                 "type": "leaf",
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "System/Assets/_Atalhos.md",
+                    "file": "🏠.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from _Atalhos"
+                  "title": "Outgoing links from 🏠"
                 }
               },
               {
@@ -286,8 +267,7 @@
                   "title": "_Atalhos"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal",
@@ -304,7 +284,6 @@
           "random-note:Open random note": true,
           "workspaces:Manage workspace layouts": false,
           "bases:Create new base": true,
-          "obsidian-kanban:Create new board": true,
           "callout-manager:Insert Callout": true,
           "periodic-notes:Open today": true,
           "templater-obsidian:Templater": true,
@@ -321,8 +300,8 @@
           "tasknotes:Create new task": true
         }
       },
-      "active": "72f1b9cde49a80fb",
-      "mtime": "2025-10-20T04:08:18-03:00"
+      "active": "7a2141420f060740",
+      "mtime": "2025-10-24T12:13:17-03:00"
     }
   },
   "active": "home"

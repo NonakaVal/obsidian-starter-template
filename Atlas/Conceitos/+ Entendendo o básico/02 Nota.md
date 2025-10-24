@@ -1,5 +1,5 @@
 ---
-up: "[[++ Gestão de Conhecimento|++ Gestão de Conhecimento]]"
+up: "[[++ Gestão de Conhecimento]]"
 collection: "[[Gestão de Conhecimento]]"
 cssclasses:
   - hide-properties_editing

@@ -32,41 +32,8 @@
               "icon": "lucide-file",
               "title": "🏠"
             }
-          },
-          {
-            "id": "6cb800b274955341",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comece Aqui 🎉.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Comece Aqui 🎉"
-            }
-          },
-          {
-            "id": "477e65d6599b8da9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Maps/Data Science (Modelo).md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Science (Modelo)"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +83,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           },
           {
@@ -146,7 +113,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "🏠.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -169,30 +136,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.1846232765366677,
+                  "scale": 0.45456955811720023,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of README"
-            }
-          },
-          {
-            "id": "80c8c0688f5d20e1",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "title": "Graph of 🏠"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 367.5
   },
   "right": {
     "id": "3703f7d8eaeb01fd",
@@ -258,14 +214,13 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Atlas/Maps/Data Science (Modelo).md"
+                "file": "🏠.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Data Science (Modelo)"
+              "title": "File properties for 🏠"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3954ea8e597c4a31",
@@ -273,36 +228,17 @@
         "dimension": 46.846846846846844,
         "children": [
           {
-            "id": "c133cbfbc6b00289",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "+/2025-10-15-new note.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "lucide-ghost",
-              "title": "backlink"
-            }
-          },
-          {
             "id": "7a2141420f060740",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System/Assets/_Atalhos.md",
+                "file": "🏠.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _Atalhos"
+              "title": "Outgoing links from 🏠"
             }
           },
           {
@@ -330,7 +266,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -347,28 +283,32 @@
       "random-note:Open random note": true,
       "workspaces:Manage workspace layouts": false,
       "bases:Create new base": true,
-      "callout-manager:Insert Callout": false,
-      "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false,
-      "gridexplorer:Open grid view": false,
+      "callout-manager:Insert Callout": true,
+      "periodic-notes:Open today": true,
+      "templater-obsidian:Templater": true,
       "dashboard-navigator:Open dashboard navigator": false,
-      "tasknotes:Open mini calendar": false,
+      "gridexplorer:Open grid view": false,
+      "tasknotes:Open mini calendar": true,
       "tasknotes:Open advanced calendar": false,
       "tasknotes:Open task list": false,
-      "tasknotes:Open notes": false,
-      "tasknotes:Open agenda": false,
-      "tasknotes:Open kanban board": false,
+      "tasknotes:Open notes": true,
+      "tasknotes:Open agenda": true,
+      "tasknotes:Open kanban board": true,
       "tasknotes:Open pomodoro": false,
-      "tasknotes:Open pomodoro stats": false,
-      "tasknotes:Create new task": false,
-      "periodic-notes:Open today": false
+      "tasknotes:Open pomodoro stats": true,
+      "tasknotes:Create new task": true
     }
   },
-  "active": "477e65d6599b8da9",
+  "active": "e857f13f3b3f005e",
   "lastOpenFiles": [
-    "README.md",
-    "Comece Aqui 🎉.md",
+    "System/Assets/_Atalhos.md",
     "🏠.md",
+    "Comece Aqui 🎉.md",
+    "Atlas/Conceitos/+ Entendendo o básico/01 Markdown.md",
+    "System/Templates/Format/T Livro.md",
+    "Atlas/Maps/Data Science (Modelo).md",
+    "+/concept-math-axiomas-da-aritmetica.md",
+    "README.md",
     "Calendar & Review/Weekly Notes/2025-W43.md",
     "Calendar & Review/Daily Notes/2025-10-24.md",
     "obsidian-starter-kit.zip",
@@ -385,17 +325,12 @@
     "Projects & Areas/Areas/Desenvolvimento Pessoal/Desenvolvimento Pessoal.md",
     "Calendar & Review/Daily Notes/2025-10-06.md",
     "Atlas/Maps/Habits Map (Modelo).md",
-    "Atlas/Maps/Data Science (Modelo).md",
     "Atlas/Maps/Dashboard++ (Modelo).md",
     "Atlas/Maps/++ Gestão de Conhecimento.md",
     "Atlas/Maps/+ Gestão de Conhecimento.md",
     "Atlas/Conceitos/ACE & ARC Frameworks/+ ACE Pack.md",
     "Atlas/Conceitos/ACE & ARC Frameworks/How the Areas folder works.md",
-    "Atlas/Conceitos/ACE & ARC Frameworks/How the Dots folder works.md",
     "Atlas/Dots",
-    "Atlas/Conceitos/ACE & ARC Frameworks/How folder System Works.md",
-    "Atlas/Conceitos/ACE & ARC Frameworks/How Calendar works.md",
-    "Atlas/Conceitos/ACE & ARC Frameworks/How Atlas works.md",
     "Calendar & Review.zip",
     "Projects & Areas/Projects/Ongoing/Projeto modelo",
     "Projects & Areas/Projects/Ongoing",
