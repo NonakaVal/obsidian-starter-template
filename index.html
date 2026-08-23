@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Between Notes — Template Gratuito para Obsidian</title>
+    <meta name="description"
+        content="Baixe gratuitamente o Starter Template para Obsidian e comece a organizar seu conhecimento pessoal com o método PARA. Em português.">
+    <meta name="keywords"
+        content="obsidian, pkm, template, segundo cerebro, para, gestao de conhecimento, between notes">
+    <meta property="og:title" content="Between Notes — Template Gratuito para Obsidian">
+    <meta property="og:description"
+        content="Sistema completo de gestão de conhecimento para Obsidian. Gratuito, em português.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/between-notes-icon.svg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        :root {
+            --primary: #7e57c2;
+            --primary-light: #b085f5;
+            --primary-dark: #4d2c91;
+            --dark: #1e1e2d;
+            --darker: #151521;
+            --dark-glass: rgba(30, 30, 45, 0.8);
+            --dark-border: rgba(126, 87, 194, 0.3);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(209, 213, 219, 0.9);
+            --text-muted: rgba(156, 163, 175, 0.9);
+            --whatsapp: #25D366;
+            --whatsapp-dark: #128C7E;
+            --radius: clamp(0.75rem, 2vw, 1rem);
+            --container: 1120px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--darker);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: var(--container);
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 clamp(1rem, 4vw, 2rem);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #a78bfa 0%, #7e57c2 50%, #5b21b6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .glass-card {
+            background: var(--dark-glass);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius);
+        }
+
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent 0%, var(--dark-border) 50%, transparent 100%);
+            margin: 0 auto;
+            width: 60%;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            font-weight: 700;
+            border-radius: var(--radius);
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: clamp(0.95rem, 2vw, 1.1rem);
+            padding: clamp(0.875rem, 2vw, 1.125rem) clamp(1.75rem, 3vw, 2.5rem);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            box-shadow: 0 8px 24px -4px rgba(126, 87, 194, 0.4);
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 16px 40px -8px rgba(126, 87, 194, 0.5);
+        }
+
+        .btn-whatsapp {
+            background: linear-gradient(135deg, var(--whatsapp) 0%, var(--whatsapp-dark) 100%);
+            color: white;
+            box-shadow: 0 8px 24px -4px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            box-shadow: 0 16px 40px -8px rgba(37, 211, 102, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--primary-light);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-outline:hover {
+            background: rgba(126, 87, 194, 0.1);
+        }
+
+        .nav-link {
+            position: relative;
+            color: var(--text-secondary);
+            transition: color 0.3s ease;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .nav-link:hover {
+            color: white;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary), var(--primary-light));
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+            gap: clamp(1rem, 2vw, 1.5rem);
+        }
+
+        .gallery-item {
+            border-radius: var(--radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            aspect-ratio: 16/9;
+            border: 1px solid var(--dark-border);
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 40px -8px rgba(0, 0, 0, 0.4);
+            border-color: rgba(126, 87, 194, 0.5);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+
+        .gallery-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.95);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .gallery-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .gallery-modal img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            border-radius: 0.75rem;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .close-modal:hover {
+            color: var(--primary-light);
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+            gap: clamp(1rem, 2vw, 1.5rem);
+        }
+
+        .feature-card {
+            padding: clamp(1.5rem, 3vw, 2rem);
+            border-radius: var(--radius);
+            background: var(--dark-glass);
+            border: 1px solid var(--dark-border);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(126, 87, 194, 0.5);
+            box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-icon {
+            width: 3.5rem;
+            height: 3.5rem;
+            background: linear-gradient(135deg, rgba(126, 87, 194, 0.2), rgba(126, 87, 194, 0.05));
+            border: 1px solid rgba(126, 87, 194, 0.4);
+            border-radius: 0.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2rem;
+            height: 2rem;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 768px) {
+
+            .gallery-grid,
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-cta-group {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .hero-cta-group .btn {
+                width: 100%;
+            }
+
+            .community-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .community-buttons .btn {
+                width: 100%;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
+
+            html {
+                scroll-behavior: auto;
+            }
+        }
+
+        button:focus-visible,
+        a:focus-visible,
+        input:focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="glass-card sticky top-0 z-50 w-full py-4 px-6 border-b border-purple-900/20">
+        <div class="container flex justify-between items-center">
+            <a href="#" aria-label="Between Notes" class="flex items-center gap-2">
+                <svg viewBox="0 0 40 40" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="14" r="5" fill="#7e57c2" opacity="0.9" />
+                    <circle cx="28" cy="10" r="4" fill="#b085f5" opacity="0.8" />
+                    <circle cx="18" cy="28" r="5.5" fill="#7e57c2" opacity="0.9" />
+                    <line x1="10" y1="14" x2="28" y2="10" stroke="#7e57c2" stroke-width="1.5" opacity="0.4" />
+                    <line x1="10" y1="14" x2="18" y2="28" stroke="#b085f5" stroke-width="1.5" opacity="0.4" />
+                    <line x1="28" y1="10" x2="18" y2="28" stroke="#7e57c2" stroke-width="1.5" opacity="0.4" />
+                </svg>
+                <span class="font-bold text-lg"></span>
+            </a>
+            <nav class="hidden md:flex items-center gap-8" aria-label="Navegação principal">
+                <a href="#showcase" class="nav-link">Showcase</a>
+                <a href="#features" class="nav-link">O que tem</a>
+                <a href="#comunidade" class="nav-link">Comunidade</a>
+            </nav>
+            <button class="md:hidden p-2 rounded-lg hover:bg-purple-900/20" id="mobile-menu-button" aria-label="Menu"
+                aria-expanded="false">
+                <i data-feather="menu" class="text-white"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="hidden glass-card fixed inset-0 z-40 bg-black/95 backdrop-blur-md flex flex-col items-center justify-center"
+        aria-hidden="true">
+        <button id="close-menu" class="absolute top-6 right-6 p-3" aria-label="Fechar menu">
+            <i data-feather="x" class="text-white text-2xl"></i>
+        </button>
+        <ul class="space-y-8 text-center text-2xl">
+            <li><a href="#showcase" class="gradient-text font-medium mobile-link">Showcase</a></li>
+            <li><a href="#features" class="gradient-text font-medium mobile-link">O que tem</a></li>
+            <li><a href="#comunidade" class="gradient-text font-medium mobile-link">Comunidade</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero -->
+    <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-purple-900/10 via-transparent to-transparent"></div>
+        <div class="container relative z-10 text-center py-20">
+            <div class="mb-8">
+                <svg viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg"
+                    class="w-full max-w-lg mx-auto drop-shadow-2xl">
+                    <defs>
+                        <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#A78BFA;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#C084FC;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <g transform="translate(20, 70)">
+                        <circle cx="0" cy="0" r="14" fill="url(#g1)">
+                            <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="60" cy="-10" r="12" fill="url(#g2)">
+                            <animate attributeName="r" values="12;14;12" dur="3s" begin="0.5s"
+                                repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="30" cy="40" r="15" fill="url(#g1)">
+                            <animate attributeName="r" values="15;17;15" dur="3s" begin="1s" repeatCount="indefinite" />
+                        </circle>
+                        <line x1="0" y1="0" x2="60" y2="-10" stroke="url(#g1)" stroke-width="2.5" opacity="0.6"
+                            stroke-linecap="round" />
+                        <line x1="0" y1="0" x2="30" y2="40" stroke="url(#g2)" stroke-width="2.5" opacity="0.6"
+                            stroke-linecap="round" />
+                        <line x1="60" y1="-10" x2="30" y2="40" stroke="url(#g1)" stroke-width="2.5" opacity="0.6"
+                            stroke-linecap="round" />
+                        <circle cx="0" cy="0" r="5" fill="#1A1A1A" opacity="0.9" />
+                        <circle cx="60" cy="-10" r="4" fill="#1A1A1A" opacity="0.9" />
+                        <circle cx="30" cy="40" r="6" fill="#1A1A1A" opacity="0.9" />
+                    </g>
+                    <text x="110" y="100" font-family="'Inter', sans-serif" font-size="30" font-weight="800"
+                        fill="white" letter-spacing="-0.5">NonakaVal Obsidian Template</text>
+                    <rect x="110" y="112" width="150" height="3.5" fill="url(#g1)" rx="1.75" />
+                </svg>
+            </div>
+
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">
+                Seu segundo cérebro, <span class="gradient-text">entre notas</span>
+            </h2>
+
+            <p class="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+                Template gratuito para Obsidian com sistema completo de organização.
+                Método PARA, dashboards, templates e comunidade ativa — tudo em português.
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-4 hero-cta-group">
+                <a href="assets/Obsidian-STARTER-TEMPLATE.zip" download class="btn btn-primary text-lg">
+                    <i data-feather="download" class="w-5 h-5"></i>
+                    Baixar Template Grátis
+                </a>
+            </div>
+
+            <p class="text-sm text-gray-500 mt-4">
+                Gratuito &middot; Em português &middot; Sem plugins pagos
+            </p>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Showcase -->
+    <section id="showcase" class="py-16 md:py-24">
+        <div class="container">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-3">
+                    <span class="gradient-text">Veja o Template</span>
+                </h2>
+                <p class="text-gray-400 max-w-lg mx-auto">
+                    Screenshots reais do Starter Template funcionando no Obsidian.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item glass-card" data-image="assets/newthumbs/1.png" role="button" tabindex="0"
+                    aria-label="Onboarding Interativo">
+                    <img src="assets/newthumbs/1.png" alt="Onboarding Interativo" loading="lazy">
+                </div>
+                <div class="gallery-item glass-card" data-image="assets/newthumbs/2.png" role="button" tabindex="0"
+                    aria-label="Primeira nota e grafo local">
+                    <img src="assets/newthumbs/2.png" alt="Primeira nota e grafo local" loading="lazy">
+                </div>
+                <div class="gallery-item glass-card" data-image="assets/newthumbs/3.png" role="button" tabindex="0"
+                    aria-label="Coleções e boas práticas">
+                    <img src="assets/newthumbs/3.png" alt="Coleções e boas práticas" loading="lazy">
+                </div>
+                <div class="gallery-item glass-card" data-image="assets/newthumbs/4.png" role="button" tabindex="0"
+                    aria-label="Estrutura ACE">
+                    <img src="assets/newthumbs/4.png" alt="Estrutura ACE" loading="lazy">
+                </div>
+                <div class="gallery-item glass-card" data-image="assets/newthumbs/5.png" role="button" tabindex="0"
+                    aria-label="Templates e snippets">
+                    <img src="assets/newthumbs/5.png" alt="Templates e snippets" loading="lazy">
+                </div>
+                <div class="gallery-item glass-card" data-image="assets/newthumbs/6.png" role="button" tabindex="0"
+                    aria-label="Dashboard principal">
+                    <img src="assets/newthumbs/6.png" alt="Dashboard principal" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div id="gallery-modal" class="gallery-modal" role="dialog" aria-modal="true" aria-label="Imagem expandida" hidden>
+        <span class="close-modal" tabindex="0" role="button" aria-label="Fechar">&times;</span>
+        <img id="modal-image" src="" alt="">
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Features -->
+    <section id="features" class="py-16 md:py-24">
+        <div class="container">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-3">
+                    <span class="gradient-text">O que vem no Template</span>
+                </h2>
+                <p class="text-gray-400 max-w-lg mx-auto">
+                    Um vault baseado nos métodos ACE e ARC, com plugins e templates prontos para uso.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i data-feather="map" class="text-purple-400"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Método ACE Integrado</h3>
+                    <p class="text-gray-400 text-sm">Pastas Atlas, Calendar e Efforts já estruturadas — conhecimento,
+                        tempo e ação organizados pelo framework de Nick Milo.</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i data-feather="refresh-cw" class="text-purple-400"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Fluxo Criativo ARC</h3>
+                    <p class="text-gray-400 text-sm">Pasta `+` como área de resfriamento para ideias novas: adicione,
+                        relacione e comunique em um ciclo autossustentável.</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i data-feather="compass" class="text-purple-400"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Onboarding Guiado</h3>
+                    <p class="text-gray-400 text-sm">Tópicos em ordem via Workspaces: da primeira nota ao ARC Framework,
+                        com botões interativos para seguir a trilha.</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i data-feather="zap" class="text-purple-400"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">QuickAdd e Daily Captures</h3>
+                    <p class="text-gray-400 text-sm">Crie notas com `Ctrl + N` e registre pensamentos rápidos nas
+                        notas diárias, sem atrito no seu fluxo.</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i data-feather="package" class="text-purple-400"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Plugins Curados</h3>
+                    <p class="text-gray-400 text-sm">Dataview, Calendar, Meta Bind, Iconize, Templater e mais — lista
+                        completa da comunidade já instalada e configurada.</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i data-feather="tool" class="text-purple-400"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Guia de Problemas Comuns</h3>
+                    <p class="text-gray-400 text-sm">Soluções diretas para bugs de plugins, snippets de CSS e Templater
+                        documentadas na página inicial do vault.</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="assets/Obsidian-STARTER-TEMPLATE.zip" download
+                    class="btn btn-primary">
+                    <i data-feather="download" class="w-5 h-5"></i>
+                    Baixar Template Grátis
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- How it works -->
+    <section class="py-16 md:py-24">
+        <div class="container max-w-3xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-3">
+                    <span class="gradient-text">3 Passos para Começar</span>
+                </h2>
+            </div>
+
+            <div class="space-y-6">
+                <div class="glass-card p-6 flex items-start gap-4 fade-in">
+                    <span class="step-number">1</span>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">Baixe o Template</h3>
+                        <p class="text-gray-400">Clique em "Baixar Template Grátis" para baixar o arquivo ZIP diretamente.</p>
+                    </div>
+                </div>
+
+                <div class="glass-card p-6 flex items-start gap-4 fade-in">
+                    <span class="step-number">2</span>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">Extraia e Abra no Obsidian</h3>
+                        <p class="text-gray-400">Descompacte o ZIP, abra o Obsidian e selecione a pasta como vault.
+                            Pronto — tudo configurado.</p>
+                    </div>
+                </div>
+
+                <div class="glass-card p-6 flex items-start gap-4 fade-in">
+                    <span class="step-number">3</span>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">Entre na Comunidade</h3>
+                        <p class="text-gray-400">Junte-se ao grupo no WhatsApp para tirar dúvidas, trocar ideias e
+                            acompanhar novidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Comunidade -->
+    <section id="comunidade" class="py-16 md:py-24">
+        <div class="container">
+            <div class="glass-card max-w-3xl mx-auto p-8 md:p-12 text-center fade-in"
+                style="background: linear-gradient(135deg, rgba(126, 87, 194, 0.15) 0%, rgba(126, 87, 194, 0.05) 100%); border: 2px solid rgba(126, 87, 194, 0.4); border-radius: 1.5rem;">
+                <div
+                    class="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center mx-auto mb-4">
+                    <i data-feather="users" class="text-white w-8 h-8"></i>
+                </div>
+
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Entre na Comunidade
+                </h2>
+
+                <p class="text-gray-400 mb-8 max-w-lg mx-auto text-lg">
+                    Baixou o template? Agora é hora de se conectar.
+                    Tire dúvidas, compartilhe ideias e aprenda com outros usuários de Obsidian.
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-4 community-buttons">
+                    <a href="https://chat.whatsapp.com/JwbDMZKHyhvFHC4dWBEBaf?mode=wwt" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-whatsapp text-lg">
+                        <i data-feather="message-circle" class="w-5 h-5"></i>
+                        Grupo do WhatsApp
+                    </a>
+                    <a href="guide.html" class="btn btn-outline text-lg">
+                        <i data-feather="book-open" class="w-5 h-5"></i>
+                        Guia de Instalação
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-purple-900/20">
+        <div class="container">
+            <div class="flex flex-col items-center gap-6">
+                <div class="flex gap-4">
+                    <a href="https://github.com/NonakaVal/obsidian-starter-template" target="_blank"
+                        rel="noopener noreferrer" class="text-gray-500 hover:text-purple-400 transition p-2"
+                        aria-label="GitHub">
+                        <i data-feather="github"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@nonaka96" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-500 hover:text-purple-400 transition p-2" aria-label="YouTube">
+                        <i data-feather="youtube"></i>
+                    </a>
+                    <a href="mailto:valdenirnonaka@gmail.com" class="text-gray-500 hover:text-purple-400 transition p-2"
+                        aria-label="Email">
+                        <i data-feather="mail"></i>
+                    </a>
+                </div>
+                <p class="text-gray-600 text-sm">
+                    &copy; 2025 Between Notes. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            if (typeof feather !== 'undefined') feather.replace();
+
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuBtn = document.getElementById('mobile-menu-button');
+            const closeMenuBtn = document.getElementById('close-menu');
+
+            function toggleMenu() {
+                const isHidden = mobileMenu.classList.contains('hidden');
+                mobileMenu.classList.toggle('hidden');
+                mobileMenuBtn.setAttribute('aria-expanded', isHidden);
+                mobileMenu.setAttribute('aria-hidden', !isHidden);
+            }
+
+            mobileMenuBtn.addEventListener('click', toggleMenu);
+            closeMenuBtn.addEventListener('click', toggleMenu);
+
+            document.querySelectorAll('.mobile-link, a[href^="#"]').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                    mobileMenu.setAttribute('aria-hidden', 'true');
+                });
+            });
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) target.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+
+            const fadeElements = document.querySelectorAll('.fade-in');
+            const fadeInOnScroll = () => {
+                fadeElements.forEach(el => {
+                    if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+                        el.classList.add('visible');
+                    }
+                });
+            };
+            window.addEventListener('load', fadeInOnScroll);
+            window.addEventListener('scroll', fadeInOnScroll);
+
+            const modal = document.getElementById('gallery-modal');
+            const modalImage = document.getElementById('modal-image');
+            const closeModal = document.querySelector('.close-modal');
+
+            function openModal(src) {
+                modalImage.src = src;
+                modal.classList.add('active');
+                modal.removeAttribute('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeModalFn() {
+                modal.classList.remove('active');
+                modal.setAttribute('hidden', 'true');
+                document.body.style.overflow = 'auto';
+                modalImage.src = '';
+            }
+
+            document.querySelectorAll('.gallery-item').forEach(item => {
+                const handler = () => openModal(item.getAttribute('data-image'));
+                item.addEventListener('click', handler);
+                item.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handler(); } });
+            });
+
+            closeModal.addEventListener('click', closeModalFn);
+            closeModal.addEventListener('keydown', e => { if (e.key === 'Enter') closeModalFn(); });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape' && modal.classList.contains('active')) closeModalFn(); });
+            modal.addEventListener('click', e => { if (e.target === modal) closeModalFn(); });
+        });
+    </script>
+
+</body>
+
+</html>

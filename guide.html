@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Instalação — Between Notes Starter Template</title>
+    <meta name="description" content="Guia passo a passo para instalar o Between Notes Starter Template no Obsidian.">
+    <link rel="icon" href="assets/between-notes-icon.svg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        :root {
+            --primary: #7e57c2;
+            --primary-light: #b085f5;
+            --primary-dark: #4d2c91;
+            --dark: #1e1e2d;
+            --darker: #151521;
+            --dark-glass: rgba(30, 30, 45, 0.8);
+            --dark-border: rgba(126, 87, 194, 0.3);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(209, 213, 219, 0.9);
+            --text-muted: rgba(156, 163, 175, 0.9);
+            --radius: clamp(0.75rem, 2vw, 1rem);
+            --container: 900px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--darker);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: var(--container);
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 clamp(1rem, 4vw, 2rem);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #a78bfa 0%, #7e57c2 50%, #5b21b6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .glass-card {
+            background: var(--dark-glass);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            font-weight: 700;
+            border-radius: var(--radius);
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: clamp(0.95rem, 2vw, 1.05rem);
+            padding: clamp(0.75rem, 2vw, 1rem) clamp(1.5rem, 3vw, 2rem);
+        }
+        .btn:hover { transform: translateY(-2px); }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            box-shadow: 0 8px 24px -4px rgba(126, 87, 194, 0.4);
+        }
+
+        .btn-whatsapp {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            color: white;
+            box-shadow: 0 8px 24px -4px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--primary-light);
+            border: 2px solid var(--primary);
+        }
+        .btn-outline:hover { background: rgba(126, 87, 194, 0.1); }
+
+        .step-card {
+            background: var(--dark-glass);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius);
+            padding: clamp(1.5rem, 3vw, 2rem);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .step-card:hover {
+            border-color: rgba(126, 87, 194, 0.5);
+            box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.3);
+        }
+
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.25rem;
+            height: 2.25rem;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .os-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+            gap: 1rem;
+        }
+
+        .os-card {
+            background: rgba(30, 30, 45, 0.6);
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .os-card:hover {
+            border-color: rgba(126, 87, 194, 0.5);
+            transform: translateY(-3px);
+        }
+
+        .alert {
+            padding: 1.25rem 1.5rem;
+            border-radius: var(--radius);
+            border-left: 4px solid var(--primary);
+            background: rgba(126, 87, 194, 0.08);
+            margin: 1.5rem 0;
+        }
+        .alert.warning {
+            border-left-color: #f59e0b;
+            background: rgba(245, 158, 11, 0.08);
+        }
+
+        .path-block {
+            background: rgba(30, 30, 45, 0.6);
+            border: 1px solid var(--dark-border);
+            border-left: 4px solid var(--primary);
+            border-radius: var(--radius);
+            padding: 1rem 1.5rem;
+            font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        .progress-container {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--dark-glass);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--dark-border);
+            padding: 0.75rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .progress-bar {
+            height: 6px;
+            background: rgba(126, 87, 194, 0.2);
+            border-radius: 3px;
+            flex-grow: 1;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .fab {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            width: 3rem;
+            height: 3rem;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 24px -4px rgba(126, 87, 194, 0.4);
+            cursor: pointer;
+            z-index: 100;
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        .fab.visible { opacity: 1; transform: translateY(0); }
+        .fab:hover { background: var(--primary-dark); transform: scale(1.1); }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease;
+        }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+        ol, ul { padding-left: 1.5rem; margin: 0.75rem 0; }
+        li { color: var(--text-secondary); margin: 0.25rem 0; line-height: 1.7; }
+        ol li::marker { color: var(--primary); font-weight: 600; }
+
+        a { color: var(--primary-light); text-decoration: none; transition: color 0.2s; }
+        a:hover { color: var(--primary); text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            .os-grid { grid-template-columns: 1fr; }
+            .actions-group { flex-direction: column; }
+            .actions-group .btn { width: 100%; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+            html { scroll-behavior: auto; }
+        }
+
+        button:focus-visible, a:focus-visible, input:focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <span class="text-sm text-gray-500">Início</span>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <span class="text-sm text-gray-500">Conclusão</span>
+    </div>
+
+    <!-- Header -->
+    <header class="text-center py-12 md:py-16">
+        <div class="container">
+            <img src="assets/between-notes-dark (1).svg" alt="Between Notes" class="w-24 mx-auto mb-6">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">Guia de Instalação</h1>
+            <p class="text-gray-400 text-lg mb-4">Between Notes — Starter Template para Obsidian</p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+                <span class="flex items-center gap-1"><i data-feather="clock" class="w-4 h-4"></i> 10 minutos</span>
+                <span class="flex items-center gap-1"><i data-feather="user" class="w-4 h-4"></i> Iniciantes</span>
+                <span class="flex items-center gap-1"><i data-feather="download" class="w-4 h-4"></i> 3 passos</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container pb-16">
+
+        <!-- Step 1 -->
+        <section class="mb-12 fade-in" id="step1">
+            <div class="flex items-center gap-3 mb-6 pb-4 border-b border-purple-900/20">
+                <span class="step-number">1</span>
+                <h2 class="text-2xl font-bold">Instalar o Obsidian</h2>
+            </div>
+
+            <div class="step-card mb-6">
+                <h3 class="font-bold text-lg mb-3 flex items-center gap-2">
+                    <i data-feather="download-cloud" class="w-5 h-5 text-purple-400"></i>
+                    1.1 Baixar o Obsidian
+                </h3>
+                <ol>
+                    <li>Acesse o site oficial: <a href="https://obsidian.md" target="_blank" rel="noopener noreferrer">obsidian.md</a></li>
+                    <li>Selecione a versão para seu sistema operacional</li>
+                </ol>
+                <div class="alert">
+                    <strong class="text-white">Gratuito para uso pessoal.</strong>
+                    <span class="text-gray-400">Não é necessário criar conta ou fazer login.</span>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <h3 class="font-bold text-lg mb-4 flex items-center gap-2">
+                    <i data-feather="settings" class="w-5 h-5 text-purple-400"></i>
+                    1.2 Instalar
+                </h3>
+                <div class="os-grid">
+                    <div class="os-card">
+                        <h4 class="font-bold text-purple-400 mb-2 flex items-center gap-2">
+                            <i data-feather="monitor" class="w-4 h-4"></i> Windows
+                        </h4>
+                        <ol>
+                            <li>Execute o <code style="background: rgba(126,87,194,0.15); padding: 2px 6px; border-radius: 4px; color: var(--primary-light);">.exe</code></li>
+                            <li>Siga o assistente</li>
+                            <li>Next → Install</li>
+                        </ol>
+                    </div>
+                    <div class="os-card">
+                        <h4 class="font-bold text-purple-400 mb-2 flex items-center gap-2">
+                            <i data-feather="apple" class="w-4 h-4"></i> macOS
+                        </h4>
+                        <ol>
+                            <li>Abra o <code style="background: rgba(126,87,194,0.15); padding: 2px 6px; border-radius: 4px; color: var(--primary-light);">.dmg</code></li>
+                            <li>Arraste para Applications</li>
+                            <li>Ejete o volume</li>
+                        </ol>
+                    </div>
+                    <div class="os-card">
+                        <h4 class="font-bold text-purple-400 mb-2 flex items-center gap-2">
+                            <i data-feather="terminal" class="w-4 h-4"></i> Linux
+                        </h4>
+                        <ol>
+                            <li>Use o <code style="background: rgba(126,87,194,0.15); padding: 2px 6px; border-radius: 4px; color: var(--primary-light);">.AppImage</code></li>
+                            <li><code style="background: rgba(126,87,194,0.15); padding: 2px 6px; border-radius: 4px; color: var(--primary-light);">chmod +x Obsidian-*.AppImage</code></li>
+                            <li>Execute o arquivo</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 2 -->
+        <section class="mb-12 fade-in" id="step2">
+            <div class="flex items-center gap-3 mb-6 pb-4 border-b border-purple-900/20">
+                <span class="step-number">2</span>
+                <h2 class="text-2xl font-bold">Baixar e Extrair o Template</h2>
+            </div>
+
+            <div class="step-card mb-6">
+                <h3 class="font-bold text-lg mb-3 flex items-center gap-2">
+                    <i data-feather="package" class="w-5 h-5 text-purple-400"></i>
+                    2.1 Baixar o Template
+                </h3>
+                <ol>
+                    <li>Clique no botão abaixo para baixar o arquivo ZIP</li>
+                    <li>Salve o arquivo em um local de fácil acesso</li>
+                    <li>Depois, siga para a etapa de extração</li>
+                </ol>
+                <div class="text-center mt-4">
+                    <a href="assets/Obsidian-STARTER-TEMPLATE.zip" download class="btn btn-primary">
+                        <i data-feather="download" class="w-5 h-5"></i>
+                        Baixar Template Grátis
+                    </a>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <h3 class="font-bold text-lg mb-3 flex items-center gap-2">
+                    <i data-feather="archive" class="w-5 h-5 text-purple-400"></i>
+                    2.2 Extrair o ZIP
+                </h3>
+                <p class="text-gray-400 mb-3">Descompacte o arquivo em um local permanente do seu computador. Após extrair, a estrutura será:</p>
+                <div class="path-block">
+                    <pre>📁 Between Notes Starter/
+├── 📁 .obsidian/
+├── 📁 Atlas/
+│   └── 📁 Conceitos/
+│       ├── 📁 Onboarding/
+│       └── 📁 Referência de Formatação/
+├── 📁 Calendar & Review/
+├── 📁 Memos/
+├── 📁 Projects & Areas/
+├── 📁 X/
+│   └── 📁 Templates/
+└── 📄 Boas Vindas.md</pre>
+                </div>
+                <div class="alert warning">
+                    <strong class="text-white">Importante:</strong>
+                    <span class="text-gray-400">A pasta <code style="background: rgba(126,87,194,0.15); padding: 2px 6px; border-radius: 4px; color: var(--primary-light);">.obsidian</code> pode estar oculta. Isso é normal — ela contém as configurações.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 3 -->
+        <section class="mb-12 fade-in" id="step3">
+            <div class="flex items-center gap-3 mb-6 pb-4 border-b border-purple-900/20">
+                <span class="step-number">3</span>
+                <h2 class="text-2xl font-bold">Abrir o Vault no Obsidian</h2>
+            </div>
+
+            <div class="step-card mb-6">
+                <h3 class="font-bold text-lg mb-3 flex items-center gap-2">
+                    <i data-feather="folder-plus" class="w-5 h-5 text-purple-400"></i>
+                    3.1 Abrir como Vault Existente
+                </h3>
+                <ol>
+                    <li>Abra o Obsidian</li>
+                    <li>Na tela inicial, clique em <strong>Open folder as vault</strong></li>
+                    <li>Navegue até a pasta extraída e selecione-a</li>
+                    <li>Clique em <strong>Abrir</strong></li>
+                </ol>
+            </div>
+
+            <div class="step-card mb-6">
+                <h3 class="font-bold text-lg mb-3 flex items-center gap-2">
+                    <i data-feather="shield" class="w-5 h-5 text-purple-400"></i>
+                    3.2 Confiar no Autor
+                </h3>
+                <p class="text-gray-400 mb-2">O Obsidian exibirá um aviso sobre plugins de terceiros:</p>
+                <div class="alert">
+                    <span class="text-gray-400">Clique em <strong class="text-white">Trust author and enable plugins</strong>. Isso é necessário para ativar Dataview, Templater e os outros plugins incluídos.</span>
+                </div>
+            </div>
+
+            <div class="step-card">
+                <h3 class="font-bold text-lg mb-3 flex items-center gap-2">
+                    <i data-feather="clock" class="w-5 h-5 text-purple-400"></i>
+                    3.3 Aguardar Carregamento
+                </h3>
+                <p class="text-gray-400">O Obsidian vai indexar as notas e ativar os plugins. Isso leva de 5 a 30 segundos. Quando a Homepage carregar, seu vault está pronto.</p>
+            </div>
+        </section>
+
+        <!-- Completion -->
+        <section class="fade-in" style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 1.5rem; padding: 2.5rem; text-align: center;">
+            <h2 class="text-2xl font-bold mb-2" style="color: #10b981;">Pronto!</h2>
+            <p class="text-gray-400 mb-6 max-w-lg mx-auto text-lg">
+                Seu vault Between Notes está configurado. Abra a nota <strong class="text-white">Boas Vindas</strong> para começar o onboarding interativo.
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-4 actions-group">
+                <a href="https://chat.whatsapp.com/JwbDMZKHyhvFHC4dWBEBaf?mode=wwt" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                    <i data-feather="message-circle" class="w-5 h-5"></i>
+                    Entrar no Grupo
+                </a>
+                <a href="index.html" class="btn btn-outline">
+                    <i data-feather="home" class="w-5 h-5"></i>
+                    Voltar ao Site
+                </a>
+            </div>
+        </section>
+
+        <!-- Troubleshooting -->
+        <section class="mt-12 fade-in">
+            <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+                <i data-feather="help-circle" class="w-5 h-5 text-yellow-500"></i>
+                Problemas Comuns
+            </h2>
+            <div class="step-card">
+                <ul>
+                    <li><strong class="text-white">Erro ao abrir:</strong> Verifique se selecionou a pasta correta (a principal, não uma subpasta)</li>
+                    <li><strong class="text-white">Plugins não carregam:</strong> Confirme que clicou em "Trust author and enable plugins"</li>
+                    <li><strong class="text-white">Notas não aparecem:</strong> Aguarde a indexação completa (barra de progresso no canto inferior)</li>
+                    <li><strong class="text-white">Erro de permissão:</strong> Verifique acesso de leitura/escrita na pasta</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-purple-900/20 text-center">
+        <p class="text-gray-600 text-sm">
+            <strong class="text-gray-500">Between Notes</strong> &middot; Guia de Instalação &middot; &copy; 2025
+        </p>
+    </footer>
+
+    <!-- FAB -->
+    <div class="fab" id="fab" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <i data-feather="arrow-up"></i>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            if (typeof feather !== 'undefined') feather.replace();
+
+            const fab = document.getElementById('fab');
+            const fill = document.getElementById('progressFill');
+
+            function updateProgress() {
+                const scrollTop = window.pageYOffset;
+                const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+                const progress = docHeight > 0 ? Math.floor(scrollTop / docHeight * 100) : 0;
+                fill.style.width = progress + '%';
+                fab.classList.toggle('visible', scrollTop > 300);
+            }
+
+            window.addEventListener('scroll', updateProgress);
+            updateProgress();
+
+            const fadeElements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) entry.target.classList.add('visible');
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+            fadeElements.forEach(el => observer.observe(el));
+        });
+    </script>
+
+</body>
+</html>

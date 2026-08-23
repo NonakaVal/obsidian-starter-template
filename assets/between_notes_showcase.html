@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Between Notes - Showcase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 60px 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 20% 50%, rgba(168, 85, 247, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.2) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            animation: fadeInDown 0.8s ease;
+        }
+
+        h1 {
+            color: white;
+            font-size: 56px;
+            font-weight: 900;
+            margin-bottom: 16px;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 20px;
+            font-weight: 400;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 32px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 0.6s ease backwards;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #6B46C1, #9333EA, #A855F7);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+        }
+
+        .card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .card:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .card:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .card:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .card:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+        .card:nth-child(6) {
+            animation-delay: 0.6s;
+        }
+
+        .card:nth-child(7) {
+            animation-delay: 0.7s;
+        }
+
+        .card:nth-child(8) {
+            animation-delay: 0.8s;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #F3F4F6;
+        }
+
+        .card h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1A1A1A;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: linear-gradient(135deg, #6B46C1, #9333EA);
+            color: white;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 220px;
+            background: linear-gradient(135deg, #FAFAFA 0%, #F5F5F5 100%);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logo-container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(147, 51, 234, 0.03) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        .download-btn {
+            width: 100%;
+            padding: 14px 24px;
+            background: linear-gradient(135deg, #6B46C1, #9333EA);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(147, 51, 234, 0.3);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(147, 51, 234, 0.4);
+            background: linear-gradient(135deg, #7C3AED, #A855F7);
+        }
+
+        .download-btn-secondary {
+            background: linear-gradient(135deg, #EC4899, #F472B6);
+            box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+        }
+
+        .download-btn-secondary:hover {
+            background: linear-gradient(135deg, #DB2777, #EC4899);
+            box-shadow: 0 6px 25px rgba(236, 72, 153, 0.4);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .download-icon {
+            font-size: 18px;
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .full-width .logo-container {
+            min-height: 320px;
+        }
+
+        svg {
+            max-width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .specs {
+            display: flex;
+            gap: 16px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+
+        .spec-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            color: #666;
+            background: #F9FAFB;
+            padding: 6px 12px;
+            border-radius: 8px;
+        }
+
+        .spec-icon {
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 30px;
+            color: white;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .card {
+                padding: 24px;
+            }
+
+            .logo-container {
+                min-height: 180px;
+            }
+
+            .full-width .logo-container {
+                min-height: 260px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Between Notes Brand Kit</h1>
+            <p class="subtitle">Variações de logo prontas para qualquer uso</p>
+        </header>
+
+        <div class="grid">
+            <!-- Logo Original Completo -->
+            <div class="card full-width">
+                <div class="card-header">
+                    <h2>📌 Logo Original Completo</h2>
+                    <span class="badge">Principal</span>
+                </div>
+                <div class="logo-container" id="logo-full">
+                    <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" style="max-width: 800px;">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#6B46C1;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#9333EA;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+                            </linearGradient>
+                            <filter id="shadow">
+                                <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15" />
+                            </filter>
+                        </defs>
+                        <rect width="800" height="400" fill="#FAFAFA" />
+                        <g transform="translate(100, 150)" filter="url(#shadow)">
+                            <circle cx="0" cy="0" r="18" fill="url(#grad1)">
+                                <animate attributeName="r" values="18;20;18" dur="3s" repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="80" cy="-10" r="16" fill="url(#grad2)">
+                                <animate attributeName="r" values="16;18;16" dur="3s" begin="0.5s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="40" cy="60" r="20" fill="url(#grad1)">
+                                <animate attributeName="r" values="20;22;20" dur="3s" begin="1s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <line x1="0" y1="0" x2="80" y2="-10" stroke="url(#grad1)" stroke-width="3" opacity="0.6"
+                                stroke-linecap="round">
+                                <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s"
+                                    repeatCount="indefinite" />
+                            </line>
+                            <line x1="0" y1="0" x2="40" y2="60" stroke="url(#grad2)" stroke-width="3" opacity="0.6"
+                                stroke-linecap="round">
+                                <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2s" begin="0.5s"
+                                    repeatCount="indefinite" />
+                            </line>
+                            <line x1="80" y1="-10" x2="40" y2="60" stroke="url(#grad1)" stroke-width="3" opacity="0.6"
+                                stroke-linecap="round">
+                                <animate attributeName="opacity" values="0.5;0.85;0.5" dur="2s" begin="1s"
+                                    repeatCount="indefinite" />
+                            </line>
+                            <circle cx="0" cy="0" r="6" fill="white" opacity="0.9" />
+                            <circle cx="80" cy="-10" r="5" fill="white" opacity="0.9" />
+                            <circle cx="40" cy="60" r="7" fill="white" opacity="0.9" />
+                        </g>
+                        <text x="250" y="180" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="56"
+                            font-weight="800" fill="#1A1A1A" letter-spacing="-1">BETWEEN</text>
+                        <text x="250" y="235" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="56"
+                            font-weight="800" fill="#1A1A1A" letter-spacing="-1">NOTES</text>
+                        <rect x="250" y="250" width="120" height="4" fill="url(#grad1)" rx="2" />
+                        <text x="100" y="320" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18"
+                            font-weight="400" fill="#666666" letter-spacing="0.5">Conecte ideias, aprenda de forma
+                            intencional e transforme</text>
+                        <text x="100" y="345" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18"
+                            font-weight="400" fill="#666666" letter-spacing="0.5">suas anotações em conhecimento vivo
+                            ✨</text>
+                    </svg>
+                </div>
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 800×400px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Hero / Landing Page</div>
+                    <div class="spec-item"><span class="spec-icon">✨</span> Animado</div>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-full', 'between-notes-full.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-full', 'between-notes-full.png')">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+
+            <!-- Apenas o Ícone -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🔮 Ícone Isolado</h2>
+                </div>
+                <div class="logo-container" id="logo-icon">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="icon-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#6B46C1;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#9333EA;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="icon-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+                            </linearGradient>
+                            <filter id="icon-shadow">
+                                <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15" />
+                            </filter>
+                        </defs>
+                        <g transform="translate(60, 80)" filter="url(#icon-shadow)">
+                            <circle cx="0" cy="0" r="18" fill="url(#icon-grad1)">
+                                <animate attributeName="r" values="18;20;18" dur="3s" repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="80" cy="-10" r="16" fill="url(#icon-grad2)">
+                                <animate attributeName="r" values="16;18;16" dur="3s" begin="0.5s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="40" cy="60" r="20" fill="url(#icon-grad1)">
+                                <animate attributeName="r" values="20;22;20" dur="3s" begin="1s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <line x1="0" y1="0" x2="80" y2="-10" stroke="url(#icon-grad1)" stroke-width="3"
+                                opacity="0.6" stroke-linecap="round">
+                                <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s"
+                                    repeatCount="indefinite" />
+                            </line>
+                            <line x1="0" y1="0" x2="40" y2="60" stroke="url(#icon-grad2)" stroke-width="3" opacity="0.6"
+                                stroke-linecap="round">
+                                <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2s" begin="0.5s"
+                                    repeatCount="indefinite" />
+                            </line>
+                            <line x1="80" y1="-10" x2="40" y2="60" stroke="url(#icon-grad1)" stroke-width="3"
+                                opacity="0.6" stroke-linecap="round">
+                                <animate attributeName="opacity" values="0.5;0.85;0.5" dur="2s" begin="1s"
+                                    repeatCount="indefinite" />
+                            </line>
+                            <circle cx="0" cy="0" r="6" fill="white" opacity="0.9" />
+                            <circle cx="80" cy="-10" r="5" fill="white" opacity="0.9" />
+                            <circle cx="40" cy="60" r="7" fill="white" opacity="0.9" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 200×200px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Avatar / Profile</div>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-icon', 'between-notes-icon.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-icon', 'between-notes-icon.png')">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+
+            <!-- Logo Horizontal -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>➡️ Logo Horizontal</h2>
+                </div>
+                <div class="logo-container" id="logo-horizontal">
+                    <svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="horiz-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#6B46C1;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#9333EA;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="horiz-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <g transform="translate(40, 60)">
+                            <circle cx="0" cy="0" r="12" fill="url(#horiz-grad1)">
+                                <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="50" cy="-8" r="10" fill="url(#horiz-grad2)">
+                                <animate attributeName="r" values="10;12;10" dur="3s" begin="0.5s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="25" cy="35" r="13" fill="url(#horiz-grad1)">
+                                <animate attributeName="r" values="13;15;13" dur="3s" begin="1s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <line x1="0" y1="0" x2="50" y2="-8" stroke="url(#horiz-grad1)" stroke-width="2"
+                                opacity="0.6" />
+                            <line x1="0" y1="0" x2="25" y2="35" stroke="url(#horiz-grad2)" stroke-width="2"
+                                opacity="0.6" />
+                            <line x1="50" y1="-8" x2="25" y2="35" stroke="url(#horiz-grad1)" stroke-width="2"
+                                opacity="0.6" />
+                            <circle cx="0" cy="0" r="4" fill="white" opacity="0.9" />
+                            <circle cx="50" cy="-8" r="3" fill="white" opacity="0.9" />
+                            <circle cx="25" cy="35" r="5" fill="white" opacity="0.9" />
+                        </g>
+                        <text x="120" y="70" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="32"
+                            font-weight="800" fill="#1A1A1A">BETWEEN NOTES</text>
+                        <rect x="120" y="80" width="80" height="3" fill="url(#horiz-grad1)" rx="1.5" />
+                    </svg>
+                </div>
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 500×150px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Header / Nav</div>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-horizontal', 'between-notes-horizontal.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-horizontal', 'between-notes-horizontal.png')">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+
+            <!-- Apenas Texto -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📝 Apenas Tipografia</h2>
+                </div>
+                <div class="logo-container" id="logo-text">
+                    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#6B46C1;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#9333EA;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <text x="50" y="90" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="42"
+                            font-weight="800" fill="#1A1A1A" letter-spacing="-1">BETWEEN</text>
+                        <text x="50" y="140" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="42"
+                            font-weight="800" fill="#1A1A1A" letter-spacing="-1">NOTES</text>
+                        <rect x="50" y="155" width="90" height="4" fill="url(#text-grad)" rx="2" />
+                    </svg>
+                </div>
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 400×200px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Wordmark</div>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-text', 'between-notes-text.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-text', 'between-notes-text.png')">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+
+            <!-- Versão Minimalista -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>✨ Versão Minimalista</h2>
+                </div>
+                <div class="logo-container" id="logo-minimal">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="mini-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#6B46C1;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#9333EA;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <g transform="translate(60, 80)">
+                            <circle cx="0" cy="0" r="15" fill="url(#mini-grad)" />
+                            <circle cx="80" cy="-10" r="13" fill="url(#mini-grad)" opacity="0.8" />
+                            <circle cx="40" cy="60" r="17" fill="url(#mini-grad)" opacity="0.9" />
+                            <line x1="0" y1="0" x2="80" y2="-10" stroke="url(#mini-grad)" stroke-width="2"
+                                opacity="0.4" />
+                            <line x1="0" y1="0" x2="40" y2="60" stroke="url(#mini-grad)" stroke-width="2"
+                                opacity="0.4" />
+                            <line x1="80" y1="-10" x2="40" y2="60" stroke="url(#mini-grad)" stroke-width="2"
+                                opacity="0.4" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 200×200px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Clean / Simple</div>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-minimal', 'between-notes-minimal.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-minimal', 'between-notes-minimal.png')">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+            <!-- Versão Escura -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🌙 Versão Dark Mode</h2>
+                    <span class="badge">Dark</span>
+                </div>
+                <div class="logo-container" id="logo-dark"
+                    style="background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);">
+<svg viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="dark-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#A78BFA;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#C084FC;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="dark-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Animações e estrutura -->
+    <g transform="translate(60, 70)">
+        <circle cx="0" cy="0" r="14" fill="url(#dark-grad1)">
+            <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="60" cy="-10" r="12" fill="url(#dark-grad2)">
+            <animate attributeName="r" values="12;14;12" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="30" cy="40" r="15" fill="url(#dark-grad1)">
+            <animate attributeName="r" values="15;17;15" dur="3s" begin="1s" repeatCount="indefinite"/>
+        </circle>
+        <line x1="0" y1="0" x2="60" y2="-10" stroke="url(#dark-grad1)" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+        <line x1="0" y1="0" x2="30" y2="40" stroke="url(#dark-grad2)" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+        <line x1="60" y1="-10" x2="30" y2="40" stroke="url(#dark-grad1)" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+        <circle cx="0" cy="0" r="5" fill="#1A1A1A" opacity="0.9"/>
+        <circle cx="60" cy="-10" r="4" fill="#1A1A1A" opacity="0.9"/>
+        <circle cx="30" cy="40" r="6" fill="#1A1A1A" opacity="0.9"/>
+    </g>
+
+    <!-- Texto -->
+    <text x="160" y="100"
+          font-family="'Merriweather', serif"
+          font-size="24"
+          font-weight="800"
+          fill="white"
+          letter-spacing="-0.5">
+        Between Notes Obsidian Template
+    </text>
+
+    <!-- Ícone do Obsidian (externo, pequeno e centralizado abaixo da palavra “Obsidian”) -->
+    <image href="obsidian-icon.png"
+           x="387"
+           y="48"
+           width="18"
+           height="18"
+           opacity="0.9" />
+
+    <rect x="160" y="112" width="100" height="3.5" fill="url(#dark-grad1)" rx="1.75"/>
+</svg>
+
+                </div>
+
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 600×180px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Dark Themes</div>
+                </div>
+
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-dark', 'between-notes-dark.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-dark', 'between-notes-dark.png')">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+
+            <!-- Versão Escura -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🌙 Versão Dark Mode</h2>
+                    <span class="badge">Dark</span>
+                </div>
+                <div class="logo-container" id="logo-dark"
+                    style="background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);">
+                    <svg viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="dark-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#A78BFA;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#C084FC;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="dark-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <g transform="translate(60, 70)">
+                            <circle cx="0" cy="0" r="14" fill="url(#dark-grad1)">
+                                <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="60" cy="-10" r="12" fill="url(#dark-grad2)">
+                                <animate attributeName="r" values="12;14;12" dur="3s" begin="0.5s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="30" cy="40" r="15" fill="url(#dark-grad1)">
+                                <animate attributeName="r" values="15;17;15" dur="3s" begin="1s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <line x1="0" y1="0" x2="60" y2="-10" stroke="url(#dark-grad1)" stroke-width="2.5"
+                                opacity="0.6" stroke-linecap="round" />
+                            <line x1="0" y1="0" x2="30" y2="40" stroke="url(#dark-grad2)" stroke-width="2.5"
+                                opacity="0.6" stroke-linecap="round" />
+                            <line x1="60" y1="-10" x2="30" y2="40" stroke="url(#dark-grad1)" stroke-width="2.5"
+                                opacity="0.6" stroke-linecap="round" />
+                            <circle cx="0" cy="0" r="5" fill="#1A1A1A" opacity="0.9" />
+                            <circle cx="60" cy="-10" r="4" fill="#1A1A1A" opacity="0.9" />
+                            <circle cx="30" cy="40" r="6" fill="#1A1A1A" opacity="0.9" />
+                        </g>
+                        <text x="160" y="100" font-family="'Merriweather', serif" font-size="27" font-weight="800"
+                            fill="white" letter-spacing="-0.5">
+                            Between Notes Obsidian Template
+                        </text>
+                        <rect x="160" y="112" width="100" height="3.5" fill="url(#dark-grad1)" rx="1.75" />
+                    </svg>
+                </div>
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 600×180px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Dark Themes</div>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-dark', 'between-notes-dark.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-dark', 'between-notes-dark.png')">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Favicon/App Icon -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📱 Favicon / App Icon</h2>
+                    <span class="badge">Icon</span>
+                </div>
+                <div class="logo-container" id="logo-favicon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="fav-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#6B46C1;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#9333EA;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="fav-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="100" height="100" fill="url(#fav-grad1)" rx="20" />
+                        <g transform="translate(20, 30)">
+                            <circle cx="0" cy="0" r="8" fill="white" />
+                            <circle cx="60" cy="-5" r="7" fill="white" opacity="0.9" />
+                            <circle cx="30" cy="30" r="9" fill="white" />
+                            <line x1="0" y1="0" x2="60" y2="-5" stroke="white" stroke-width="2" opacity="0.6" />
+                            <line x1="0" y1="0" x2="30" y2="30" stroke="white" stroke-width="2" opacity="0.6" />
+                            <line x1="60" y1="-5" x2="30" y2="30" stroke="white" stroke-width="2" opacity="0.6" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 100×100px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Favicon / App</div>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-favicon', 'between-notes-favicon.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-favicon', 'between-notes-favicon.png', 512)">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+
+            <!-- Versão Monocromática -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>⚫ Versão Monocromática</h2>
+                </div>
+                <div class="logo-container" id="logo-mono">
+                    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="translate(50, 80)">
+                            <circle cx="0" cy="0" r="12" fill="#1A1A1A">
+                                <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="50" cy="-8" r="10" fill="#1A1A1A">
+                                <animate attributeName="r" values="10;12;10" dur="3s" begin="0.5s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <circle cx="25" cy="35" r="13" fill="#1A1A1A">
+                                <animate attributeName="r" values="13;15;13" dur="3s" begin="1s"
+                                    repeatCount="indefinite" />
+                            </circle>
+                            <line x1="0" y1="0" x2="50" y2="-8" stroke="#1A1A1A" stroke-width="2" opacity="0.5" />
+                            <line x1="0" y1="0" x2="25" y2="35" stroke="#1A1A1A" stroke-width="2" opacity="0.5" />
+                            <line x1="50" y1="-8" x2="25" y2="35" stroke="#1A1A1A" stroke-width="2" opacity="0.5" />
+                            <circle cx="0" cy="0" r="4" fill="white" />
+                            <circle cx="50" cy="-8" r="3" fill="white" />
+                            <circle cx="25" cy="35" r="5" fill="white" />
+                        </g>
+                        <text x="120" y="105" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="32"
+                            font-weight="800" fill="#1A1A1A">BETWEEN NOTES</text>
+                        <rect x="120" y="115" width="80" height="3" fill="#1A1A1A" rx="1.5" />
+                    </svg>
+                </div>
+                <div class="specs">
+                    <div class="spec-item"><span class="spec-icon">📐</span> 400×200px</div>
+                    <div class="spec-item"><span class="spec-icon">🎯</span> Print / B&W</div>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="download-btn" style="flex: 1;"
+                        onclick="downloadSVG('logo-mono', 'between-notes-mono.svg')">
+                        <span class="download-icon">⬇️</span>
+                        SVG
+                    </button>
+                    <button class="download-btn download-btn-secondary" style="flex: 1;"
+                        onclick="downloadPNG('logo-mono', 'between-notes-mono.png')">
+                        <span class="download-icon">🖼️</span>
+                        PNG
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>✨ Between Notes Brand Kit • Criado com Claude • 2024</p>
+        </footer>
+    </div>
+
+    <script>
+        function downloadSVG(containerId, filename) {
+            const container = document.getElementById(containerId);
+            const svg = container.querySelector('svg');
+
+            // Clone o SVG para não afetar o original
+            const svgClone = svg.cloneNode(true);
+
+            // Adicione o namespace XML se não existir
+            svgClone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+
+            // Converta para string
+            const svgData = new XMLSerializer().serializeToString(svgClone);
+
+            // Crie um blob
+            const blob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+
+            // Crie um link de download
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+
+            // Simule o clique
+            document.body.appendChild(link);
+            link.click();
+
+            // Limpe
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+
+            // Feedback visual
+            showDownloadSuccess(container, 'SVG');
+        }
+
+        function downloadPNG(containerId, filename, scaleFactor = 2) {
+            const container = document.getElementById(containerId);
+            const svg = container.querySelector('svg');
+
+            // Clone o SVG
+            const svgClone = svg.cloneNode(true);
+            svgClone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+
+            // Obtenha as dimensões do viewBox
+            const viewBox = svg.getAttribute('viewBox').split(' ');
+            const width = parseFloat(viewBox[2]) * scaleFactor;
+            const height = parseFloat(viewBox[3]) * scaleFactor;
+
+            // Converta SVG para string
+            const svgData = new XMLSerializer().serializeToString(svgClone);
+            const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(svgBlob);
+
+            // Crie uma imagem
+            const img = new Image();
+            img.onload = function () {
+                // Crie um canvas
+                const canvas = document.createElement('canvas');
+                canvas.width = width;
+                canvas.height = height;
+
+                const ctx = canvas.getContext('2d');
+
+                // Desenhe a imagem no canvas
+                ctx.drawImage(img, 0, 0, width, height);
+
+                // Converta canvas para PNG
+                canvas.toBlob(function (blob) {
+                    const pngUrl = URL.createObjectURL(blob);
+                    const link = document.createElement('a');
+                    link.href = pngUrl;
+                    link.download = filename;
+
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+
+                    URL.revokeObjectURL(pngUrl);
+                    URL.revokeObjectURL(url);
+
+                    // Feedback visual
+                    showDownloadSuccess(container, 'PNG');
+                }, 'image/png');
+            };
+
+            img.src = url;
+        }
+
+        function showDownloadSuccess(container, format) {
+            const buttons = container.parentElement.querySelectorAll('.download-btn');
+
+            buttons.forEach(btn => {
+                const originalHTML = btn.innerHTML;
+                const originalBg = btn.style.background;
+
+                btn.innerHTML = `<span class="download-icon">✅</span> ${format} Baixado!`;
+                btn.style.background = 'linear-gradient(135deg, #10B981, #059669)';
+
+                setTimeout(() => {
+                    btn.innerHTML = originalHTML;
+                    btn.style.background = originalBg;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+
+</html>
